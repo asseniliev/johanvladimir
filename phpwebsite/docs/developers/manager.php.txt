@@ -1,0 +1,132 @@
+<?php
+
+/**
+ * Manager Configuration File for PhatForm
+ */
+
+/* Labels */
+$id = $_SESSION['translate']->it("ID");
+$label = $_SESSION['translate']->it("Name");
+$owner = $_SESSION['translate']->it("Owner");
+$editor = $_SESSION['translate']->it("Editor");
+$groups = $_SESSION['translate']->it("Groups");
+$created = $_SESSION['translate']->it("Created");
+$updated = $_SESSION['translate']->it("Updated");
+$hidden = $_SESSION['translate']->it("Hidden");
+$approved = $_SESSION['translate']->it("Approved");
+$ip = $_SESSION['translate']->it("Ip");
+$view = $_SESSION['translate']->it("View");
+$edit = $_SESSION['translate']->it("Edit");
+$delete = $_SESSION['translate']->it("Delete");
+$hide = $_SESSION['translate']->it("Hide");
+$show = $_SESSION['translate']->it("Show");
+$approve = $_SESSION['translate']->it("Approve");
+$refuse = $_SESSION['translate']->it("Refuse");
+
+$lists = array("saved"=>"approved='1' AND saved='1'",
+	       "unsaved"=>"approved='1' AND saved='0'",
+	       "unapproved"=>"approved='0'",
+	       "user"=>"approved='1' AND saved='1' AND hidden='0'");
+
+$tables = array("saved"=>"mod_phatform_forms",
+		"unsaved"=>"mod_phatform_forms",
+		"unapproved"=>"mod_phatform_forms",
+		"user"=>"mod_phatform_forms");
+
+$templates = array("saved"=>"manager",
+		   "unsaved"=>"manager",
+		   "unapproved"=>"manager",
+		   "user"=>"manager/user");
+
+/* Text to show for PHPWS_Item variables */
+$hiddenValues = array(0=>"Public",
+		      1=>"Private");
+
+$approvedValues = array(0=>"Inactive",
+			1=>"Active");
+
+$savedColumns = array("id"=>$id,
+		      "label"=>$label,
+		      "editor"=>$editor,
+		      "groups"=>$groups,
+		      "updated"=>$updated,
+		      "hidden"=>$hidden);
+
+$savedActions = array("view"=>$view,
+		      "edit"=>$edit,
+		      "hide"=>$hide,
+		      "show"=>$show,
+		      "delete"=>$delete);
+
+$savedPermissions = array("view"=>NULL,
+			  "edit"=>"edit_forms",
+			  "hide"=>NULL,
+			  "show"=>NULL,
+			  "delete"=>"delete_forms");
+
+$savedPaging = array("op"=>"PHPWS_MAN_OP=list",
+		     "limit"=>10,
+		     "section"=>1,
+		     "limits"=>array(5,10,25,50),
+		     "back"=>"&#60;&#60;",
+		     "forward"=>"&#62;&#62;");
+
+$unsavedColumns = array("id"=>$id,
+			"label"=>$label,
+			"editor"=>$editor,
+			"groups"=>$groups,
+			"updated"=>$updated,
+			"hidden"=>$hidden);
+
+$unsavedActions = array("view"=>$view,
+			"edit"=>$edit,
+			"delete"=>$delete);
+
+$unsavedPermissions = array("view"=>NULL,
+			    "edit"=>"edit_forms",
+			    "delete"=>"delete_forms");
+
+$unsavedPaging = array("op"=>"PHPWS_MAN_OP=list",
+		       "limit"=>10,
+		       "section"=>1,
+		       "limits"=>array(5,10,25,50),
+		       "back"=>"&#60;&#60;",
+		       "forward"=>"&#62;&#62;");
+
+
+$unapprovedColumns = array("id"=>$id,
+			   "label"=>$label,
+			   "editor"=>$editor,
+			   "groups"=>$groups,
+			   "updated"=>$updated,
+			   "hidden"=>$hidden);
+
+$unapprovedActions = array("approve"=>$approve,
+			   "refuse"=>$refuse);
+
+$unapprovedPermissions = array("approve"=>"approve_forms",
+			       "refuse"=>"approve_forms");
+
+$unapprovedPaging = array("op"=>"PHPWS_MAN_OP=list",
+			  "limit"=>10,
+			  "section"=>1,
+			  "limits"=>array(5,10,25,50),
+			  "back"=>"&#60;&#60;",
+			  "forward"=>"&#62;&#62;");
+
+
+$userColumns = array("id"=>$id,
+		     "label"=>$label,
+		     "updated"=>$updated);
+
+$userActions = array("view"=>$view);
+
+$userPermissions = array("view"=>NULL);
+
+$userPaging = array("op"=>"PHPWS_MAN_OP=list",
+		    "limit"=>10,
+		    "section"=>1,
+		    "limits"=>array(5,10,25,50),
+		    "back"=>"&#60;&#60;",
+		    "forward"=>"&#62;&#62;");
+?>

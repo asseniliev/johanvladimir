@@ -1,0 +1,317 @@
+Overview / Introduction
+---------------------------------------------
+
+The calendar class is written for any module that has items that correspond 
+to a particular date.  The class provides several features which are outlined
+below and explained in details later in this document.
+
+   CURRENT FEATURES:
+
+   I.   Pop-Up Javascript Calendar
+        Uses js_insert to add a calendar icon that brings up a popup window 
+        to choose a date from a graphical calendar.  After choosing the date 
+	the month, day, and year fields will be auto-filled in the 
+	corresponding form fields.
+
+   II.  Mini Javascript Calendar
+        Shows a calendar in which all the days are javascript
+        hyperlinks.  This is good for filling in forms that requires a month,
+        day, and year.  Unlike the 'pop-up' calendar this is designed to 
+        place a calendar within the the page itself.
+
+   III. Expanded Month (EVENTS)
+        Shows a complete month view with hyperlinked event titles within the
+        days.
+
+   IV.  Mini Month (EVENTS)
+        Unlike the expanded month view the days are calapsed and the days of 
+        the month that have an event are hyperlinked.
+
+
+
+Pop-Up Javascript Calendar
+---------------------------------------------
+
+Purpose:
+The pop-up calendar is used when a form requires users to select a month, day,
+and year.  A small calendar icon will be provided and when the user clicks on 
+the icon a popup window will appear showing the current month with the options
+to change the month and year.  Every day is a hyperlink that when clicked will
+autofill in the month, day, and year fields use the date selected.  
+
+Setup:
+1) Include the WizardBag class:
+   require_once(PHPWS_SOURCE_DIR . "core/WizardBag.php");
+
+2) Add js_insert line(s) for each date field:
+
+$content = PHPWS_WizardBag::js_insert("mini_cal", NULL, NULL, FALSE, 
+	 array("month"=>"month_field_name", "day"=>"day_field_name", 
+	       "year"=>"year_field_name"));
+
+The "month_field_name", "day_field_name", and "year_field_name" should be
+replaced by the corresponding month,day, and year form field names.
+
+Note:  The popup calendar by default uses your theme colors.  You can disable
+theme colors to reduce memory use by changing 'USE_THEME_COLORS' to FALSE 
+in the file js/mini_cal/settings.php.
+
+
+
+Mini Javascript Calendar
+---------------------------------------------
+
+Purpose:
+The mini javascript calendar provides the same functionality as the popup
+javascript calendar except instead of popping up the calendar in a new 
+window the calendar is embedded within the page itself.  Each day is a 
+hyperlink and there is the options to change the month and year shown.  Each
+day is associated with a javascript function that the module developer will 
+need to provide (such as in a template) when a user click on a date.
+
+Setup:
+1) Include calendar class
+   require_once(PHPWS_SOURCE_DIR . "core/Calendar.php");
+
+2) Create instance of calendar
+   $cal = new PHPWS_Cal();
+
+3) Specify the javascript function to call when a user clicks on a date.
+   $cal->jsOnClickFunc('yourFunction');
+
+4) Indicate the link to get back to the page where the calendar is display.
+   $cal->setLinkBack("./index.php?module=yourmodule&amp;op=yourops");
+
+   If you do not set the link back then the options to select a new month or
+   year will not work properly.
+
+5) Put in the template where the calendar will be display the javascript 
+   function that will be called when a user clicks on a date.  The function
+   must accept three parameters the month, day, and year in that order.  All 
+   three are integer values.
+
+   For February 13, 2004: yourFunction(2,13,2004);
+
+   <script text='text/javascript'>
+      function yourFunction(month, day, year) {
+         // put javascript code here
+      }
+   </script>
+
+6) Lastly, to get the calendar call the function getMiniMonthView().
+   $tags["MONTH_VIEW"] = $my_cal->getMiniMonthView();
+
+
+ 
+Full Month Event Calendar
+---------------------------------------------
+
+Purpose:
+Shows a full month view with each day expanded showing any events that
+occur during the day as bulleted items.  The user can click the items and 
+to a specific page that you control by the opcodes, same is true for clicking
+on days with no events.  This view is ideal for scheduling events since the
+user can click on events to edit them or click blank days to go to a form
+to create a new event.
+
+Special Notes:
+-- The current month and year the user is viewing is associated with the 
+   request variable 'ts', which contains a unix time stamp.
+
+-- The opcode 'fullMonthCal' is set anytime the user interacts with the 
+   calendar.  This useful to put in your module's action functions to 
+   listen for calendar events.
+
+Setup:
+1) Include the calendar class.
+   require_once(PHPWS_SOURCE_DIR."core/Calendar.php");
+
+3) Create a calendar object.  You should make this a class variable to retain
+   month and year selected.
+
+   $this->cal = PHPWS_Cal("module_name", $this);
+   Module name should be replaced with the module that is displaying the
+   calendar.  The calendar needs to have a reference to the displaying object
+   in order to call the function discussed in step four, so passing in $this
+   gives the calendar a reference to the current object.
+
+3) Create a function in the class that is displaying the calendar that is 
+   called 'cal_getFullMonthActiveDays'.  The function takes two parameters 
+   which are the month and year.  The function should return an EventArray 
+   (see the bottom of this documents for a description of an EventArray) that 
+   contains all the events that current during the given month and 
+   year for your module.  
+
+   function cal_getFullMonthActiveDays($month, $year) {
+     
+   }
+
+4) Specify the link back to display the calendar.  Don't worry about the ts 
+   the calendar will add that automatically.  
+
+   $cal->setLinkBack("./index.php?module=your_mod&amp;op=op_values");
+
+5) Lastly, call getExpandedMonthView to get the calendar.
+   $tags["MONTH_VIEW"] = $cal->getExpandedMonthView();
+
+
+Other useful functions:
+a) Specify opcode(s) for days with no events.
+
+   Call the function setBlankOp() with the op to use for days that are
+   empty (i.e. no events).  The purpose is so you can link to a form
+   to add an event.  If it is left blank then clicking an email
+   block will take you back to the month view
+
+   $cal->setBlankOp("op=op_values");
+
+   You can use to the ts request variable to determine what day the user
+   click on.
+ 
+b) Specify opcode(s) for clicking on events
+
+   $cal->setItemOp("op=op_values");
+   This is mainly used for editing items so that you can use your 
+   module's same editing opcode.
+  
+   You can use to the ts request variable to determine what day the user
+   click on.
+
+
+
+Mini Month Event Calendar
+---------------------------------------------
+The mini-month event calendar is similar to the full month calendar but 
+the days are not expanded to show the labels of the events.  Instead, if
+an event occurs on a day then the day will appear has a hyperlink.  
+
+Special Notes:
+-- The month and year the user is viewing is stored as a unix timestamp
+   called 'tsSmall' in the request array.
+
+-- The opcode 'miniMonthCal' is set anytime the user interacts with the 
+   calendar.  This useful to put in your module's action functions to 
+   listen for calendar events.
+
+-- If it is possible for your module to have multiple events on the same
+   day then when a day has multiple event the opcode 'multi_id' will be
+   used.  Each id will be seperated by a colon so your module will need
+   to look for the 'multi_id' op and if found can use the php explode 
+   function to extract out the ids.  
+
+   Example:
+   The day the user clicked on has three events with ids three, four, and
+   five.
+   Creates:
+   &amp;multi_id=3::4::five&amp;
+   If idPrefixes are being used then each id will be prefixed.
+
+
+Setup):
+1) Include the calendar class.
+   require_once(PHPWS_SOURCE_DIR."core/Calendar.php");
+
+3) Create a calendar object.  You should make this a class variable to retain
+   month and year selected.
+
+   $this->cal = PHPWS_Cal("module_name", $this);
+   Module name should be replaced with the module that is displaying the
+   calendar.  The calendar needs to have a reference to the displaying object
+   in order to call the function discussed in step four, so passing in $this
+   gives the calendar a reference to the current object.
+
+3) Create a function in the class that is displaying the calendar that is 
+   called 'cal_getActiveDays'.  The function takes two parameters 
+   which are the month and year.  The function should return an EventArray 
+   (see the bottom of this documents for a description of an EventArray) that 
+   contains all the events that current during the given month and 
+   year for your module.  
+
+   function cal_getActiveDays($month, $year) {
+     
+   }
+
+4) Specify the link back to display the calendar.  Don't worry about the tsSmall 
+   the calendar will add that automatically.  
+
+   $cal->setLinkBack("./index.php?module=your_mod&amp;op=op_values");
+
+5) Lastly, call getMiniMonthView to get the calendar.
+   $tags["MONTH_VIEW"] = $cal->getMiniMonthView();
+
+
+Other useful functions:
+a) Specify opcode(s) for clicking on days with events
+
+   $cal->setItemOp("op=op_values");
+   This is mainly used for editing items so that you can use your 
+   module's same editing opcode.
+  
+   You can use to the tsSmall request variable to determine what day the user
+   click on.  
+    
+
+
+
+
+Appendix:
+---------------------------------------------
+
+EventArray Format:
+
+   $data[0]['id']    - The id of element in your module.
+
+   $data[0]['start'] - Timestamp of when the item should begin
+		    The actual time is not considered, only the month
+		    day, and year.
+   
+   $data[0]['end']   -  Timestamp of when item should end
+  
+   $data[0]['label'] -  Label is the title that will appear in the month view
+   
+   $data[0]['idPrefix'] - IdPrefix is what will be a prefixed to the id
+                       Ex. If $data['idPrefix'] = 'single'
+                              $data['id']       = 4
+                       Then it would be "single_id=4"
+
+   The next event in the array will start at $data[1].
+
+   Notes:
+   Start/End Dates
+   Having the start and end time makes it easy to add events that 
+   span multiple day, months, or years.  If your event is only
+   for a single day then simply make the start and end date the
+   same.  
+    
+   idPrefix:
+   The purpose of the idPrefix is if you want to display different
+   kinds of items on the calendar and your code needs to make
+   a distintion.  You do NOT have to specify an idPrefix.
+
+
+Templates:
+
+By default the calendar uses templates found in /templates/calendar but you
+can specify your own templates by calling:
+$calObj->setTemplateDir(PHPWS_SOURCE_DIR."mod/yourmodule/templates/file.tpl");     
+There should be a month.tpl and smallmonth.tpl file.  The month.tpl is only 
+used for the full month event calendar all other calendars use the 
+smallmonth.tpl.
+
+
+Mini-View Month
+
+If you would like to have the name of the current month you can uncomment out
+the {DATE} template variable in smallmonth.tpl.  There is also the option
+to make the month a hyperlink which you can set by calling: 
+$calObj->setFullMonthLink("./index.php?module=yourmod");
+This is useful to have the month name link to a full month calendar.
+
+Accessor Methods
+
+Full Month Event Calendar
+$calObj->getFullMonthYear();
+$calObj->getFullMonthMOnth();
+
+Mini Month Event Calendar
+$calObj->getMiniViewMonth();

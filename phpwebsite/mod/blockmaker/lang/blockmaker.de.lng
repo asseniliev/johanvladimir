@@ -1,0 +1,40 @@
+de:|:blockmaker
+a:|:Actions:|:Aktionen
+a:|:Activate:|:Aktivieren
+a:|:Activity:|:Aktivit&auml;t
+a:|:Allow View (All are selected by default):|:Ansicht erlauben (Alle ist standardm&auml;ssig ausgew&auml;hlt)
+a:|:Allow View (Only home selected by default):|:Ansicht erlauben (Nur HOME ist standardm&auml;ssig ausgew&auml;hlt)
+a:|:Are you sure you want to delete the block [var1] ?:|:Sind Sie sicher, dass Sie den Block [var1] l&ouml;schen m&ouml;chten ?
+a:|:Are you sure you want to delete the block [var1]?:|:Sind Sie sicher, dass Sie den Block [var1] l&ouml;schen m&ouml;chten?
+a:|:Back To Main:|:Zur&uuml;ck
+a:|:Block Adminisitration:|:Block Adminisitration
+a:|:Block Changes Successfull:|:Bock-&Auml;nderungen erfoglreich
+a:|:Block Content:|:Block-Inhalt
+a:|:Block Creation Successful:|:Block-Erstellung erfolgreich
+a:|:Block Deleted:|:Block gel&ouml;scht
+a:|:Block Footer (Boxstyle must support footer):|:Block Fusszeile (Boxstil muss Fusszeilen unterst&uuml;tzen)
+a:|:Block Maker:|:Blocks verwalten
+a:|:Block Menu:|:Blockmen&uuml;
+a:|:Block Title:|:Blocktitel
+a:|:Create A New Block:|:Neuen Block erstellen
+a:|:Create Block:|:Block erstellen
+a:|:Current blocks:|:Derzeitige Bl&ouml;cke
+a:|:Deactivate:|:Deaktivieren
+a:|:Default Theme Variable:|:Standardtheme Variable
+a:|:Delete Block Confirmation:|:Blockl&ouml;schung Best&auml;tigung
+a:|:Edit A Block:|:Einen Block bearbeiten
+a:|:List Blocks:|:Bl&ouml;cke auflisten
+a:|:New Block:|:Neuer Block
+a:|:No Block Deleted:|:Kein Block gel&ouml;scht
+a:|:No block was deleted from the database.:|:Es wurde kein Block aus der Datenbank gel&ouml;scht.
+a:|:No items for the current list.:|:Keine Einträge für die aktuelle Liste vorhanden
+a:|:Save Changes:|:&Auml;nderungen speichern
+a:|:Select Modules Allowed:|:Modulauswahl erlaubt
+a:|:The Block Maker allows you to add basic blocks of content to your site.:|:Der Block Maker erm&ouml;glicht es, einfache Bl&ouml;cke mit Inhalt auf Ihrer Seite hinzuzuf&uuml;gen
+a:|:The block [var1] was successfully deleted from the database.:|:Der Block [var1] wurde erfolgreich aus der Datenbank gel&ouml;scht.
+a:|:The block [var1] you created was successfully saved to the database.:|:Der neue Block [var1] wurde erfolgreich in der Datenbank gespeichert.
+a:|:The block [var1] you edited was successfully saved to the database.:|:Der ge&auml;nderte Block [var1] wurde erfolgreich in der Datenbank gespeichert.
+a:|:There are no blocks in the database at this time.:|:Zur Zeit befinden sich kein Bl&ouml;cke in der Datenbank.
+a:|:Title:|:Titel
+a:|:The Block Maker allows you to add basic blocks of content to your site.:|:Mit dem Block-Manager k&ouml;nnen Sie einfache Bl&ouml;cke zur Homepage hinzuf&uuml;gen.
+a:|:Block Maker:|:Block Macher

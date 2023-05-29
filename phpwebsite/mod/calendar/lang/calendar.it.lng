@@ -1,0 +1,155 @@
+it:|:calendar
+a:|:Active:|:Attiva
+a:|:All Day Event:|:Tutto il giorno
+a:|:All Day:|:Tutto il giorno
+a:|:Append:|:Accoda
+a:|:Apr:|:Apr
+a:|:April:|:Aprile
+a:|:Are you certain you want to delete this event:|:Sicuro di eliminare questo evento
+a:|:Aug:|:Ago
+a:|:August:|:Agosto
+a:|:Beginning of each month:|:All'inizio di ogni mese
+a:|:Box Views:|:Viste Box
+a:|:Cache Calendar Events:|:Ricorda gli eventi del calendario
+a:|:Cache Calendar Views:|:Memorizza le viste del calendario
+a:|:Calendar Events:|:Calendario eventi
+a:|:Calendar Settings:|:Immpostazioni calendario
+a:|:Calendar:|:Calendario
+a:|:Categories:|:Categorie
+a:|:Conversion Complete:|:Conversione completa
+a:|:Convert [var1] File:|:Converti il file [var1]
+a:|:Create Event:|:Crea Evento
+a:|:Create New Event:|:Crea Nuovo Evento
+a:|:Daily repeats must not exceed one day in duration:|:Gli eventi ricorrenti non devono suoerare il giorno
+a:|:Daily:|:Giornaliero
+a:|:Day:|:Giorno
+a:|:Days Ahead:|:Prossimi giorni
+a:|:Deadline:|:Scadenza
+a:|:Dec:|:Dic
+a:|:December:|:Dicembre
+a:|:Delete Confirmation:|:Conferma eliminazione
+a:|:Delete:|:Elimina
+a:|:Do not use:|:Non in uso
+a:|:Document Manager:|:Gestione Documenti
+a:|:Edit Event:|:Modifica evento
+a:|:Edit:|:Modifica
+a:|:End Date:|:Data fine
+a:|:End Time:|:Ora fine
+a:|:End of each month:|:Fine di ogni me
+a:|:Event Deleted:|:Evento cancellato
+a:|:Event Type:|:tipo di evento
+a:|:Event calendar for phpWebSite.:|:Calendario eventi per phpWebsite
+a:|:Event created successfully:|:Evento creato
+a:|:Event submitted for approval:|:Evento inviato per approvazione
+a:|:Event updated successfully:|:Evento aggiornato
+a:|:Every Month:|:Ogni mese
+a:|:Every month on Start Date:|:Ogni mese alla data di inizio
+a:|:Every:|:Ogni
+a:|:Feb:|:Feb
+a:|:February:|:Febbraio
+a:|:Fri:|:Ven
+a:|:Friday:|:Venerd&igrave;
+a:|:From:|:Da
+a:|:Image not saved:|:Immagine non salvata
+a:|:Image:|:Immagine
+a:|:Interval:|:Intervallo
+a:|:Invalid end date:|:Data di inizio non valida
+a:|:Invalid start date:|:Data di fine non valida
+a:|:Jan:|:Gen
+a:|:January:|:Gennaio
+a:|:Jul:|:Lug
+a:|:July:|:Luglio
+a:|:Jun:|:Giu
+a:|:June:|:Giugno
+a:|:Link Directly:|:Collega direttamente
+a:|:Mar:|:Mar
+a:|:March:|:Marzo
+a:|:May:|:Maggio
+a:|:Mini Month:|:Mini Mese
+a:|:Mon:|:Lun
+a:|:Monday:|:Luned&igrave;
+a:|:Month:|:Mese
+a:|:Monthly:|:Mensile
+a:|:No Categories Available:|:Nessuna categoria disponibile
+a:|:No Groups Available:|:Nessun gruppo disponibile
+a:|:No events today:|:Oggi nessun evento
+a:|:No events:|:Nessun evento
+a:|:No pages available:|:Nessuna pagina disponibile
+a:|:None:|:Nessuno
+a:|:Nov:|:Nov
+a:|:November:|:Novembre
+a:|:Oct:|:Ott
+a:|:October:|:Ottobre
+a:|:Other Settings:|:Altre impostazioni
+a:|:Pick Day:|:Scegli giorno
+a:|:Purge Fatcat Entries Before:|:Elimina prima le Categorie
+a:|:Purge:|:Elimina
+a:|:Refresh:|:Aggiorna
+a:|:Reindex FatCat:|:Re-indicizza le categorie
+a:|:Remove Image:|:Elimina immagine
+a:|:Repeat Event until:|:Ripeti l'evento fino a
+a:|:Repeat dates must extend beyond the date of the event:|:Le ripetizioni devono essere successive all'evento
+a:|:Restrict View:|:Limita visione
+a:|:Sat:|:Sab
+a:|:Saturday:|:Sabato
+a:|:Search Past Events:|:Cerca eventi trascorsi
+a:|:Sep:|:Set
+a:|:September:|:Settembre
+a:|:Settings Updated:|:Impostazioni aggiornate
+a:|:Start Date:|:Data inizio
+a:|:Start Time:|:Ora inizio
+a:|:Starts At:|:Inizia alle
+a:|:Sticky:|:In evidenza
+a:|:Submit Event:|:Invia evento
+a:|:Sun:|:Dom
+a:|:Sunday:|:Domenica
+a:|:Template:|:Template
+a:|:The End Time must be greater than the Start Time on a single day, interval event:|:L'ora di fine evento deve essere successiva all'inizio dell'evento
+a:|:The Start Date must be less than the End Date in an interval event:|:Il giorno di inizio deve precedere quello di fine
+a:|:This event is no longer listed:|:uesto evento non è più in lista
+a:|:This event repeats [var1] [var2] [var3]:|:Questo evento si ripete [var1] [var2] [var3]
+a:|:Thu:|:Gio
+a:|:Thursday:|:Gioved&igrave;
+a:|:To:|:A
+a:|:Today's Events:|:Eventi di oggi
+a:|:Tue:|:Mar
+a:|:Tuesday:|:Marted&igrave;
+a:|:Update Event:|:Aggiorna evento
+a:|:Update Settings:|:Aggiorna impostazioni
+a:|:User Submitted Events:|:Eventi inviati dagli utenti
+a:|:View Options:|:Visualizza:
+a:|:Wed:|:Mer
+a:|:Wednesday:|:Mercoled&igrave;
+a:|:Week:|:Settimana
+a:|:Weekly repeats must not exceed one day in duration:|:Le ripetizioni settimanali devono essere inferiori ad un giorno
+a:|:Weekly:|:Settimanale
+a:|:Year:|:Anno
+a:|:Yearly:|:Annuale
+a:|:ago:|:ago
+a:|:agosto:|:agosto
+a:|:at the beginning of each month:|:All'inizio di ogni mese
+a:|:at the end of each month:|:Alla fine di ogni mese
+a:|:dic:|:dic
+a:|:dicembre:|:dicembre
+a:|:every [var1]:|:ogni [var1]
+a:|:febbraio:|:febbraio
+a:|:first:|:primo
+a:|:fourth:|:quarto
+a:|:gen:|:gen
+a:|:gennaio:|:gennaio
+a:|:giu:|:giu
+a:|:giugno:|:giugno
+a:|:lug:|:lug
+a:|:luglio:|:luglio
+a:|:marzo:|:marzo
+a:|:novembre:|:novembre
+a:|:on the [var1] [var2] of every [var3]:|:Il [var1] [var2] di ogni [var3]
+a:|:on this day each month:|:questo giorno ogni mese
+a:|:on this day each year:|:questo giorno ogni anno
+a:|:ott:|:ott
+a:|:ottobre:|:ottobre
+a:|:second:|:secondo
+a:|:set:|:Imposta
+a:|:settembre:|:settembre
+a:|:third:|:terzo
+a:|:until:|:fino a

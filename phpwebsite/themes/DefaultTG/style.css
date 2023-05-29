@@ -1,0 +1,193 @@
+BODY {
+font-size : 0.8em; 
+font-family : Arial, Helvetica, sans-serif; 
+font-weight : normal; 
+color : black; 
+background-color : rgb(50, 9, 25);
+margin : 0 0 0 0;
+padding : 0 0 0 0;
+width : auto; 
+}
+
+H1 {
+font-family : Arial, Helvetica, sans-serif; 
+font-style : normal; 
+font-variant : normal; 
+font-weight : bold; 
+font-size : 1.2em; 
+color : #000000; 
+background-color : transparent; 
+}
+
+p {
+font-size : .9em; 
+font-family : Arial, Helvetica, sans-serif; 
+
+}
+
+.smalltext {
+font-family : Arial, Helvetica, sans-serif; 
+font-style : normal; 
+font-variant : normal; 
+font-weight : normal; 
+font-size : .9em; 
+}
+
+
+.smalltext a:link{
+font-family : Arial, Helvetica, sans-serif; 
+font-style : normal; 
+font-variant : normal; 
+font-weight : normal; 
+}
+
+.smalltext a:visited{
+font-family : Arial, Helvetica, sans-serif; 
+font-style : normal; 
+font-variant : normal; 
+font-weight : normal; 
+}
+
+.noline a:link{
+  text-decoration : none;
+}
+
+.noline a:visited{
+  text-decoration : none;
+}
+
+
+.largetext {
+font-family : Arial, Helvetica, sans-serif; 
+font-style : normal; 
+font-variant : normal; 
+font-weight : normal; 
+font-size : 1.2em; 
+}
+
+.largetext a:link{
+font-family : Arial, Helvetica, sans-serif; 
+font-style : normal; 
+font-variant : normal; 
+font-weight : normal; 
+font-size : 1.2em; 
+}
+
+.largetext a:visited{
+font-family : Arial, Helvetica, sans-serif; 
+font-style : normal; 
+font-variant : normal; 
+font-weight : normal; 
+font-size : 1.2em; 
+}
+
+.errortext {
+  font-family : Arial, Helvetica, sans-serif; 
+  font-size : .9em;
+  color : red;
+  font-weight : bold;
+}
+
+.grid {
+border : #efb240 .05em solid;
+}
+
+.white {
+  background-color : white;
+}
+
+.black {
+  background-color : black;
+}
+
+.bg_dark {
+  background-color : #d8860a;
+}
+
+.bg_medium {
+  background-color : #6593B7;
+}
+
+.bg_light {
+  background-color : #f7ca88;
+}
+
+.alt_bg_dark {
+  background-color : #066fa0;
+}
+
+.alt_bg_medium {
+  background-color : #2794d8;
+}
+
+.alt_bg_light {
+  background-color : #5fb0d8;
+}
+
+.menu {
+    color: #0000EE;
+}
+
+.menu a:link{
+    color: #0000EE;
+}
+
+.menu a:visited{
+    color: #0000EE;
+}
+
+.menu1 {
+    font-size: 1.4em;
+    color: #D9A223;
+    margin-right: 10px;
+}
+
+.menu1 a:link{
+    color: #D9A223;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.menu1 a:visited{
+    color: #D9A223;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.copyright {
+    font-size: .8em;
+    text-align: center;
+    color: #C00000;
+}
+
+.copyright a:link{
+    color: #C00000;
+}
+
+.copyright a:visited{
+    color: #C00000;
+}
+
+.storyText {
+	text-indent: 20px;
+	text-align: justify;
+}
+
+.storyTitle {
+	font-size: large;
+	text-align: center;
+}
+
+.bareLink {
+    color: #808080;
+	text-decoration: none;
+}
+
+.bareLink a:link{
+    color: #808080;
+}
+
+.bareLink a:visited{
+    color: #808080;
+}
+

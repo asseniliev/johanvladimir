@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE set PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+"http://docbook.org/xml/4.2/docbookx.dtd" [
+<!ENTITY user-bookinfo SYSTEM "core/user/bookinfo.xml">
+<!ENTITY user-intro SYSTEM "core/user/intro.xml">
+<!ENTITY user-getstart SYSTEM "core/user/getstart.xml">
+<!ENTITY user-approval SYSTEM "core/user/approval.xml">
+<!ENTITY user-fatcat SYSTEM "core/user/fatcat.xml">
+<!ENTITY user-layout SYSTEM "core/user/layout.xml">
+<!ENTITY user-users SYSTEM "core/user/users.xml">
+<!ENTITY mod-bookinfo SYSTEM "modules/bookinfo.xml">
+<!ENTITY mod-announce SYSTEM "modules/announce.xml">
+<!ENTITY mod-blockmaker SYSTEM "modules/blockmaker.xml">
+<!ENTITY mod-calendar SYSTEM "modules/calendar.xml">
+<!ENTITY mod-faq SYSTEM "modules/faq.xml">
+<!ENTITY mod-menuman SYSTEM "modules/menuman.xml">
+<!ENTITY mod-pagemaster SYSTEM "modules/pagemaster.xml">
+<!ENTITY mod-phatfile SYSTEM "modules/phatfile.xml">
+<!ENTITY mod-phatform SYSTEM "modules/phatform.xml">
+<!ENTITY mod-photoalbum SYSTEM "modules/photoalbum.xml">
+<!ENTITY mod-poll SYSTEM "modules/poll.xml">
+<!ENTITY devel-bookinfo SYSTEM "core/developer/bookinfo.xml">
+<!ENTITY devel-intro SYSTEM "core/developer/intro.xml">
+]>
+
+<set id="phpwebsite-manual" lang="en">
+<setinfo>
+    <title>The phpWebSite Manual</title>
+</setinfo>
+
+<book>
+&user-bookinfo;
+&user-intro;
+&user-getstart;
+&user-approval;
+&user-fatcat;
+&user-layout;
+&user-users;
+</book>
+
+<book>
+&mod-bookinfo;
+&mod-announce;
+&mod-blockmaker;
+&mod-calendar;
+&mod-faq;
+&mod-menuman;
+&mod-pagemaster;
+&mod-phatfile;
+&mod-phatform;
+&mod-photoalbum;
+&mod-poll;
+</book>
+
+<book>
+&devel-bookinfo;
+&devel-intro;
+</book>
+
+</set>

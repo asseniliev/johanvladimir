@@ -1,0 +1,151 @@
+html
+	{
+	scrollbar-arrow-color: #A5180D;
+	scrollbar-base-color: #6C4220;
+	scrollbar-dark-shadow-color: #6C4220;
+	scrollbar-track-color: #6C4220;
+	scrollbar-face-color: #6C4220;
+	scrollbar-shadow-color: #A5180D;
+	scrollbar-highlight-color: #A5180D;
+	scrollbar-3d-light-color: #6C4220;
+	}
+
+.overall
+	{
+	width: 900px;
+	margin-bottom:0px;
+	margin-top:0px;
+	background: #000000;
+	border-left:1px solid #A5180D;
+	border-right:1px solid #A5180D;
+	border-bottom:1px solid #A5180D;
+	border-top:1px solid #A5180D;
+	}
+
+.left
+	{
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	float: left;
+	padding:0px;
+	width: 200px;
+	background-color: #CDBA9B;
+	border: 1px solid #A5180D;
+	}
+	
+img	{ border: 1px solid #000000;
+	}
+
+.right
+	{
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	background: #CDBA9B;
+	float: right;
+	padding:0px;
+	width: 600;
+	border: 1px solid #A5180D;
+	}
+
+
+.text
+	{
+	font-family: Verdana, Arial, Sans-serif;
+	font-size: 11px;
+	color:#000000;
+	text-align:center;
+	padding:10px;
+	line-height:120%;
+	}
+
+
+
+a	{
+	color:#085962;
+	text-decoration:underline;
+	}
+
+a:link
+	{
+	color: #085962;
+	text-decoration:underline;
+	}
+
+a:visited
+	{
+	color: #085962;
+	text-decoration:underline;
+	}
+
+a:hover
+	{
+	color: #000000;
+	}
+
+		
+TD	{
+	FONT-FAMILY: Verdana,Helvetica;
+	FONT-SIZE: 11px;
+	}
+		
+BODY   {font-family: Verdana, Arial, Sans-serif;
+	font-size: 11px;
+	color:#000000;
+	text-align:left;
+	padding:10px;
+	line-height:120%;
+	background:#6C4220;
+	margin-top: 0px;}
+		
+
+H2, H3	{
+	BORDER-BOTTOM: #A5180D 1px solid;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	letter-spacing: .5em;
+	font-size: 12px;
+	font-weight: bold;
+	text-align:right;
+	color:#A5180D;}
+	
+
+		
+.boxcontent     {BACKGROUND: none;
+		 COLOR: #000000;
+		 FONT-SIZE: 12px;
+		 FONT-FAMILY: Verdana, Helvetica;}
+		
+	
+.bg_medium	{background-color : #A5180D;}
+
+.bg_light 	{background-color : #80624A;}
+
+.bg_dark 	{background-color : #A5180D;}
+		 
+.boxTitle       
+	{
+	font-family: Verdana, Arial, Sans-serif;
+	font-size: 11px;
+	color:#000000;
+	text-align:left;
+	padding:5px;
+	font-variant: normal;
+	text-transform: none;
+	letter-spacing: .5em;
+	font-size: 12px;
+	font-weight: bold;
+	line-height:120%;
+	}
+.even box
+	{
+	font-family: Verdana, Arial, Sans-serif;
+	font-size: 11px;
+	color: #FEE2BC;
+	text-align:left;
+	padding:10px;
+	line-height:120%;
+	}

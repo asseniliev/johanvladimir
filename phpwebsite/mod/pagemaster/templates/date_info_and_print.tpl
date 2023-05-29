@@ -1,0 +1,5 @@
+<!-- BEGIN PAGE_INFO -->
+{CREATED_INFO}<br />
+{UPDATED_INFO}
+{PRINT_ICON}<br />
+<!-- END PAGE_INFO -->

@@ -1,0 +1,701 @@
+    17 August 2005; Matt McNaney <matt [at] tux dot appstate dot edu>:
+    Bug # [ 1209412 ] Added id to EZform tag
+    Bug # [ 1256375 ] Applied singletrack's png background fix
+    Bug # [ 1261092 ] Patched issue from Matrix_Killer
+    Bug # [ 1261982 ] Wrong branch images copied
+    Bug # [ 1244657 ] Added code to forms and text to fix special char
+                      display
+    Bug # [ 1230520 ] Fixed Fatcat::getParents function call by Marien
+                      de Gelder
+    Bug # [ 1209451 ] Changed minieventview to use layout charset
+    Bug # [ 1213214 ] Removing a user in group mode will update user
+                      as well
+    Bug # [ 1209425 ] Fixed validator error with hidden sessions thx rck
+    Bug # [ 1077286 ] Fixed pagemaster update problem with table prefixes
+    Calendar mini event view has bad html. cleaned up
+    Changed security to unglobal all request vars. was just post vars
+
+    05 July 2005; Matt McNaney <matt [at] tux dot appstate dot edu>:
+    Security - check for lower ascii hex codes
+
+    05 July 2005; Matt McNaney <matt [at] tux dot appstate dot edu>:
+    Database - Added define variable to determine whether database errors are
+    reported
+    Search - Parsing the variables sent to search
+    Users - Parsing cookie data from remember me
+    Security - Parsing out directories
+
+    31 May 2005; Matt McNaney <matt [at] tux dot appstate dot edu>:
+    Added '-' to allowed characters for meta keywords
+
+    30 May 2005; Darren Greene <dg49379 [at] tux dot appstate dot edu>:
+    Fixed certain phrases not appearing in search results (language)
+
+    25 May 2005; Darren Greene <dg49379 [at] tux dot appstate dot edu>:
+    BUG #[ 1208247 ] Added missing include for List.php (notes)
+
+    24 May 2005; Darren Greene <dg49379 [at] tux dot appstate dot edu>:
+    BUG #[ 1182223 ] Untranslated english text (photoalbum)
+
+    23 May 2005; Darren Greene <dg49379 [at] tux dot appstate dot edu>:
+    BUG #[ 1181427 ] Untranslated english text (users, core)
+
+    20 May 2005; Darren Greene <dg49379 [at] tux dot appstate dot edu>:
+    Fixed a couple paging bugs when updating a phrase (language)
+
+    19 May 2005; Darren Greene <dg49379 [at] tux dot appstate dot edu>:
+    BUG #[ 1164451 ] Fixed error message with an invalid login (users)
+
+    18 May 2005; Darren Greene <dg49379 [at] tux dot appstate dot edu>:
+    BUG #[ 1203340 ] Added missing translations (photoalbum, faq, modmaker,
+      poll, security, stats)
+    BUG #[ 1203361 ] Fixed problems with translating text to other languages (documents)
+
+    17 May 2005; Darren Greene <dg49379 [at] tux dot appstate dot edu>:
+    Added better error recovery for missing pear libs for graphs (stats)
+    BUG #[ 1203369 ] Made text in graphs easier to translate (stats)
+
+    16 May 2005; Darren Greene <dg49379 [at] tux dot appstate dot edu>:
+    BUG #[ 1186432 ] Updated references to unused docs/SECURE.txt
+    PATCH #[ 1165126 ] Plural of notes now easier to translate (notes)
+    BUG #[ 1188778 ] Forgot password link was broken in email (users)
+    BUG #[ 1168918 ] Fixed redirection to welcome page for new accounts (users)
+
+    13 May 2005; Darren Greene <dg49379 [at] tux dot appstate dot edu>:
+    BUG #[ 1090023 ] Fixed occasional 'Get method not found' with php5 (core)
+    Added check for delete permissions instead of only deity (faq)
+
+    12 May 2005; Darren Greene <dg49379 [at] tux dot appstate dot edu>:
+    BUG #[ 1184079 ] Fixed sql error for first ann. with sticky turned on (photoalbum)
+    Added help option for sticky feature (photoalbum)
+    Bug #[ 1188921 ] Forgot your password for imm. login reported error on success (users)
+    Bug #[ 1154806 ] Removed warning for non-instantiated error class (core)
+    Bug #[ 1170558 ] Fixed install attempt to create wrong image directory (scheduler)
+
+    11 May 2005; Darren Greene <dg49379 [at] tux dot appstate dot edu>:
+    BUG #[ 1185906 ] php5 issue with reassignment of $this (photoalbum)
+
+    10 May 2005; Darren Greene <dg49379 [at] tux dot appstate dot edu>:
+    BUG #[ 1185132 ] '&' characters encoded twice when viewing photo (photoalbum)
+    BUG #[ 1183746 ] '&' characters caused truncated text (notes)
+    BUG #[ 1182227 ] Changed nested span tags (calendar)
+
+    10 May 2005; Matt McNaney <matt [at] tux dot appstate dot edu>:
+    Fixed some small range errors with Scheduler
+
+    09 May 2005; Darren Greene <dg49379 [at] tux dot appstate dot edu>:
+    BUG #[ 1182229 ] XHTML Compliance (calendar)
+
+    05 May 2005; Matt McNaney <matt [at] tux dot appstate dot edu>:
+    Copied function metaRoute from 1.x to 0.x Layout
+
+    25 Apr 2005; Matt McNaney <matt [at] tux dot appstate dot edu>:
+    Changed the default in the security file to NOT parse files for phrases.
+
+    19 Apr 2005; Matt McNaney <matt [at] tux dot appstate dot edu>:
+    Added home-only option to create_temp function in layout/Box.php
+
+    8 Apr 2005; Matt McNaney <matt [at] tux dot appstate dot edu>:
+    Phatform hidden value not functioning. Fixed.
+
+    30 Mar 2005; Steven Levin <steven [at] tux dot appstate.edu>:
+    Remove reinit default theme, no longer needed (layout)
+
+    22 Mar 2005; Steven Levin <steven [at] tux dot appstate.edu>:
+    ImgLibrary now uses PHPWS_File::makeDir so errors are supressed (core)
+    Modified some default install info (layout, menuman, pagemaster)
+    BUG #[ 1165448 ] 0.10.1RC1 pagemaster inserts break (pagemaster)
+    BUG #[ 1164451 ] Logout redirects to index.php (users)
+    BUG #[ 1164407 ] Unlinked Comments need special treatment (comments)
+
+    17 Mar 2005; Steven Levin <steven [at] tux dot appstate.edu>:
+    Added 'check' to the list of reserved mysql words (core)
+    
+    16 Mar 2005; Steven Levin <steven [at] tux dot appstate.edu>:
+    Conditionally setting the labels so they do not appear when there
+    are no parent or child categories (fatcat)
+
+    15 Mar 2005; Steven Levin <steven [at] tux dot appstate.edu>:
+    Fixed some language issues by moving where translation occurs (comments)
+
+    14 Mar 2005; Steven Levin <steven [at] tux dot appstate.edu>:
+    BUG #[ 1155900 ] XHTML 1.0 source errors in 0.10.0 (comments)
+    BUG #[ 1162448 ] Menu manager problem phpwebsite-0.10.1-RC1 (menu)
+    - related to [Patch 1094316]
+    BUG #[ 999844 ] Layout Module crashes website (layout)
+
+    12 Mar 2005; Darren Greene <dg49379 [at] tux dot appstate dot edu>
+    Photos were always unapproved on batch add (photoalbum)
+
+    11 Mar 2005; Darren Greene <dg49379 [at] tux dot appstate dot edu>
+    Fixed notices after downloading a document (documents) 
+
+    10 Mar 2005; Darren Greene <dg49379 [at] tux dot appstate dot edu>
+    Fixed problem of non-logged in users viewing 'Web Visits' graphs (stats)
+
+    10 Mar 2005; Steven Levin <steven [at] tux dot appstate.edu>:
+    BUG #[ 1145994 ] Comments move between content (comments)
+    BUG #[ 1079477 ] Layout and Form Generator upgrade problem (boost)
+    BUG #[ 1160556 ] Tags in user data deleted (core)
+
+    7 Mar 2005; Darren Greene <dg49379 [at] tux dot appstate dot edu>
+    Fixed sql error from using id instead of log_id (security)
+    Fixed error viewing logs from users that no longer exist (security)
+    Fixed 'Clear Logs' link (security) 
+    [Bug 1123682] Fixed notice when module is uninstalled (stats)
+    Fixed permission problems for users not logged in (stats)
+
+    4 Mar 2005; Matt McNaney <matt [at] tux dot appstate dot edu>:
+    [Bug 1101438] Fixed (hopefully) thumbnail resizing not obeying max
+    values 
+    [Bug 1099872] Couldn't fix but added a define to FatCat to prevent
+    ellipses in the category drop down box.
+    Changed double quotes in fatcat/class/Forms.php
+    Changed REQUIREMENTS file for phatform.
+
+    3 Mar 2005; Matt McNaney <matt [at] tux dot appstate dot edu>:
+    [Bug 1119074] Fixed inactive announcements appearing in search
+    [Bug 1151499] Fixed $this assignment
+    [Bug 1119455] Fixed repeating events overzealous updating
+
+    2 Mar 2005; Matt McNaney <matt [at] tux dot appstate dot edu>:
+    [Patch 1094316] Added Eloi George's patch to reduce menu manager db queries
+    [Patch 1077030] Andy Walker's patch: set_config.php doesn't pay
+    attention to DB type
+    [Patch 1082400] Thomas Gordon's sticky announcement patch added
+    [Patch 1116076] Cameron Stone's thumbnail patch added
+    [Bug 1153411] Ian Dall's expanded date format patch added
+    [Bug 1155191] Anonymous comments settings now save correctly
+    [Bug 1124509] Deleted groups were corrupting the user table
+    [Bug 1153377] Ian Dall's patch added to pagemaster, blockmaker
+    [Bug 1119379] Added curly bracket replacement in parseOutput and
+    Form.php
+    [Bug 1099164] Added the php constant PATH_SEPARATOR to Core.php
+    [Bug 1086940] Fifth parameter dropped from mail function
+    Updateed security settings to check the file extention.
+    Pulled the security measures out of index.php and into their own
+    file.
+    Added a security config file.
+    Fixed warning in Layout.php for block_robot function
+    Added function to layout to change robots to nofollow, noindex on
+    command. Calendar is using it.
+    Removed table locking in menu. We will look at table locking again
+    in 1.x.
+    Changed function calls in Block.php, Page.php to conform with php 5.
+    Changed double quotes to singles in Page.php
+
+    2 Mar 2005; Steven Levin <steven [at] tux dot appstate.edu>:
+    BUG #1099868 &amp; as argument separator for xhtml compat (core, users)
+    BUG #866183 Error in sql sent to postgres (core)
+    BUG #905103 Fix: Editing UTF-8 charset in forms (core)
+
+    1 Mar 2005; Steven Levin <steven [at] tux dot appstate.edu>:
+    Caching now defaults to off when shipped (core)
+    Added stub files for shorter url creation, feel free to remove them
+    if you do not like the idea (core)
+    Made some stuff align left it IE since it defaults to center (users)
+    Updated lots of language files and added a couple of new languages
+
+    1 Mar 2005; Matt McNaney <matt [at] tux dot appstate dot edu>:    
+    Added file parser in the index.php file to try and prevent
+    piggy-back hacks.
+    Changed announcements and calendar to NOT allow regular users to
+    upload an image file.
+    Added error checking to search to try and prevent directory warnings.
+    Added registered user view only into Calendar. Also changed double
+    quotes to singles.
+
+    09 Feb 2005; Steven Levin <steven [at] tux dot appstate.edu>:
+    Fixed runtime so column would go away with no past announcements (announce)
+    Fixed redundancy in calls to moduleLink() (announce)
+    Fixed sql upon submission of announcement with no comment module (announce)
+
+    5 Feb 2005; Darren Greene <dg49379 [at] tux dot appstate dot edu>
+    Improved layout of webstats page (stats)
+
+    4 Feb 2005; Darren Greene <dg49379 [at] tux dot appstate dot edu>
+    Added check for hidden items (poll)
+
+    29 Jan 2005; Darren Greene <dg49379 [at] tux dot appstate dot edu>
+    Fixed issue with no subject for a comment (stats)
+    Removed slash from output text since confusing on a windows system (core)
+    Fixed showing updated label when turned off (fatcat)    
+
+    26 Jan 2005; Steven Levin <steven [at] tux dot appstate.edu>:
+    Added header tags to the allowed html list (core)
+    
+    25 Jan 2005; Steven Levin <steven [at] tux dot appstate.edu>:
+    BUG #1106695 Cached strings not returned by cache::get (core)
+
+    18 Jan 2005; Matt McNaney <matt [at] tux dot appstate dot edu>:
+    Added phpMyAdmin to the credits. We use it DAILY. They deserve
+    our thanks.
+    Added phpPgAdmin and Horde to credits as well.
+
+    14 Jan 2005; Steven Levin <steven [at] tux dot appstate.edu>:
+    Changed session name to be unique per user to prevent hijacking (core)
+
+    10 Jan 2005; Steven Levin <steven [at] tux dot appstate.edu>:
+    Added a function to process block templates without the need for seperate
+    row template (core)
+    Updated runtime file to use new processBlockTemplate function (announce)
+
+    07 Jan 2005; Darren Greene <dg49379 [at] tux dot appstate.edu>:
+    Fixed bug of invalid album thumbnail for long photo names (photoalbum)
+    Added most recently updated pagemaster pages (stats)
+    Added ordering (stats)
+    Added ability to clear logs (security)
+    Removed unused user_options.php file (users)
+
+    07 Jan 2005; Matt McNaney <matt [at] tux dot appstate dot edu>:
+    Patch to calendar/class/Display to acknowledge the time dif
+    setting in the timeSettings config file.
+
+    07 Jan 2005; Steven Levin <steven [at] tux dot appstate.edu>:
+    Patch to make past announcement block an ordered list (announce)
+    - Note: if this template is used in a theme it will need to be updated
+    Removed use of deprecated define (announce)
+    Fixed a small xhtml compliance issue table which is a block level 
+    element can not be enclosed by an inline element span (fatcat)
+    Fixed xhtml issue alt attribute not allowed in an anchor changed
+    it to use title attribute instead (core)
+    BUG #1086496 Phatform html email, revised process by using PEAR mail mime
+
+    06 Jan 2005; Darren Greene <dg49379 [at] tux dot appstate.edu>:
+    Bug #1069159 fixed problem of keeping fatcat entries in what related (core)
+    Bug #1043393 added missing log function (security)
+
+    05 Jan 2005; Darren Greene <dg49379 [at] tux dot appstate.edu>:
+    Bug #1096220 sql_result variable not set (core)
+    Bug #1061443 Fixed problem with spaces and apostrophes (photoalbum)
+    Fixed problem of creating blank images in batch add (photoalbum)
+    Added nameToSafe function for checking filenames on uploaded files(core)
+
+    04 Jan 2005; Darren Greene <dg49379 [at] tux dot appstate.edu>:
+    Bug #1093517 - Fixed warning when no non-core modules exist (core)
+    Bug #1092767 - Fixed undefined settings variable (users)
+                   Fixed xhtml issue (users)
+    Bug #1090809 - Added confirmation for deleting sent notes
+    Fixed xhtml issue when viewing category (fatcat)
+    Added check for comments module (announce, pagemater)
+
+    17 Dec 2004; Darren Greene <dg49379 [at] tux dot appstate.edu>:
+    Added pagemaster support (stats)
+    Fixed colspan problem in manager (core)
+
+    16 Dec 2004; Darren Greene <dg49379 [at] tux dot appstate.edu>:
+    Added missing call to get settings (users)
+    Bug #1084841 fixed slashes problem in install script using php5
+
+    10 Dec 2004; Darren Greene <dg49379 [at] tux dot appstate.edu>:
+    Updated manager class to take in extra template variables (core)
+    Added missing translations (phatform)
+
+    8 Dec 2004; Darren Greene <dg49379 [at] tux dot appstate.edu>:
+    Added missing translations (fatcat, notes, skeleton)
+    Added highest rated faqs, most recent comments (stats)
+
+    8 Dec 2004; Steven Levin <steven [at] tux dot appstate.edu>:
+    Fixed problem with forgot password link on https sites (users)
+    Fixed notice (users)
+
+    7 Dec 2004; Darren Greene <dg49379 [at] tux dot appstate.edu>:
+    Bug #1075322 - removed unused paging variable (documents)
+    Bug #1075458 - added pear class to cal. days in month (stats)
+
+    7 Dec 2004; Steven Levin <steven [at] tux dot appstate.edu>:
+    Fixed call to non-member fatal error (announce)
+    Fixed xhtml compliance issue (fatcat)
+    Added a newline for cleaner html output (layout)
+    Changed default max width and height values for display (photoalbum)
+
+    6 Dec 2004; Darren Greene <dg49379 [at] tux dot appstate.edu>:
+    Bug #1079739 - Permissions on downloading files fixed (documents)
+    Fixed move file problem when there is only one document (documents)
+    Moved several html elements in move function to template file (documents)
+    Added option to specify first day of week (core)
+
+    5 Dec 2004; Darren Greene <dg49379 [at] tux dot appstate.edu>:
+    Bug #1078834 Added missing translations (documents)
+
+    3 Dec 2004; Darren Greene <dg49379 [at] tux dot appstate.edu>:
+    Changed coming soon text to only appear if there are events (calendar)
+    Fixed php5 issue with listing counts (stats)
+
+    30 Nov 2004; Steven Levin <steven [at] tux dot appstate.edu>:
+    BUG #1075309 Web page list not showing update time or date (pagemaster)
+    - only affects those running php5
+
+    29 Nov 2004; Darren Greene <dg49379 [at] tux dot appstate.edu>:
+    Added help for post process code (phatform - bug #1072561)
+    Added check to make sure dynamic tables exists before removal (phatform)
+    Added check for GD libraries (stats)
+
+    28 Nov 2004; Darren Greene <dg49379 [at] tux dot appstate.edu>:
+    Fixed bug of having constant value for month and year (stats)
+
+* phpWebSite-0.10.0 (24 Nov 2004)
+
+    16 Nov 2004; Matt McNaney <matt [at] tux dot appstate.edu>:
+    Fixed bug with recursiveFileCopy. Was not returning to original directory
+    after copying. (core)
+
+    16 Nov 2004; Don Seiler <don [at] seiler dot us>:
+    Added JustBlogIt support for announcements. (announce)
+
+    16 Nov 2004; Darren Greene <dg49379 [at] tux dot appstate.edu>:
+    Fixed notices (stats)
+    Removed language phrases from templates (branch)
+
+    16 Nov 2004; Steven Levin <steven [at] tux dot appstate.edu>:
+    BUG #1060376 Template files containing language phrases
+    Also fixed a problem with links being converted to hyperlink when
+	 trying to use a page insert template (pagemaster)
+    Added a missing table prefix from duplcate box feature (layout)
+    BUG #1065769 Security patch causes problems (core, users)
+
+    12 Nov 2004; Darren Greene <dg49379 [at] tux dot appstate.edu>:
+    Fixed problem of stats showing hidden and unapproved items (stats)
+    Removed english phrases in tpl files (approval)
+
+    11 Nov 2004; Darren Greene <dg49379 [at] tux dot appstate.edu>:
+    Fixed xhtml problem (phatform)
+    Removed english phrases in template files (announce)    
+
+    11 Nov 2004; Steven Levin <steven [at] tux dot appstate.edu>:
+    Fixed bug which caused databases on a remote host to not be 
+    archived properly (phatform)
+
+    10 Nov 2004; Darren Greene <dg49379 [at] tux dot appstate.edu>:
+    Added new icon, language file (stats)
+    Fixed javascript problem with add/edit counter form (stats)
+
+    09 Nov 2004; Darren Greene <dg49379 [at] tux dot appstate.edu>:
+    Fixed php5 bug (stats)
+    Added relative links, ability to preset calendar (js/mini_cal)
+    Option to turn off mouseovers (core/Calendar)
+
+    09 Nov 2004; Steven Levin <steven [at] tux dot appstate.edu>:
+    Cleaned up index file and added check for newlines (core)
+    Set core version number and prepared update.php
+    RFE #1061893 REQUIREMENTS.txt needs info on required database (docs)
+
+    05 Nov 2004; Steven Levin <steven [at] tux dot appstate.edu>:
+    Revised module to bring it more up-to-date (skeleton)
+
+    04 Nov 2004; Steven Levin <steven [at] tux dot appstate.edu>:
+    Put fix in place for old module version numbers to upgrade to new scheme (all)
+    
+    01 Nov 2004; Steven Levin <steven [at] tux dot appstate.edu>:
+    Added some more information about branches is UPGRADE.txt (docs)
+
+    29 Oct 2004; Darren Greene <dg49379 [at] tux dot appstate.edu>:
+    Changed over mini_cal to popcalendar (announce, calendar)
+    Fixed problem with accessing calendar with window open (js/popcalendar)
+
+    28 Oct 2004; Steven Levin <steven [at] tux dot appstate.edu>:
+    Added copying of js directory out to branch site for relative access (branch)
+    Added to update a recopy of all files needed for each branch in case of an
+	  update of any file including new js directory (core)
+    Now distinguishing between directory and file permissions (core)
+    - Define at top of core/File.php for those in hosted environment
+    PHPWS_File::makeDir() now returns true if the dir exists (core)
+    Modified some javascripts to work from a relative location for branches
+
+    27 Oct 2004; Steven Levin <steven [at] tux dot appstate.edu>:
+    BUG #1038599 Error with session.auto_start = 1 (core)
+    PATCH #1038497 Layout: Fix duplicate boxes (layout)
+
+    26 Oct 2004; Darren Greene <dg49379 [at] tux dot appstate.edu>:
+    Fixed Bug #1054354 - missing table prefix (notes)
+
+    25 Oct 2004; Darren Greene <dg49379 [at] tux dot appstate.edu>:
+    + Improved layout, web visit tracking (stats)
+    + Added conf option for advanced add counter (stats)
+
+    25 Oct 2004; Steven Levin <steven [at] tux dot appstate.edu>:
+    Squashed the long standing duplication of boxes bug (layout)
+    Added a developer function to add javascript src includes to the 
+	  head of the current document (layout) 
+
+    22 Oct 2004; Darren Greene <dg49379 [at] tux dot appstate.edu>:
+    Counter for this months visits includes todays visits (stats)
+    Fixed html entity problem with counter links (stats)
+    Removed several warning messages (stats)
+    Fixed table prefix problem (stats)
+
+    22 Oct 2004; Steven Levin <steven [at] tux dot appstate.edu>:
+    Modified mini cal so its source only gets inserted once (core)
+    + Updated language German (de) and added language Danish (da)
+    + Updated Mike Noyes' debug theme
+
+    21 Oct 2004; Steven Levin <steven [at] tux dot appstate.edu>:
+    Imported Darrens new stats module and added it to phpwebsite-full
+
+    18 Oct 2004; Steven Levin <steven [at] tux dot appstate.edu>:
+    BUG #1043443 Malformed Pagemaster list links (pagemaster)
+    Fixed bug, unfinished pages are not listed after saving a page (pagemaster)
+    BUG #1043834 Bug in Array.php (core)
+    Modified Form.php to use PEAR coding standards for others to follow (core)
+    Fixed notice in ImgLibrary (core)
+
+    15 Oct 2004; Darren Greene <dg49379 [at] tux dot appstate.edu>:
+    BUG #1045811 fixed view/delete problem with case-sensitive usernames(notes)
+    Fixed bug of not checking if a username exists when editing (users)
+
+    14 Oct 2004; Darren Greene <dg49379 [at] tux dot appstate.edu>:
+    BUG #1046436 
+      Calendar showed empty block with mini cal disabled and no upcoming events
+    Added calendar popups for date fields (calendar, announce)
+    Fixed slideshow problem with no photos in an album (photoalbum)
+    Xhtml issues in calendar class (core)
+
+    14 Oct 2004; Steven Levin <steven [at] tux dot appstate.edu>:
+    Added method for adding css import statements to the document (layout)
+    Fixed bug where template not being selected under page settings (pagemaster)
+    Added permissions define in mkdir() for easier config (core)
+    - Hosted evironment users might what to set this value to 0757
+
+    06 Oct 2004; Darren Greene <dg49379 [at] tux dot appstate.edu>:
+    Photoalbum changes:
+    BUG #1038863 Slideshow fixed to accept quotes in short or extended entry
+    Fixed several xhtml compliant problems with slideshow
+    Fixed sql error when removing an image with an empty description
+    Extracted out slideshow javascript for easy maintenance
+    Fixed slideshow to work with photos with no images
+    Fixed xhtml issues (core, boost)
+
+    06 Oct 2004; Steven Levin <steven [at] tux dot appstate.edu>:
+    Added text month and text day options to dateForm() and set
+    maxlength attributes for all text options. (core)
+
+    05 Oct 2004; Steven Levin <steven [at] tux dot appstate.edu>:
+    Removed a str_replace() from parseInput that would cause htmlentities
+    to be saved to the database and then displayed in input fields (core)
+
+    04 Oct 2004; Steven Levin <steven [at] tux dot appstate.edu>:
+    BUG #1010979 "Post On" date in Announcements (announce)
+    - Removed some old templates from the Cool theme. If you are using
+      clean or Cool theme and have updated phpwebsite these need to be
+      removed by hand from the themes.
+      rm -rf clean/temlates/announce/
+      rm -rf Cool/temlates/announce/
+    BUG #1039252 EZElement.php not inserting id attribute (core)
+    - Fixed comments to reflect how code actually works now
+    Added link to changelog from the update completion page (setup)
+    Fixed boost to show the core version from the DB (boost)
+
+    01 Oct 2004; Steven Levin <steven [at] tux dot appstate.edu>:
+    BUG #1038417 ANCHOR tag in List/Manager.php and Safari (core)
+    BUG #1038583 Error UNINSTALLING Forms Generator Module (phatform)
+
+    30 Sep 2004; Steven Levin <steven [at] tux dot appstate.edu>:
+    Fixed XHTML compliance issue with add_module_item() (menuman)
+
+    30 Sep 2004; Darren Greene <dg49379 [at] tux dot appstate.edu>:
+    Fixed scaling problem with calendar popup image (core)
+    Added popup calendar to poston and expiration dates (announce)
+
+    29 Sep 2004; Darren Greene <dg49379 [at] tux dot appstate.edu>:
+    Added a core calendar class for module developers 
+    Added new js_insert function called mini-cal
+    Added id attribute for select fields in Form.php - used for javascript
+
+    29 Sep 2004; Steven Levin <steven [at] tux dot appstate.edu>:
+    PATCH #1002876 Immediate Login Hack submitted by Eloi George (users)
+    Fixed syntax error in call to version_compare() (fatcat)
+    Fixed warning caused by function called without an array (controlpanel)
+    PATCH #1030609 Document class hack to allow external link to file download
+    - submitted by oishii (documents)
+    Fixed bug where image url could not be removed (pagemaster)
+
+    28 Sep 2004; Darren Greene <dg49379 [at] tux dot appstate.edu>:
+    Changed a couple english phrases to be more clear (pagemaster)
+    Fixed bug where lists for unsaved pages would appear when adding a page
+    Fixed problem with showing only a 'go' button when items need approval
+     and the user doesn't have permission to approve the items(approval)
+
+    28 Sep 2004; Steven Levin <steven [at] tux dot appstate.edu>:
+    Fixed Item issue when variable is null and magic quotes is on (core)
+
+    24 Sep 2004; Steven Levin <steven [at] tux dot appstate.edu>:
+    BUG #1034046 Remember Me was broken recently (users)
+    BUG #1030921 Warning generated in EZForm.php v1.70 (core)
+    BUG #1027845 Form Builder error in 0.9.3-4 (phatform)
+    Changed order of <style> and <link> in <head> (layout)
+    Added template variable for poston date in view (announce)
+
+    23 Sep 2004; Darren Greene <dg49379 [at] tux dot appstate.edu>:
+    Fixed bug #1032824 - added what's related lang translation (fatcat)
+
+    17 Sep 2004; Darren Greene <dg49379 [at] tux dot appstate.edu>:
+    Added ability to turn off sorting for swapper (js - swapper)
+    Made sorting case-insensitive for strings (js - swapper)
+
+    14 Sep 2004; Matthew McNaney <matt [at] tux dot appstate dot edu>
+    readDirectory was missing a forward slash when reading a directory.
+
+    13 Sep 2004; Darren Greene <dg49379 [at] tux dot appstate.edu>:
+    Added error detection for incorrectly formatted archive files (phatform)
+    Improved parsing for different versions of mysql dump files (phatform)
+    Added the form name to the archive listing (phatform)
+
+    13 Sep 2004; Steven Levin <steven [at] tux dot appstate.edu>:
+    Fixed some templates to use XHTML compliant attributes (pagemaster)
+    Replaced use of deprecated PHPWS_TBL_PREFIX (users)
+    Fixed bug in validate_login() causing prefix to be added twice (users)
+    Check for pspell before using constant in js config (core)
+    Added check to see if session.auto_start is off (core) 
+
+    10 Sep 2004; Don Seiler <don [at] seiler.us>:
+    Converted all modules to use PHP's version_compare() function when
+    comparing versions instead of just the less-than operator "<".  This is
+    necessary because X.Y.Z version numbers fail when 0.10.0 is compared to
+    0.9.0. (all modules)
+
+    09 Sep 2004; Darren Greene <dg49379 [at] tux dot appstate.edu>:
+    Added option to post an event as an announcement (calendar, announce)
+
+    08 Sep 2004; Steven Levin <steven [at] tux dot appstate.edu>:
+    Fixed id attribute in EZform to not automatically set which was
+    causing problems with invalid characters being used. (core)
+    Fixing notice in when password auth fails (users)
+
+    07 Sep 2004; Darren Greene <dg49379 [at] tux dot appstate.edu>:
+    Fixed Bug #1018165 (users)
+    Split up account signup and forgot password screens
+    Improved error handling
+    Fixed Bug #1021249 (announce)
+    Changed back bug #980582 since broke saving an image 
+
+    07 Sep 2004; Steven Levin <steven [at] tux dot appstate.edu>:
+    List class counts list columns instead of db columns for colspan (core)
+
+    03 Sep 2004; Steven Levin <steven [at] tux dot appstate.edu>
+    Added unset of DEFAULT_RESET like DEFAULT_SUBMIT (calendar)
+
+    02 Sep 2004; Darren Greene <dg49379 [at] tux dot appstate.edu>
+    Added ability to specify 'optgroups' for select input fields in 
+    EZform. (core)
+    Added a back link for category view (documents)
+
+    02 Sep 2004; Steven Levin <steven [at] tux dot appstate.edu>
+    Fixing improper call to constructor (menuman)
+    Fixing improper call to constructor (announce)
+
+    02 Sep 2004; Matthew McNaney <matt [at] tux dot appstate dot edu>
+    Put the add_breaks variable option back into the Text class.
+
+    01 Sep 2004; Steven Levin <steven [at] tux.appstate.edu>:
+    BUG #1009069 sqlInsert returns false when it fails (core)
+    BUG #1011395 Multiple Groups return all inherited subrights. (users)
+    BUG #1013569 0.9.3-4 template bug (pagemaster)
+    BUG #1018561 BBCode uses double quotes instead of single (core)
+
+    31 Aug 2004; Darren Greene <dg49379 [at] tux.appstate.edu>:
+    Bug #1018697 (pagemaster)
+    Fixed broken javascript when quotes were in the section title
+    Fixed quotes in page title from showing as escaped characters on save
+    Bug: #1015403 (photoalbum)
+    'Back to Album' link now works correctly for bookmarked pics
+
+    31 Aug 2004; Don Seiler <don [at] seiler.us>:
+    Added 'reset' button functionality to EZform, and DEFAULT_RESET to
+    template. (core)
+
+    31 Aug 2004; Steven Levin <steven [at] tux.appstate.edu>:
+    Fixing few small issues with commit for patch #978602 (documents)
+    Added Pragma: cache header so SSL downloads work in IE (documents)
+    Replaced use of deprecated table prefix define (documents)
+
+    29 Aug 2004; Darren Greene <dg49379 [at] tux.appstate.edu>:
+    Applied Patch #978602 in Documents.php (documents) 
+    Downloading files works better in different browsers.
+    Fixed IE6 problem of opening contents of file in the window.
+
+    27 Aug 2004; Steven Levin <steven [at] tux.appstate.edu>:
+    PATCH #1006337 Break sections cleanly (pagemaster)
+    Fixed constructor call in section (pagemaster)
+    Fixed bug when finishing/deleting incomplete pages (pagemaster)
+    PATCH #986139 check for mysql libraries at install (core)
+
+    26 Aug 2004; Steven Levin <steven [at] tux.appstate.edu>:
+    Fixed notice in PHPWS_Text class (core)
+    BUG #1011951 Time format error in dateSettings.php
+
+    26 Aug 2004; Matthew McNaney <matt [at] tux.appstate.edu>:
+    Parsing text now strips img src containing index.php? or module (core)
+
+    25 Aug 2004; Matthew McNaney <matt [at] tux.appstate.edu>:
+    Fixed dbReady in Database.php to not slash double quotes (core)
+
+    25 Aug 2004; Steven Levin <steven [at] tux.appstate.edu>:
+    PATCH #992061 Fix, extend makeThumbnail in File.php (core)
+    PATCH #937174 Calls to mail() now pass the -f argument
+    Fixed dbReady function in Database.php to not slash " (core)
+
+    24 Aug 2004; Matt McNaney <matt [at] tux.appstate.edu>:
+    Added fix for PEAR versions under 1.60 in Database.php (core)
+    Wrote preg_replace to replace three plus function calls (core)
+
+    24 Aug 2004; Steven Levin <steven [at] tux.appstate.edu>:
+    PATCH #873466 Extra Boost functionality/ease of use (boost)
+
+    23 Aug 2004; Matt McNaney <matt [at] tux.appstate.edu>:
+    Added PEAR escape quotes command in Database.php (core)
+    Added security against arbitrary command execution in Text.php (core)
+    Security check on template (calendar)
+
+    23 Aug 2004; Steven Levin <steven [at] tux.appstate.edu>:
+    Fixed script tags check in index.php to be case insensitive (core) 
+    Parsing user submitted input now (notes)
+
+    19 Aug 2004; Steven Levin <steven [at] tux.appstate.edu>:
+    Updates needed for phpWebSite to run under php 5, modified files below:
+    Thanks to Doug Rinckes for the patch
+    + List.php, Error.php, Message.php (core)
+    + Announcement.php, AnnouncementManager.php, categories.php (announce)
+    + BlockMaker.php (blockmaker)
+    + Boost.php (boost)
+    + Document.php, DocumentManager.php, categories.php (documents)
+    + categories.php (faq)
+    + Language.php (lanuage)
+    + Linkman.php, categories.php (linkman)
+    + Menu.php Menuman.php (menuman)
+    + NoteManager.php (notes)
+    + PageMaster.php Section.php (pagmaster aka web pages)
+    + Form.php (phatform)
+    + Album.php AlbumManager.php Photo.php (photoalbum)
+    + Search.php (search)
+    + BBCodeParser.ini (core)
+    Removed deprecated defines from files edited in php 5 update
+
+    18 Aug 2004; Steven Levin <steven [at] tux.appstate.edu>:
+    Removed unnecessary parseOutput calls (documents)
+
+    13 Aug 2004; Don Seiler <don [at] seiler.us>:
+    DOS to UNIX conversion on ImgLibrary.php file (core)
+
+    13 Aug 2004; Steven Levin <steven [at] tux.appstate.edu>:
+    Imported new ImgLibrary class with templates and docs (core)
+    + contributed by Eloi George
+
+    13 Aug 2004; Darren Green <dg49379 [at] tux.appstate.edu>:
+    BUG #1002128 getIcon was not adding module title on recursive calls (fatcat)
+
+    12 Aug 2004; Steven Levin <steven [at] tux.appstate.edu>:
+    Fixed php notice in WizardBag.php (core)
+    Added setting to turn on and off wysiwyg javascript (core)
+
+    12 Aug 2004; Don Seiler <don [at] seiler.us>:
+    RFE #872143 will send email when items are submitted (approval)
+
+    10 Aug 2004; Darren Green <dg49379 [at] tux.appstate.edu>:
+    BUG #1004324 Added translation for labels (controlpanel)
+    BUG #1005508 Corrected module name (users)
+
+    09 Aug 2004; Steven Levin <steven [at] tux.appstate.edu>:
+    Fixed slashes in Item.php problem if magic_quotes_gpc is on (core)
+
+    09 Aug 2004; Steven Levin <steven [at] tux.appstate.edu>:
+    Fixed slashes problem if magic_quotes_gpc is on (phatform)

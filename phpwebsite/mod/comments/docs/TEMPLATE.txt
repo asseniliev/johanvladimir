@@ -1,0 +1,92 @@
+----------------------------------------------------------------
+Comment Manager Templates
+----------------------------------------------------------------
+
+The comments module uses the PEAR integrated template system
+for its templates.  See template docs in the core for more 
+information.  Please "do not" edit these templates unless you
+know what you are doing.  Removal of certain tags could cause
+the module to not function properly.
+
+----------------------------------------------------------------
+addEditComment.tpl
+----------------------------------------------------------------
+Available Template Tags:
+------------------------
+{HIDDENS} - must be in template for the form to work properly
+{USER_TEXT} - text to go along with user info
+{USER_INFO} - current user's username
+{SUBJECT_TEXT} - text info for the subject
+{SUBJECT_FIELD} - form element for the subject
+{COMMENT_TEXT} - text info for the comment
+{COMMENT_FIELD} - form element for the comment
+{EDIT_TEXT} - text info for the edit reason
+{EDIT_FIELD} - form element for the edit reason
+{ANNONYMOUS_TEXT} - text for the annonymous setting
+{ANNONYMOUS_FIELD} - form element for the annonymous setting
+{SUBMIT_PREVIEW} - submit form element for previewing
+{SUBMIT_POST} - submit form element for posting
+
+----------------------------------------------------------------
+previewComment.tpl
+----------------------------------------------------------------
+Available Template Tags:
+------------------------
+{HIDDENS} - must be in template for the form to work properly
+{SUBJECT} - subject entered
+{COMMENT} - comment entered
+{EDIT_REASON} - edit reason entered
+{SUBMIT_EDIT} - submit form element to go back to edit
+{SUBMIT_POST} - submit form element to post the comment
+
+----------------------------------------------------------------
+viewComment.tpl
+----------------------------------------------------------------
+Available Template Tags:
+------------------------
+{SUBJECT} - subject of the comment
+{POST_TEXT} - text info for the date posted
+{POST} - date posted
+{AUTHOR_TEXT} - text info for the author
+{AUTHOR} - the author of the comment
+{AUTHOR_IP_TEXT} - text info for the author's IP
+{AUTHOR_IP} - author IP
+{EDITOR_TEXT} - text info for the editor
+{EDITOR} - editor
+{EDIT_DATE_TEXT} - text info for the date edited
+{EDIT_DATE} - date edited
+{COMMENT} - the actual comment
+{EDIT_REASON} - reason why comment was edited
+{REPLY_LINK} - link for repying to the comment
+{EDIT_LINK} - link for editing the comment
+{DELETE_LINK} - link for deleting the comment
+
+----------------------------------------------------------------
+adminSettings.tpl
+----------------------------------------------------------------
+Available Template Tags:
+------------------------
+{HIDDENS} - must be in template for the form to work properly
+{0INFO} - text info for the first set of settings
+{1INFO} - text info for the second set of settings
+{LIST_VIEW_TEXT} - text info for the list view setting
+{LIST_VIEW} - form element for list view setting
+{LIST_ORDER_TEXT} - text info for the list order setting
+{LIST_ORDER} - form element for list order setting
+{MAX_SIZE_TEXT} - text info for max comment size setting
+{MAX_SIZE} - form element for max comment size setting
+{MAX_SUB_TEXT} - text info for max submissions setting
+{MAX_SUBMISSIONS} - form element for max submissions setting
+{SUBMIT} - form submit element for save button
+
+----------------------------------------------------------------
+userSettings.tpl
+----------------------------------------------------------------
+Available Template Tags:
+------------------------
+{HIDDENS} - must be in template for the form to work properly
+{LIST_VIEW_TEXT} - text info for the list view setting
+{LIST_VIEW} - form element for list view setting
+{LIST_ORDER_TEXT} - text info for the list order setting
+{LIST_ORDER} - form element for list order setting
+{SUBMIT} - form submit element for save button

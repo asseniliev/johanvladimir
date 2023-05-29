@@ -1,0 +1,133 @@
+de:|:phatform
+a:|:Access Denied:|:Zgriff verweigert
+a:|:Admin Email (comma delimited):|:Empf&auml;nger-Email (kommagetrennt)
+a:|:All of the options and values were not set.  Check the box below to use your options as values.:|:Es wurden keine Optionen oder Werte eingegeben. Klicken Sie die Box unten an, um die Optionen als Werte zu speichern.
+a:|:All of the values were not set. You must fill out all of them.:|:Es wurden nicht alle Werte gesetzt. Sie m&uuml;ssen alle gesetzt werden.
+a:|:All:|:ALLE
+a:|:Allow anonymous submissions:|:Erlaube anonyme &Uuml;bermittlungen
+a:|:Allow multiple submissions:|:Erlaube mehrere &Uuml;bermittlungen
+a:|:Allow users to edit their form data:|:Erlaube Benutzern, ihre Fomulardaten zu bearbeiten
+a:|:Approve:|:Best&auml;tigen
+a:|:Approved:|:Best&auml;tigt
+a:|:Archive:|:Archiv
+a:|:Are you sure you want to delete this entry?:|:Möchten Sie diesen Eintrag löschen?
+a:|:Are you sure you want to remove this [var1] element?:|:Möchten Sie dieses [var1] Element löschen?
+a:|:Are you sure you wish to delete the following forms?  All data associated with these forms will be lost!:|:Möchten Sie das folgende Formular wirklich löschen? Alle damit verbundenen Daten gehen dabei verloren!
+a:|:Associated Text:|:Damit verbundener Text
+a:|:Back:|:Zur&uuml;ck
+a:|:Cancel:|:Abbruch
+a:|:Checkbox Element Instructions:|:Checkbox-Element Instruktionen
+a:|:Checkbox:|:Checkbox
+a:|:Columns:|:Spalten
+a:|:Complete:|:Fertigstellen
+a:|:Completed:|:Beendet
+a:|:Confirm:|:Best&auml;tigen
+a:|:Continue:|:Fortfahren
+a:|:Date Created:|:Datum erstellt
+a:|:Default:|:Standard
+a:|:Delete form confirmation:|:'Formular l&ouml;schen' best&auml;tigen
+a:|:Dropbox Element Instructions:|:Auswahlfeld-Element Instruktionen
+a:|:Dropbox:|:Auswahlfeld
+a:|:Edit Elements:|:Elemente bearbeiten
+a:|:Edit option set:|:Options-Vorlagen &auml;ndern
+a:|:Editor:|:Editor
+a:|:Element successfully added!:|:Element erfolgreich hinzugef&uuml;gt!
+a:|:Element successfully removed!:|:Element erfolgreich entfernt!
+a:|:Elements:|:Elemente
+a:|:Entries:|:Eintr&auml;ge
+a:|:Existing Archives:|:Existierende Archive
+a:|:Export:|:Export
+a:|:Finish:|:Fertigstellen
+a:|:Form Information:|:Formular Information
+a:|:Form Settings:|:Formulareinstellungen
+a:|:Form settings successfully saved!:|:Einstellungen erfolgreich gespeichert
+a:|:Form settings successfully saved!<br /><br />:|:Formular Einstellungen erfolgtreich gespeichert!<br /><br />
+a:|:Form:|:Formular
+a:|:Full List:|:Alle auflisten
+a:|:Go here to create online forms that can be viewed and filled out by your site visitors. Reports can be made on the data submitted.:|:Hier k&ouml;nnen Sie Formulare erstellen, die von Ihren Besuchern ausgef&uuml;llt werden k&ouml;nnen.
+a:|:Go!:|:Los!
+a:|:Groups:|:Gruppen
+a:|:Hidden:|:Versteckt
+a:|:Hide this form:|:Dieses Formular verstecken
+a:|:Incomplete:|:Unvollst&auml;ndig
+a:|:Instructions:|:Instruktionen
+a:|:Ip:|:IP
+a:|:Item limit per page:|:Objektlimit pro Seite
+a:|:Last Entry:|:Letzter Eintrag
+a:|:List Archives:|:Archive auflisten
+a:|:List Exports:|:Exports auflisten
+a:|:List Forms:|:Formulare auflisten
+a:|:Maxsize:|:Max. Gr&ouml;sse
+a:|:Move Down:|:Nach unten
+a:|:Move Up:|:Nach oben
+a:|:Multiple Select:|:Mehrfachauswahl
+a:|:Multiselect Element Instructions:|:Mehrfachauswahl Instruktionen
+a:|:Must have at least one element to save a form.:|:Sie müssen mindestens ein Element hinzufügen, um das Formular zu speichern.
+a:|:New Form:|:Neues Formular
+a:|:Next Entry:|:N&auml;chster Eintrag
+a:|:Next:|:Weiter
+a:|:No entries were found matching your search query.:|:Zu Ihrer Suchanfrage konnten keine Eintr&auml;ge gefunden werden.
+a:|:No items for the current list.:|:Keine Objekte f&uuml;r die aktuelle Liste.
+a:|:Number of Options:|:Anzahl der Optionen
+a:|:Option Instructions:|:Optionsinstruktionen
+a:|:Option Sets:|:Options-Vorlagen
+a:|:Option:|:Option
+a:|:Page:|:Seite
+a:|:Post Process Code:|:Code für Abwicklung eingeben
+a:|:Predefined Option Set:|:Vorauswahl-Option gesetzt
+a:|:Previous Entry:|:Letzter Eintrag
+a:|:Print View:|:Druck-Ansicht
+a:|:Print:|:Drucken
+a:|:Radio Button:|:Radio Button
+a:|:Radiobutton Element Instructions:|:Radio-Button-Element Instruktionen
+a:|:Refuse:|:Ablehnen
+a:|:Report:|:Bericht
+a:|:Require:|:Ben&ouml;tigen
+a:|:Required:|:Ben&ouml;tigt
+a:|:Retake Form:|:Zurück zum Formular
+a:|:Return to Report:|:Zurück zum Report
+a:|:Rows:|:Reihen
+a:|:Save Checkbox:|:Checkbox speichern
+a:|:Save Dropbox:|:Auswahlfeld speichern
+a:|:Save Form:|:Formular speichern
+a:|:Save Multiselect:|:Mehrfachauswahl speichern
+a:|:Save Radiobutton:|:Speichere Radiobutton
+a:|:Save Textarea:|:Textbereich speichern
+a:|:Save Textfield:|:Textfeld speichern
+a:|:Save option set as:|:Speichere Option gesetzt als
+a:|:Saved Forms:|:Gespeicherte Formulare
+a:|:Show form page numbers (eg: page 1 of 6):|:Zeige Formular Seitennummern (Bsp: Seite 1 von 6)
+a:|:Show numbers for form elements (eg: 1, 2, 3):|:Zeige Nummern f&uuml;r Formularelemente (Bsp: 1, 2, 3)
+a:|:Size:|:Gr&ouml;sse
+a:|:Submission Message:|:&Uuml;bermittelte Nachricht
+a:|:Text:|:Text
+a:|:Textarea Element Instructions:|:Textfeld-Element Instruktionen
+a:|:Textarea:|:Textbereich
+a:|:Textfield:|:Textfeld
+a:|:The [var1] element was saved successfully.:|:Das [var1] Element wurde erfolgreich gespeichert.
+a:|:The [var1] was saved successfully.:|:Das [var1] wurde erfolgreich gespeichert.
+a:|:The archive path is not webserver writable.:|:Auf den Archiv-Pfad kann nicht geschrieben werden.
+a:|:The element was successfully removed.:|:Das Element wurde erfolgreich entfernt.
+a:|:The export path is not webserver writable.:|:Der Export-Pfad ist nicht beschreibbar.
+a:|:The form [var1] was successfully archived.:|:Das Formular [var1] wurde erfolgreich archiviert.
+a:|:The form entry was successfully deleted from the database.:|:Der Formular-Eintrag wurde erfolgreich aus der Datenbank gelöscht.
+a:|:The form must be saved before it is available to the public.:|:Das Formular muß gespeichert werden, bevor es öffentlich nutzbar wird.
+a:|:The link [var1] you entered has been submitted for approval.:|:Der Link [var1], den Sie eingetragen haben, ist zur Freigabe übersendet worden.
+a:|:The number of options must be a number greater than zero.:|:Die Anzahl der Optionen muss grösser als Null sein.
+a:|:The option set [var1] was successfully saved.:|:Die Option [var1] wurde erfolgreich gespeichert.
+a:|:This should not happen, but if it does please contact your systems administrator.:|:Dies sollte nicht geschehen, wenn doch, kontaktieren Sie Ihren Systemadministrator.
+a:|:Total:|:Total
+a:|:Unapproved Forms:|:Unbest&auml;tigte Formulare
+a:|:Unsaved Forms:|:Ungespeicherte Formulare
+a:|:Use option text as values:|:Verwende Optionstext als Werte
+a:|:User:|:Benutzer
+a:|:Value:|:Wert
+a:|:Visible:|:Sichtbar
+a:|:WARNING!:|:WARNUNG!
+a:|:You cannot allow for anonymous submissions when form data can be edited.:|:Sie k&ouml;nnen keine anonymen &Uuml;bermittlungen erlauben wenn die Formulardaten ge&auml;ndert werden k&ouml;nnen.
+a:|:You cannot allow for multiple submissions when form data can be edited.:|:Du kannst keine mehrfachen Submissions erlauben wenn Formulardaten geändert werden.
+a:|:You have chosen to edit a saved form! All current data will be archived and cleared if you chose to continue!  Make sure you export your data from your form before you continue!:|:Sie m&ouml;chten ein gespeichertes Formular &auml;ndern. Alle aktuellen Daten (Einsendungen) werden archiviert und gel&ouml;scht, wenn Sie fortfahren. Eportieren Sie allf&auml;llige Formular-Daten bevor sie weitermachen.
+a:|:You must be logged in to view this form!:|:Sie müssen eingeloggt/angemeldet sein um dieses Formular zu benutzen!
+a:|:You must fill out all required fields to continue.:|:Sie müssen alle erforderlichen (*) Felder ausfüllen, um fortzufahren.
+a:|:You only have permission to edit your own forms!:|:Sie haben lediglich die Berechtigung, Ihre eigenen Formulare zu bearbeiten!
+a:|:Form Generator:|:Formular Generator

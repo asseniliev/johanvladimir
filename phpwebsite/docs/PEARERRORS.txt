@@ -1,0 +1,55 @@
+Lets start off by defining the pear libs. Pear is a set of libraries written
+by http://pear.php.net NOT phpWebSite. These libs ship with php and can be
+added in or updated at any time. These libs are linked into php in the php.ini
+under the include_path value. PhpWebSite uses libs that are in the stable
+category but may not have been shipped with your php version.
+
+What does the pear error mean?
+The one main problem people have is when the libs are not up-to-date. Located
+in the phpwebsite-0.9.x/libs/pear dir is the updated libs used with phpWebSite.
+We also provide the pear package requirements in the phpwebsite-0.9.x/docs
+directory for manual updating.
+
+Now there are two ways to fix the up-to-date issue. The first fix is in the
+Core.php file. At the top of this file shipped with phpWebsite is an ini_set
+that sets your include_path for the phpWebSite package. This removes the
+include_path set by the server and sets it to your phpwebsite-0.9.x/libs/pear
+directory. This is only needed if your system PEAR libs are not up-to-date.
+The reason Core.php is shipped this way is most people do not have there
+server's libs up-to-date or are in a hosted environment where the libs are
+not up-to-date and it causes many problems!! The phpWebSite team NEVER uses
+this ini_set when developing. This ini_set has been known to cause problems
+in some environments, but fixes a majority of pear issues.
+
+The second, which is the best and the way we implement it, is to update your
+system libs. This is how the problem is properly handled. Remember, this method
+requires root access to the server. Simply replace your old libs with the ones
+shipped with phpWebSite or the ones from http://pear.php.net.
+
+Example:
+mv /usr/local/lib/php /usr/local/lib/php.old (backs up old libs)
+then
+cp -r /path/to/phpwebsite-0.9.x/libs/pear /usr/local/lib/php
+
+Your system's pear path may vary and is set in your system's php.ini. This is
+all that is needed, no recompiling or anything complex. Now that you have the
+libs installed in the system you do not need an ini_set in the Core.php, so
+comment it out. The phpWebSite cvs version assumes your pear is up-to-date and
+always has the ini_set commented out.
+
+The second way requires root or administrative access to the server so sorry to
+all the people in a hosted environment. You will need to use the first way if your
+isp refuses to update their pear libs. Keep in mind the ini_set has been known to
+cause problems in certain environments and is sometimes disabled by an isp.
+
+REMEMBER if your isp will not help you, don't bother the phpWebSite development
+team with your ISP problems, switch IPSs as you are paying them to keep you happy!!
+You are NOT paying the phpWebSite dev team!!
+
+Now all of that aside if you are not one of the 99.999% of people out there that it
+works for because of some odd bug/issue that was not addressed here, we would like
+to here about it. This does come with one stipulation. You must track the problem
+down YOURSELF. We cannot identify, analyze, and fix your problems for you. Please
+submit any issues to the sourceforge.net support request tracker for phpWebsite.
+
+http://sourceforge.net/tracker/?func=add&group_id=15539&atid=215539

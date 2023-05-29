@@ -1,0 +1,20 @@
+CREATE TABLE mod_poll (
+ id int NOT NULL default '0',
+ owner varchar(20) default '',
+ editor varchar(20) default '',
+ ip text,
+ label text NOT NULL,
+ groups text,
+ created int NOT NULL default '0',
+ updated int NOT NULL default '0',
+ hidden smallint NOT NULL default '1',
+ approved smallint NOT NULL default '0',
+ body text NOT NULL,
+ votedIps text,
+ options text NOT NULL,
+ counts text NOT NULL,
+ restricted text NOT NULL,
+ active text NOT NULL,
+ allowComments text NOT NULL,
+ PRIMARY KEY (id)
+);

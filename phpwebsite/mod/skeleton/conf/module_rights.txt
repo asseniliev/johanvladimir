@@ -1,0 +1,3 @@
+edit_skeletons::Add/Edit Skeletons
+delete_skeletons::Delete Skeletons
+hideshow_skeletons::Hide/Show Skeletons

@@ -1,0 +1,160 @@
+da:|:calendar
+a:|:All Day:|:Alle dage
+a:|:All Day Event:|:Begivenhed alle dage
+a:|:Append:|:Tilføj
+a:|:Apr:|:Apr
+a:|:April:|:April
+a:|:Are you certain you want to delete this event:|:Er du sikker på, at du vil slette denne begivenhed
+a:|:Aug:|:Aug
+a:|:August:|:August
+a:|:Beginning of each month:|:Begyndelsen af hver måned
+a:|:Box Views:|:Rammevisning
+a:|:Cache Calendar Events:|:Husk kalender begivenhed
+a:|:Cache Calendar Views:|:Husk kalender visning
+a:|:Calendar:|:Kalender
+a:|:Calendar Events:|:Kalender begivenheder
+a:|:Calendar Settings:|:Kalender indstillinger
+a:|:Categories:|:Kategorier
+a:|:Conversion Complete:|:Konvertering udført
+a:|:Convert [var1] File:|:Konverter filen [var1]
+a:|:Create Event:|:Opret begivenhed
+a:|:Create New Event:|:Opret ny begivenhed
+a:|:Daily:|:Daglig
+a:|:Daily repeats must not exceed one day in duration:|:Daglige gentagelser må ikke overskride en dags varighed
+a:|:Day:|:Dag
+a:|:Days Ahead:|:Dage forude
+a:|:Deadline:|:Deadline
+a:|:Dec:|:Dec
+a:|:December:|:December
+a:|:Delete:|:Slet
+a:|:Delete Confirmation:|:Bekræft sletning
+a:|:Do not use:|:Brug ikke
+a:|:Edit:|:Ret
+a:|:Edit Event:|:Ret begivenhed
+a:|:End Date:|:Slutdato
+a:|:End Time:|:Sluttidspunkt
+a:|:End of each month:|:Slutning af hver måned
+a:|:Event Deleted:|:Begivenhed slettet
+a:|:Event Type:|:Begivenhedstype
+a:|:Event calendar for phpWebSite.:|:Tilføjer begivenheder til kalenderen, og tilpasser kalenderens indhold
+a:|:Event created successfully:|:Begivenhed oprettet
+a:|:Event submitted for approval:|:Begivenhed sendt til godkendelse
+a:|:Event updated successfully:|:Begivenhed opdateret
+a:|:Every:|:Hver
+a:|:Every Month:|:Hver måned
+a:|:Every month on Start Date:|:Hver måned fra startdato
+a:|:Feb:|:Feb
+a:|:February:|:Februar
+a:|:Fri:|:Fre
+a:|:Friday:|:Fredag
+a:|:From:|:Fra
+a:|:Interval:|:Interval
+a:|:Invalid end date:|:Ugyldig slutdato
+a:|:Invalid start date:|:Ugyldig startdato
+a:|:Jan:|:Jan
+a:|:January:|:Januar
+a:|:Jul:|:Jul
+a:|:July:|:Juli
+a:|:Jun:|:Jun
+a:|:June:|:Juni
+a:|:Link Directly:|:Link direkte
+a:|:Mar:|:Mar
+a:|:March:|:Marts
+a:|:May:|:Maj
+a:|:Mini Month:|:Mini måned
+a:|:Mon:|:Man
+a:|:Monday:|:Mandag
+a:|:Month:|:Måned
+a:|:Monthly:|:Månedlig
+a:|:No Categories Available:|:Ingen kategorier tilgængelige
+a:|:No Groups Available:|:Ingen grupper tilgængelige
+a:|:No events:|:Ingen begivenheder
+a:|:No events today:|:Ingen begivenheder i dag
+a:|:No pages available:|:Ingen sider tilgængelige
+a:|:Nov:|:Nov
+a:|:November:|:November
+a:|:Oct:|:Okt
+a:|:October:|:Oktober
+a:|:Other Settings:|:Andre indstillinger
+a:|:Pick Day:|:Vælg dag
+a:|:Repeat Event until:|:Gentag begivenhed indtil
+a:|:Repeat dates must extend beyond the date of the event:|:Gentagelsesdatoer skal fortsættes efter datoen for denne begivenhed
+a:|:Restrict View:|:Begræns visning
+a:|:Sat:|:Lør
+a:|:Saturday:|:Lørdag
+a:|:Sep:|:Sep
+a:|:September:|:September
+a:|:Settings Updated:|:Indstillinger opdateret
+a:|:Start Date:|:Start dato
+a:|:Start Time:|:Start tidspunkt
+a:|:Starts At:|:Starter klokken
+a:|:Submit Event:|:Registrer begivenhed
+a:|:Sun:|:Søn
+a:|:Sunday:|:Søndag
+a:|:The End Time must be greater than the Start Time on a single day, interval event:|:Slut tiden skal være større end start tiden på en daglig interval begivenhed
+a:|:The Start Date must be less than the End Date in an interval event:|:Start datoen skal være mindre end slut datoen i en interval begivenhed
+a:|:This event repeats [var1] [var2] [var3]:|:Denne begivenhed gentager sig [var1] [var2] [var3]
+a:|:Thu:|:Tor
+a:|:Thursday:|:Torsdag
+a:|:To:|:Til
+a:|:Today's Events:|:Dagens begivenheder
+a:|:Tue:|:Tir
+a:|:Tuesday:|:Tirsdag
+a:|:Update Event:|:Opdatere begivenhed
+a:|:Update Settings:|:Opdatere begivenheder
+a:|:User Submitted Events:|:Tillad alle at oprette begivenheder
+a:|:View Options:|:Vis muligheder
+a:|:Wed:|:Ons
+a:|:Wednesday:|:Onsdag
+a:|:Week:|:Uge
+a:|:Weekly:|:Ugentlig
+a:|:Weekly repeats must not exceed one day in duration:|:Ugentlige gentagelser må ikke overskride en dag
+a:|:Year:|:År
+a:|:Yearly:|:Årlig
+a:|:at the beginning of each month:|:i begyndelsen af hver måned
+a:|:at the end of each month:|:i slutningen af hver måned
+a:|:every [var1]:|:hver [var1]
+a:|:first:|:første
+a:|:fourth:|:fjerde
+a:|:on the [var1] [var2] of every [var3]:|:på [var1] [var2] hvert [var3]
+a:|:on this day each month:|:på denne dag hver måned
+a:|:on this day each year:|:på denne dag hvert år
+a:|:second:|:anden
+a:|:third:|:tredje
+a:|:until:|:indtil
+a:|:Active:|:Aktiv
+a:|:Deadline at:|:Deadline
+a:|:Description:|:Beskrivelse
+a:|:Event occurs on :|:Begivenhed forekommer 
+a:|:Image:|:Billede
+a:|:Image deleted:|:Billede slettet
+a:|:Image not saved:|:Billede er ikke blevet gemt
+a:|:Missing Title:|:Mangler overskrift
+a:|:Month View:|:Vis måned
+a:|:No:|:Nej
+a:|:Off:|:Fra
+a:|:On:|:Til
+a:|:Post event as an announcement:|:Send begivenhed som en annoncering
+a:|:Purge:|:Slet
+a:|:Purge Fatcat Entries Before:|:Slet kategorier inden
+a:|:Refresh:|:Opdater
+a:|:Reindex FatCat:|:Reindekser kategoier
+a:|:Search Past Events:|:Søg i tidligere begivenheder
+a:|:Session View:|:Session visning
+a:|:Settings:|:Indstillinger
+a:|:Starts at:|:Starter
+a:|:Template:|:Skabelon
+a:|:The Start Date must be less than the End Date:|:Startdatoen skal være mindre end slutdatoen
+a:|:This event is no longer listed:|:Denne begivenhed er ikke længere aktiv
+a:|:Title:|:Overskrift
+a:|:Until :|:Indtil 
+a:|:View Event:|:Vis begivenhed
+a:|:Weekly repeats require at least one day selection:|:Ugentlige begivenheder kræver minimum, at mindst en dag er valgt
+a:|:Yes:|:Ja
+a:|:daily:|:dagligt
+a:|:month:|:måned
+a:|:weekly:|:ugentligt
+a:|:Mode:|:Gentagelse
+a:|:Properties:|:Periode
+a:|:Restrict Views to Registered Users:|:Begræns visning til registreret brugere
+a:|:Submit:|:Gem

@@ -1,0 +1,4 @@
+add_link::Add Link
+edit_link::Edit Link
+link_act::Link Visibility
+delete_link::Delete Link

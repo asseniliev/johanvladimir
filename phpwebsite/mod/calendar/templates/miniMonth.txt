@@ -1,0 +1,76 @@
+Readme for miniMonth template
+
+
+There are four files that control the output of the mini month calendar.
+
+miniMonth.tpl - The full calendar with month name
+
+miniMonthRow.tpl - Controls the days of the week columns
+
+miniMonthSettings.tpl - Controls the settings for the mini month calendar
+
+miniMonthWeekdays.tpl - Controls the display of the weekdays
+
+
+miniMonth.tpl
+--------------------
+
+Required Tags.
+
+  ROW1, ROW2, ROW3, ROW4, ROW5, ROW6 - display the weeks in the month. Formed from the miniMonthRow.tpl.
+
+Other Tags
+
+ABRV_MONTH_NAME - Abbreviated Month name (example Jan, Feb, Mar)
+FULL_MONTH_NAME - Full Month Name (Example January, February, March)
+NUM_MONTH_NAME  - Month number
+
+All month names run through the translator. The numbered month does not obviously.
+
+YEAR_FULL - four digit year (ex 2002)
+YEAR_ABRV - two digit year
+
+
+miniMonthSettings.tpl
+----------------------
+Controls small details like background colors, link formats, etc.
+They will fill in the COL#_BG tags in the miniMonthRow.tpl template.
+DO NOT REMOVE the template comment tags or else you will get garbage in your calendar.
+
+> Background
+Depending on what type of day it is, the appropiate information that
+the tag shares space with will be displayed.
+
+DEFAULT  - Controls the background of normal days of the month.
+TODAY    - Controls the indication of today's date on the mini month calendar
+OFFMONTH - Controls the background of days not in the current month but on the calendar
+
+> Month Link
+The month can have links to display the previous or next month. You can control what
+these links look like.
+
+PREV - Controls what the 'previous' link will look like
+NEXT - Controls what the 'next' link will look like
+
+> Weekdays
+How weekdays are displayed depends on what tag you type here.
+
+LETTER_WD - indicates to only show the weekday letter
+ABRV_WD   - indicates to show the first three letters of the weekday. This will be translated.
+FULL_WD   - indicates to show the full text of the weekday. This will be translated.
+
+
+miniMonthRow.tpl
+-----------------
+Controls the weekday columns of the calendar.
+
+COL1_BG through COL7_BG - sets the background color of the cell depending on the 
+                          miniMonthSettings.
+
+COL1 through COL7       - The day numbers
+
+
+miniMonthWeekdays.tpl
+---------------------
+COL1 through COL7 - The display of the weekdays. Set how they should appear in
+                    miniMonthSettings.tpl

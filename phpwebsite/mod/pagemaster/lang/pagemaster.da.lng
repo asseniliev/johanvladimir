@@ -1,0 +1,109 @@
+da:|:pagemaster
+a:|: the page :|: siden 
+a:|:ATTENTION!:|:BEMÆRK!
+a:|:All menu links removed:|:Alle menu links er slettet
+a:|:Are you sure you want to delete:|:Er du sikker på at du vil slette
+a:|:Are you sure you wish to :|:Er du sikker på at du vil 
+a:|:Back to List Pages:|:Tilbage til sideoversigt
+a:|:CURRENT:|:EKSISTERENDE
+a:|:Confirm Page Deletion!:|:Bekræft sletning af side!
+a:|:Continue:|:Fortsæt
+a:|:Created By:|:Oprettet af
+a:|:Created on [var1] by [var2]:|:Oprettet [var1] af [var2]
+a:|:Current Pages:|:Eksisterende sider
+a:|:Currently this page is not available:|:Siden er ikke tilgængelig 
+a:|:ERROR!:|:FEJL!
+a:|:Edit Page Settings:|:Ret sideindstillinger
+a:|:Edit Page Title:|:Ret overskrift
+a:|:Edit Section:|:Ret afsnit
+a:|:External Page:|:Ekstern side
+a:|:Finish:|:Afslut
+a:|:Go here to create and edit your site's web pages.:|:Klik her for at oprette og vedligeholde websider på din hjemmeside.
+a:|:Image URL:|:Billede URL
+a:|:In A Box:|:I en ramme
+a:|:Input Title:|:Input overskrift
+a:|:Internal Page:|:Intern side
+a:|:Invalid page id specified! Page does not exist!:|:Invalid side id! Siden eksisterer ikke!
+a:|:Last Updated By:|:Sidst opdateret af
+a:|:List Pages:|:List sider
+a:|:Main Menu:|:Hovedmenu
+a:|:Mainpage:|:Forside
+a:|:Move Section:|:Flyt afsnit
+a:|:New Page:|:Ny side
+a:|:New Section:|:Nyt afsnit
+a:|:New Window:|:Nyt vindue
+a:|:Notice:|:Bemærk
+a:|:Page Deleted!:|:Siden er slettet!
+a:|:Page Information:|:Side information
+a:|:Page Saved!:|:Siden er gemt!
+a:|:Page Submitted for Approval!:|:Siden er sendt til godkendelse!
+a:|:Page Template:|:Skabelon
+a:|:Page Title:|:Overskrift
+a:|:Page is currently hidden:|:Siden er skjult
+a:|:Page is not currently active:|:Siden er inaktiv
+a:|:Page not active:|:Siden er ikke aktiv
+a:|:Page not viewable:|:Siden kan ikke vises
+a:|:PageMaster:|:Pagemaster
+a:|:Please make sure the page is setup the way you like and <b>all sections are saved</b> before selecting SAVE PAGE!:|:Husk at gemme alle afsnit <b>FØR</b> du klikker på "Gem side"!
+a:|:Please make sure the page is setup the way you like and <b>all sections are saved</b> before selecting SAVE PAGE!<br />You <b>can</b> return and edit this page after you have saved it.:|:Husk at gemme alle afsnit <b>FØR</b> du klikker Gem side. Du kan vende tilbage og rette siden efter at du har gemt den.
+a:|:Printable Version:|:Printervenlig version
+a:|:Remove Image?:|:Fjern billede?
+a:|:SAVE PAGE:|:Gem side
+a:|:Save Section:|:Gem afsnit
+a:|:Section Text:|:Tekst
+a:|:Section Title:|:Overskrift
+a:|:Set Main Page:|:Sæt forside
+a:|:Set Page Options:|:Sideindstillinger
+a:|:Set Title:|:Sæt overskrift
+a:|:Short Image Description:|:Kort billedbeskrivelse (alt-text)
+a:|:Some menu links could not be removed:|:Enkelte menu links kunne ikke fjernes
+a:|:Subtitle:|:Undertitel
+a:|:Template:|:Skabelon
+a:|:Text:|:Tekst
+a:|:The page:|:Siden
+a:|:There was a problem uploading the image you submitted!<br />Please check the permissions on your image directory and try again.:|:Der opstod et problem med at uploade billedet!<br />Kontroller venligst rettighederne for dit billede bibliotek og prøv igen.
+a:|:Title:|:Overskrift
+a:|:Unable to find requested template:|:Det var ikke muligt at finde den ønskede skabelon
+a:|:Unsaved Pages:|:Ikke gemte sider
+a:|:Updated on [var1] by [var2]:|:Opdateret [var1] af [var2]
+a:|:Warning:|:Advarsel
+a:|:You <b>can</b> return and edit this page after you have saved it:|:Du <b>kan</b> altid vende tilbage og rette i siden, efter du har gemt den
+a:|:You must provide a short description for your image.:|:Du skal angive en kort beskrivelse til billedet (alt-text)
+a:|:Your page has sent the administrator for approval!:|:Siden ligger til administrator godkendelse!
+a:|:Your page has successfully been saved to the database!:|:Siden er gemt i databasen
+a:|:delete:|:slette
+a:|:has successfully been <b>deleted</b>!:|:er blevet <b>slettet</b>!
+a:|:on:|:den
+a:|: the section :|: sektionen 
+a:|:Actions:|:Handlinger
+a:|:Allow Comments?:|:Tillad kommentarer?
+a:|:Anonymous Posts?:|:Tillad anonyme kommentarer?
+a:|:Category:|:Kategori
+a:|:Confirm Section Deletion!:|:Bekræft sletning af sektion!
+a:|:Current web pages:|:Nuværende websider
+a:|:Delete:|:Slet
+a:|:Down:|:Ned
+a:|:Edit:|:Ret
+a:|:Edit This Page:|:Ret denne side
+a:|:Go:|:Fortsæt
+a:|:Hide:|:Skjul
+a:|:ID:|:ID
+a:|:Image:|:Billede
+a:|:No:|:Nej
+a:|:No pages found!:|:Ingen sider fundet!
+a:|:Remove:|:Fjern
+a:|:Select:|:Vælg
+a:|:Show:|:Vis
+a:|:The url entered for your image link is malformed. Please resubmit a valid url.:|:Den URL du angav for billede linket er forkert. Angiv venligst en valid URL.
+a:|:There was a problem removing the image from the file system.:|:Det opstod et problem med at fjerne billedet fra filsystemet.
+a:|:Up:|:Op
+a:|:Updated:|:Opdateret
+a:|:View:|:Vis
+a:|:Web Page Demo:|:Webside demo
+a:|:Web Pages:|:Websider
+a:|:Yes:|:Ja
+a:|:You have <b>kept</b> the page:|:Du har <b>beholdt</b> siden
+a:|:You have attempted to save an empty section.:|:Du har forsøgt at gemme en tom sektion.
+a:|:You have entered a short image description but no image is associated with this section.:|:Du har angivet en kort billede beskrivelse, men der er ikke knyttet noget billede til denne sektion.
+a:|:You must enter a Page Title:|:Du skal angive en overskrift
+a:|:Your page has been sent to the administrator for approval!:|:Siden er blevet sendt til administrator godkendelse!

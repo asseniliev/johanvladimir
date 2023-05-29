@@ -1,0 +1,141 @@
+
+PHPWS_IMGLib allows you to easily create & manage a library of images for your module and allow the user to select a desired image. 
+
+
+FILE LOCATIONS
+==============
+An image library is located inside the /images/<module name>/library directory.  All library settings will be stored in "config.php" at this location.  No databases are used in this class.
+
+All images are stored in sub-directories which make up the various galleries.  The directories are automatically named, but "config.php" contains the actual directory names that are associated with each gallery.
+
+
+CREATING A LIBRARY
+==================
+Library creation could not be simpler.  Create a new instance of PHPWS_IMGLib with all required parameters.  If it cannot find a library in place, it will create a blank one with a gallery named "_General".
+
+USEAGE & CALLING CONVENTIONS
+============================
+This class is stand-alone and non-persistent.  You must construct an object within your script to get it to work. 
+
+require_once PHPWS_SOURCE_DIR . 'core/IMGLibrary.php';
+$library = new PHPWS_IMGLib($can_manage_images, $can_manage_galleries, $return_data
+              , $current_gallery, $current_image, $module, $base_dir, $block, $image_type
+              , $max_image_size, $max_image_height, $max_image_width)
+
+CAUTION:  This class uses a REALLY long parameter list!  Make sure you don't put anything in the wrong order.
+
+-----------------
+Parameter definitions are as follows:
+
+$can_manage_images
+Denotes that the user is authorized to add or delete images.
+
+$can_manage_galleries
+Denotes that the user authorized to add, rename or delete galleries.
+
+$return_data
+Data to send on exit from the gallery.
+This can be used to store what the user was doing before entering the gallery.  If the user clicks the "Exit the Gallery" link, this data can then be used to restore the previous page or state. 
+
+$current_gallery
+Currently selected gallery.  Setting this to NULL will take you to the first one on the list.
+This value is also retrieved from $_POST['IMGLib_current_gallery'] if it is set.  The string consists of "<base_dir>/<name of the current gallery directory>/".  There must be a "/" at the end.
+
+$current_image
+Currently selected image. Setting this to NULL means that no images are selected yet.
+This value is also retrieved from $_POST['IMGLib_current_image'] if it is set. 
+
+$module
+Name of module this image library belongs to.  
+
+$base_dir  
+The Image Library base directory's name.  Defaults to "library".  This only affects the filepath to the galleries, so changing this allows you to have more than 1 library per module.  Theoretically.  I haven't tried it out myself. <grin> 
+
+$block
+Content_Var to use for displaying data.
+
+$image_type 
+What to call the image in the displayed text.  ex:"avatar", "mugshot", "image"
+
+$max_image_size
+Maximum size of uploaded images. In kilobytes.
+
+$max_image_height
+Maximum height of uploaded images in pixels.
+
+$max_image_width
+Maximum width of uploaded images in pixels.
+-----------------
+
+Once PHPWS_IMGLib has been called by a user, all operations are handled via the POST variable "IMGLib_op".  If this variable is set, call ->action().  The class will do the rest.  It will "remember" the $return_data ,$current_image, $current_gallery, and $module variables by sending them back to itself in POST variables.  The values that it reminds itself about will override whatever values are given in the parameter list.
+
+if (isset($_REQUEST['IMGLib_op'])) {
+  require_once PHPWS_SOURCE_DIR . 'core/IMGLibrary.php';
+  $library = new PHPWS_IMGLib($can_manage_images, $can_manage_galleries, $return_data
+        , $current_gallery, $current_image, $module, $base_dir, $block, $image_type
+        , $max_image_size, $max_image_height, $max_image_width)
+  $library->action($_REQUEST['IMGLib_op']);
+}
+
+TIP: If you're entering the image library from a form, you can choose to set any (or all) of these POST variables beforehand.
+
+
+CATCHING THE SELECTED IMAGE
+===========================
+The User's image selection can be detected by:
+  if($_REQUEST['IMGLib_op']=='select_image')
+
+The variable $_POST['IMGLib_selected_image'] will contain the filename of the selected image.
+
+The variable $_POST['IMGLib_selected_gallery'] will contain the /images/module/ subdirectory of the selected image in the form "<base_dir>/<name of the current gallery directory>/".
+
+
+LEAVING THE IMAGE LIBRARY
+=========================
+The User's desire to leave can be detected by:
+  if($_REQUEST['IMGLib_op']=='exit')
+
+The variable $_POST['IMGLib_return_data'] will contain any data you have stored in order to restore whatever page the user was on before entering the library.  You don't *have* to use this variable -- it's just provided in case you want to stay away from storing data in Sessions.
+
+
+EVENT HANDLERS
+==============
+For most events, like creating or renaming a gallery, no extra code is required in your module.  However, whenever you move or delete something, you may need to update your module's data to reflect what has been done.  PHPWS_IMGLib has a variable named "_done" that reports the successful completion of of major operations.
+
+There is another variable called "_created" that reports when a new image library was just created.  It wouldn't contain the boolean "true", but rather the name of the default gallery that was just created.
+
+After the action() has been called, include any handlers you need like so:
+  $library->action($_REQUEST['IMGLib_op']);
+  if ($_REQUEST['IMGLib_op']=='move_image' && $library->_done) {
+    <module code>
+  }
+  if ($library->_created) {
+    <module code>
+  }
+
+
+GALLERY MANAGEMENT
+==================
+All options for managing galleries are located to the bottom of the image selection screen.  Here you can add & rename galleries or delete the one that you are currently viewing.
+
+
+IMAGE MANAGEMENT
+================
+Each image displayed is accompanied by it's name, a selection button, and a "Delete" button.  The currenty selected image will also display an indicator next to it.  
+
+An image upload dialog is also provided at the bottom of the screen. 
+
+The images' display names are created by stripping the extension off and converting all non-alphanumerical characters into spaces.
+
+
+CHANGING CONFIGURATION SETTINGS
+===============================
+There are 2 types of configuration settings for your image library -- Variable & Permanent.
+
+Variable settings include all parameters used in creating a new instance of PHPWS_IMGLib.  Except for 6 that are POSTed back to itself, your module has complete and immediate control over what values these carry.  
+
+The variables that PHPWS_IMGLib POSTs back to itself are:
+'module','IMGLib_can_select_images','IMGLib_return_data','IMGLib_current_image','IMGLib_current_gallery', and 'IMGLib_selected_view'.
+
+Permanent settings are stored in /images/<module name>/library/config.php.  The only thing that is stored here are the gallery display & directory names.  Although I suggest you make all changes to the gallery structure through the provided dialogs, you could make them here as well.
+

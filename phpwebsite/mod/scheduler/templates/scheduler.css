@@ -1,0 +1,94 @@
+h1, h2, h3, h4 {
+    font-family: Helvatica, Times New Roman, Verdana, Arial, sans-serif;
+}
+
+div.error {
+    color: #ff0000;
+    font-style: italic;
+}
+
+div.message {
+    color: #000000;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.row-bg {
+    background: #cccccc;
+}
+
+.b {
+    font-weight: bold;
+}
+
+.u {
+    text-decoration: underline;
+}
+
+.i {
+    font-style: italic;
+}
+
+div.scheduler {
+    font-family: Helvatica, Times New Roman, Verdana, Arial, sans-serif;
+}
+
+div.scheduler .cursor {
+    cursor: default;
+    cursor: pointer;
+}
+
+div.scheduler .shade {
+    background: #cccccc;
+}
+
+div.scheduler .no-shade {
+    background: #ffffff;
+}
+
+div.scheduler .click {
+    background: #00aa00;
+}
+
+div.scheduler .today-border {
+    border: solid 1px #ff0000;
+}
+
+div.scheduler .selected-border {
+    border: solid 1px #0000ff;
+}
+
+div.scheduler .scheduler {
+    font-size: .9em;
+}
+
+div.scheduler .buttons {
+    float: right;
+}
+
+div.scheduler .scheduler a:link {
+    text-decoration: none;
+    color: #000000;
+}
+
+div.scheduler .scheduler a:visited {
+    text-decoration: none;
+    color: #000000;
+}
+
+div.scheduler .scheduler a:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+
+div.scheduler .scheduler a:active {
+    text-decoration: none;
+    color: #000000;
+}
+
+div.scheduler .scheduler ul {
+    margin-top: 0;
+    margin-left: 0;
+    padding-left: 1em;
+    font-size: .8em;
+}

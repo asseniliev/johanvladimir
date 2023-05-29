@@ -1,0 +1,59 @@
+Document - Templating with PageMaster
+Author - Adam Morton <adam@jasventures.com>
+Updated - 09/10/2002
+
+Templating in pagemaster is setup to allow administrators to create unique and flexable
+pages without too much hassle.  To get started with templating it is recommended that
+you take a look at the default templates provided with pagemaster to get a feel for how
+they work.  I will try to address further details in this document.
+
+-------------------------------------------------------------------------------------------
+TEMPLATE FILE PLACEMENT
+-------------------------------------------------------------------------------------------
+First off the placement of template files is very important. Template files can be stored
+in 2 places:
+
+phpwebsite/themes/your_theme/templates/pagemaster/
+-or-
+phpwebsite/mod/pagemaster/templates/
+
+It is suggested that you store your templates under your theme directory.  This will
+allow you to create different looks for each theme's web pages.  However, if you find
+that you are simply copying your templates from one theme to another and not changing
+them, you may want to go ahead and dump your templates in the pagemaster/templates/
+directory.
+
+Template files can be named anything you wish but they must be unique to the current
+theme. I would also suggest making them semi-intuitive so you know what the template is
+just by viewing the filename.  The filename is used in selecting a template for a new
+section during page creation or editing.
+
+-------------------------------------------------------------------------------------------
+VARIABLES IN THE TEMPLATE FILE
+-------------------------------------------------------------------------------------------
+When creating a new template file or editing an existing one, keep in mind that the
+templates are used on a per section basis, not a per page basis.  Variables in the template
+files are replaced with data pertaining to the current section being processed.
+
+The usage of these variables is pretty simple, you surround the variable name with double
+brackets on each side and if the variable is recognized by pagemaster, it will replace it
+with the appropriate data.  Here is an example:
+
+[[TITLE]]<br />
+[[TEXT]]
+
+The above template will replace [[TITLE]] with the title for the current section being
+processed and [[TEXT]] with the text for the current section being processed.
+
+Here is the list of variables that can be used in pagemaster templates:
+
+IMAGE = Replaced with the image for the current section.
+TITLE = Replaced with the title for the current section.
+TEXT = Replaced by the body text for the current section.
+PRINT_ICON = Replaced with a linkable image for a printable view of the current page.
+             The gif image for this icon must be stored in the "img" directory and must be
+             named "print.gif".
+CREATED_DATE = Replaced with the date the current page was created.
+CREATED_USER = Replaced with the username of the user who created the current page.
+UPDATED_DATE = Replaced with the date the current page was updated.
+UPDATED_USER = Replaced with the username of the user who last updated the current page.

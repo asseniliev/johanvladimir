@@ -1,0 +1,12 @@
+Notes Installation Documentation
+Author: Adam Morton <adam@NOSPAM.tux.appstate.edu>
+
+Notes has Boost support so installation is quite easy:
+
+1. Copy the Notes directory structure into your phpwebsite/mod/
+   directory.
+2. Start up your web browser and point it to your instance
+   of phpwebsite.
+3. Login as a deity and open up the Boost module.
+4. Click the install button next to the Notes module.
+5. Enjoy!

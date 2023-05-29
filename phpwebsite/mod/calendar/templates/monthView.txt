@@ -1,0 +1,122 @@
+Information on monthView Template
+by Matt McNaney
+
+This document contains information on the template files that make up the calendar month view.
+
+The template files needed by monthView are:
+
+monthView.tpl         - Controls the full layout of the calendar view: ie the calendar grid
+monthViewWeekdays.tpl - Controls the top row of the grid - the weekday display
+monthViewRow.tpl      - Controls the week rows and columns in the grid. Background colors are set here
+monthViewDay.tpl      - Controls a single day cell in the grid: includes day number and events
+monthViewTime.tpl     - Controls the grouping of events by time.
+monthViewEvents.tpl   - Controls the display of events
+monthViewSettings.tpl - Miscellaneous settings for this View
+special.tpl           - Lets you assign particular backgrounds for certain days
+
+
+
+
+monthView.tpl
+---------------
+Required Tags
+
+ROW1 - ROW6     :  Make sure these rows are included. They make up the grid. Also, you might wish to
+                   comment out row6 so it does not appear in a 5 row grid.
+WEEKDAYS        :  Displays the days of the week. Read monthViewSettings to decide in what format
+                   they appear
+
+Optional Tags
+PREV            : A link to the previous month. Not required but makes moving to another month easier.
+                  See monthViewSettings for how the link should be presented.
+NEXT            : Same as PREV but for next month.
+
+FULL_MONTH_NAME : Displays the full name of the month
+ABRV_MONTH_NAME : Displays a three letter abbreviation of the month name
+NUM_MONTH_NAME  : Displays the number of the month instead of the name
+
+YEAR_FULL       : Four digit display of the year
+YEAR_ABBR       : Two digit display of the year
+
+
+monthViewWeekdays.tpl
+---------------------
+COL1 - COL7     : Simply the count of where each day name will appear.
+
+
+monthViewRow.tpl
+---------------------
+COL1_BG
+thru
+COL7_BG         : Controls the background color of a column. Leave it alone in most cases.
+                  You can set what appears here in monthViewSettings.tpl
+
+COL1 - COL7     : The day templates are plugged into here
+
+
+monthViewDay.tpl
+----------------------
+DAY             : The number of the day
+EVENTS          : The listing of the events from monthViewTime is plugged here
+FILLER          : Adds extra spaces to fatten the rows
+
+
+
+monthViewTime.tpl
+----------------------
+TIME            : Displays the time of the events below it. You don't have to use this: you
+                  could display the time beside the title instead and not group. However this
+                  file is included in case you do. Don't remove this file however.
+EVENTS          : Adds events from monthViewEvents.tpl
+
+
+monthViewEvents.tpl
+-----------------------
+JS_ICON         : A small picture that links to a javascript window description of a event.
+                  This will not appear if the user has javascript off.
+TIME            : Time of the event. Can be ignored if you are using monthViewTime to block
+                  events
+TITLE           : Title of the event
+
+
+monthViewSettings.tpl
+------------------------
+Be careful editing this file. The comments are VERY important
+
+Backgrounds     : The following three tags are background tags. When triggered, the commands
+                  following the tags appear in the COL#_BG portion of the monthViewRow.
+                  Use a background color, image, whatever. 
+
+DEFAULT         : Background for regular ole day
+TODAY           : Background for the current day
+OFFMONTH        : Background for days not contained in the current month
+
+PREV and NEXT   : These two tags are for links to the previous or next month. Make them characters
+                  or an image tag.
+
+
+Set between the weekday comments, the next three tags determine how weekdays appear in the top
+row of the calendar.
+
+FULL_WD         : the complete spelling of the weekday name
+ABRV_WD         : the three letter abbreviation of the weekday
+LETTER_WD       : the first letter of the weekday only
+
+
+special.tpl
+---------------
+If you want to assign a special background to a particular day (like Halloween, Labor Day, National
+Ice Cream Headache Day) you can use this template.
+
+Make a BEGIN and END comment with the name of the event and put a date tag in the middle.
+For example: Christmas 2002 = {DAY_20021225}
+
+After the tag, enter the data you want to appear in the background. In the above case you might
+just enter something like:
+
+<!-- BEGIN xmas -->
+{DAY_20021225}
+bgcolor="red"
+<!-- END xmas -->
+
+or you could enter an image. Whatever suits you.

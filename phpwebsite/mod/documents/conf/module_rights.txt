@@ -1,0 +1,10 @@
+add_document::Add
+edit_document::Edit
+view_document::View
+delete_document::Delete
+move_document::Move
+approve_document::Approve
+hideshow_document::Hide and Show
+update_files::Update Files
+download_file::Download Files
+edit_settings::Edit Settings

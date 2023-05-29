@@ -1,0 +1,76 @@
+Requirements for running phpWebSite
+-----------------------------------
+
+This is a list of the system requirements to run phpWebSite.
+
+FILE REQUIREMENTS
+------------
+We in no way endorse or support these packages, and we assume the
+packages are already installed correctly and running on your
+system.
+
+PHP v4.2.2 or greater
+
+The PEAR base package must be installed with the following
+additional packages (phpWebSite ships with these packages
+included. See: ./lib/pear/):
+
+Go here for a listing and package of all required pear classes
+http://phpwebsite.appstate.edu/downloads/pear/
+
+
+DATABASE
+------------
+A database connection is needed for phpWebSite to function correctly
+since all of its data is stored there.  This database must be created
+before you begin the install process.  Currently phpWebSite only works
+with a MySql database, but we hope to increase the number of supported
+databases by version 1.0.0
+
+
+PERMISSIONS
+------------
+It is assumed that you have the ability to alter your directory
+permissions. Please read the INSTALL.txt file for more information.
+
+If you do not have the ability to CHOWN directories, contact your
+systems administrator.
+
+To setup phpWebSite you will need the following
+directories to be writable:
+conf/
+images/
+files/
+
+After installation, the conf directory should be readable ONLY.
+images/ and files/ should remain writable by the web server.
+
+Note that you are taking a risk by keeping your images and docs directories
+world writable (chmod 777). Get your site administrator to chown them
+to apache.apache instead.
+
+
+MEMORY
+------------
+We strongly recommend increasing your memory_limit variable in
+your php.ini file to 10 - 12M (php.ini uses 'M' not 'MB' as an abbreviation).
+By default, PHP runs at 8M.
+
+Here are the minimum memory requirements:
+5M Core ONLY
+8M Most modules. May have problems if all modules are installed.
+9M Minimum requirement for all modules installed.
+
+If you are unable to change the php.ini file, you can attempt to 
+allocate memory at runtime by uncommenting this line in your core/Core.php
+file:
+
+ini_set("memory_limit", "12M");
+
+Note that this setting may not be supported on your web server.
+
+Special Notice: If you are converting data from phpWebSite 0.8.3, it is
+recommended that you temporarily increase your memory limit to 16MB.
+If you are unable to change this limit, do not convert all modules
+at once. See the CONVERSION.txt document for more information.
+

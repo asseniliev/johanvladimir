@@ -1,0 +1,83 @@
+Module Uninstallation Script
+----------------------------
+
+- A file called uninstall.php should be created and put in the module's 
+  boost directory.
+
+- If the module has any database tables then an "uninstall.sql" file needs be
+  created that contains only sql statements.  This file should also go in
+  the module's boost directory.
+
+Special Notes and Cases:
+- The $status variable should be set to a 1 if the uninstallation is successful
+  and a 0 if it is not.  You can also not set the status variable and boost
+  will assume a status of 0.
+  Ex.
+	$status = 1;  // success
+	$status = 0;  // failure - show error message
+
+- Contacate all output that you would like for the user to see to the $content 
+  variable.
+        $content .= "Completed Installation";
+
+- If your module uses the images directory then remove the module's directory 
+  from your root installation images directory.
+
+***
+
+For versions of phpwebsite less than 0.9.3-R3, you will need to do the following.  Beginning
+in 0.9.3-R3 boost will handle the following on both installs and uninstalls
+- If you register your module with the search module then unregister it in the
+  uninstallation file.
+
+- If your module uses the help module then you will need to unregister 
+  your module from help.
+
+***
+
+The contents of an uninstall file should contain the following general format:
+
+<?php
+
+// check to make sure that a deity user is logged in, if not exit uninstall
+// script
+if(!$_SESSION["OBJ_user"]->isDeity()) {
+  header("location:index.php");
+  exit();
+}
+
+// import the SQL file if you need to drop tables or modify the database
+if($GLOBALS['core']->sqlImport(PHPWS_SOURCE_DIR."mod/[YOURMODULETITLE]/boost/uninstall.sql", 1, 1)) {
+	$content .= "All tables successfully removed.<br />";
+	
+
+	// if your module puts images in the images directory of your root
+	// phpWebSite installation then uncomment and modify the lines below
+	/*
+	$ok = PHPWS_File::rmdir(PHPWS_HOME_DIR . "images/[YOURMODULETITLE]/");
+	if($ok) {
+	  $content .= "The images directory was fully removed.<br />";
+	} else {
+	  $content .= "The images directory could not be removed.<br />";
+	}
+	*/
+
+	
+	// *** only for 0.9.3-R2 or lower
+	// if your module registers itself with the help module, uncomment
+	// and modify the code below
+	/*
+	CLS_help::uninstall_help("[YOURMODULETITLE]");
+	*/
+	
+	$status = 1;
+} else {
+  $content .= "There was a problem accessing the database.<br />";
+}
+
+?>
+
+The contents of the uninstall.sql file will typically only contain one line 
+for each of the database tables that your module uses.
+Ex.
+DROP TABLE [NAME_OF_MODULE_TABLE]

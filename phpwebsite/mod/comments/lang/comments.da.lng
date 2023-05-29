@@ -1,0 +1,86 @@
+da:|:comments
+a:|:(0 is maximum):|:(0 er maksimum)
+a:|:(0 is unlimited):|:(0 er ubegrænset)
+a:|:Are you sure you want to delete this thread and all its comments?:|:Er du sikker på, at du vil slette denne tråd, og alle tilhørende kommentarer?
+a:|:Back To Thread:|:Tilbage til tråde
+a:|:By:|:Af
+a:|:Comment:|:Kommentar
+a:|:Comment Administrative Settings:|:Kommentar administrations indstillinger
+a:|:Comment Manager Main Menu:|:Kommentar styring hovedmenu
+a:|:Comment Restriction:|:Kommentar begrænsning
+a:|:Comment User Settings:|:Kommentar indstillinger
+a:|:Comments:|:Kommentarer
+a:|:Delete Thread Confirmation:|:Slet tråden
+a:|:Display method for the comments.:|:Visning af kommentarer.
+a:|:Edit Comment:|:Ret kommentar
+a:|:Edit Reason:|:Ret begrundelse
+a:|:Edited By:|:Rettet af
+a:|:Last Post:|:Sidste post
+a:|:List Comment Manager Threads:|:List kommentar styring tråde
+a:|:List Threads:|:Vis tråde
+a:|:Location:|:Lokation
+a:|:Make a comment:|:Skriv en kommentar
+a:|:Max size for a comment in characters.:|:Maksimal størrelse for en kommentar i antal karakterer.
+a:|:Max submissions from one ip.:|:Maksimal indsendelser fra samme ip-nummer.
+a:|:No Subject:|:Intet emne
+a:|:On:|:Til
+a:|:Order the comments are to be displayed.:|:Den rækkefølge som kommentarerne bliver vist på.
+a:|:Personal Comment Settings:|:Kommentarer
+a:|:Personal Comment settings allows you to set the default way you view comment threads on the site.:|:Indstiller hvordan kommentarer skal vises
+a:|:Post:|:Send
+a:|:Post Comment:|:Indsend kommentar
+a:|:Post annonymously:|:Skriv som anonym
+a:|:Post anonymously:|:Skriv som anonym
+a:|:Posted on:|:Oprettet den
+a:|:Preview:|:Vis
+a:|:Preview Comment:|:Vis kommentar
+a:|:Preview Edited Comment:|:Gennemse den rettede kommentar
+a:|:Re:|:Sv
+a:|:Reason for edit:|:Begrundelse for rettelsen
+a:|:Reply:|:Svar
+a:|:Save:|:Gem
+a:|:Subject:|:Emne
+a:|:The Comment Manager administration allows you to manage all of the comment threads on your site.:|:Viser kommentarer afgivet til annonceringer mm.
+a:|:The comments are owned by the poster. We are not responsible for its content.:|:Kommentarer er ejet af afsender. Vi er ikke ansvarlige for indholdet.
+a:|:The following settings are the default settings for users and anonymous vistors of the site.:|:Følgende indstillinger er standardindstillingerne for brugere og anonyme gæster af denne hjemmeside.
+a:|:The following settings are the default settings for when you view comments.:|:Følgende indstillinger er standardindstillingerne når du ser kommentarer.
+a:|:The thread was successfully deleted from the database.:|:Tråden er slettet fra databasen.
+a:|:There are no comment threads in the database.:|:Der er ingen kommentar tråde i denne database.
+a:|:These settings set restrictions for the Comment Manager to enforce.:|:Disse indstillinger sætter de begrænsninger som kommentar styringen gennemtvinger.
+a:|:Thread Deleted:|:Tråd slettet
+a:|:Threaded:|:Oversigt
+a:|:Threads:|:Tråde
+a:|:View:|:Se
+a:|:You are currently logged in as:|:Du er forøjeblikket logget på som
+a:|:You have exceeded the maximum number allowed comments for this forum.:|:Du har overskredet maksimal antal tilladte kommentarer i dette forum.
+a:|:Access Denied!:|:Adgang nægtet!
+a:|:Actions:|:Handlinger
+a:|:Are you sure you want to delete the comment [var1] and all its children?:|:Er du sikker på, at du vil slette kommentaren [var1] og alle underniveauer?
+a:|:Author:|:Forfatter
+a:|:Back:|:Tilbage
+a:|:Comment Deleted:|:Kommentar slettet
+a:|:Current Threads:|:Nuværende tråd
+a:|:Date:|:Dato
+a:|:Delete:|:Slet
+a:|:Delete Comment Confirmation:|:Slet kommentaren
+a:|:Edit:|:Ret
+a:|:Error!:|:Fejl
+a:|:Flat:|:Normal visning
+a:|:Manage Comment Threads:|:Kommentarer
+a:|:Module:|:Modul
+a:|:Nested:|:Indrykket
+a:|:Newest First:|:Nyeste først
+a:|:No:|:Nej
+a:|:No Comment Deleted:|:Kommenter blev ikke slettet
+a:|:No Thread Deleted:|:Tråden blev ikke slettet
+a:|:No comment was deleted from the database.:|:Kommentaren blev ikke slettet fra databasen
+a:|:No thread was deleted from the database.:|:Tråden blev ikke slettet fra databasen
+a:|:OK:|:OK
+a:|:Oldest First:|:Ældste først
+a:|:Refresh:|:Opdater
+a:|:Settings:|:Indstillinger
+a:|:The comment [var1] was successfully deleted from the database.:|:Kommentaren [var1] blev slettet fra databasen.
+a:|:Yes:|:Ja
+a:|:You are not currently logged in. Posts will be Anonymous.:|:Du er for øjeblikket ikke logget ind. Opslag vil være anonyme.
+a:|:You do not have the proper permissions to delete a thread.:|:Du har ikke den korrekte autorisation for at slette en tråd.
+a:|:Your comment exceeds the max size allowed.:|:Din kommentar oversteg den maksimale tilladte størrelse.

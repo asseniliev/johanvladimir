@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter>
+  <title>Welcome</title>
+
+  <section>
+    <title>Introduction</title>
+
+    <para>phpWebSite is an extremely powerful web site management tool.
+    Publishing information to the web using phpWebSite is easy, intuitive, and
+    does not require technical skills. Keeping web site information current is
+    simple using browser-based management. phpWebSite lets the user focus on
+    what is important - the content, not the technology.</para>
+
+    <para>The systems administrator will find that maintenance of even a very
+    large number of sites is easy using a wide range of powerful tools. The
+    look and feel of an entire site can be changed in a matter of seconds with
+    only a few mouse clicks, and a wide variety of software modules allow for
+    easy site customization without the need for unwanted or unused features.</para>
+
+    <para>For the PHP developer, phpWebSite provides an ideal platform for
+    rapidly developing sophisticated web-based applications. phpWebSite has a
+    rich API - a full complement of powerful functions that ease development
+    considerably. The goal of phpWebSite is to provide a flexible solution by
+    following the premise that a module should do one thing very well and that
+    all the modules should work together.</para>
+  </section>
+
+  <section>
+    <title>Intended Audience</title>
+
+    <para>This manual is presented in three distinct volumes. The first volume
+    is for the typical day to day user of the software. This volume contains
+    information on how to use most of the core modules which comprise a
+    minimal installation, as well as information on how to use the many
+    modules that can be optionally installed. The instructions presented in
+    this volume assume little or no technical expertise - any user familiar
+    with a web browser should be at home here. This volume assumes you have a
+    working copy of phpWebSite installed and access to the modules covered.</para>
+
+    <para>The second volume contains information regarding how to install,
+    upgrade, and maintain phpWebSite. The reader is assumed to be familiar
+    with basic systems administration skills. A solid understanding of your
+    operating system, database and web server is required. A working knowledge
+    of PHP is helpful, but not required.</para>
+
+    <para>The third volume is for the developer who wishes to write modules
+    for phpWebSite. It fully discusses the phpWebSite API and covers the
+    technical inner-workings of phpWebSite. A firm understanding of PHP and
+    object oriented programing is required. </para>
+  </section>
+
+  <section>
+    <title>Who Publishes phpWebSite?</title>
+
+    <para>phpWebSite is free, open source software written and maintained by
+    the Web Technology Group at Appalachian State University in Boone, NC,
+    USA. The Web Technology group is comprised of both University staff and
+    upper level and graduate Computer Science students who provide web based
+    software solutions for the Student Development Division of Appalachian
+    State. phpWebSite was originally developed as a solution for managing web
+    site content at the University and was released as open source software in
+    an effort to share our work in a cooperative spirit. Those involved at the
+    beginning of the project never would have guessed that phpWebSite would
+    grow to become the immensely popular application it is today.</para>
+
+    <para>The Web Technology group owes sincere thanks to the many external
+    developers who took notice of the phpWebSite project and have volunteered
+    an enormous amount of time and effort to the project. Our thanks also to
+    the many who have chosen to use phpWebSite, your bug reports and good
+    ideas for features are extremely valuable. Ultimately, phpWebSite is the
+    work of a diverse community of many people across the globe - a tribute to
+    the power of shared ideas within the commons.</para>
+  </section>
+</chapter>

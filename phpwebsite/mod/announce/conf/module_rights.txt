@@ -1,0 +1,4 @@
+edit_announcement::Add/Edit Announcements
+delete_announcement::Delete Announcements
+activate_announcement::Show/Hide Announcements
+modify_settings::Modify Settings

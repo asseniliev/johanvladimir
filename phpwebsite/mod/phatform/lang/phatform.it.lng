@@ -1,0 +1,131 @@
+it:|:phatform
+a:|:ARE YOU ABSOLUTELY SURE YOU WANT TO DELETE THIS MODULE:|:SICURO DI ELIMINARE QUESTO MODULO
+a:|:Access Denied:|:Accesso negato
+a:|:Action:|:Azione
+a:|:Admin Email (comma delimited):|:Email dell'amministratore (separate da virgola)
+a:|:All of the values were not set. You must fill out all of them.:|:Non tutti i valori sono stati impostati, devi assegnarli tutti.
+a:|:All:|:TUTTI
+a:|:Allow View:|:Permetti visione
+a:|:Allow anonymous submissions:|:Permetti invio anonimo
+a:|:Allow multiple submissions:|:Permetti invii multipli
+a:|:Allow users to edit their form data:|:Permetti agli utenti di modificare i propri dati
+a:|:Approve:|:Approva
+a:|:Approved:|:Approvato
+a:|:Archive:|:Archivio
+a:|:Assists developers in the creation and editing of module settings.:|:Permette di gestire le impostazioni dei moduli.
+a:|:Associated Text:|:Testo associato
+a:|:Back:|:Indietro
+a:|:Check to confirm:|:Spunta per confermare
+a:|:Checkbox Element Instructions:|:Istruzioni per i Checkbox
+a:|:Checkbox:|:Checkbox
+a:|:Class Files:|:File delle classi
+a:|:Columns:|:Colonne
+a:|:Complete:|:Completo
+a:|:Completed:|:Completato
+a:|:Create Module Entry:|:Crea Modulo
+a:|:Create Module Installation:|:Crea installazione modulo
+a:|:Created:|:Creato
+a:|:Default:|:Predefinito
+a:|:Deity Only:|:Solo divinit&agrave;
+a:|:Delete form confirmation:|:Cancella conferma form
+a:|:Dropbox Element Instructions:|:Istruzioni per il menu a tendina
+a:|:Dropbox:|:Menu a tendina
+a:|:Edit Elements:|:Modifica elementi
+a:|:Edit Module:|:Modifica modulo
+a:|:Editor:|:Editor
+a:|:Element successfully added!:|:Elemento aggiunto!
+a:|:Elements:|:Elementi
+a:|:Error:|:Errore
+a:|:Export Mod Info:|:Esporta informazioni modulo
+a:|:Export:|:Esporta
+a:|:Finish:|:Fine
+a:|:Form Information:|:Informazioni Form
+a:|:Form Settings:|:Impostazioni Form
+a:|:Form settings successfully saved!<br /><br />:|:Impostazioni del Modulo salvate<br /><br />
+a:|:Full List:|:Lista completa
+a:|:Go here to create online forms that can be viewed and filled out by your site visitors. Reports can be made on the data submitted.:|:Crea e gestisci i form del sito. I dati raccolti, possono venire anche riepilogati
+a:|:Go!:|:Vai!
+a:|:Groups:|:Gruppi
+a:|:Hidden:|:Nascosto
+a:|:Hide this form:|:Nascondi questo form
+a:|:Incomplete:|:Incompleto
+a:|:Initialize Class Name:|:Inizializza nome classe
+a:|:Instructions:|:Istruzioni
+a:|:Ip:|:Ip
+a:|:It might cause you to have to reinstall phpWebSite:|:Potresti dover reinstallare phpWebsite
+a:|:Item limit per page:|:Limite elementi per pagina
+a:|:Last Entry:|:Ultima voce
+a:|:List Archives:|:Archivio della lista
+a:|:List Exports:|:Lista esportazioni
+a:|:List Forms:|:Lista Form
+a:|:Maxsize:|:dimensione massima
+a:|:Mod Directory:|:Cartella modulo
+a:|:Mod Filename:|:Nome file modulo
+a:|:Mod Maker Administration:|:Amministrazione moduli
+a:|:Mod Title:|:Titolo modulo
+a:|:Module Permission:|:Permessi modulo
+a:|:Module information file written to conf directory:|:Informazioni modulo registrate nella cartella conf
+a:|:Module information file written to setup directory:|:Informazioni modulo registrate nella cartella setup
+a:|:Move Down:|:Sposta gi&ugrave;
+a:|:Move Up:|:Sposta s&ugrave;
+a:|:Multiple Select:|:Selezione multipla
+a:|:Multiselect Element Instructions:|:Istruzioni per la selezione multipla
+a:|:New Form:|:Nuovo form
+a:|:Next:|:Successivo
+a:|:No entries were found matching your search query.:|:Nessuna voce corrisponde alla tua ricerca
+a:|:No items for the current list.:|:Nessun elemento nella lista
+a:|:Number of Options:|:Numero di opzioni
+a:|:Only:|:Solo
+a:|:Option Instructions:|:Istruzioni per le opzioni
+a:|:Option Sets:|:Gruppo di opzioni
+a:|:Option:|:Opzioni
+a:|:Page:|:Pagina
+a:|:Permissions Table:|:Tabella dei permessi
+a:|:Predefined Option Set:|:Gruppo di opzioni predefinito
+a:|:Priority:|:Priorit&agrave;
+a:|:Proper Name:|:Nome
+a:|:Radio Button:|:Bottone Radio
+a:|:Radiobutton Element Instructions:|:Istruzioni per i bottoni Radio
+a:|:Refuse:|:Rifiuta
+a:|:Remove Module:|:Rimuovi modulo
+a:|:Remove:|:Rimuovi
+a:|:Removing this module from the system could have serious consequences:|:La rimozione del modulo pu&ograve; portare serie conseguenze
+a:|:Require:|:Richiedi
+a:|:Required:|:Obbligatorio
+a:|:Rights File:|:Permessi file
+a:|:Rows:|:Righe
+a:|:Save Checkbox:|:Salva Checkbox
+a:|:Save Dropbox:|:Salva menu a tendina
+a:|:Save Form:|:Salva form
+a:|:Save Multiselect:|:Salva Selezione multipla
+a:|:Save Radiobutton:|:Salva Radiobutton
+a:|:Save Textarea:|:Salva area di testo
+a:|:Save Textfield:|:Salva campo di testo
+a:|:Save option set as:|:Salva gruppo di opzioni come
+a:|:Saved Forms:|:Form salvati
+a:|:Session Variables:|:variabili di sessione
+a:|:Show form page numbers (eg: page 1 of 6):|:Mostra numero di pagina (es: pag 1 di 6)
+a:|:Show numbers for form elements (eg: 1, 2, 3):|:Mostra numero per ogni elemento (es: 1, 2, 3)
+a:|:Size:|:Dimensione
+a:|:Submission Message:|:Messaggio di invio
+a:|:Text:|:Testo
+a:|:Textarea Element Instructions:|:Istruzioni per l'area di testo
+a:|:Textarea:|:Area di testo
+a:|:Textfield:|:Campo di testo
+a:|:The [var1] element was saved successfully.:|:L'elemento [var1] &egrave; stato salvato.
+a:|:The [var1] was saved successfully.:|:Il [var1] &egrave; stato salvato.
+a:|:The form [var1] was successfully archived.:|:Il modulo [var1] &egrave; stato archiviato.
+a:|:The form must be saved before it is available to the public.:|:Il modulo deve essere salvato per diventare pubblico
+a:|:The option set [var1] was successfully saved.:|:Il gruppo di opzioni [var1] &egrave; stato salvato
+a:|:Total:|:Totale
+a:|:Unable to write to this module's setup directory:|:Impossibile scrivere nella cartela di setup di questo modulo
+a:|:Unapproved Forms:|:Form non approvati
+a:|:Uncheck to confirm:|:Deseleziona per confermare
+a:|:Unsaved Forms:|:Form non salvati
+a:|:Update Module:|:Aggiorna modulo
+a:|:Use option text as values:|:Usa testo delle opzioni come valori
+a:|:User:|:Utente
+a:|:Value:|:Valore
+a:|:Yes, only deities may access:|:si, solo le divinit&agrave; possono accedere
+a:|:You cannot allow for anonymous submissions when form data can be edited.:|:Non puoi permettere invii anonimi quando il contenuto pu&ograve; essere modificato.
+a:|:You only have permission to edit your own forms!:|:Non hai il permesso di modificare i tuoi moduli!

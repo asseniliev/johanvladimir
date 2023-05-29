@@ -1,0 +1,40 @@
+de:|:branch
+a:|:Are you absolutely sure you want to unregister this branch:|:Sind Sie absolut sicher, dass Sie diesen Zweig austragen m&ouml;chten
+a:|:Branch Created Successfully:|:Zweig erfolgreich erstellt
+a:|:Branch Directory:|:Zweig Verzeichnis
+a:|:Branch Name:|:Zweig-Name
+a:|:Branch Web Address:|:Zweig Web-Addresse
+a:|:Branch already exists:|:Zweig existiert bereits
+a:|:Branch database populated successfully:|:Zweig Datenbank erfolgreich aktualisiert
+a:|:Branch directory created successfully:|:Zweig Verzeichnis erfolgreich erstellt
+a:|:Branch registered successfully to hub:|:Zweig erfolgreich registriert
+a:|:Click Here to Create Branch:|:Klicken Sie hier, um einen Zweig zu erstellen
+a:|:Click on Create Branch to get started:|:Klicken Sie auf Zweig erstellen um zu beginnen
+a:|:Configuration File written successfully:|:Konfigurationsdatei erfolgreich geschrieben
+a:|:Configuration file deleted:|:Konfigurationsdatei gel&ouml;scht
+a:|:Create Branch:|:Zweig erstellen
+a:|:Creates branch sites off your hub code.:|:Erstellt Zweig-Seiten aus Ihrem Hub-Code.
+a:|:Creating Branch:|:Erstelle Zweig
+a:|:Edit Branch:|:Zweig bearbeiten
+a:|:Error:|:Fehler
+a:|:Expert Create Branch:|:Experten Zweig-Erstellung
+a:|:Expert Update Branch:|:Experten Zweig-Update
+a:|:Invalid Branch Name:|:Ung&uuml;ltiger Zweig-Name
+a:|:Make sure to delete the branch directory and database:|:L&ouml;schen Sie das Zweig-Verzeichnis und die Datenbank
+a:|:Manage Branches:|:Zweige verwalten
+a:|:Message:|:Nachricht
+a:|:No branch sites found:|:Keine Zweigseiten gefunden
+a:|:Remove Branch:|:Zweig entfernen
+a:|:Return after you have changed the permissions:|:Kehren Sie zur&uuml;ck, nachdem Sie die Zugriffsrechte ge&auml;ndert haben
+a:|:Table Prefix:|:Tabellenprefix
+a:|:The installation directory is not writable:|:Das Installationsverzeichnis ist nicht schreibbar
+a:|:There is already an installation of phpWebSite in this database:|:Es existiert bereits eine phpWebSite-Installation in dieser Datebank
+a:|:Try logging on:|:Versuchen Sie, sich einzuloggen
+a:|:Unable to make database connection with the information supplied:|:Kann mit den angegebenen Daten keine Verbindung zur Datebank aufnehmen
+a:|:Unable to write branch directory:|:Kann Zweig-Verzeichnis nicht erstellen
+a:|:Update Complete:|:Aktualisierung komplett
+a:|:Welcome to Branch Creator:|:Willkommen zum Branch Creator
+a:|:You need to create a database named [var1]:|:Sie m&uuml;ssen eine Datenbank mit dem Namen [var1] erstellen
+a:|:You need to create a database with this name first:|:Sie m&uuml;ssen zuerst eine Datenbank mit diesem Namen erstellen
+a:|:Your are missing crucial database information:|:Es fehlen wichtige Datenbankinformationen
+a:|:Your configuration directory is not writable:|:Ihr Konfigurationsverzeichnis ist nicht schreibbar

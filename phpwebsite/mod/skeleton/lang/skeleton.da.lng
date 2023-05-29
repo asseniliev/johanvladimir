@@ -1,0 +1,25 @@
+da:|:skeleton
+a:|:Add New Skeleton:|:Tilføj nyt skelet
+a:|:Add Skeleton:|:Tilføj skelet
+a:|:Are you sure you want to delete this skeleton?:|:Er du sikker på, at du vil slette dette skelet?
+a:|:Back to Skeleton List:|:Tilbage til skelet listen
+a:|:Delete:|:Slet
+a:|:Edit:|:Ret
+a:|:Edit Skeleton:|:Ret skelet
+a:|:Hide:|:Skjul
+a:|:Label:|:Navn
+a:|:List Skeletons:|:List skeletter
+a:|:Muscle must be a string!:|:Musklen skal være en tekststreng!
+a:|:No:|:Nej
+a:|:Save Skeleton:|:Gem skelet
+a:|:Show:|:Vis
+a:|:Skeleton Saved!:|:Skelettet er gemt!
+a:|:Skeleton deleted!:|:Skelettet er slettet!
+a:|:Skeleton was not deleted!:|:Skelettet er ikke slettet!
+a:|:Skeletons:|:Skeletter
+a:|:The Meat:|:Beskrivelse
+a:|:View:|:Vis
+a:|:Yes:|:Ja
+a:|:You must provide some meat!:|:Du skal angive en beskrivelse!
+a:|:Skeleton Module:|:Skabelon
+a:|:This module is a skeleton module for use by developers when creating a new module.:|:Demonstrerer et simpelt skabelonmodul

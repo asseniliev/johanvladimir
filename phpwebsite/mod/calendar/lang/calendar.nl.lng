@@ -1,0 +1,122 @@
+nl:|:calendar
+a:|:All Day Event:|:Volledige Dag Gebeurtenis
+a:|:All Day:|:Volledige Dag
+a:|:Append:|:Voeg Toe
+a:|:Apr:|:Apr
+a:|:April:|:April
+a:|:Are you certain you want to delete this event:|:Weet je zeker dat je deze gebeurtenis wilt verwijderen
+a:|:Aug:|:Aug
+a:|:August:|:Augustus
+a:|:Beginning of each month:|:Begin van iedere maand
+a:|:Box Views:|:Kader Beeld
+a:|:Cache Calendar Events:|:Cache Kalender Gebeurtenissen
+a:|:Cache Calendar Views:|:Cache Kalender Beelden
+a:|:Calendar Events:|:Kalender Gebeurtenissen
+a:|:Calendar Settings:|:Kalender Instellingen
+a:|:Calendar:|:Kalender
+a:|:Categories:|:Categorien
+a:|:Conversion Complete:|:Conversie Kompleet
+a:|:Convert [var1] File:|:Converteer [var1] Bestand
+a:|:Create Event:|:Gebeurtenis Inleggen
+a:|:Create New Event:|:Nieuwe Gebeurtenis Inleggen
+a:|:Daily repeats must not exceed one day in duration:|:Dagelijks repeterende gebeurtenis mag niet langer dan een dag duren
+a:|:Daily:|:Dagelijks
+a:|:Day:|:Dag
+a:|:Days Ahead:|:Dagen Vooruit
+a:|:Deadline:|:Deadline
+a:|:Dec:|:Dec
+a:|:December:|:December
+a:|:Delete Confirmation:|:Bevestiging Verwijdering
+a:|:Delete:|:Verwijder
+a:|:Do not use:|:Niet gebruiken
+a:|:Edit Event:|:Wijzig Gebeurtenis
+a:|:Edit:|:Wijzig
+a:|:End Date:|:Eind Datum
+a:|:End Time:|:Eind Tijd
+a:|:End of each month:|:Eind van iedere month
+a:|:Event Deleted:|:Gebeurtenis verwijderd
+a:|:Event Type:|:Soort Gebeurtenis
+a:|:Event created successfully:|:Gebeurtenis inleggen gelukt
+a:|:Event submitted for approval:|:Gebeurtenis opgestuurd ter goedkeuring
+a:|:Event updated successfully:|:Gebeurtenis met goed gevolg gewijzigd
+a:|:Every Month:|:Iedere Maand
+a:|:Every month on Start Date:|:Iedere Maand op Start Datum
+a:|:Every:|:Iedere
+a:|:Feb:|:Feb
+a:|:February:|:Februari
+a:|:Fri:|:Vrij
+a:|:Friday:|:Vrijdag
+a:|:From:|:Van
+a:|:Interval:|:Interval
+a:|:Invalid end date:|:Ongeldige eind datum
+a:|:Invalid start date:|:Ongeldige start datum
+a:|:Jan:|:Jan
+a:|:January:|:Januari
+a:|:Jul:|:Jul
+a:|:July:|:Juli
+a:|:Jun:|:Jun
+a:|:June:|:Juni
+a:|:Link Directly:|:Link Direct
+a:|:Mar:|:Mar
+a:|:March:|:Maart
+a:|:May:|:Mei
+a:|:Mini Month:|:Mini Maand
+a:|:Mon:|:Maa
+a:|:Monday:|:Maandag
+a:|:Month:|:Maand
+a:|:Monthly:|:Maandelijks
+a:|:No Categories Available:|:Geen Categorien Beschikbaar
+a:|:No Groups Available:|:Geen Groepen Beschikbaar
+a:|:No events today:|:Geen gebeurtenissen vandaag
+a:|:No events:|:Geen gebeurtenissen
+a:|:No pages available:|:Geen pagina's beschikbaar
+a:|:Nov:|:Nov
+a:|:November:|:November
+a:|:Oct:|:Okt
+a:|:October:|:Oktober
+a:|:Other Settings:|:Andere Instellingen
+a:|:Pick Day:|:Dag Kiezen
+a:|:Repeat Event until:|:Repeteer gebeurtenis totdat
+a:|:Repeat dates must extend beyond the date of the event:|:Repeterende gebeurtenis data moeten na de datum van de gebeurtenis liggen
+a:|:Restrict View:|:Beperk Beeld
+a:|:Sat:|:Zat
+a:|:Saturday:|:Zaterdag
+a:|:Sep:|:Sep
+a:|:September:|:September
+a:|:Settings Updated:|:Instellingen Bijgewerkt
+a:|:Start Date:|:Start Datum
+a:|:Start Time:|:Start Tijd
+a:|:Starts At:|:Start Op
+a:|:Submit Event:|:Gebeurtenis Insturen
+a:|:Sun:|:Zon
+a:|:Sunday:|:Zondag
+a:|:The End Time must be greater than the Start Time on a single day, interval event:|:De Eind Tijd moet voorbij de Start Tijd liggen bij een eendaagse, interval gebeurtenis
+a:|:The Start Date must be less than the End Date in an interval event:|:De Start Datum moet voor de Eind Datum liggen bij een interval gebeurtenis
+a:|:This event repeats [var1] [var2] [var3]:|:Deze gebeurtenis reperteert [var1] [var2] [var3]
+a:|:Thu:|:Don
+a:|:Thursday:|:Donderdag
+a:|:To:|:Tot
+a:|:Today's Events:|:Gebeurtenissen Vandaag
+a:|:Tue:|:Din
+a:|:Tuesday:|:Dinsdag
+a:|:Update Event:|:Bijwerken Gebeurtenis
+a:|:Update Settings:|:Bijwerken Instellingen
+a:|:User Submitted Events:|:Ingestuurde Gebeurtenissen van Gebruikers
+a:|:Wed:|:Woe
+a:|:Wednesday:|:Woensdag
+a:|:Week:|:Week
+a:|:Weekly repeats must not exceed one day in duration:|:Wekelijks repeterende gebeurtenissen mogen niet langer dan een dag duren
+a:|:Weekly:|:Wekelijks
+a:|:Year:|:Jaar
+a:|:Yearly:|:Jaarlijks
+a:|:at the beginning of each month:|:aan het begin van iedere maand
+a:|:at the end of each month:|:aan het eind van iedere maand
+a:|:every [var1]:|:iedere [var1]
+a:|:first:|:eerste
+a:|:fourth:|:vierde
+a:|:on the [var1] [var2] of every [var3]:|:op de [var1] [var2] van iedere [var3]
+a:|:on this day each month:|:op deze dag iedere maand
+a:|:on this day each year:|:op deze dag ieder jaar
+a:|:second:|:tweede
+a:|:third:|:derde
+a:|:until:|:totdat

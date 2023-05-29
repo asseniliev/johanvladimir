@@ -1,0 +1,31 @@
+.white {
+  background-color : white;
+}
+
+.black {
+  background-color : black;
+}
+
+.bg_dark {
+  background-color : #d8860a;
+}
+
+.bg_medium {
+  background-color : #efb240;
+}
+
+.bg_light {
+  background-color : #f7ca88;
+}
+
+.alt_bg_dark {
+  background-color : #066fa0;
+}
+
+.alt_bg_medium {
+  background-color : #2794d8;
+}
+
+.alt_bg_light {
+  background-color : #5fb0d8;
+}

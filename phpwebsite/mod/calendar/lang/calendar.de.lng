@@ -1,0 +1,131 @@
+de:|:calendar
+a:|:Active:|:Aktiv
+a:|:All Day Event:|:Ganzer Tag Ereignis
+a:|:All Day:|:Ganzer Tag
+a:|:Append:|:Anf&uuml;gen
+a:|:Apr:|:Apr
+a:|:April:|:April
+a:|:Are you certain you want to delete this event:|:Sind Sie sicher, dass Sie dieses Ereignis l&ouml;schen m&ouml;chten
+a:|:Aug:|:Aug
+a:|:August:|:August
+a:|:Beginning of each month:|:Anfang jedes Monats
+a:|:Box Views:|:Box Ansichten
+a:|:Cache Calendar Events:|:Kalenderereignisse zwischenspeichern
+a:|:Cache Calendar Views:|:Kalenderansichten zwischenspeicherna
+a:|:Calendar Events:|:Kalendar Ereignisse
+a:|:Calendar Settings:|:Kalender Einstellungen
+a:|:Calendar:|:Kalender
+a:|:Categories:|:Kategorien
+a:|:Conversion Complete:|:Konvertierung komplett
+a:|:Convert [var1] File:|:Konvertiere [var1] Datei
+a:|:Create Event:|:Ereignis erstellen
+a:|:Create New Event:|:Neues Ereignis erstellen
+a:|:Daily repeats must not exceed one day in duration:|:T&auml;gliche Wiederholungen d&uuml;rfen nicht l&auml;nger als einen Tag dauern
+a:|:Daily:|:T&auml;glich
+a:|:Day:|:Taga
+a:|:Days Ahead:|:Tage voraus
+a:|:Deadline:|:Endtermin
+a:|:Dec:|:Dez
+a:|:December:|:Dezember
+a:|:Delete Confirmation:|:L&ouml;schung best&auml;tigen
+a:|:Delete:|:L&ouml;schen
+a:|:Do not use:|:Nicht verwenden
+a:|:Edit Event:|:Ereignis bearbeiten
+a:|:Edit:|:Bearbeiten
+a:|:End Date:|:Enddatum
+a:|:End Time:|:Endzeit
+a:|:End of each month:|:Ende jedes Monats
+a:|:Event Deleted:|:Ereignis gel&ouml;scht
+a:|:Event Type:|:Ereignistyp
+a:|:Event calendar for phpWebSite.:|:Ereignis-Kalendar f&uuml;r phpWebSite.
+a:|:Event created successfully:|:Ereignis erfolgreich erstellt
+a:|:Event submitted for approval:|:Ergeignis f&uuml;r Best&auml;tigung &uuml;bermittelt
+a:|:Event updated successfully:|:Ereignis erfolgreich aktualisiert
+a:|:Every Month:|:Jeden Monat
+a:|:Every month on Start Date:|:Jeden Monat am Startdatum
+a:|:Every:|:Jeden
+a:|:Feb:|:Feb
+a:|:February:|:Februar
+a:|:Fri:|:Fri
+a:|:Friday:|:Freitag
+a:|:From:|:Von
+a:|:Interval:|:Intervall
+a:|:Invalid end date:|:Ung&uuml;ltiges Enddatum
+a:|:Invalid start date:|:Ung&uuml;ltiges Startdatum
+a:|:Jan:|:Jan
+a:|:January:|:Januar
+a:|:Jul:|:Jul
+a:|:July:|:Juli
+a:|:Jun:|:Jun
+a:|:June:|:Juni
+a:|:Link Directly:|:Direkt verkn&uuml;pfen
+a:|:Mar:|:M&auml;r
+a:|:March:|:M&auml;rz
+a:|:May:|:Mai
+a:|:Mini Month:|:Kurzer Monat
+a:|:Mon:|:Mo
+a:|:Monday:|:Montag
+a:|:Month:|:Monat
+a:|:Monthly:|:Monatlich
+a:|:No Categories Available:|:Keine Kategorien verf&uuml;gbar
+a:|:No Groups Available:|:Keine Gruppen verf&uuml;gbar
+a:|:No events today:|:Heute keine Ereignisse
+a:|:No events:|:Keine Ereignisse
+a:|:No pages available:|:Keine Seiten verf&uuml;gbar
+a:|:Nov:|:Nov
+a:|:November:|:November
+a:|:Oct:|:Okt
+a:|:October:|:Oktober
+a:|:Other Settings:|:Andere Einstellungen
+a:|:Pick Day:|:Tag ausw&auml;hlen
+a:|:Purge Fatcat Entries Before:|:Bereinige zuvor Fatcat Einträge
+a:|:Purge:|:Bereinigen
+a:|:Reindex FatCat:|:Indexieren Sie FatCat neu
+a:|:Repeat Event until:|:Ereignis wiederholen bis
+a:|:Repeat dates must extend beyond the date of the event:|:Wiederholungsdaten m&uuml;ssen sich bis nach dem Ereignisdatum erstrecken
+a:|:Restrict View:|:Zugriff beschr&auml;nken
+a:|:Sat:|:Sa
+a:|:Saturday:|:Samstag
+a:|:Search Past Events:|:Suche letzte Ereignisse
+a:|:Sep:|:Sep
+a:|:September:|:September
+a:|:Session View:|:Session sehen
+a:|:Settings Updated:|:Einstellungen aktualisiert
+a:|:Start Date:|:Datum
+a:|:Start Time:|:Zeit
+a:|:Starts At:|:Beginnt um
+a:|:Submit Event:|:Ereignis &uuml;bermitteln
+a:|:Sun:|:So
+a:|:Sunday:|:Sonntag
+a:|:The End Time must be greater than the Start Time on a single day, interval event:|:An einem sich wiederholenden, Ein-Tag Ereignis muss die Endzeit gr&ouml;&szlig;er als die Startzeit  sein
+a:|:The Start Date must be less than the End Date in an interval event:|:Bei einem Intervall-Ereignis muss sas Startdatum kleiner sein als das Enddatum
+a:|:This event repeats [var1] [var2] [var3]:|:Diese Ereignis wiederholt sich [var1] [var2] [var3]
+a:|:Thu:|:Do
+a:|:Thursday:|:Donnerstag
+a:|:To:|:bis
+a:|:Today's Events:|:Heutige Ereignisse
+a:|:Tue:|:Di
+a:|:Tuesday:|:Dienstag
+a:|:Update Event:|:Ereignis aktualisieren
+a:|:Update Settings:|:Aktualisierungseinstellungen
+a:|:User Submitted Events:|:Benutzer&uuml;bermittelte Ereignisse
+a:|:View Options:|:Optionen ansehen
+a:|:Wed:|:Mi
+a:|:Wednesday:|:Mittwoch
+a:|:Week:|:Woche
+a:|:Weekly repeats must not exceed one day in duration:|:W&ouml;chtentliche Wiederholungen d&uuml;rfen nicht l&auml;nger als einen Tag dauern
+a:|:Weekly:|:W&ouml;chentlich
+a:|:Year:|:Jahr
+a:|:Yearly:|:J&auml;hrlich
+a:|:at the beginning of each month:|:am Anfang jedes Monats
+a:|:at the end of each month:|:am Ende jedes Monats
+a:|:every [var1]:|:alle [var1]
+a:|:first:|:erste
+a:|:fourth:|:vierte
+a:|:on the [var1] [var2] of every [var3]:|:Am [var1] [var2] jedes [var3]
+a:|:on this day each month:|:an diesem Tag jeden Monat
+a:|:on this day each year:|:an diesem Tag jedes Jahr
+a:|:second:|:zweite
+a:|:third:|:dritte
+a:|:until:|:bis
+a:|:Calendar:|:Kalendar

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter>
+  <chapterinfo>
+    <author>
+      <firstname>Darren</firstname>
+      <surname>Greene</surname>
+      <email>dg49379 at tux dot appstate dot edu</email>
+    </author>
+
+    <pubdate>2003-06-20</pubdate>
+
+    <revhistory>
+      <revision>
+        <revnumber>1.0</revnumber>
+        <date>2003-06-20</date>
+        <authorinitials>DG</authorinitials>
+        <revremark>First release</revremark>
+      </revision>
+    </revhistory>
+
+    <abstract>
+      <para>User documentation for the phpWebSite Poll module</para>
+    </abstract>
+  </chapterinfo>
+
+  <title>Poll</title>
+
+  <section>
+    <title>Introduction</title>
+
+    <para>
+    The poll module is basically a one question survey to collect
+    information about users preferences toward a
+    particular subject.  So, what type of questions are meant for the
+    Poll module?  The ideal type of questions are opinion based such
+    as "How do you like the new site?" or "What is your favorite
+    food?".  These questions don't have a right or wrong answer, but
+    are different according to the individual taking the survey.  The
+    Poll module allows you to show one question on the homepage of your
+    site and then manages the voting and presentation of the results.
+    </para>
+  </section>
+
+  <section>
+    <title>Getting Started</title>
+
+    <para>After the poll module is installed, login in as an
+    administrator and access Poll by going to the <emphasis>Control Panel ->
+    Site Content -> Poll</emphasis>.
+    </para>
+  </section>
+
+  <section>
+    <title>Add a New Poll</title>
+ 
+    <para>To create your first poll follow the steps listed below:
+      <orderedlist>
+       <listitem>
+         <para>
+         Login in as an administrator with the permission to add a new
+         poll. Access the Poll module.
+         </para>
+       </listitem>
+       <listitem>
+         <para>
+         Click the link called <emphasis>'New'</emphasis> from the
+         Poll administrative menu.  At this point you will be
+         presented with a form to create a new poll.  The fields are
+         explained below along with examples.
+         <itemizedlist>
+          <listitem>
+           <para><emphasis role="bold">Title</emphasis> - This is not
+           the poll question, but instead a short title that is used as
+           the block title.
+           <example><title>Example</title><para>0.9.x</para></example>
+           </para>
+         </listitem>
+         <listitem>
+          <para>
+          <emphasis role="bold">Question</emphasis> - Put the survey
+          poll question that you would like your users to vote on in
+          this field.  
+          <example><title>Example</title>
+            <para>How do you like the new site?</para>
+          </example>
+          </para>
+         </listitem>
+       
+         <listitem>
+          <para>
+          <emphasis role="bold">Options</emphasis> - The options are
+          the possible answers to the poll question.  The poll module
+          defaults to showing only one field for an option, but you can
+          have as many answers to your question as you would like by
+          repeatedly clicking the button that says
+          <emphasis>Add Option</emphasis>.
+          </para>
+         </listitem>
+
+         <listitem>
+          <para>
+          <emphasis role="bold">Users</emphasis> - Do you want users
+          that are not logged into phpWebsite to be able to cast their
+          vote on your poll?  If you choose <emphasis>'Yes'</emphasis>
+          then only users that are logged in will be able to vote on
+          the poll, and if you choose <emphasis>'No'</emphasis> then
+          all users will be able to vote regardless of whether they
+          are logged in or not.
+          </para>
+         </listitem>
+ 
+         <listitem>
+          <para>
+          <emphasis role="bold">Active</emphasis> - This option
+          determines whether this poll will be placed on the homepage
+          immediately after it is created.  Note that any poll that is
+          currently active will be disabled and replaced by the new
+          poll if set to active.  The old poll will not be deleted,
+          just not active.  So, choose <emphasis>'Yes'</emphasis> to
+          make this poll show on the homepage of your site or choose
+          <emphasis>'No'</emphasis> to create the poll, but not make it
+          visible at this time.
+          </para>
+         </listitem>
+
+         <listitem>
+          <para>
+          <emphasis role="bold">Allow Comments</emphasis> - Select
+          <emphasis>'Yes'</emphasis> if you would like this poll to
+          allow users to post comments regarding the poll, or else choose
+          <emphasis>'No'</emphasis> to disable comments.  The user
+          comments will appear on the <emphasis>'Poll
+          Results'</emphasis> section. 
+          </para>
+         </listitem>
+        </itemizedlist>
+        </para>
+      </listitem>
+      <listitem>
+       <para>
+       Your new poll should now be successfully created after you click
+       <emphasis>Submit</emphasis>
+       </para>
+      </listitem>
+    </orderedlist>   
+
+   </para>
+   </section>
+
+   <section>
+    <title>Editing and Deleting Polls</title>
+
+    <para>
+    If you wish to change or delete an existing Poll then follow the
+    steps below:
+    <orderedlist>
+     <listitem>
+      <para>
+      To access the Poll module to update a poll you must be logged
+      in as an administrator of Poll.
+      </para>
+     </listitem>
+     <listitem>
+       <para>Once you have access the Poll module, click the link 'Show Polls'
+       from the Poll administrative menu.  You will see a listing of
+       all the polls that have been created.  
+       </para>
+     </listitem>
+     <listitem>
+      <para>Select the Poll you are interested in choose from one of
+      the following options:
+        <itemizedlist>
+         <listitem>
+          <para>
+          <emphasis role="bold">Edit</emphasis> - By choosing this
+          option you will be presented with the same screen that was
+          used to create the poll, but the form will be filled in with
+          the text and options for this poll.  Note:  When editing a
+          poll, if you choose to make a poll active, then any poll that
+          is already active will be deactivated.  The poll module only
+          allows one poll to be active at a time.
+          </para>
+         </listitem>
+         <listitem>
+          <para>
+          <emphasis role="bold">Delete</emphasis> - This will remove
+          the poll from the Poll module.
+          </para>
+         </listitem>
+        </itemizedlist>
+       </para>
+      </listitem>
+      
+     </orderedlist>
+    </para>
+
+   </section>
+
+   <section>
+    <title>View Poll Results</title>
+    
+    <para>
+    You can only view the results of the currently active poll, which
+    will be displayed on your site's homepage.  The Poll itself will
+    show a count of the total users who have voted on the poll and how
+    many users have submitted comments regarding the poll.  To view
+    results of each of the answers to the survey questions, click the
+    link <emphasis>'View Results'</emphasis> from the active poll on the
+    homepage.  Each answer has associated with it a bar graph
+    representing the number of votes the answer has received as a
+    percentage of the other answers.
+    </para>
+   </section>
+
+</chapter>

@@ -1,0 +1,69 @@
+nl:|:phatform
+a:|:All of the values were not set. You must fill out all of them.:|:Alle waarden zijn niet ingevuld. U moet ze allemaal invullen.
+a:|:All:|:ALLE
+a:|:Allow anonymous submissions:|:Sta anonieme inzendingen toe
+a:|:Allow multiple submissions:|:Sta meerdere inzendingen toe
+a:|:Allow users to edit their form data:|:Sta gebruikers toe hun eigen formulieren te wijzigen
+a:|:Approve:|:Keur goed
+a:|:Approved:|:Goedgekeurd
+a:|:Associated Text:|:Bijbehorende tekst
+a:|:Back:|:Terug
+a:|:Checkbox Element Instructions:|:Vinkbox Element Instructies
+a:|:Checkbox:|:Vinkbox
+a:|:Columns:|:Kolommen
+a:|:Default:|:Default
+a:|:Dropbox Element Instructions:|:Uitklapbox Element Instructies
+a:|:Dropbox:|:Uitklapbox
+a:|:Edit Elements:|:Wijzig Elementen
+a:|:Editor:|:Aanpasser
+a:|:Element successfully added!:|:Element correct toegevoegd!
+a:|:Form Information:|:Formulier Informatie
+a:|:Form Settings:|:Formulier Instellingen
+a:|:Go!:|:Ga!
+a:|:Groups:|:Groepen
+a:|:Hidden:|:Verborgen
+a:|:Hide this form:|:Verberg dit formulier
+a:|:Instructions:|:Instructies
+a:|:Ip:|:Ip
+a:|:Item limit per page:|:Item beperking per pagina
+a:|:List Forms:|:Lijst Formulieren
+a:|:Maxsize:|:Maximale afmetingen
+a:|:Move Down:|:Verplaats naar beneden
+a:|:Move Up:|:Verplaats naar boven
+a:|:Multiple Select:|:Meervoudige keuze
+a:|:Multiselect Element Instructions:|:Meervoudige keuze Element Instructies
+a:|:New Form:|:Neiuw Formulier
+a:|:Next:|:Volgende
+a:|:No items for the current list.:|:Geen items voor de huidige lijst.
+a:|:Number of Options:|:Aantal opties
+a:|:Option Instructions:|:Optie Instructies
+a:|:Option:|:Optie
+a:|:Page:|:Pagina
+a:|:Predefined Option Set:|:Voorgedefinieerde Optie Verzameling
+a:|:Radio Button:|:Radio Knop
+a:|:Radiobutton Element Instructions:|:Radioknop Element Instructies
+a:|:Refuse:|:Weiger
+a:|:Require:|:Vereis
+a:|:Required:|:Vereist
+a:|:Rows:|:Rijen
+a:|:Save Dropbox:|:Bewaar Uitklapbox
+a:|:Save Form:|:Bewaar Formulier
+a:|:Save Textarea:|:Bewaar Tekstruimte
+a:|:Save Textfield:|:Bewaar tekstveld
+a:|:Save option set as:|:Bewaar optie verzameling als
+a:|:Saved Forms:|:Opgeslagen Formulieren
+a:|:Show form page numbers (eg: page 1 of 6):|:Laat formulier pagina nummers zien (bijv: pagina 1 van 6)
+a:|:Show numbers for form elements (eg: 1, 2, 3):|:Laat formulier element nummers zien (bijv: 1, 2, 3)
+a:|:Size:|:Afmetingen
+a:|:Submission Message:|:Opstuur bericht
+a:|:Text:|:Tekst
+a:|:Textarea Element Instructions:|:Tekstruimte Element Instructies
+a:|:Textarea:|:Tekstruimte
+a:|:Textfield:|:Tekstveld
+a:|:The [var1] was saved successfully.:|:De [var1] is correct opgeslagen.
+a:|:The option set [var1] was successfully saved.:|:De optie verzameling [var1] is correct opgeslagen.
+a:|:Unapproved Forms:|:Niet goedgekeurde Formulieren
+a:|:Unsaved Forms:|:Niet opgeslagen Formulieren
+a:|:Use option text as values:|:Gebruik optie tekst als waarden
+a:|:Value:|:Waarde
+a:|:You cannot allow for anonymous submissions when form data can be edited.:|:U kunt geen anonieme inzendingen toestaan wanneer formulier gegevens aangepast kunnen worden.

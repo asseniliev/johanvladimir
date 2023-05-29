@@ -1,0 +1,28 @@
+This is a skeleton set of files for enabling server side
+content-type and charset. It is useful for debugging module
+and theme xml well-formed issues.
+
+Content will be served to xml capable browsers as
+application/xhtml+xml, while non xml capable clients will
+receive text/html. W3C's validator will work against the
+else doctype.
+
+
+INSTALLATION:
+Modify theme.php to match your desired content types, character set, 
+language, stylesheet, and meta information.
+Copy theme.php to your theme directory, and modify these files:
+
+mod/layout/conf/config.php
+     define("ALLOW_THEME_PHP_INSERTION", TRUE);
+
+theme.tpl 
+Follow the recommendations outlined in theme.tpl.
+
+REFERENCE:
+HTML Declarations
+http://www.htmldog.com/guides/htmladvanced/declarations/
+
+Serving XHTML 1.0
+http://www.w3.org/International/articles/serving-xhtml/Overview.html
+

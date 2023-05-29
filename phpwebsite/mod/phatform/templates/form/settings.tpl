@@ -1,0 +1,32 @@
+<!-- BEGIN FORM_INFO -->
+{FORM_INFORMATION}<br />
+<!-- END FORM_INFO -->
+<div class="smalltext">
+<b>{NAME_LABEL}:</b><br />
+{NAME_INPUT}<br /><br />
+
+<b>{BLURB0_LABEL}:</b><br />
+{BLURB0_INPUT}<br /><br />
+
+<b>{BLURB1_LABEL}:</b><br />
+{BLURB1_INPUT}<br /><br />
+
+<b>{POSTPROCESS_LABEL}:</b>{POSTPROCESS_HELP}<br />
+{POSTPROCESS_INPUT}<br /><br />
+
+<b>{EMAIL_LABEL}:</b><br />
+{EMAIL_INPUT}<br /><br />
+
+{PAGELIMIT_INPUT} {PAGELIMIT_LABEL}.<br />
+{EDITDATA_INPUT} {EDITDATA_LABEL}.<br />
+{MULTISUBMIT_INPUT} {MULTISUBMIT_LABEL}.<br />
+{ANONYMOUS_INPUT} {ANONYMOUS_LABEL}.<br />
+{SHOWELNUMS_INPUT} {SHOWELNUMS_LABEL}.<br />
+{SHOWPAGENUMS_INPUT} {SHOWPAGENUMS_LABEL}.<br />
+{HIDDEN_INPUT} {HIDDEN_LABEL}.<br />
+<br />
+{FATCAT_LABEL}:<br />
+{FATCAT}<br />
+</div>
+<br />
+{SAVE_BUTTON} {ELEMENTS_BUTTON}

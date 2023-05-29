@@ -1,0 +1,63 @@
+fr:|:comments
+a:|:(0 is maximum):|:(0 est le maximum)
+a:|:(0 is unlimited):|:(0 signifie illimité)
+a:|:Action:|:Action
+a:|:Are you sure you want to delete the comment [var1] and all its children?:|:Etes vous sur de vouloir supprimer ce commentaire [var1] ainsi que ses éventuels fils ?
+a:|:Are you sure you want to delete this thread and all its comments?:|:Etes-vous sur de vouloir supprimer ce fil de discussion ?
+a:|:Back To Thread:|:Retour au fil de discussion
+a:|:By:|:Par
+a:|:Comment Administrative Settings:|:Réglages d'administration des commentaires
+a:|:Comment Manager Main Menu:|:Menu principal de gestion des commentaires
+a:|:Comment Restriction:|:Restriction sur les commentaires
+a:|:Comment User Settings:|:Réglages utilisateur des commentaires
+a:|:Comment:|:Commentaire
+a:|:Comments:|:Commentaires
+a:|:Current Threads:|:Fils de discussion en cours
+a:|:Delete Comment Confirmation:|:Confirmation de suppression de commentaire
+a:|:Delete Thread Confirmation:|:Confirmer les suppression de fil de discussion
+a:|:Display method for the comments.:|:Affiche la méthode pour les commentaires
+a:|:Edit Comment:|:Modifier le commentaire
+a:|:Edit Reason:|:Modifier la raison
+a:|:Edited By:|:Modifié par
+a:|:ID:|:ID
+a:|:Last Post:|:Dernier envoi
+a:|:List Comment Manager Threads:|:Liste des fils de discussion du gestionnaire de commentaires
+a:|:List Threads:|:Liste des fils de discussion
+a:|:Location:|:Ordinateur
+a:|:Make a comment:|:Faire un commentaire
+a:|:Manage Comment Threads:|:Gérer les fils de discussion
+a:|:Max size for a comment in characters.:|:Nombre maximum de caractères d'un commentaire
+a:|:Max submissions from one ip.:|:Nombre de soumissions maximum pour un même N° IP
+a:|:No Comment Deleted:|:Aucun commentaire supprimé
+a:|:No Subject:|:Sans sujet
+a:|:No comment was deleted from the database.:|:Aucun commentaire n'a été supprimé dans la base de données.
+a:|:On:|:Actif
+a:|:Order the comments are to be displayed.:|:L'option de tri des commentaires doit être affichée
+a:|:Personal Comment settings allows you to set the default way you view comment threads on the site.:|:Le réglage personnel vous permet de définir comment vous souhaitez voir les fils de discussion des commentaires sur ce site.
+a:|:Post Comment:|:Envoyer le commentaire
+a:|:Post annonymously:|:Envoyer de façon anonyme
+a:|:Post anonymously:|:Envoyer de façon anonyme
+a:|:Post:|:Envoyer
+a:|:Posted on:|:Envoyé le
+a:|:Preview Comment:|:Prévisualiser le commentaire
+a:|:Preview Edited Comment:|:Prévisualiser le commentaire modifié
+a:|:Preview:|:Prévisualiser
+a:|:Re:|:Re
+a:|:Reason for edit:|:Motif de la modification
+a:|:Reply:|:Répondre
+a:|:Save:|:Sauvegarder
+a:|:Subject:|:Sujet
+a:|:The Comment Manager administration allows you to manage all of the comment threads on your site.:|:Le gestionnaire de commentaires vous permet d'administrer tout ce qui concerne les fils de discussion de commentaires sur ce site.
+a:|:The comments are owned by the poster. We are not responsible for its content.:|:Les commentaires sont réalisés par le visiteurs de ce site. Les propos tenus dans ces commentaires ne relèvent pas de notre responsabilité.
+a:|:The following settings are the default settings for users and anonymous vistors of the site.:|:Les réglages suivants sont le défaut pour les utilisateurs et les visiteurs de ce site.
+a:|:The following settings are the default settings for when you view comments.:|:Les réglages suivants sont le défaut pour vous quand vous visualisez les commentaires sur ce site.
+a:|:The thread was successfully deleted from the database.:|:Suppression du fil de discussion dans la base de données réussie
+a:|:There are no comment threads in the database.:|:Il n'y a aucun fil de discussion de commentaire dans la base de données.
+a:|:These settings set restrictions for the Comment Manager to enforce.:|:Ces réglages définissent les restrictions à appliquer par le gestionnaire de commentaires.
+a:|:Thread Deleted:|:Fil supprimé
+a:|:Threaded:|:Par fil de discussion
+a:|:Threads:|:Fils de discussion
+a:|:View:|:Voir
+a:|:You are currently logged in as:|:Vous êtes actuellement connecté en tant que
+a:|:You are not currently logged in. Posts will be Anonymous.:|:Vous n'êtes pas connecté actuellement, vos envois seront donc anonymes.
+a:|:You have exceeded the maximum number allowed comments for this forum.:|:Vous avez dépassé le nombre maximum de commentaires autorisé sur ce forum.

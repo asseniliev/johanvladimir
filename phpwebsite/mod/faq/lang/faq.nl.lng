@@ -1,0 +1,113 @@
+nl:|:faq
+a:|: and dynamic sorting.:|: en dynamische sortering.
+a:|: months.:|: maanden.
+a:|: questions per page.:|: vragen per pagina.
+a:|:, user comments,:|:, gebruiker opmerkingen,
+a:|:<b>Administrative Options</b>:|:<b>Beheer Mogelijkheden</b>
+a:|:A:|:Een
+a:|:Action Canceled:|:Actie Afgebroken
+a:|:All FAQs Query:|:Zoek door hele vraagbaak
+a:|:All FAQs:|:Hele vraagbaak
+a:|:Allow users to post comments.:|:Gebruikers mogen opmerkingen plaatsen.
+a:|:Allow users to rate FAQs.:|:Gebruikers mogen vragen beoordelen.
+a:|:Allow users to suggest FAQs.:|:Gebruikers mogen vragen opsturen.
+a:|:Answer One:|:Antwoord Een
+a:|:Answer Two:|:Antwoord Twee
+a:|:Answer: :|:Antwoord:
+a:|:Are you sure you want to delete the following FAQs:|:Weet u zeker dat u de volgende vragen wilt verwijderen
+a:|:Are you sure you want to delete this FAQ.:|:Weet u zeker dat u deze vraag wilt verwijderen.
+a:|:Average Score:|:Gemiddelde Score
+a:|:Average of Scores: :|:Gemiddelde van de Scores:
+a:|:Basic Question and Answer View:|:Eenvoudige Vraag en Antwoord opmaak
+a:|:Category View:|:Categorie opmaak
+a:|:Category: :|:Categorie:
+a:|:Change FAQ Settings:|:Wijzig Vraagbaak Instellingen
+a:|:Change Score Rating for this FAQ:|:Verander de score voor deze vraag
+a:|:Composite Score: :|:Samengestelde Score:
+a:|:Composite Score:|:Samengestelde Score
+a:|:Confirm Deletion:|:Bevestig Verwijdering
+a:|:Confirm:|:Bevestig
+a:|:Current FAQs:|:Actieve Vragen
+a:|:Example::|:Voorbeeld:
+a:|:FAQ (Frequently Asked Questions):|:Vraagbaak (Veel gestelde vragen)
+a:|:FAQ Queries:|:Vragen aan de Vraagbaak
+a:|:FAQ Removed:|:Vraag verwijderd
+a:|:FAQ Submited:|:Vraag opgestuurd
+a:|:FAQ has successfully been added to the database.:|:Vraag is toegevoegd aan de database.
+a:|:FAQs can be viewed by clicking on the questions.:|:Antwoorden kunnen bekeken worden door de vraag aan te klikken.
+a:|:FAQs that have not been active in over :|:Vragen die niet actief zijn geweest voor
+a:|:FAQs with a high number of hits and low score rating.:|:Vragen die veel bekeken zijn maar laag beoordeeld.
+a:|:FAQs with a low number of hits and high score rating.:|:Vragen die weinig bekeken zijn maar goed beoordeeld.
+a:|:FAQs with no activity in last:|:Vragen met geen activiteit in de laatste
+a:|:Feedback:|:Terugkoppeling
+a:|:General Category:|:Algemene Categorie
+a:|:General Question One:|:Algemene Vraag Een
+a:|:General Question Three:|:Algemene Vraag Drie
+a:|:General Question Two:|:Algemene Vraag Twee
+a:|:Hidden:  :|:Verborgen:
+a:|:High Hits / Low Rating:|:Veel kijkers / Lage Beoordeling
+a:|:Hits: :|:Kijkers:
+a:|:How helpful was this FAQ?:|:Hoe nuttig was deze Vraag?
+a:|:Layout View:|:Bekijk Opmaak
+a:|:Legend for Rating FAQs:|:Legenda voor beoordeling Vragen
+a:|:Limit results by showing :|:Beperk resultaten
+a:|:Limited rating, user comments, and dynamic sorting.:|:Beperkte beoordeling, gebruiker opmerkingen, en dynamische sortering.
+a:|:Limited rating:|:Beperkte beoordeling
+a:|:Low Hits / High Rating:|:Weinig kijkers / Hoge beoordeling
+a:|:New FAQ:|:Nieuwe Vraag
+a:|:New:|:Nieuw
+a:|:No Categories - Clickable Listing:|:Geen Categorieen - Klikbare Lijst
+a:|:No Categories Available:|:Geen Categorieen Beschikbaar
+a:|:No FAQs to display:|:Geen vragen om te laten zien
+a:|:Option 1:|:Optie 1
+a:|:Option 2:|:Optie 2
+a:|:Options:|:Opties
+a:|:Please only score this FAQ once.:|:Beoordeel deze vraag maar een maal.
+a:|:Q:|:Vraag
+a:|:Question Four:|:Vraag Vier
+a:|:Question One:|:Vraag Een
+a:|:Question Three:|:Vraag Drie
+a:|:Question Two:|:Vraag Twee
+a:|:Question: :|:Vraag:
+a:|:Question:|:Vraag
+a:|:Quick FAQ Statistics:|:Vraagbaak statistieken
+a:|:Rating:|:Beoordelingen
+a:|:Recalculate:|:Opnieuw uitrekenen
+a:|:Reset:|:Opnieuw beginnen
+a:|:Score FAQ:|:Beoordeel vraag
+a:|:Scoring Information Updated:|:Beoordelingen Informatie Aangepast
+a:|:See docs on how to customize ordering.:|:Bekijk de documentatie voor hoer de volgorde aan te passen.
+a:|:Show FAQs according to categories specified in the fatcat module.:|:Laat Vragen zien naar categorieen uit de fatcat module.
+a:|:Show Results:|:Bekijk resultaten
+a:|:Show all FAQs in database.:|:Bekijk alle vragen in de database.
+a:|:Special Queries:|:Speciale Queries
+a:|:Special Query:|:Speciale Query
+a:|:Specific Category:|:Specifieke Categorie
+a:|:Specific Question One:|:Specifieke Vraag Een
+a:|:Specific Question Three:|:Specifieke Vraag Drie
+a:|:Specific Question Two:|:Specifieke Vraag Twee
+a:|:Stats:|:Stats
+a:|:Submit FAQ:|:Verstuur Vraag
+a:|:Submit New FAQ:|:Verstuur Nieuwe Vraag
+a:|:Submit Suggested FAQ:|:Verstuur voorgestelde Vraag
+a:|:Suggest a FAQ:|:Stel een vraag voor
+a:|:Thank you for scoring this FAQ.:|:Bedankt voor het beoordelen van deze vraag.
+a:|:The FAQ has not been removed.:|:De vraag is niet verwijderd.
+a:|:The FAQ has successfully been deleted.:|:De vraag is correct verwijderd.
+a:|:The paging limit must be a number and greater than zero.:|:De paginerings limiet moet een getal groter dan nul zijn.
+a:|:This option is recommend if you have a small number of FAQs.:|:Deze optie is aanbevolen als u een klein aantal vragen heeft.
+a:|:Time Query:|:Bekijk Tijd
+a:|:Unapprove:|:Afkeuren
+a:|:Unapproved / Hidden FAQs:|:Afgekeurde / Verborgen vragen
+a:|:Unapproved / Hidden:|:Afgekeurd / Verborgen
+a:|:Unapproved:  :|:Afgekeurd:
+a:|:Update FAQ:|:Aanpassen Vraag
+a:|:Users Rated:|:Gebruikers beoordeeld
+a:|:View FAQs:|:Bekijk vragen
+a:|:Viewable:  :|:Te bekijken:
+a:|:You did not enter a question.:|:U hebt geen graag gesteld.
+a:|:You did not enter an answer to your question.:|:U hebt geen antwoord geformuleerd op uw vraag.
+a:|:Your Email: :|:Uw Email:
+a:|:Your FAQ has successfully been added to the database.:|:Uw vraag is correct toegevoegd aan de database.
+a:|:Your Name: :|:Uw Naam:
+a:|:months.:|:maanden.

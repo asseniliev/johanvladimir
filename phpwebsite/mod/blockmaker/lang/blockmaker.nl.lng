@@ -1,0 +1,31 @@
+nl:|:blockmaker
+a:|:Actions:|:Acties
+a:|:Activate:|:Activeer
+a:|:Activity:|:Activiteit
+a:|:Allow View (All are selected by default):|:Kijken toestaan (Alles is standaard geselecteerd)
+a:|:Are you sure you want to delete the block [var1] ?:|:Weet je zeker dat je dit blok wilt verwijderen [var1] ?
+a:|:Block Adminisitration:|:Blok Administratie
+a:|:Block Changes Successfull:|:Blok Wijzigingen gelukt
+a:|:Block Content:|:Blok Inhoud
+a:|:Block Creation Successful:|:Blok Maken gelukt
+a:|:Block Deleted:|:Blok Verwijderd
+a:|:Block Footer (Boxstyle must support footer):|:Blok Onderrand (Voor Kaderstijlen met onderrand)
+a:|:Block Menu:|:Blok Menu
+a:|:Block Title:|:Blok Titel
+a:|:Create A New Block:|:Maak een Nieuw Blok
+a:|:Create Block:|:Maak Blok
+a:|:Current blocks:|:Huidige blokken
+a:|:Deactivate:|:Deactiveer
+a:|:Default Theme Variable:|:Standaard Thema Variabele
+a:|:Delete Block Confirmation:|:Bevestiging Blok Verwijderen
+a:|:Edit A Block:|:Wijzig een Blok
+a:|:List Blocks:|:Blokkenlijst
+a:|:No Block Deleted:|:Geen Blok Verwijderd
+a:|:No block was deleted from the database.:|:Er is geen blok verwijderd uit de database.
+a:|:Save Changes:|:Wijzigingen Opslaan
+a:|:Select Modules Allowed:|:Selecteren Modules Toegestaan
+a:|:The block [var1] was successfully deleted from the database.:|:Het blok [var1] is correct verwijderd van de database.
+a:|:The block [var1] you created was successfully saved to the database.:|:Het blok [var1] dat u gemaakt hebt is correct opgeslagen in de database.
+a:|:The block [var1] you edited was successfully saved to the database.:|:Het blok [var1] dat u gewijzigd hebt is correct opgeslagen in de database.
+a:|:There are no blocks in the database at this time.:|:Er zijn geen blokken in de database op dit moment.
+a:|:Title:|:Titel

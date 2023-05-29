@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter>
+  <title>Introductory Concepts</title>
+
+  <section>
+    <title>How phpWebSite Works</title>
+
+    <para>In order to better understand how to use phpWebSite to create a web
+    site, let&#39;s take a look at a typical site. By identifying the various
+    elements that make up your site from a visitor&#39;s perspective, the
+    administrative interface will make more sense once you begin using the
+    tools.</para>
+
+    <para>The page pictured below represents a fairly typical phpWebSite
+    generated web page - no doubt you have seen something like it many times
+    when surfing the web. </para>
+
+    <screenshot>
+      <graphic fileref="images/homepage.png" />
+    </screenshot>
+
+    <para>A menu is in the upper left-hand corner, There is some general
+    information site, front and center where we would expect it. Several
+    important notices are on the site and some information is highlighted in a
+    column on the far right of the page.</para>
+
+    <para>Using traditional tools like Dreamweaver or Frontpage, our approach
+    to building a page like this would be to start placing graphics, links,
+    and text on a &#34;blank&#34; page much like we would create a print
+    document. After a bit of work, we could reproduce the page above. And we
+    would have produced just that - a single, solitary page.</para>
+
+    <para>Now let&#39;s pause a moment and look at the main administrative
+    page for phpWebSite. A few things stand out. We are looking at a web page
+    in a browser, and the layout area common to many web page generation tools
+    is nowhere to be found.</para>
+
+    <screenshot>
+      <graphic fileref="images/modules.png" />
+    </screenshot>
+
+    <para>Instead we have a collection of icons and links. These represent the
+    various modules that allow you to provide and manage content for your
+    site. Unlike single-page generation tools, phpWebSite serves as a
+    framework that dynamically organizes your content. Each page you view on
+    your site is the work of many modules providing information that the
+    phpWebSite engine puts together into the web page viewed by the site
+    visitor. Let&#39;s look at that original web page again, this time showing
+    the modules that are working together to build the page:</para>
+
+    <screenshot>
+      <graphic fileref="images/homepage_module_use.png" />
+    </screenshot>
+
+    <para>What we see now is that phpWebSite has gathered up and presented the
+    information on the site based on the module used to provide it. Different
+    modules handle different types of information. One of the keys to using
+    phpWebSite successfully is using the right module for the right
+    information. In the pages that follow, each module is covered in detail.
+    The important thing to note at this point is that we manage our site by
+    managing our content. This is why phpWebSite is frequently referred to as
+    a &#34;Content Management System&#34;.</para>
+
+    <para>You may be wondering how to control to control the layout of a page.
+    You should note that the layout of the example given is just one of the
+    many possible. Layout is controlled via the layout module in combination
+    with HTML templates, both of which are covered later. Rest assured that
+    pretty much any look and feel can be achieved - here we are just
+    interested in &#39;information elements&#39; that comprise a site.</para>
+  </section>
+
+  <section>
+    <title>Making a New Block - a Mini Tutorial</title>
+
+    <para>So, how do we enter our content using a particular module? One of
+    the nice things about phpWebSite is that the module interfaces are all
+    very consistent. Content is entered via easy to use web forms. As an
+    introduction, let&#39;s make a new Block using Block Maker.</para>
+
+    <para>Log on to your phpWebSite installation using the User-name and
+    Password you set during installation, or that your web administrator has
+    provided you. Appalachian State University users should use the
+    departmental training area that has been installed. If you don&#39;t have
+    phpWebSite installed, you can use the phpWebSite public demo at <ulink
+    url="http://phpwebsite.appstate.edu/demo/0.9.x/">
+    http://phpwebsite.appstate.edu/demo/0.9.x/</ulink></para>
+
+    <para>Once logged in, click on the &#34;Control Panel&#34; link in your
+    administrative menu. This will open the main main administrative menu.
+    Click the &#34;Site Content&#34; tab. You should see the main site content
+    module group. Depending on your installation, you may not have all the
+    modules that are shown here, but in all likelihood, Block Maker is
+    installed, as it a simple and extremely useful module!</para>
+
+    <screenshot>
+      <graphic fileref="images/open_modules.png" />
+    </screenshot>
+
+    <para>Click the icon or the &#34;Block Maker&#34; Link to open the Block
+    Maker interface. Choose &#34;Create a New Block&#34; from the Block Menu.
+    Now we only need to enter some content for our new block. Recall that
+    blocks on our page are small and used for small amounts of text, but have
+    the advantage of being in a prime location on your site. So let&#39;s give
+    our new block a Title and some light text. Don&#39;t worry about the block
+    footer or the Theme Variable - we will cover those in detail later. Select
+    &#34;Home&#34; from the &#34;Allow View&#34; select list (this tells
+    phpWebSite to only display this block on the home page). You should have
+    something like this:</para>
+
+    <screenshot>
+      <graphic fileref="images/block_content.png" />
+    </screenshot>
+
+    <para>Now just just click &#34;Create Block&#34; and your and block has
+    been created. You will notice you are now at a screen that lists all of
+    your blocks. You should also note that the block you just made has a
+    button next to it that says &#34;Activate&#34;</para>
+
+    <screenshot>
+      <graphic fileref="images/activate_block.png" />
+    </screenshot>
+
+    <para>You block will not be displayed until you choose to have it
+    displayed. Clicking &#34;Activate&#34; will do this. You can now check the
+    home page by clicking Home on the Main Menu, and you should see your new
+    block.</para>
+
+    <para>Creating a Block is very simple, but encapsulates the basic content
+    creation process for all modules. Text is supplied via simple web forms,
+    options for display are point and click affairs, and content can be made
+    active when it is ready to be &#34;published&#34;. You now are ready to
+    start exploring more modules.</para>
+  </section>
+</chapter>

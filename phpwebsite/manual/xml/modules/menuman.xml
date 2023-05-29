@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter>
+  <chapterinfo>
+    <author>
+      <firstname>Steven</firstname>
+      <surname>Levin</surname>
+      <email>steven at tux dot appstate dot edu</email>
+    </author>
+  </chapterinfo>
+
+  <title>Menu Manager</title>
+
+  <section>
+    <title>Getting Started</title>
+
+    <para>Menus within phpWebSite are used for site navigation. To begin using
+    the Menu Manager module you must go to the adminisrative side. The menu
+    manager can be found under the Site Content tab of your controlpanel. The
+    link says Menu Manager and may have an icon that looks like an open menu.</para>
+
+    <itemizedlist>
+      <listitem>
+        <para>Click on the textual link or the icon to continue.</para>
+      </listitem>
+    </itemizedlist>
+  </section>
+
+  <section>
+    <title>Listing Menus</title>
+
+    <para>When you first startup the module what you see is the Menu Manger
+    admin menu followed by a list of menus if there are any in the database.
+    If there are no menus you should see a message that says: There are no
+    menus in the database at this time. The admin menu at the top allows you
+    to list menus (2), create menus (3), and go to the image manager (4). This
+    menu will follow you around and be available on most of the administrative
+    screens. At any point you can click the List Menus link and get back to
+    this page. Each menu in the list can be edited, deleted, and (activated /
+    deactivated).</para>
+
+    <itemizedlist>
+      <listitem>
+        <para>Clicking the edit button on the row of the menu you wish to edit
+        will take you to section (5) of this chapter which will be discussed
+        later.</para>
+      </listitem>
+
+      <listitem>
+        <para>Clicking the delete button on the row of the menu you wish to
+        delete will take you to a Yes/No confirmation. The confirmation is to
+        make sure you want to delete the menu (make sure this is what you want
+        to do and that you have selected the correct menu). Click Yes to
+        remove the menu and all of its links from the database. Click No to
+        cancel the deletion process.</para>
+      </listitem>
+
+      <listitem>
+        <para>Clicking the Activate/Deactivate button on the row of the menu
+        you wish to change will toggle it between being viewable by the public
+        and not.</para>
+      </listitem>
+    </itemizedlist>
+  </section>
+
+  <section>
+    <title>Creating New Menus</title>
+
+    <para>The menu creation page allows you to configure all of the settings
+    for your new menu. The options you see here can be changed later via the
+    menu settings when you are editing your menu. Settings for the most part
+    can be left at their default values and the menu will function the way
+    most expect. Most of the options are for those who would like to really
+    configure their menu.</para>
+
+    <orderedlist>
+      <listitem>
+        <para>Click on the Create Menu link in the admin menu at the top of
+        the page, this will take you to the menu creation page.</para>
+      </listitem>
+
+      <listitem>
+        <para>Next begin to fill out the fields appropriately.</para>
+      </listitem>
+
+      <listitem>
+        <para>Menu Title: The text title that will show up at the top of the
+        menu. You should always provide a title for your menu, altough it is
+        not a required field, so you can distinguish it from other menus.</para>
+      </listitem>
+
+      <listitem>
+        <para>Menu Spacer: This value is a numeric value which represents the
+        number of extra spaces the menu will add automatically to each nested
+        level of the menu. The menu will always start with 0 space at the
+        first level of the menu. (ie. a value of 2 for the menu spacer will
+        put 2 spaces on the first nest of the menu and 4 spaces for the second
+        nest)</para>
+      </listitem>
+
+      <listitem>
+        <para>Template: The template for the menu is just there to give the
+        ability for someone to highly configure their menu. For most this
+        option will just stay at default unless you really know what you are
+        doing.</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>If you would like more information on templating please see
+            the TEMPLATE.txt doc in the docs directory for the Menu Manager.
+            The image map checkbox is there for furthur templating
+            configuration.</para>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        <para>Allow View: The allow view option allows you to choose which
+        modules must be active in order for the menu appear. You can select
+        one module or multiple modules. The default is to select all of the
+        modules so if none are selected then the menu will be visable for all
+        of the modules currently installed. If a module is installed after the
+        menu is created, and you want the menu to show up for the module, you
+        will have to come and select it under the menu settings.</para>
+      </listitem>
+
+      <listitem>
+        <para>Default Theme Variable: This allows you to choose where the menu
+        will defaultly show up on the page after it is created. This is the
+        only time you can set this option within the menu manager. After it is
+        set it can be changed via the layout modules box move option. The
+        values for this option are pretty self-explanitory, it will show up
+        exactly where it says.</para>
+      </listitem>
+
+      <listitem>
+        <para>Menu Indent: The menu indent can be one of two things a
+        character or an image. If the radio button is selected for a character
+        then the menu manager will use the character selected from the
+        dropdown box before every link in the menu. Also if an activity color
+        is set for that character then the character will turn that color when
+        the link it shows up before is the link that was just clicked. If the
+        radio button is selected for an image then the images choosen will
+        show up before each link. Depending on the activity of the link. The
+        images found in the dropbox here can be uploaded via the image
+        manager.</para>
+      </listitem>
+    </orderedlist>
+  </section>
+
+  <section>
+    <title>Image Manager</title>
+
+    <para>The image manager just gives you a web-based interface to upload
+    images you want to use as an indent item at that is all. If you do not
+    plan on using an image for your indent item then you will not need to use
+    the image manager. Current images can also be removed from the system via
+    this page by just selecting the image and clicking delete.</para>
+  </section>
+
+  <section>
+    <title>Editing Menus</title>
+
+    <para>To edit a menu you must list all of the current menus as described
+    before and click the edit button next to the menu you are wanting to edit.
+    Now you will see a list of all the current links in the menu, if there are
+    no links in the menu you will get a message that says: No items for this
+    menu.</para>
+
+    <section>
+      <title>Adding Menu Items</title>
+
+      <orderedlist>
+        <listitem>
+          <para>A menu item may be added to the menu by clicking on the Add
+          Menu Item button at the bottom of the page.</para>
+        </listitem>
+
+        <listitem>
+          <para>After you click this you will see a screen which will give you
+          three options.</para>
+
+          <itemizedlist>
+            <listitem>
+              <para>Title: The text representation of the link that will be
+              placed in the menu. This field is required.</para>
+            </listitem>
+
+            <listitem>
+              <para>URL: The url of the link you are wanting to add. If
+              pagemaster pages are available they will show up here in a
+              dropdown box to be selected. You can either fill out the url or
+              pick a pagemaster page. When a pagemaster page is chosen then
+              the url field is populating accordingly so it does not need to
+              be filled out. In this case the user submitted url will be
+              ignored.</para>
+            </listitem>
+
+            <listitem>
+              <para>Display: This option allows you define how the link will
+              act and display on your site.</para>
+
+              <itemizedlist>
+                <listitem>
+                  <para>Internal: The page is internal to the site and the
+                  menu will expand at that point where the menu is clicked.</para>
+                </listitem>
+
+                <listitem>
+                  <para>External: The page is external which means it is not
+                  located within your site (ie. links to another site) this
+                  will not detect your position in the menu.</para>
+                </listitem>
+
+                <listitem>
+                  <para>New Window: This option will cause the link to open in
+                  a new browser window.</para>
+                </listitem>
+              </itemizedlist>
+            </listitem>
+          </itemizedlist>
+        </listitem>
+
+        <listitem>
+          <para>Now select where on the menu you would like the menu item to
+          go. The very top radiobutton means you want the link to be a top
+          level link (ie. not nested under another link). If any other
+          radiobutton listed next to another menu item is selected that means
+          you want the link you are adding to be nested under the item
+          selected. Finally if this is the first link you are adding to the
+          menu then it can only be a top-level link.</para>
+        </listitem>
+      </orderedlist>
+    </section>
+
+    <section>
+      <title>Basic Edit</title>
+
+      <para>This is the first mode you will see when editing your menu. At any
+      time you can switch to the advanced edit mode (5.3) by clicking the Turn
+      On Advanced Edit button. The basic edit allows you to edit the textual
+      representation of the menu item, change the activity of the menu item,
+      change the order of the menu item, and delete menu items. All of the
+      edit and delete options can be done in mass by checking more than one
+      check box and then clicking the appropriate submit button. Ordering of
+      menu items can only be done one at a time by clicking the arrow in the
+      direction you want it to go. To update the menu item:</para>
+
+      <orderedlist>
+        <listitem>
+          <para>To update the text, change the value in the textfield of the
+          link you want to edit and check the box next to the link, now click
+          the Update Menu Items button and you are done.</para>
+        </listitem>
+
+        <listitem>
+          <para>To toggle the activity of a menu item check the box next to
+          the item you want to change and then click the Activate/Deactivate
+          button.</para>
+        </listitem>
+
+        <listitem>
+          <para>To change the order of a menu item just click the up or down
+          link next to the item you want to move. Only items that are on the
+          same level (in the same nest) can be order. An item can not be moved
+          to another nest at this point in time. This option is in the plan
+          for future versions.</para>
+        </listitem>
+
+        <listitem>
+          <para>To delete an item check the box next to it and then click the
+          delete button. A confirmation will then appear making sure you are
+          deleting the links you want. If you click yes that link will be
+          deleted along with ALL of the links nested under it.</para>
+        </listitem>
+      </orderedlist>
+    </section>
+
+    <section>
+      <title> Advanced Edit</title>
+
+      <para>The advanced edit mode will also allow you to edit the textual
+      representation of a menu item and delete a menu item. It will also allow
+      you to edit the url for the menu item, and the display method as
+      described earlier. All of the edit and delete options can be done in
+      mass by checking more than one check box and then clicking the
+      appropriate submit button. To update the menu item:</para>
+
+      <orderedlist>
+        <listitem>
+          <para>Edit the textfield containing the information you want to
+          change.</para>
+        </listitem>
+
+        <listitem>
+          <para>Then check the box next to the item and click the Update Menu
+          Items button.</para>
+        </listitem>
+
+        <listitem>
+          <para>If you select a pagemaster page then you do not need to edit
+          the url field, the menu will take care of that for you.</para>
+        </listitem>
+
+        <listitem>
+          <para>To update the display select the display you want then check
+          the box next to the item and click the Update Menu Items button.</para>
+        </listitem>
+
+        <listitem>
+          <para>To delete an item check the box next to it and then click the
+          delete button. A confirmation will then appear making sure you are
+          deleting the links you want. If you click yes that link will be
+          deleted along with ALL of the links nested under it.</para>
+        </listitem>
+      </orderedlist>
+    </section>
+
+    <section>
+      <title>Settings</title>
+
+      <para>The settings button will take you to the settings for your menu.
+      These are all the same options seen before when creating a menu. Click
+      save at the bottom to update any changes you may make on this page.</para>
+    </section>
+
+    <section>
+      <title>Add Module Default</title>
+
+      <para>The ability to add module defaults allows you to add a link of a
+      specific module&#39;s user side to the menu. After clicking this button,
+      then select the module you want to add a link for and then select the
+      position you would like to see the link in the menu. Finally click Add
+      Menu Item. Your are done.</para>
+    </section>
+  </section>
+</chapter>

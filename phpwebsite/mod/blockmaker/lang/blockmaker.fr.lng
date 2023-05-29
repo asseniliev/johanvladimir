@@ -1,0 +1,29 @@
+fr:|:blockmaker
+a:|:Actions:|:Actions
+a:|:Activate:|:Activate
+a:|:Allow View (All are selected by default):|:Rendre visible (Tous sont sélectionnés par défaut)
+a:|:Allow View (Only home selected by default):|:Afficher dans les modules (home seulement par défaut)
+a:|:Are you sure you want to delete the block [var1] ?:|:Par mesure de sécurite, confirmez la suppression de [var1] svp
+a:|:Back To Main:|:Retour au menu
+a:|:Block Changes Successfull:|:Modifications du bloc réussies
+a:|:Block Content:|:Contenu du bloc
+a:|:Block Creation Successful:|:Création du bloc réussie
+a:|:Block Deleted:|:Bloc supprimé
+a:|:Block Footer (Boxstyle must support footer):|:Pied de bloc (Si le style de la boîte le permet)
+a:|:Block Maker:|:Gestion de blocs
+a:|:Block Title:|:Titre du bloc
+a:|:Create A New Block:|:Créer un nouveau bloc
+a:|:Create Block:|:Créer un bloc
+a:|:Current blocks:|:Blocs en cours
+a:|:Deactivate:|:Désactiver
+a:|:Default Theme Variable:|:Thème par défaut variable
+a:|:Delete Block Confirmation:|:Confirmation de la suppression
+a:|:Edit A Block:|:Modifier un bloc
+a:|:List Blocks:|:Liste des blocs
+a:|:New Block:|:Nouveau bloc
+a:|:Save Changes:|:Sauvegarder les modifications
+a:|:Select Modules Allowed:|:Autoriser la séléction de modules
+a:|:The block [var1] was successfully deleted from the database.:|:Suppression du bloc [var1] de la base de données réussie.
+a:|:The block [var1] you created was successfully saved to the database.:|:La sauvegarde dans la base de données du bloc [var1] que vous avez crée est réussie.
+a:|:The block [var1] you edited was successfully saved to the database.:|:La sauvegarde dans la base de données du bloc [var1] que vous avez modifié est réussie.
+a:|:There are no blocks in the database at this time.:|:Il n'y a aucun bloc dans la base de données.

@@ -1,0 +1,28 @@
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+"http://docbook.org/xml/4.2/docbookx.dtd" [
+<!ENTITY announce SYSTEM "announce.xml">
+<!ENTITY bookinfo SYSTEM "bookinfo.xml">
+<!ENTITY blockmaker SYSTEM "blockmaker.xml">
+<!ENTITY calendar SYSTEM "calendar.xml">
+<!ENTITY faq SYSTEM "faq.xml">
+<!ENTITY menuman SYSTEM "menuman.xml">
+<!ENTITY pagemaster SYSTEM "pagemaster.xml">
+<!ENTITY phatfile SYSTEM "phatfile.xml">
+<!ENTITY phatform SYSTEM "phatform.xml">
+<!ENTITY photoalbum SYSTEM "photoalbum.xml">
+<!ENTITY poll SYSTEM "poll.xml">
+]>
+
+<book>
+&announce;
+&bookinfo;
+&blockmaker;
+&calendar;
+&faq;
+&menuman;
+&pagemaster;
+&phatfile;
+&phatform;
+&photoalbum;
+&poll;
+</book>

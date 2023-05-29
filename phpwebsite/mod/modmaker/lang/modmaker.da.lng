@@ -1,0 +1,42 @@
+da:|:modmaker
+a:|:ARE YOU ABSOLUTELY SURE YOU WANT TO DELETE THIS MODULE:|:ER DU HELT SIKKER PÅ, AT DU VIL SLETTE DETTE MODUL
+a:|:All:|:Alle
+a:|:Allow View:|:Tillad visning
+a:|:Assists developers in the creation and editing of module settings.:|:Konfigurerer modulindstillinger
+a:|:Check to confirm:|:Afkryds for at bekræfte
+a:|:Class Files:|:Klasse filer
+a:|:Create Module Entry:|:Opret modul
+a:|:Create Module Installation:|:Opret modul installation
+a:|:Deity Only:|:Kun guddommelige
+a:|:Edit Module:|:Ret modul
+a:|:Error:|:Fejl
+a:|:Export Mod Info:|:Eksporter modul info
+a:|:Initialize Class Name:|:Opstartsklasse navn
+a:|:It might cause you to have to reinstall phpWebSite:|:Kan bevirke, at du skal reinstallere phpWebSite
+a:|:Mod Directory:|:Modul bibliotek
+a:|:Mod Filename:|:Modul filnavn
+a:|:Mod Maker Administration:|:Modul administration
+a:|:Mod Title:|:Modul titel
+a:|:Module Permission:|:Modul tilladelser
+a:|:Module information file written to conf directory:|:Modul informationsfil er blevet skrevet til conf biblioteket
+a:|:Module information file written to setup directory:|:Modul informationsfil er blevet skrevet til setup biblioteket
+a:|:Only:|:Kun
+a:|:Permissions Table:|:Tilladelsestabel
+a:|:Priority:|:Prioritet
+a:|:Proper Name:|:Rigtigt navn
+a:|:Remove Module:|:Fjern modul
+a:|:Removing this module from the system could have serious consequences:|:Fjernelse af dette modul fra systemet kan have fatale konsekvenser
+a:|:Rights File:|:Rettigheds fil
+a:|:Session Variables:|:Session variable
+a:|:Unable to write to this module's setup directory:|:Det var ikke muligt at skrive i dette moduls setup bibliotek
+a:|:Uncheck to confirm:|:Fjern kryds for at bekræfte
+a:|:Update Module:|:Opdater modul
+a:|:User:|:Bruger
+a:|:Yes, only deities may access:|:Ja, kun guddommelige har adgang
+a:|:Activate/Deactivate:|:Aktiver/deaktiver
+a:|:Admin:|:Admin
+a:|:Administrator:|:Administrator
+a:|:Create Installation Script:|:Lav installationsscript
+a:|:Success:|:Succes
+a:|:Unable to write to this module's conf directory:|:Det var ikke muligt at skrive til dette moduls conf bibliotek
+a:|:Module Maker:|:Konfigurerer modulindstillinger

@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter>
+  <chapterinfo>
+    <author>
+      <firstname>Darren</firstname>
+      <surname>Greene</surname>
+      <email>dg49379 at tux dot appstate dot edu</email>
+    </author>
+
+    <pubdate>2003-06-19</pubdate>
+
+    <revhistory>
+      <revision>
+        <revnumber>1.0</revnumber>
+        <date>2003-06-19</date>
+        <authorinitials>DG</authorinitials>
+        <revremark>First release</revremark>
+      </revision>
+    </revhistory>
+
+    <abstract>
+      <para>User documentation for the phpWebSite FAQ module</para>
+    </abstract>
+  </chapterinfo>
+
+  <title>FAQ (Frequently Asked Questions)</title>
+
+  <section>
+    <title>Introduction</title>
+
+    <para>
+    The FAQ module provides an interface to view frequently asked
+    questions and answers.  The questions that are answered over and over
+    via phone, email, etc. are ideal questions to be managed by the FAQ module. 
+ 
+    The FAQ module uses an algorithm for sorting and listing FAQs.
+    The equation takes into consideration how many times a FAQ has been accessed, how long it
+    has been since it was last viewed, and the average rating given by
+    users.  The rating and sorting methods were designed to force the FAQs that are
+    accessed the most often and have the highest score rating to appear
+    toward the top of a users search results. 
+    </para>
+  </section>
+
+  <section>
+    <title>Getting Started</title>
+
+    <para>
+    To begin adding FAQs, log in as an administrator with the
+    permission to add new FAQs activated.  If you do not login with the proper
+    permission enabled, then any FAQs added will be considered  
+    suggestions, which then must be approved by an administrator.  If you
+    have just installed the FAQ module, then you must access FAQ by going
+    to the <emphasis>Control Panel -> Site Content ->
+    FAQ</emphasis>.  Since you are logged in as an administrator, FAQ
+    provides you with several more advanced menu options than a regular
+    user, such as access to statistics about your collection of FAQs,
+    ability to list unapproved and hidden FAQs, and a settings link to
+    define how the FAQ module will organize and present the FAQs to users.  Click the link
+    that says <emphasis>'New'</emphasis> to start adding new FAQs.  The <emphasis>'View'</emphasis> link will
+    show all the FAQs you have inserted. 
+    </para>
+  </section>
+
+  <section>
+    <title>Viewing FAQs</title>
+
+    <para>
+    To view the FAQs that have been inserted into the FAQ module and are
+    viewable (in other words not hidden or unapproved), click
+    <emphasis>'View'</emphasis> from the FAQ menu.  The
+    arrangement and organization of the listed FAQs depends on which
+    layout mode is selected from the <emphasis>'Settings'</emphasis> option of the FAQ administrative
+    panel.  There are four possible layout modes that represent the
+    typical ways that users expect the format for a listing of FAQs to
+    be presented. 
+    </para> 
+  </section>
+
+  <section>
+    <title>Adding FAQs</title>
+
+    <para>
+    To add a new FAQ to the FAQ module, login as an administrator with the
+    permission to add a new FAQ and click the <emphasis>'New'</emphasis> link from
+    the FAQ administrative menu to access a form to submit a new FAQ.
+    The different fields are explained below:  
+
+    <itemizedlist spacing="normal">
+     <listitem>
+      <para>
+      <emphasis role="bold">Question</emphasis> - This is the
+      frequently asked question.  It is a required field.
+      </para>
+     </listitem>
+
+     <listitem>
+      <para>
+      <emphasis role="bold">Answer</emphasis> - The answer
+      to your question.  This field is required.
+      </para>
+     </listitem>
+
+     <listitem>
+      <para>
+      <emphasis role="bold">Category</emphasis> - This field
+      will only display if the FatCat module is installed.  The category
+      chosen will be used in the category layout mode to group FAQs.  The
+      FAQs in the same category are also used by any module of phpWebSite
+      that utilizes the FatCat <emphasis>What's Related</emphasis>
+      feature.  The category field is also required if there are any
+      categories defined within FatCat.
+      </para>
+     </listitem> 
+
+    </itemizedlist> 
+
+   </para>
+  </section>
+
+  <section>
+    <title>FAQ view mode</title>
+
+    <para>
+    The FAQ view mode which is referenced several times in this chapter
+    refers to the view that has a single FAQ followed by it's answer.
+    The hit counter for FAQs is also updated from this view.  There are several elements that may appear in view
+    mode and are explained below:
+    <itemizedlist>
+     <listitem>
+      <para>
+      <emphasis role="bold">What's Related</emphasis> - If Fatcat is
+      installed and you have been assigning FAQs to particular
+      categories then a "What's Related" box will appear on the screen
+      that lists other FAQs in the same category.
+      </para>
+     </listitem>
+     <listitem>
+      <para>
+      <emphasis role="bold">Comments</emphasis> - If the FAQ setting
+      to allow users to post comments is enabled, then any user comments
+      on the current FAQ being viewed will appear on this page.
+      </para>
+     </listitem>
+     <listitem>
+      <para>
+      <emphasis role="bold">Admin Menu</emphasis> - If you are logged
+      in as an administrator with any of the permissions enabled to
+      edit, hide, show, approve, unapprove, or delete FAQs, then the Admin Menu box
+      will be shown, giving you quick access to administer a FAQ.
+      </para>
+     </listitem>
+     <listitem>
+      <para>
+      <emphasis role="bold">Change Score Rating For This
+      FAQ</emphasis> - This box will show up if you have the admin
+      permission to change the ratings of FAQs.  The hits and the
+      average score rating are both editable and both of these values
+      are combined to give a new composite score.  An example of when
+      you might want to change or reset the score rating of a FAQ is
+      after changing the question or providing a better answer.
+      </para>
+     </listitem>
+    </itemizedlist>
+   </para>
+
+  <note>
+   <para>
+    To get to the view mode under certain layout views of FAQ you
+    must click the <emphasis>'feedback'</emphasis> link.  The
+    <emphasis>'feedback'</emphasis> will only appear if the FAQ
+    settings to allow users to rate FAQs is checked.  
+   </para>
+  </note>
+
+  </section>
+
+  <section>
+    <title>Submission and Administering Suggested FAQs</title>
+
+    <para>
+    If a user is not logged in or is logged in as an administrator that
+    lacks the permission to add new FAQs, then the FAQ module will only
+    allow users to suggest FAQs.  On the FAQ menu the menu option for
+    <emphasis>'New'</emphasis> will instead say <emphasis>'Suggest a
+    FAQ'</emphasis>.  Any suggested FAQs will not be active
+    or show when viewing the current FAQs, because they must
+    first be approved by an administrator.  Suggested FAQs may lack an
+    answer when initially submitted, but before being allowed to be
+    approved an answer must be provided.  The form for suggesting a FAQ
+    has two extra optional fields for the user's name and email address.
+    This contact information is to allow administrators the ability to
+    contact the sender if there is a question about the FAQ the user
+    has submitted.  To view and approve suggested FAQs follow these steps: 
+
+    <orderedlist>
+      <listitem>
+        <para>
+        Login as an administrator of FAQ and click 'Unapproved /
+        Hidden' from the FAQ administrative menu.
+        </para>
+      </listitem>
+
+      <listitem>
+        <para>
+        If there are no FAQs that need to be approved, then the list will of course
+        be empty.  But, we will assume there is at least one FAQ that
+        needs to be approved.  So, select the a FAQ from the list that you would like to
+        administer.
+        </para> 
+      </listitem>
+
+      <listitem>
+        <para>
+        You have several different choices from the drop down menu:
+
+        <itemizedlist spacing="normal">
+          <listitem>
+           <para>
+           <emphasis role="bold">View</emphasis> - The
+           <emphasis>'View'</emphasis> option will take you to a screen showing what the FAQ will look like
+           if it is approved.  This option is important if there is any ambiguity about the question the user has
+           submitted, since you will be able to see if the user
+           provided their email address.  If so, you can
+           click the option to <emphasis>'Send Email'</emphasis> to use the built in mail interface of
+           FAQ to send the user who suggested the FAQ an email asking
+           them to clarify their question.  
+           </para>
+          </listitem>
+
+          <listitem>
+           <para> 
+           <emphasis role="bold">Edit</emphasis> - This is probably the most
+           typical option to choose, since you will probably need to redefine the question
+           submitted and provide an acceptable answer.  So, make any changes in
+           <emphasis>'Edit'</emphasis> and after saving the changes you will be brought back to the unapproved
+           listing.
+           </para>
+          </listitem>
+
+          <listitem>
+           <para>
+           <emphasis role="bold">Approve</emphasis> - Choose this option to go
+           ahead and approve the FAQ, which will make the FAQ active and viewable,
+           providing that you have not chosen to hide the FAQ.  The FAQ must
+           have an answer before it is allowed to be approved.  There is also an approve
+           option in the <emphasis>'View mode'</emphasis> of any FAQ.
+           </para>
+          </listitem>
+
+          <listitem>
+           <para>
+           <emphasis role="bold">Delete</emphasis> - If you do not like the question
+           submitted, then choose this option to delete the FAQ.  
+           </para>
+          </listitem>
+
+          <listitem>
+           <para>
+           <emphasis role="bold">Hide and Show</emphasis> - These
+           options are of little significance in the unapproved list
+           since by the FAQ being unapproved it is already not viewable
+           by users.  
+           </para> 
+          </listitem>
+
+        </itemizedlist>
+
+       </para>
+      </listitem>
+
+      <listitem>
+        <para>
+        If you chose a path other than to hide or delete the unapproved FAQ
+        then the FAQ should now be approved and viewable.
+        </para>
+      </listitem>
+
+      </orderedlist>
+    </para>
+
+    <note>
+     <para>
+     When a FAQ is suggested it is also registered with the Approval module
+     and can be approved or deleted using the Approval module's interface.
+     </para>
+    </note>
+
+  </section>
+  
+  <section>
+   <title>Hiding, Showing and Deleting Current FAQs</title>
+   
+   <para>
+   There are several different methods to administer existing FAQs.  
+
+   <itemizedlist spacing="normal">
+    <listitem>
+     <para>
+     The easiest and probably the most convenient way is to login as an
+     administrator and access the FAQ in <emphasis>'view mode'</emphasis>.  You can tell if
+     you are in <emphasis>view mode</emphasis> by seeing the option to rate the FAQ.  If you are using
+     either the bookmarked or question and answer layout modes then you
+     will need the ability for users to rate FAQs enabled under
+     settings to be able to directly administer FAQs in <emphasis>'view mode'</emphasis>.  Once you are viewing a FAQ, then
+     an administrative menu will appear below the question and
+     answer with the options that you have permission to use 
+     such as hide, show, approve, unapprove, and delete.
+     </para>
+   </listitem>
+
+   <listitem>
+    <para>
+    The other method is to use the special queries by clicking on <emphasis>'Stats'</emphasis>
+    from the FAQ administrative menu.  All of the
+    different queries have the same interface, so use whichever query
+    that will allow you to find the FAQ you are interested in faster.  To guarantee that the
+    FAQ you wish to change is shown, you should choose the option to <emphasis>'Show
+    All FAQs'</emphasis>.  Select the FAQ from the listing and
+    choose from the drop down menu the option that you wish to perform on
+    the FAQ (only the options that you have permission to use will be shown).
+    </para>
+   </listitem>
+
+   </itemizedlist>
+
+  </para> 
+  </section>   
+
+  <section>
+   <title>Statistics</title>
+
+   <para>
+   To access the statistics section of FAQ click the link for <emphasis>'Stats'</emphasis>
+   from the FAQ administrative menu.  The top of this section gives a
+   quick overview of all the FAQs added to the FAQ module.  This shows
+   the total counts of the number of FAQs that are current viewable, hidden, and
+   unapproved.  Also, in the 'Stats' section there are several different
+   query options to list FAQs that meet a certain criteria, these queries are
+   explained below:
+
+    <itemizedlist spacing="normal">
+     <listitem>
+      <para>
+      <emphasis role="bold">Faqs with no activity in the last X
+      months.</emphasis> - Activity in this case can mean several different
+      things such as a user has viewed the FAQ, the FAQ has been rated, or
+      has been changed by an administer.  If any FAQs have not had any
+      activity in the number of months chosen for the query, then they will
+      be listed.
+      </para>
+     </listitem>
+     
+     <listitem>
+      <para>
+      <emphasis role="bold">FAQs with a high number of hits and a low score
+      rating.</emphasis> - This query doesn't use any type of set constant
+      to determine the FAQs that are considered to have a high number of
+      hits or a low score rating, but instead uses the number of hits and
+      ratings of all the FAQs in the database to determine which FAQs meet the
+      criteria specified.  This particular query will show a listing of FAQs that have been viewed
+      by many users, but the users have either not scored the FAQ or
+      have consistently given it a low score.
+      </para>
+     </listitem>
+
+     <listitem>
+      <para>
+      <emphasis role="bold">FAQs with a low number of hits and high score
+      rating.</emphasis> - This query doesn't use any type of set constant
+      to determine the FAQs that are considered to have a low number of
+      hits or a high score, but instead uses the number of hits and
+      rating of all FAQs in the database to determine which FAQs fall within this category.
+      This particular query will show a listing of FAQs that have not been
+      viewed by many users, but the users who have viewed the FAQ have rated
+      the FAQ very positively.
+      </para>
+     </listitem>
+
+     <listitem>
+      <para>
+      <emphasis role="bold">FAQs that do not have a category
+      selected.</emphasis> - If you have inserted FAQs into the FAQ module
+      before the FatCat(phpWebSite Category module) was installed, then any FAQs
+      inserted will not have a category.  This will not be a problem
+      unless you select to use the Category layout mode, because any FAQs
+      that lack a category will not show up.  This query helps
+      administrators quickly determine which FAQs do not have a category, so
+      that they can choose a proper category.
+      </para>
+     </listitem>
+
+     <listitem>
+      <para>
+      <emphasis role="bold">Show all FAQs in database.</emphasis> - Use this
+      query if you wish to show all FAQs in the database whether they are visible or
+      not. Ideal for general administration of FAQs.
+      </para>
+     </listitem>
+ 
+     </itemizedlist>  
+
+   </para>
+   </section>
+
+   <section>
+    <title>FAQ Settings</title>
+  
+     <section>
+      <title>Options</title>
+
+      <para>
+       <itemizedlist spacing="normal">
+        <listitem>
+         <para>
+         <emphasis role="bold">Allow users to rate FAQs.</emphasis> - Toggles
+         whether or not users are allowed to rate a FAQ by giving it a rating
+         of one through five, with five meaning the FAQ was considered excellent.  Under certain layout
+         modes if this option is unchecked then the 'feedback' option
+         associated with each FAQ will not appear, since the
+         feedback link is meant to allow users the ability to rate a FAQ.
+         </para>
+        </listitem>
+
+        <listitem>
+         <para>
+         <emphasis role="bold">Allow users to post comments.</emphasis> - If
+         you do not have the comment module installed, then this option will not
+         appear under settings.  If this option is selected, then each FAQ is
+         allowed to have comments posted by users and they will appear at the
+         bottom of the FAQs in <emphasis>'view mode'</emphasis>.
+         </para>
+        </listitem>
+
+        <listitem>
+         <para>
+         <emphasis role="bold">Allow users to suggest FAQs.</emphasis> -
+         Toggles the option of whether users who are not logged in as an
+         administrator with the permission to add a FAQ are allowed to suggest
+         a FAQ for approval.  If this option is unselected, then users will be
+         presented with the list of FAQs without a menu at the top, since the
+         only option would be to 'View' the FAQs.
+         </para>
+        </listitem>
+
+        <listitem>
+         <para>
+         <emphasis role="bold">Add a menu link for the FAQ module.</emphasis> -
+         Click this hypertext to create a link on one of your navigation menus
+         so that users can view the FAQs without being logged in or have to go
+         through the control panel to access the FAQ module.  Follow the instructions after clicking the
+         link to add a menu link, and after the new link is added you
+         will be returned back to the FAQ settings section.
+         </para>
+        </listitem>
+      </itemizedlist>
+     </para>
+    </section>
+
+   <section>
+     <title>Layout View</title>
+
+     <para>The different layouts allow you pick from several different
+     common views that are typical of how users expect FAQs to be
+     displayed.  Plus, some of the layouts are more convenient depending
+     on how many FAQs you need to show.  For example, if you have a large number of FAQs, then it would probably be best
+     to use the category layout, so that your FAQs will be grouped into categories.  There are
+     several help system icons that will help you choose a layout.
+     The help blocks give both a description and a simple example.
+
+     <itemizedlist>
+     <listitem>
+
+     <para>
+     <emphasis role="bold">Basic Question and Answer
+     View</emphasis> - This layout doesn't use categories to group FAQs, but instead features the
+     FAQs by simply listing them in the manner chosen by showing the
+     question and answer on the same page.  The FAQs are
+     sorted by their composite score, which consists of the number of times
+     they have been accessed, their score rating, and the last time the
+     FAQ was viewed. 
+
+      <itemizedlist>
+      <listitem>
+       <para>
+       <emphasis role="bold">Limit results by showing X question per
+       page.</emphasis> - For the value X, put in the number of FAQs that you
+       would like to show at one time on a page.  If there are more
+       FAQs than can fit on a page using the number you specified, then at the bottom of
+       the page listing the FAQs, there will be a navigation panel allowing users to
+       page through the FAQs.
+       </para>
+      </listitem>
+
+     <listitem>
+      <para>
+      <emphasis role="bold">Bookmarked Questions</emphasis> - Under this
+      layout the FAQ questions will be shown at the top of the page and will
+      be linked to the question and answer, lower on the page, along with links
+      back up to the top of page.  The number of FAQs that appear on a page
+      is governed by the number specified for limiting the results on a
+      page under this section of the settings.  If you have enabled the ability for users to rate the FAQs, then
+      a 'feedback' option will be provided for each FAQ.
+      </para>
+     </listitem>
+
+     <listitem>
+      <para>
+      <emphasis role="bold">Question and Answer</emphasis> - This layout
+      will show each FAQ by listing the question followed by the answer.  The number of FAQs that appear on a page
+      is governed by the number specified for limiting the results on a
+      page, which can be adjusted from the settings section of FAQ.
+      If you have enabled the ability for users to rate the FAQs, then 
+      a 'feedback' option will be provided for each FAQ.
+      </para>
+     </listitem>
+
+     </itemizedlist>
+
+    </para></listitem>
+
+    <listitem>
+     <para>
+     <emphasis role="bold">No Categories - Hyperlinked Questions</emphasis> - As
+     the name suggests this layout will simple list all the questions
+     in one list and then users have to click on a question to view the
+     question and answer.  The number of FAQs shown on a page is
+     controlled by the user.
+     </para>
+    </listitem>
+
+    <listitem>
+     <para>
+     <emphasis role="bold">Category View</emphasis> - The
+     category layout relies on the FatCat module to group the FAQs and
+     this layout will not appear if FatCat is not installed.  The
+     categories must be created using the FatCat module.  If a
+     category has any FAQs in it, then after a user clicks <emphasis>'View'</emphasis> from
+     the FAQ menu then that category will show along with the number of FAQs in the
+     category and the category description (if there is one).  Any
+     subcategories will be shown below the parent category and will be
+     indented.  If a parent category doesn't have any FAQs in it, but it's
+     children does have FAQs, then the parent category title will still
+     be displayed , but it will not be a link.  Users can click a 
+     category name to see a list of all FAQs in the category chosen, along with
+     link back to the list of categories and if applicable links to
+     the subcategories and parent categories.  To view the answer to a
+     FAQ question, the user must then click on one of the questions.  
+     </para>
+    </listitem>
+
+    </itemizedlist>
+
+    </para>
+   </section>
+   
+   <section>
+    <title>Legend for Rating FAQs</title>
+    
+    <para>
+    If you would like to change the text that users associate
+    with a particular score for a FAQ, then you can edit the text using
+    this section.  The FAQ module is designed to work with five as
+    being the user's opinion for saying that the FAQ was excellent and
+    with one being the FAQ was of no use at all.  This text appears in
+    the drop down menu beside the question that says <emphasis>How would you
+    rate this FAQ</emphasis> when viewing a FAQ. 
+    </para>
+   </section>
+
+  </section> 
+
+  <section>
+   <title>Tips for Administrators of FAQ</title>
+
+   <para>
+   If you have FatCat installed then it is suggested that you adjust the constant titled
+   FATCAT_LINK_CUTOFF in mod/fatcat/conf/config.php file to the number of
+   characters that you want to chop off your questions to store in
+   fatcat.  You don't want this cutoff small, since the questions will
+   appear in the 'whats related' box as incomprehensible.  In other
+   words, you don't want to have questions that show up as 'What about...'.
+   </para>
+
+   <para>
+    Suggested layout changes that require the use of the Layout Manager
+    <itemizedlist spacing="normal">
+     <listitem>
+     <para>
+     The user comments which will display when a FAQ is viewed would 
+     probably look best if set to show at the bottom of the page.
+     </para>
+     </listitem>
+  
+     <listitem>
+     <para>
+     The Menuman box to add a new menulink, which will display in the
+     Settings  section after clicking 'Add menu link for the FAQ module'
+     would also look better if moved to the bottom of the page.
+     </para>
+     </listitem>
+    </itemizedlist>
+
+   </para>
+  </section>
+
+</chapter>

@@ -1,0 +1,31 @@
+--------------------------------------------------------
+Comment Manager Developer API
+--------------------------------------------------------
+
+Adding comments to your module is very easy.  All you must do
+is at the bottom of displaying your item add these lines:
+
+if($GLOBALS['core']->moduleExists("comments")) {
+  $_SESSION['PHPWS_CommentManager']->listCurrentComments("pagemaster", 21, TRUE);
+}
+
+Params
+--------
+moduleName = string (module name found in modmaker)
+itemId = int (id of the item to display the comments for)
+allowAnnon = bool (TRUE or FALSE whether or not to allow annonymous posts)
+
+--------------------------------------------------------
+How many comments does my module's item have?
+--------------------------------------------------------
+
+To answer this question then make this function call.
+
+if($GLOBALS['core']->moduleExists("comments")) {
+  $_SESSION['PHPWS_CommentManager']->numComments("pagemaster", 21);
+}
+
+Params
+--------
+moduleName = string (module name found in modmaker)
+itemId = int (id of the item to display the comments for)

@@ -1,0 +1,32 @@
+fr:|:documents
+a:|:Add Files:|:Ajouter des fichiers
+a:|:Anonymous users can [var1]:|:Les visiteurs peuvent [var1]
+a:|:Are you sure you want to delete the [var1] [var2] and all the files associated with it?:|:Etes-vous certain de vouloir supprimer le [var1] [var2] ainsi que tous les fichiers qui lui sont liés ?
+a:|:Back to [var1]:|:Retour à [var1]
+a:|:Current Files:|:Fichiers disponibles
+a:|:Current:|:Courant
+a:|:Delete [var1] confirmation:|:Confirmation de la suppression de [var1]
+a:|:Documents:|:documents
+a:|:File successfully uploaded.:|:Téléchargement du fichier réussi.
+a:|:File upload messages:|:Messages de téléchargement du fichier
+a:|:Files:|:Fichiers
+a:|:Full Text:|:Informations complémentaires
+a:|:How many files would you like to upload?:|:Précisez d'abord le nombre de fichiers :
+a:|:List:|:Liste
+a:|:New:|:Nouveau
+a:|:No [var1] was deleted from the database.:|:Aucune [var1] n'a été supprimée de la base de données.
+a:|:Please select your files and the click Upload.:|:Ensuite, sélectionnez les fichiers à transférer.
+a:|:Recently Added:|:Les derniers
+a:|:Save successful:|:Enregistrement réussi
+a:|:Settings saved successfully:|:Enregistremet des réglages réussi
+a:|:Show most recent block:|:Montrer le bloc le plus récent
+a:|:The [var1] and all its files were successfully deleted from the database.:|:Suppression de [var1] ainsi que tous les fichier qui y étaient rattachés réussie.
+a:|:The file exceeded the max size allowed.:|:Le fichier dépasse la taille maximum autorisée.
+a:|:The file uploaded was not an allowed file type.:|:Le fichier que vous essayez de transférer n'est pas d'un type autorisé.
+a:|:There are currently no items to display.:|:Aucun élément à afficher.
+a:|:Unapproved:|:Non validés
+a:|:Upload Files:|:Transferer les fichiers
+a:|:Uploaded:|:Transferés
+a:|:download:|:Télécharger
+a:|:must be approved:|:doit être validé
+a:|:view:|:Voir

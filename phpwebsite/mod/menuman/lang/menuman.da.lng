@@ -1,0 +1,135 @@
+da:|:menuman
+a:|:Activate / Deactivate:|:Aktiver / Deaktiver
+a:|:Active:|:Aktiv
+a:|:Active Image:|:Aktivt billede
+a:|:Add A Menu Link:|:Tilføj et menu link
+a:|:Add Menu Item:|:Tilføj menupunkt
+a:|:Add Module Default:|:Tilføj standard for modulet
+a:|:Add Module User Links:|:Tilføj modul bruger links
+a:|:Add Under:|:Tilføj under
+a:|:Add to top level:|:Tilføj til top niveau
+a:|:All selected menu items and sub-items were successfully deleted from the database.:|:Alle valgte menupunkter og underpunkter er slettet fra databasen.
+a:|:All the menu items were successfully updated to the database.:|:Alle menupunkter blev opdateret i databasen.
+a:|:Are you sure you want delete the image [var1]?:|:Er du sikker på, at du vil slette billedet [var1]?
+a:|:Are you sure you want to delete the menu [var1] ?:|:Er du sikker på, at du vil slette menuen [var1]?
+a:|:Are you sure you want to delete these menu items and their sub-items?:|:Er du sikker på at du vil slette dette menupunkt og alle underpunkter?
+a:|:Back To Main:|:Tilbage til hovedsiden
+a:|:Character:|:Karakter
+a:|:Choose a module's user functionality to add to your menu:|:Vælg et moduls brugerfunktioner til at tilføje din menu
+a:|:Content Var:|:Indhold var
+a:|:Create A New Menu:|:Opret en ny menu
+a:|:Create Menu:|:Opret menu
+a:|:Current Menus:|:Eksisterende menuer
+a:|:Default Image:|:Standardbillede
+a:|:Delete Image Confirmation:|:Slet billede
+a:|:Delete Menu Confirmation:|:Slet menu
+a:|:Delete Menu Items:|:Slet menupunkter
+a:|:Delete Menu Items Confirmation:|:Slet menupunkter bekræftelse
+a:|:Delete an image:|:Slet et billede
+a:|:Display:|:Vis
+a:|:Edit [var1] Settings:|:Ret [var1] indstillinger
+a:|:Error:|:Fejl
+a:|:File [var1] is not an allowed file for this option.:|:Filen [var1] er ikke en tilladt fil til denne handling.
+a:|:Highlight Color:|:Fremhæve farve
+a:|:Horizontal:|:Vandret
+a:|:Image:|:Billede
+a:|:Image Deleted:|:Billede er slettet
+a:|:Image Manager:|:Billeder
+a:|:Image Map:|:Billedekort
+a:|:Indent Item:|:Indryk emne
+a:|:List Menus:|:List menuer
+a:|:Main Menu:|:Hovedmenu
+a:|:Menu Deleted:|:Menuen er blevet slettet
+a:|:Menu Image Manager:|:Menu billeder
+a:|:Menu Indent:|:Menu indrykning
+a:|:Menu Item Added:|:Menupunkt tilføjet
+a:|:Menu Items for [var1].:|:Menupunkter i [var1].
+a:|:Menu Manager Administration:|:Menu manager administration
+a:|:Menu Spacer:|:Menu mellemrum
+a:|:Menu Successfully Created:|:Menu oprettet
+a:|:Menu Title:|:Menu overskrift
+a:|:Menu URL:|:Menu URL
+a:|:No Menu Deleted:|:Ingen menu slettet
+a:|:No items for this menu.:|:Ingen emner for denne menu.
+a:|:No menu items for this menu.:|:Ingen menu emner for denne menu.
+a:|:No menu items were deleted from the database.:|:Ingen menu emner slette fra databasen.
+a:|:No menu was deleted from the database.:|:Ingen menuer slettet fra databasen.
+a:|:Not Active:|:Ikke aktiv
+a:|:Nothing Deleted:|:Ikke slettet
+a:|:Open Image:|:Åben billede
+a:|:Order:|:Rækkefølge
+a:|:Pagemaster Page:|:Pagemaster side
+a:|:Save New Menu:|:Gem ny menu
+a:|:Select:|:Vælg
+a:|:Select which menu you would like to add the link to.:|:Vælg den menu du vil tilføje et link til.
+a:|:Settings:|:Indstillinger
+a:|:Submit Announcement:|:Registrer annoncering
+a:|:Template:|:Skabelon
+a:|:The Menu Manager allows you to add and create dynamic menus. Menus are used to link to stuff from your site and other sites.:|:Opretter og vedligeholder menuer
+a:|:The image [var1] was successfully deleted.:|:Billedet [var1] er slettet.
+a:|:The images directory set in the menuman config file could not be found this will cause all image options to fail.:|:Billede biblioteket angivet i menuman konfigurationsfilen blev ikke fundet. Dette vil medføre at alle billede operationer fejler.
+a:|:The menu [var1] was successfully deleted from the database.:|:Menuen [var1] er slettet fra databasen.
+a:|:The menu [var1] you created was successfully added to the database.:|:Menu [var1] du oprettede er gemt i databasen.
+a:|:The menu [var1] you edited was successfully updated to the database.:|:Den rettede menu [var1] er opdateret i databasen.
+a:|:The menu item you added was successfully updated to the database and added to [var1].:|:Menupunktet er blevet gemt i databasen og tilføjet [var1].
+a:|:There are no menus in the database at this time.:|:Der er ingen menuer i databasen.
+a:|:There are no menus to choose, this process cannot continue.:|:Der er ingen valgbare menuer. Denne proces kan ikke fortsætte.
+a:|:Turn Off Advanced Edit:|:Skift til simpel editering
+a:|:Turn On Advanced Edit:|:Skift til avanceret editering
+a:|:URL:|:URL
+a:|:Update Menu Items:|:Opdater menupunkter
+a:|:Update Settings Successful:|:Opdatering af indstillinger succesfuld
+a:|:Update Successful:|:Opdatering successfuld
+a:|:Upload:|:Gem
+a:|:Upload an image to use as a menu marker.:|:Upload et billede til brug som et menumærke.
+a:|:Vertical:|:Lodret
+a:|:When selecting a pagemaster page leave the menu url field blank.:|:Når du vælger en Pagemaster side (intern side) skal menu URL feltet ikke udfyldes.
+a:|:You must give your menu link a title:|:Du skal give dit menulink en overskrift
+a:|:Access Denied!:|:Adgang nægtet!
+a:|:Actions:|:Handlinger
+a:|:Activity:|:Aktivitet
+a:|:Added ability to restrict menus to authenticated users.:|:Tillad mulighed for at begrænse menuer til autoriserede brugere.
+a:|:Allow Anonymous Access to this Menu:|:Tillad anonym adgang til denne menu
+a:|:Allow View (All are selected by default):|:Tillad visning (alle er valgt som standard)
+a:|:Continue:|:Fortsæt
+a:|:Coordinates:|:Koordinater
+a:|:Current menus:|:Nuværende menuer
+a:|:Default Theme Variable:|:Standard tema variabel
+a:|:Delete:|:Slet
+a:|:Edit:|:Ret
+a:|:Email Address:|:E-mail adresse
+a:|:External Page:|:Ekstern side
+a:|:File [var1] already exists!:|:Filen [var1] eksisterer allerede!
+a:|:File [var1] upload failed. Contact your system administrator.:|:Upload af filen [var1] fejlede. Kontakt venligst din systemadministrator.
+a:|:Hide:|:Skjul
+a:|:ID:|:ID
+a:|:Internal Page:|:Intern side
+a:|:Internal Web Page:|:Intern webside
+a:|:Menu Manager:|:Menuer
+a:|:New Menu:|:Ny menu
+a:|:New Window:|:Nyt vindue
+a:|:No:|:Nej
+a:|:No Images Found In::|:Billeder ikke findet i:
+a:|:No Menus:|:Ingen menuer
+a:|:No file entered.:|:Ingen fil angivet.
+a:|:No menu items were selected for update.:|:Ingen menuemner angivet til opdatering.
+a:|:No menu items were selected to be deleted.:|:Ingen menuemner angivet til sletning.
+a:|:None:|:Ingen
+a:|:Nothing Updated:|:Ingenting opdateret
+a:|:Please contact your systems administrator.:|:Kontakt venligst din systemadministrator.
+a:|:Please enter an URL:|:Angiv venligst en URL
+a:|:Save Changes:|:Gem ændringer
+a:|:Select Modules Allowed:|:Vælg tilladte moduler
+a:|:Show:|:Vis
+a:|:Site Map:|:Sitemap
+a:|:The content variable could not be deleted for this menu.:|:Konstant variablen kunne ikke slettes for denne menu.
+a:|:The menu [var1] could not be deleted from the database please contact your systems administrator.:|:Menuen [var1] kunne ikke slettes fra databasen. Kontakt venligst din systemadministrator.
+a:|:The menu [var1] you edited could not be updated to the database.:|:Menuen [var1] kunne ikke opdateres i databasen.
+a:|:The menu items for [var1] could not be deleted from the database please contact your systems administrator.:|:Menupunkterne for [var1] kunne ikke slettes fra databasen. Kontakt venligst din systemadministrator.
+a:|:This menu was already found in the database.:|:Denne menu findes allerede i databasen.
+a:|:Title:|:Overskrift
+a:|:Updated:|:Opdateret
+a:|:Yes:|:Ja
+a:|:You may receive this error as a result of refreshing your browser.:|:Du får muligvis denne fejl, hvis du har valgt opdater i din browser.
+a:|:You must logout and log back in before this update will take affect!:|:Du skal logge af, og logge ind igen, før denne opdatering vil blive aktiveret!
+a:|:or choose a PageMaster page:|:eller vælg en Pagemaster side

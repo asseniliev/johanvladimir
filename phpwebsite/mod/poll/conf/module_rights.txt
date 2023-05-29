@@ -1,0 +1,4 @@
+create::Create Polls
+edit::Edit Polls
+delete::Delete Polls
+view::List Polls

@@ -1,0 +1,191 @@
+1Installation of phpWebSite
+--------------------------
+
+This document assumes you have a working web server that
+meets all the requirements listed in ./docs/REQUIREMENTS.txt.
+
+1. Untar or unzip the phpWebSite archive into your web directory
+   (Ex: /var/www/html/):
+
+     tar -xzf phpWebSite-x.x.x.tar.gz (for *nix/linux systems)
+                  -or-
+     which ever graphcal tool you use in windows (Ex: WinAce, Winzip)
+
+2. Set the permissioning on your phpWebSite code base for setup using
+   the scripts provided in the ./setup/ directory (secure_phpws.sh or
+   NONROOT_secure_phpws.sh).  This step is only for *nix/linux systems,
+   currently there are no scripts for windows, security is left up to
+   the user.
+
+   If you have root access to the webserver run:
+
+       cd ./setup/
+       ./secure_phpws.sh setup
+
+   You may need to edit the script if apache does not run as apache:apache.
+   This can be changed at the top of the script.
+
+   Else run:
+
+       cd ./setup/
+       ./NONROOT_secure_phpws.sh setup
+
+   If you cannot run these scripts, you need the following permissions to run
+   the setup (changing the ownership to that of the web server is more secure
+   than simply changing the mode to 777):
+
+       chmod 777 -R ./images/
+              -or-
+       chown apache -R ./images/
+       chgrp apache -R ./images/      
+
+       chmod 777 -R ./files/
+              -or-
+       chown apache -R ./files/
+       chgrp apache -R ./files/
+
+       chmod 777 -R ./conf/
+              -or-
+       chown apache -R ./conf/
+       chgrp apache -R ./conf/
+
+       chmod 777 .htaccess
+              -or-
+       chown apache .htaccess
+       chgrp apache .htaccess
+
+3. Skip to step (4) if you are running on a *nix/linux system.  If you are
+   installing phpWebSite on a Windows system you will need to edit the file
+   "./core/Core.php". At the top of the file simply comment out the first ini_set
+   line and uncomment the second ini_set line.
+
+   Ex.
+   Before.
+   ini_set("include_path", ".:".PHPWS_SOURCE_DIR."lib/pear/");
+   //ini_set("include_path", ".;".PHPWS_SOURCE_DIR."lib\\pear\\");
+
+   After.
+   //ini_set("include_path", ".:".PHPWS_SOURCE_DIR."lib/pear/");
+   ini_set("include_path", ".;".PHPWS_SOURCE_DIR."lib\\pear\\");   
+
+   NOTE: *nix/Linux and Windows
+   If you get persistent PEAR or DB errors read docs/PEARERRORS.txt
+
+4. Open you browser to www.yourdomain.edu/setup/.  Once this page has loaded,
+   you will be prompted to create a configuration file.  Make sure that you have 
+   an empty database created to install to before you continue with this step. 
+   The information you will need to enter here is as follows:
+
+       Database type - The type of database you are connecting to.
+          (mysql, postgre, etc.)
+
+       Database host: The database host you are connecting to, usually localhost.
+          (localhost, sql.myhost.edu, etc.)
+
+       Database username: The username you want to connect to your database as. This
+       user must have full access to the phpWebSite database.
+          (root, joe, etc.)
+
+       Database password: The password for the username you specified.
+          (youwish, youhad, mypassword, etc.)
+
+       Database name: The name of the database to store phpWebSite tables in.
+          (phpwebsite, mydatabase, yourdatabase, someotherdatabase, etc.)
+
+       Table prefix: This is a prefix to append to all tables for this phpWebSite
+       installation.  This is used if you are installing multiple instances of
+       phpWebSite into the same database. (Leave this blank if you are unsure.)
+
+       Web Address: The actual web address to your phpWebSite site. DO NOT add http://
+       to this variable!!!
+
+       File Address: The path on your webserver to the phpWebSite source files.
+       Note: the command 'pwd' will give the path to where you are on a *nix system.
+          (/var/www/html/phpwebsite/)
+
+       Hub Hash: This is used for site security purposes.  Make sure it is as random
+       as possible. A random hash is automagically generated for you each time the
+       setup script is run.  If you do not like the hash that was generated, enter your
+       own. DO NOT LEAVE THIS BLANK AND DO NOT GIVE THIS HASH TO ANYONE!!
+
+       Install Password: The password to be used to access installation, conversion, and
+       upgrade features within phpWebSite.  You will be asked for this password further into
+       this installation. DO NOT LEAVE THIS BLANK AND DO NOT GIVE THIS PASSWORD TO ANYONE!!
+
+   Once this information is entered, select the 'Create Config File' button to create your
+   config file and continue with the installation.  
+
+5. The next page will give you a confirmation that your config file has been written. Be
+   sure to read over this and make sure everything went smoothly. If your conf/ directory 
+   does not have write as described in section 2 you will need to save the file, name it
+   config.php and put it in you conf/ directory.  Select the 'here' link to continue to 
+   the actual installation.
+
+6. Now that your config file is written, you can actually install the phpWebSite tables into
+   the database you specified previously.  Enter your installation password (the one you just
+   specified) and select the 'Continue' button.
+
+7. You are now presented with the 'Create Login Account' page. The account you choose to
+   create here will be the default administrative account for your phpWebSite installation.
+   DO NOT FORGET THIS LOGIN!!  There is no default administrative login created when
+   phpWebSite is installed, so if you lose your login, you will have to re-install phpWebSite.
+   Enter the login information and select 'Create' to create your login and continue with
+   the installation.
+
+8. Now you can select which modules you would like to have installed by default. Note: the
+   modules listed are not critical to the running of phpWebSite.  You can select as many or
+   as few as you wish. Once you have selected your modules, select the 'Install Modules' button
+   to install those modules and continue with the installation.  If you do not wish to install
+   any extra modules, and only want the core functionality of phpWebSite, select the 'Core Only'
+   button to install only the phpWebSite core modules.  Extra modules can be installed or
+   uninstalled at any time after installation (see Boost module).
+
+9. Now confirmation messages are shown.  These messages tell how the core installation went and
+   each module installation went.  Scroll through these messages and make sure everything went
+   smoothly.  If the directories images/ and files/ did not have write access during the install
+   you will get messages that the directories could not be created.  You will need to create these
+   by hand and give the webserver write permissions to them or else the modules you installed will
+   not be able to upload any files to the server.  If you wish to retain a log of your installation, 
+   simply save the page.  Select the 'Go to my installation' link at the bottom of this page to go 
+   to your installation.
+
+10. IMPORTANT SECURITY PROCEDURE!! 
+    Set the permissioning on your phpWebSite code base for run time using the scripts provided in the
+    ./setup/ directory (secure_phpws.sh or NONROOT_secure_phpws.sh). This will ensure that your
+    configuration data remains private and secure.  Once again these scripts are only for *nix/linux 
+    systems.
+
+    If you have root access to the webserver run:
+
+       cd ./setup/
+       ./secure_phpws.sh run yourusername yourgroup
+
+    Else run:
+
+       cd ./setup/
+       ./NONROOT_secure_phpws.sh run
+
+    If you cannot run these scripts, you need the following permissions to run
+    the setup (changing the ownership to that of the web server is more secure
+    than simply changing the mode to 777):
+
+       chmod 744 -R ./conf/
+       chmod 777 -R ./conf/branch/
+              -or-
+       chown youruser -R ./conf/
+       chgrp yourgroup -R ./conf/
+       chown apache -R ./conf/branch/
+       chgrp apache -R ./conf/branch/
+
+11. This step is not required.  Extra security percussions for phpwebsite can be taken but
+    removing all code related to setup.  Your setup is password protected but remember
+    if the code is not there, than it can not be used/exploited. Once you have completed
+    the setup the ./setup directory is unneeded, you can remove it completely or remove
+    public permissions on it. A new copy of ./setup will shipped in all packages, so you
+    will be able to upgrade later.
+
+    Note:  The setup directory is necessary and should not be deleted if you are planning to 
+    install branches on your site.
+
+12. You are now finished with the installation!  You can login using the username and password you 
+    provided during installation.  Enjoy!!

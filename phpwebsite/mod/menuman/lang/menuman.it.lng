@@ -1,0 +1,111 @@
+it:|:menuman
+a:|:Activate / Deactivate:|:Attiva / Disattiva
+a:|:Active Image:|:Immagine attiva
+a:|:Active:|:Attiva
+a:|:Add A Menu Link:|:Aggiungi link al menu
+a:|:Add Menu Item:|:Aggiungi una voce di menu
+a:|:Add Module Default:|:Aggiungi un modulo predefinito
+a:|:Add Module User Links:|:Aggiungi un link a moduli utente
+a:|:Add Under:|:Aggiungi sotto
+a:|:Add to top level:|:Aggiungi al primo livello
+a:|:All selected menu items and sub-items were successfully deleted from the database.:|:Menu e sottomenu cancellati
+a:|:All the menu items were successfully updated to the database.:|:Tutte le voci sono state aggiornate
+a:|:Are you sure you want delete the image [var1]?:|:Sicuro di eliminare l'immagine [var1]?
+a:|:Are you sure you want to delete the menu [var1] ?:|:Sicuro di eliminare il menuu [var1] ?
+a:|:Are you sure you want to delete these menu items and their sub-items?:|:Sicuro di volere eliminare il queste voci di menu e tutti i loro sottoelementi?
+a:|:Back To Main:|:Torna al menu principale
+a:|:Bulletin Board:|:Forum
+a:|:Character:|:Carattere
+a:|:Choose a module's user functionality to add to your menu:|:Scegli una funzione utente da aggiungere al menu
+a:|:Content Var:|:Contenuto
+a:|:Create A New Menu:|:Crea un nuovo menu
+a:|:Create Menu:|:Crea menu
+a:|:Current Menus:|:Menu corrente
+a:|:Current menus:|:Menus attuale
+a:|:Default Image:|:Immagine predefinita
+a:|:Delete Image Confirmation:|:Conferma eliminazione immagine
+a:|:Delete Menu Confirmation:|:Conferma eliminazione menu
+a:|:Delete Menu Items Confirmation:|:Conferma di eliminazione
+a:|:Delete Menu Items:|:Elimina elementi menu
+a:|:Delete an image:|:Elimina una immagine
+a:|:Display:|:Mostra
+a:|:Edit [var1] Settings:|:Modifica impostazioni [var1]
+a:|:Error:|:Errore
+a:|:External Page:|:Pagina esterna
+a:|:FAQs:|:FAQ
+a:|:File [var1] is not an allowed file for this option.:|:Il file [var1] non poermette questa opzione
+a:|:Forms:|:Form
+a:|:Hide:|:Nascondi
+a:|:Highlight Color:|:Evidenzia di colore
+a:|:Horizontal:|:Orizzontale
+a:|:ID:|:ID
+a:|:Image Deleted:|:Immagine eliminata
+a:|:Image Manager:|:Gestione immagini
+a:|:Image Map:|:Mappa immagine
+a:|:Image:|:Immagine
+a:|:In A Box:|:In un Box
+a:|:Indent Item:|:Rientra elemento
+a:|:Internal Page:|:Pagina interna
+a:|:List Menus:|:Lista Menu
+a:|:Main Menu:|:Menu principale
+a:|:Menu Deleted:|:Menu eliminato
+a:|:Menu Image Manager:|:Menu gestione immagini
+a:|:Menu Indent:|:Rientro menu
+a:|:Menu Item Added:|:Voce aggiunta al menu
+a:|:Menu Items for [var1].:|:Elementi per il menu [var1].
+a:|:Menu Manager Administration:|:Amministrazione gestione menu
+a:|:Menu Manager:|:Menu Manager
+a:|:Menu Spacer:|:Spaziatore menu
+a:|:Menu Successfully Created:|:Menu creato
+a:|:Menu Title:|:Titolo menu
+a:|:Menu URL:|:URL menu
+a:|:Month View:|:Vista mese
+a:|:New Menu:|:Nuovo menu
+a:|:New Window:|:Nuova finestra
+a:|:No Menu Deleted:|:Nessun menu eliminato
+a:|:No items for this menu.:|:Nessun elemento per questo menu
+a:|:No menu items for this menu.:|:Nessun elemento di menu per questo menu.
+a:|:No menu items were deleted from the database.:|:Nessuna voce eliminata
+a:|:No menu items were selected for update.:|:Nessun elemento del menu da aggiornare
+a:|:No menu was deleted from the database.:|:Nessun menu eliminato
+a:|:Not Active:|:Non attivo
+a:|:Nothing Deleted:|:Nulla di cancellato
+a:|:Nothing Updated:|:Nessun aggiornamento effettuato
+a:|:Open Image:|:Apri immagine
+a:|:Order:|:Ordine
+a:|:Pagemaster Page:|:Pagina del Pagemaster (gestione pagine)
+a:|:Photo Album:|:Foto Album
+a:|:Return to Feeds List:|:Torna alla lista dei Feed
+a:|:Save New Menu:|:Salva nuovo menu
+a:|:Select which menu you would like to add the link to.:|:Seleziona a quale menu aggiungere il link
+a:|:Select:|:Seleziona
+a:|:Settings:|:Impostazioni
+a:|:Show:|:Mostra
+a:|:Site Map:|:Mappa del sito
+a:|:Submit Announcement:|:Invia notizia
+a:|:Submit News:|:Invia notizia
+a:|:Template:|:Template
+a:|:The Menu Manager allows you to add and create dynamic menus. Menus are used to link to stuff from your site and other sites.:|:La gestione menu ti permette di creare menu dinamici nel tuo sito e altri siti
+a:|:The image [var1] was successfully deleted.:|:Immagine [var1] cancellata
+a:|:The images directory set in the menuman config file could not be found this will cause all image options to fail.:|:La directory delle immaine specificata nel file di configurazione non esiste, ci saranno errori collegati alle immagini
+a:|:The menu [var1] was successfully deleted from the database.:|:Menu [var1] eliminato
+a:|:The menu [var1] you created was successfully added to the database.:|:Il menu [var1] che hai creato &egrave; stato aggiunto.
+a:|:The menu [var1] you edited was successfully updated to the database.:|:Il menu [var1] modificato &egrave; stato salvato.
+a:|:The menu item you added was successfully updated to the database and added to [var1].:|:La voce che hai aggiunto &egrave; stata aggiornata e aggiunta a [var1].
+a:|:There are no menus in the database at this time.:|:TNessun menu presente
+a:|:There are no menus to choose, this process cannot continue.:|:Mi devo fermare: non esistono ancora menu
+a:|:Turn Off Advanced Edit:|:Disattiva le modifiche avanzate
+a:|:Turn On Advanced Edit:|:Attivica modifiche avanzate
+a:|:URL:|:URL
+a:|:Update Menu Items:|:Aggiorna voci di menu
+a:|:Update Settings Successful:|:Impostazioni aggiornate
+a:|:Update Successful:|:Aggiornato
+a:|:Updated:|:Aggiornato
+a:|:Upload an image to use as a menu marker.:|:Carica un'immagine da usare come marcatore di menu
+a:|:Upload:|:Upload
+a:|:Vertical:|:Verticale
+a:|:Votes:|:Voti
+a:|:Web Links:|:Link
+a:|:Web Page Demo:|:Pagina di esempio
+a:|:When selecting a pagemaster page leave the menu url field blank.:|:Quando selezioni una pagina pagemaster page non compilare l'URL
+a:|:You must give your menu link a title:|:Devi dare un titolo al link del menu

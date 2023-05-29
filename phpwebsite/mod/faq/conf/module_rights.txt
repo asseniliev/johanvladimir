@@ -1,0 +1,6 @@
+change_settings::Change FAQ Module Settings
+edit_faqs::Create/Edit FAQs
+delete_faqs::Delete FAQs
+hide_faqs::Hide FAQs
+show_faqs::Show FAQs
+approve_faqs::Approve FAQs

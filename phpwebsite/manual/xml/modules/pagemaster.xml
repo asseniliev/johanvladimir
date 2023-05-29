@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter>
+  <chapterinfo><author><firstname>Adam</firstname><surname>Morton</surname>
+  <email>adam@NOSPAM.tux.appstate.edu</email>
+  </author></chapterinfo>
+
+  <title>PageMaster</title>
+
+  <section><title>Introduction</title><para>The PageMaster module is used to
+  create and edit web pages for your site. PageMaster also allows you to post
+  a page you created as the &#34;main page&#34; for your site. It is also
+  integrated into several other phpWebSite modules which extend it&#39;s
+  functionality. You must have these other modules installed before the
+  functionality will be available. Some of these modules and their
+  functionality is as follows:</para><para><phrase role="strong">Menuman</phrase>-
+  offers a quick, easy method of adding pages to your sites menus. </para><para><phrase
+  role="strong">FatCat</phrase>- allows categorization of pages so users can
+  easily find pages that contain related information and other items that
+  contain related information.</para><para><phrase role="strong">Comments</phrase>-
+  allows visitors to your site the ability to post their comments on
+  information contained in your pages.</para><para>The content of a page is
+  broken into two parts, a page title and page sections. Each section is
+  broken into three parts, a section title, section text (the main information
+  for that section), and a section image. It&#39;s good to have in mind the
+  number of sections you will be using, the relative content for each section,
+  and the order of these sections in your page. The section image is always
+  optional. The layout of a page is dependent upon the template selected for
+  that page and the layout or template of each section.</para></section>
+
+  <section><title>Creating a Page</title><para>It is recommended that before
+  you create a page using PageMaster that you plan ahead on the content and
+  layout of that page before attempting to dive in and create it.Once you have
+  a page planned out follow these steps to create your page:</para><orderedlist
+  numeration="arabic"><listitem><para>Open your <emphasis>Control Panel</emphasis>
+  and navigate to the <emphasis>Site Content</emphasis> tab.</para></listitem>
+  <listitem><para>Select the <emphasis>PageMaster</emphasis> module from the list of
+  modules.</para></listitem> <listitem><para>Select <emphasis>New Page</emphasis> from the
+  main menu.</para></listitem> <listitem><para>Enter your <emphasis>page title</emphasis>.</para></listitem>
+  <listitem><para>If your page fits into one of your site&#39;s
+  <emphasis>categories</emphasis>, select it from the list provided.</para></listitem>
+  <listitem><para>Select a <emphasis>template</emphasis> for your page. The default
+  template is the only template to ship with phpWebSite.</para></listitem>
+  <listitem><para>If you have the <emphasis>comments</emphasis> module installed,
+  you can choose to allow comments on your page and whether or not to allow
+  anonymous users to post comments.</para></listitem> <listitem><para>Check the information
+  you entered to make sure it is correct and click the <emphasis>Go</emphasis>
+  button.</para></listitem> <listitem><para>You can now start adding sections to your page.
+  Sections are added from top to bottom.</para></listitem> <listitem><para>Enter a
+  <emphasis>subtitle</emphasis> for your section.</para></listitem>
+  <listitem><para>Enter the <emphasis>body text</emphasis> for your section.</para></listitem>
+  <listitem><para>Optionally, <emphasis>select an image</emphasis> from your hard
+  drive to upload to your section. If you supply an image, you must also
+  supply a <emphasis>short description</emphasis> for that image in the Short
+  Image Description field.</para></listitem> <listitem><para>Select a <emphasis>template</emphasis>
+  to use for the layout of your section.</para></listitem> <listitem><para>Check to be sure
+  the information you entered is correct and click the <emphasis>Save Section</emphasis>
+  button to save your section.</para></listitem> <listitem><para>You will now see the
+  section you just created at the top of your page. You can choose to edit or
+  delete a section by clicking the <emphasis>Edit</emphasis> or
+  <emphasis>Remove</emphasis> buttons respectively within the section.</para></listitem>
+  <listitem><para>Repeat steps 10 - 14 to add more sections to your page.</para></listitem>
+  <listitem><para>When you have added and saved all your sections, click the
+  <emphasis>SAVE PAGE</emphasis> button to save your page. Be sure to
+  carefully read the warning before saving the page.</para></listitem>
+  <listitem><para>You will now be taken back to your list of pages and your new page
+  will be shown in the list.</para></listitem></orderedlist><para>By default when a
+  page is first saved, it is marked as hidden. To make your page viewable by
+  your site visitors click the Show button for the respective page.
+  Alternately you can click the Hide button to hide a page from your visitors.
+  To make changes to an existing page, click the Edit button for the
+  respective page. To remove an existing page, click the Delete button for the
+  respective page. You will be prompted to confirm the deletion of the page
+  before it is fully removed.</para></section>
+
+  <section role="unnumbered"><title>Editing a Page</title><para>To edit a
+  page, select List Pages from the Main Menu and find the page you wish to
+  edit in the list of pages shown. Click the Edit button under the Action
+  column for the page you wish to edit. You will be taken to the same edit
+  mode as when creating a page. From here you can choose to edit or remove any
+  section within the page by clicking the Editor Remove button respectively
+  within the section.</para><para>To edit the page title, categories,or
+  template, click the edit button located in the title bar of your page.When
+  you have updated the information, click the Go button to return to editing
+  the sections within your page. When all the information within your pages
+  and sections are updated, click the SAVE PAGE button at the bottom of the
+  page. Make sure to carefully read the warning before saving the page.</para></section>
+
+  <section><title>Removing a Page</title><para>To remove an existing page from
+  your site, select List Pages from the Main Menu and find the page you wish
+  to remove. Click the Delete button under the Actions column for the
+  respective page. You will be asked to confirm the deletion. If you are sure
+  you want to completely remove the page, click the Yes button and the page
+  will be removed. If you are not sure, click the No button and the page will
+  remain. If you do not wish to delete a page but want to hide it from your
+  visitor&#39;s view, you can choose to just hide it instead of fully removing
+  it. Select List Pages from the Main Menu, find the page you wish to hide and
+  click the Hide button for the respective page. The Hide button will turn
+  into a Show button. When you are ready to show the page to the public again,
+  click the Show button for that page.</para></section>
+
+  <section><title>Setting the Main Page</title><para>To set a PageMaster page
+  as your main page,select Set Main Page from the main menu. The current saved
+  pages are shown with Select buttons to the right of the titles. Find the
+  page you wish to have as your main page and click the respective Select
+  button to set it. The current main page is marked with CURRENT in green to
+  the right of the title. This also appears in the regular page list. If you
+  wish to hide the main page all together, select List Pages from the Main
+  Menu and click the Hide button for the respective page.</para></section>
+</chapter>

@@ -1,0 +1,137 @@
+Converting a phpWebSite 0.8.3 site to a 0.9.x site
+by Matthew McNaney <matt@NOSPAM.tux.appstate.edu>
+--------------------------------------------------
+
+Thank you for trying phpWebSite 0.9.0!
+
+In order to convert your old 0.8.3 data to 0.9.0, please read the following
+directions CAREFULLY. The conversion does not convert 3rd party modules/plug-ins.
+You will need to contact the developer of that module/plug-in.
+
+Be aware, this conversion is for getting your data moved into the new core. You
+will still need to general text and link clean-up.
+
+There are two 'crutch' files (mod.php and article.php) that allow old links to
+bounce to userpages and articles. Don't rely on these files. Update your links
+as these files will eventually be removed.
+
+Getting Started
+------------------
+** Install phpWebSite 0.9.0.**
+Make a backup of your current 0.8.3 database.
+Make a backup of your current 0.9.0 database.
+Make the convert/reroute/ directory writable (apache.apache, nobody.nobody, 777).
+Make the images directory writable as well.
+Make sure the modules you want to update are installed in 0.9.0.
+Install FatCat if you have not yet.
+
+** IMPORTANT - If you are trying to run a conversion on a branch site **
+Go into your branch site directory and make these directories:
+convert
+convert/reroute
+
+Make them web server writable. Also make sure the branch site's image directory
+is writable.
+
+
+
+index.php
+------------------
+This is the first place you need to go. At the top of the page you will see
+nine 'define' statements. They will all be set to TRUE. You should change these
+to FALSE if:
+- You do not want to convert information in that module
+- You have already converted a particular module
+- You want to convert the data one or two module(s) at a time.
+
+You might want to convert your modules in smaller steps if your php installation
+has a less than a 10MB memory_limit or a timeout of under 60 seconds. In fact, if
+you can temporarily bump your memory_limit to 16MB, it will make your life easier.
+REMEMBER: if the conversion stops abruptly, this is usually the culprit. You have
+been warned.
+
+Also check your OLD_SITE_DIR variable. This must match for images to get copied
+correctly.
+
+** IMPORTANT - If you are trying to run a conversion on a branch site **
+
+You will need to edit two other variables:
+Set the 'define("PHPWS_HOME_DIR", "../");" to where ever your branch site is located
+IN REFERENCE to the convert directory.
+
+Example: define("PHPWS_HOME_DIR", "../../branch_sites/phpwebsite2/");
+
+Also you will need to uncomment the $IDhash variable and set it to the branch site's
+hash.
+
+Example $IDhash = "asdk7asdkg89k3ds8kjj398sdafjasdkuyasd3";
+
+Finally change '$branchName = NULL;' to your branch site's name
+
+Example $branchName = "phpwebsite2";
+
+BE CAREFUL!!
+
+db.php
+------------------
+Your second stop is this file. Change the values of the various "OLD_*" variables
+to match your 0.8.3 database connection information.
+
+
+
+MODULE NOTES
+-------------------------------------------------------------------------
+
+PageMaster and MenuMan
+----------------------
+These two modules convert Userpages and Menu. MAKE SURE the web server can write
+to your convert/reroute/ directory. If you do not, old mod.php links will die when
+they hit your page.
+
+Announcements and Topics
+-------------------------
+Because 0.9.0 has system-wide categories, topics are translated into categories.
+These categories are stored in FatCat. Your icons will convert IF your OLD_SITE_DIR
+is set properly. Like PageMaster, a reroute file will be created for old Announcements.
+
+Calendar
+-------------
+The calendar conversion will build FatCat categories based upon your
+categories, sub categories, and locations as well as transferring
+your old events into the new system.
+
+Locations will be one level under a master category named Locations.
+
+Users
+--------------
+The old system had two sets of users: regular users and admins. The new system
+does not. If an admin has an user account, it will be ignored during conversion.
+0.9.0 usernames and passwords are still case sensitive.
+
+LinkMan
+--------------
+LinkMan is missing a few viewing features, but you should still convert them.
+The link categories transfer to FatCat as well.
+
+-------------------------------------------------------------------------
+Running the conversion
+-------------------------------------------------------------------------
+After you have read this document, figured out if you need to run the conversions
+individually, backed up your files and databases, and set directory
+permissions you are ready to begin.
+
+Point your browser at youWebsiteName/convert/index.php. You will be prompted for your
+install password. Enter it and the conversion will begin. If there are any problems
+they will be echoed to the screen.
+
+If problems do occur, try to isolate the problem. Turn off the conversion
+of all other modules, clear out the tables for that problem module and try again.
+
+If you are still having problems, please post it to sourceforge.net
+
+
+Finishing the Conversion
+------------------------
+CLOSE YOUR BROWSER! This will clear any remaining sessions.
+Change the write permissions on the convert/reroute directory to not writable.
+Rename, hide, move, or remove your convert/index.php file for extra security.

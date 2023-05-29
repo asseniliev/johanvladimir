@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter>
+  <chapterinfo><author><firstname>Adam</firstname><surname>Morton</surname>
+  <email>adam@NOSPAM.tux.appstate.edu</email>
+  </author></chapterinfo>
+
+  <title>Form Generator</title>
+
+  <section><title>Introduction</title><para>The <emphasis>Form Generator</emphasis>
+  is a module used to create online forms and collect data from your site
+  visitors through these forms. Once data has been collected, Form Generator
+  allows you to export the data into a tab delimited file. This allows you to
+  import your data into a spreadsheet program such OpenOffice.org Calc or
+  Microsoft Excel. Form Generator also offers some basic reporting features of
+  it&#39;s own, but they are limited.</para><para>Some helpful things to
+  remember when using the form generator:</para><orderedlist
+  numeration="arabic"><listitem><para>The <emphasis>Main Menu</emphasis> is always
+  shown across the top while administrating the Form Generator module. This
+  menu allows you to perform key operations in certain areas of the Form
+  Generator. Some of these operations include: New Form, List Forms, Settings,
+  Report, and Archive.</para></listitem><listitem><para>When first entering the Form
+  Generator the Main Menu will only show two options: <emphasis>New Form
+  </emphasis> and <emphasis>List Forms</emphasis>. The Menu will expand
+  it&#39;s options when a form has been selected from one of the lists of
+  forms. Certain options are shown for saved forms and certain options shown
+  for unsaved or unapproved forms.</para></listitem><listitem><para>There are two parts to
+  forms. <emphasis>Settings</emphasis> and <emphasis>Elements</emphasis>. A
+  form&#39;s settings can be altered at any time in any form. They include
+  settings like your instructions for the form, the submission message shown
+  upon successful submission of a form, whether or not only registered users
+  can view the form, and whether or not the form can be filled out multiple
+  times by your users. A form&#39;s elements are the actual
+  &#34;questions&#34; within your form. The elements are selected from a list
+  of HTML elements like text field, text area, drop box, check box, radio
+  button, and multi select. These elements can be used to ask and gather all
+  sorts of information. A form&#39;s elements can only be edited when a form
+  is in the unsaved state.</para></listitem><listitem><para>Under <emphasis>List Forms</emphasis>,
+  three separate lists are shown. <emphasis>Saved Forms</emphasis> are forms
+  that have been saved and may or may not contain data. That depends on
+  whether or not you have the form available to your site visitors and whether
+  or not those visitors have filled out the form. <emphasis>Unsaved Forms</emphasis>
+  are forms that are being built but haven&#39;t been fully saved.
+  <emphasis>Unapproved Forms</emphasis> are forms that were created by a user
+  that is designated as needing approval of their forms before they are made
+  available to the public. Once an unsaved or unapproved form is saved, it
+  will move to the <emphasis>Saved Forms</emphasis> list.</para></listitem><listitem><para>When
+  clicking on a form in a list, you will be viewing the form as a visitor to
+  your site would view it. However, as an admin you will see the
+  <emphasis>Main Menu</emphasis> at the top. From the menu you can select to
+  perform various operations on the form you are viewing. You can always
+  return to the form listing by clicking <emphasis>List Forms</emphasis>.</para></listitem>
+<listitem><para>Something
+  to keep in mind when saving forms: Make sure you are positive the form is
+  correct and ready to be viewed and filled out by your site visitors. Once a
+  form is saved it will start collecting data. If you decide to edit the
+  elements within that form, the data collected by the form must be
+  <emphasis>cleared and archived </emphasis>. Hence, you reset the form when
+  you edit it&#39;s elements. A good practice is to export the data from the
+  form just before you edit it&#39;s elements. You can always edit a
+  form&#39;s settings no matter which state it is in.</para></listitem></orderedlist></section>
+
+  <section><title>Creating a Form</title><para>It is a good idea to have your
+  form planned out in advance before diving in and creating a form. In the
+  plan, you should take into account the name of the form, the instructions
+  for the form, the submission message for the form, the elements to be
+  contained in the form and what HTML elements will be used to represent your
+  form elements, and what type of users the form is geared towards (anonymous
+  or registers visitors to your site). Once you have planned out the settings
+  and elements for your form follow these steps to create your form:</para><orderedlist
+  numeration="arabic"><listitem><para>Make sure you are logged into an
+  administrative account that has permissions to use the Form Generator.
+  </para></listitem><listitem><para>From your <emphasis>Control Panel</emphasis>, select
+  the <emphasis>Site Content</emphasis> tab.</para></listitem><listitem><para>Find and
+  select the <emphasis>Form Generator</emphasis> module.</para></listitem><listitem><para>From
+  the <emphasis>Main Menu</emphasis>, select <emphasis>New Form</emphasis>.</para></listitem><listitem><para>You
+  will be shown the <emphasis>Settings</emphasis> for your new form.</para></listitem><listitem><para>Fill
+  out the <emphasis></emphasis>Name, <emphasis>Instructions</emphasis>,
+  <emphasis>Submission message</emphasis>, and other settings for your form.</para></listitem><listitem><para>If
+  your form falls into one of your site&#39;s <emphasis>categories</emphasis>,
+  specify it as well.</para></listitem><listitem><para>Click <emphasis>Save Settings</emphasis>
+  to save your settings and begin adding elements to your form.</para></listitem><listitem><para>You
+  will notice that the menu now has a <emphasis>Settings</emphasis> option and
+  an <emphasis>Elements </emphasis> option. Selecting <emphasis>Settings</emphasis>
+  will take you to editing the settings for your form and selecting
+  <emphasis>Elements</emphasis> will take you to adding/editing of your
+  form&#39;s elements.</para></listitem><listitem><para>To add an element to your form,
+  select the element type you wish to add from the tool bar at the bottom and
+  click <emphasis>Add</emphasis>.</para></listitem><listitem><para>See the section for
+  adding the element you selected for more specific instructions for that
+  element.</para></listitem><listitem><para><emphasis>Continue adding elements</emphasis>
+  until you have all your planned elements within your form.</para></listitem><listitem><para>Take
+  a <emphasis>final look</emphasis> at your form to make sure everything is in
+  order and make changes where needed.</para></listitem><listitem><para>When you are sure
+  your form is complete, click the <emphasis>Save Form</emphasis> button on
+  the tool bar across the bottom to save your form.</para></listitem></orderedlist></section>
+
+  <section><title>Adding a Drop Box Element</title><para>Make sure you have
+  planned out the format of your drop box before continuing. You should have
+  in mind the label or question for the drop box, the number of options, the
+  option text to be shown to the user, and the actual value of each option to
+  be stored when it is selected.</para><para>Make sure you are editing the
+  elements of the form you wish to add the drop box to. Select
+  <emphasis>Dropbox</emphasis> from the drop down list of elements on your
+  tool bar and click Add. Follow these steps to finish adding the element:</para><orderedlist
+  numeration="arabic"><listitem><para>Fill out the <emphasis>Name</emphasis> for
+  your element. The <emphasis>Name</emphasis> is used to uniquely identify
+  this particular element within the form. Form Generator will attempt to
+  auto-assign a unique name to your element, but if you would like a different
+  name you can change it. The only restrictions are, the name must contain
+  only alpha and numeric characters, NO spaces, and be unique within the form
+  you are editing.</para></listitem><listitem><para>Fill out the <emphasis>Associated Text</emphasis>
+  for your element. The associated text is the text shown with your element.
+  This text can be a simple label, question, or instruction. (e.g.: Please
+  select your age range:)</para></listitem><listitem><para>Enter the <emphasis>Number of
+  Options</emphasis> to be used with the drop box or select a
+  <emphasis>Predefined Option Set</emphasis> (see section Predefined Option
+  Sets).</para></listitem><listitem><para>If this element is required to be filled out,
+  check the <emphasis>Required</emphasis> check box.</para></listitem><listitem><para>Click
+  <emphasis>Next</emphasis>.</para></listitem><listitem><para>If you did not select a
+  predefined option set, you will now need to fill out the information for
+  each option in your drop box.</para></listitem><listitem><para>For each option, enter the
+  <emphasis>Text</emphasis> which will be the actual text shown to inside the
+  drop box.</para></listitem><listitem><para>For each option, enter the
+  <emphasis>Value</emphasis> which will be the actual value stored if the
+  corresponding option is selected. Optionally, if you the value you want to
+  be stored is the same as the text entered for each option, you can select
+  the <emphasis>Use option text as values</emphasis> check box at the bottom
+  of the list of options. If that is selected, you do not need to fill out
+  anything for the values of your options.</para></listitem><listitem><para>If you wish to
+  have a certain option selected by default when the form is first shown to
+  your site visitors, select the <emphasis>Default</emphasis> flag for the
+  corresponding option.</para></listitem><listitem><para>If you wish to save the set of
+  options you just created as a predefined option set, enter a name to save
+  the option set as in the <emphasis>Save option set as</emphasis> field.</para></listitem><listitem><para>Double
+  check your option set and click <emphasis>Save Dropbox</emphasis> when
+  finished.</para></listitem><listitem><para>The drop box will be saved and added to the
+  end of your form.</para></listitem></orderedlist></section>
+
+  <section><title>Adding a Text Field Element</title><para>Make sure you have
+  planned out the format of your text field before continuing. You should have
+  in mind the label or question for the text field and whether or not the text
+  field is required to be filled out.</para><para>Make sure you are editing
+  the elements of the form you wish to add the text field to. Select
+  <emphasis>Textfield </emphasis> from the drop down list of elements on your
+  tool bar and click <emphasis>Add</emphasis>. Follow these steps to finish
+  adding the element:</para><orderedlist numeration="arabic"><listitem><para>Fill
+  out the <emphasis>Name</emphasis> for your element. The
+  <emphasis>Name</emphasis> is used to uniquely identify this particular
+  element within the form. Form Generator will attempt to auto-assign a unique
+  name to your element, but if you would like a different name you can change
+  it. The only restrictions are, the name must contain only alpha and numeric
+  characters, NO spaces, and be unique within the form you are editing.
+  </para></listitem><listitem><para>Fill out the <emphasis>Associated Text</emphasis> for
+  your element. The associated text is the text shown with your element. This
+  text can be a simple label, question, or instruction. (e.g.: Please enter
+  your full name:)</para></listitem><listitem><para>Optionally, you can enter a
+  <emphasis>Size</emphasis> and a <emphasis>Maxsize</emphasis> for your
+  element. The size will be the actual size of the text field and will affect
+  how many characters are shown at one time in the text field. The maximum
+  size is the maximum number of characters you are willing to accept. A user
+  may type in more than the maximum size allows, but the Form Generator will
+  store only the number of characters specified with maxsize. If no size or
+  maxsize is specified, Form Generator will fill in default values for you.</para></listitem><listitem><para>If
+  this element is required to be filled out, check the <emphasis>Required</emphasis>
+  check box.</para></listitem><listitem><para>Double check your input and click
+  <emphasis>Save Textfield</emphasis> when finished.</para></listitem><listitem><para>The
+  text field will be saved and added to the end of your form.</para></listitem></orderedlist></section>
+
+  <section><title>Adding a Text Area Element</title><para>Make sure you have
+  planned out the format of your text area before continuing. You should have
+  in mind the label or question for the text area and whether or not the text
+  area is required to be filled out.</para><para>Make sure you are editing the
+  elements of the form you wish to add the text area to. Select
+  <emphasis>Textarea </emphasis> from the drop down list of elements on your
+  tool bar and click <emphasis>Add</emphasis>. Follow these steps to finish
+  adding the element:</para><orderedlist numeration="arabic"><listitem><para>Fill
+  out the <emphasis>Name</emphasis> for your element. The
+  <emphasis>Name</emphasis> is used to uniquely identify this particular
+  element within the form. Form Generator will attempt to auto-assign a unique
+  name to your element, but if you would like a different name you can change
+  it. The only restrictions are, the name must contain only alpha and numeric
+  characters, NO spaces, and be unique within the form you are editing.
+  </para></listitem><listitem><para>Fill out the <emphasis>Associated Text</emphasis> for
+  your element. The associated text is the text shown with your element. This
+  text can be a simple label, question, or instruction. (e.g.: Please enter
+  your full name:)</para></listitem><listitem><para>Optionally, you can enter the
+  <emphasis>Rows</emphasis> and a <emphasis>Columns</emphasis> for your
+  element. The rows will be the actual number of rows in the text area and
+  will affect how many characters are shown per line. The columns are the
+  actual number of columns in the text area and will affect how many lines of
+  text are shown at a given time. If no rows or columns are specified, Form
+  Generator will fill in default values for you.</para></listitem><listitem><para>If this
+  element is required to be filled out, check the <emphasis>Required</emphasis>
+  check box.</para></listitem><listitem><para>Double check your input and click
+  <emphasis>Save Textarea</emphasis> when finished.</para></listitem><listitem><para>The
+  text area will be saved and added to the end of your form.</para></listitem></orderedlist></section>
+
+  <section><title>Adding a Multiple Select Element</title><para>Make sure you
+  have planned out the format of your multiselect before continuing. You
+  should have in mind the label or question for the set, the number of
+  options, the option text to be shown to the user, and the actual value of
+  each option to be stored when it is selected.</para><para>Make sure you are
+  editing the elements of the form you wish to add the multiple select to.
+  Select <emphasis>Multiple Select</emphasis> from the drop down list of
+  elements on your tool bar and click <emphasis>Add</emphasis>. Follow these
+  steps to finish adding the element:</para><orderedlist numeration="arabic"><listitem><para>Fill
+  out the <emphasis>Name</emphasis> for your element. The
+  <emphasis>Name</emphasis> is used to uniquely identify this particular
+  element within the form. Form Generator will attempt to auto-assign a unique
+  name to your element, but if you would like a different name you can change
+  it. The only restrictions are, the name must contain only alpha and numeric
+  characters, NO spaces, and be unique within the form you are editing.
+  </para></listitem><listitem><para>Fill out the <emphasis>Associated Text</emphasis> for
+  your element. The associated text is the text shown with your element. This
+  text can be a simple label, question, or instruction. (e.g.: Please select
+  your age range:)</para></listitem><listitem><para>Enter the <emphasis>Number of Options</emphasis>
+  to be used with the multiple select box or select a <emphasis>Predefined
+  Option Set</emphasis> (see section: Predefined Option Sets).</para></listitem><listitem><para>If
+  this element is required to be filled out, check the <emphasis>Required</emphasis>
+  check box.</para></listitem><listitem><para>Click <emphasis>Next</emphasis>.</para></listitem><listitem><para>If
+  you did not select a predefined option set, you will now need to fill out
+  the information for each option in your multiple select box.</para></listitem><listitem><para>For
+  each option, enter the <emphasis>Text</emphasis> which will be the actual
+  text shown for options in the multiple select box.</para></listitem><listitem><para>For
+  each option, enter the <emphasis>Value</emphasis> which will be the actual
+  value stored if the corresponding option is selected. Optionally, if you the
+  value you want to be stored is the same as the text entered for each option,
+  you can select the <emphasis>Use option text as values</emphasis> check box
+  at the bottom of the list of options. If that is selected, you do not need
+  to fill out anything for the values of your options.</para></listitem><listitem><para>If
+  you wish to have a certain option selected by default when the form is first
+  shown to your site visitors, select the <emphasis>Default</emphasis> flag
+  for the corresponding option.</para></listitem><listitem><para>If you wish to save the
+  set of options you just created as a predefined option set, enter a name to
+  save the option set as in the <emphasis>Save option set as</emphasis> field.</para></listitem><listitem><para>Double
+  check your option set and click <emphasis>Save Multiselect</emphasis> when
+  finished.</para></listitem><listitem><para>The multiple select box will be saved and
+  added to the end of your form.</para></listitem></orderedlist></section>
+
+  <section><title>Adding a Radio Button Element</title><para>Make sure you
+  have planned out the format of your set of radio buttons before continuing.
+  You should have in mind the label or question for the set, the number of
+  options, the option text to be shown to the user, and the actual value of
+  each option to be stored when it is selected.</para><para>Make sure you are
+  editing the elements of the form you wish to add the radio buttons to.
+  Select <emphasis>Radio Button</emphasis> from the drop down list of elements
+  on your tool bar and click <emphasis>Add</emphasis>. Follow these steps to
+  finish adding the element:</para><orderedlist numeration="arabic"><listitem><para>Fill
+  out the <emphasis>Name</emphasis> for your element. The
+  <emphasis>Name</emphasis> is used to uniquely identify this particular
+  element within the form. Form Generator will attempt to auto-assign a unique
+  name to your element, but if you would like a different name you can change
+  it. The only restrictions are, the name must contain only alpha and numeric
+  characters, NO spaces, and be unique within the form you are editing.
+  </para></listitem><listitem><para>Fill out the <emphasis>Associated Text</emphasis> for
+  your element. The associated text is the text shown with your element. This
+  text can be a simple label, question, or instruction. (e.g.: Please select
+  your age range:)</para></listitem><listitem><para>Enter the <emphasis>Number of Options</emphasis>
+  to be used with the radio button or select a <emphasis>Predefined Option Set</emphasis>
+  (see section: Predefined Option Sets).</para></listitem><listitem><para>If this element
+  is required to be filled out, check the <emphasis>Required</emphasis> check
+  box.</para></listitem><listitem><para>Click <emphasis>Next</emphasis>.</para></listitem><listitem><para>If
+  you did not select a predefined option set, you will now need to fill out
+  the information for each option in your set of radio buttons.</para></listitem><listitem><para>For
+  each option, enter the <emphasis>Text</emphasis> which will be the actual
+  text shown next to the radio buttons.</para></listitem><listitem><para>For each option,
+  enter the <emphasis>Value</emphasis> which will be the actual value stored
+  if the corresponding option is selected. Optionally, if you the value you
+  want to be stored is the same as the text entered for each option, you can
+  select the <emphasis>Use option text as values</emphasis> check box at the
+  bottom of the list of options. If that is selected, you do not need to fill
+  out anything for the values of your options.</para></listitem><listitem><para>If you wish
+  to have a certain option selected by default when the form is first shown to
+  your site visitors, select the <emphasis>Default</emphasis> flag for the
+  corresponding option.</para></listitem><listitem><para>If you wish to save the set of
+  options you just created as a predefined option set, enter a name to save
+  the option set as in the <emphasis>Save option set as</emphasis> field.</para></listitem><listitem><para>Double
+  check your option set and click <emphasis>Save Radiobutton</emphasis> when
+  finished.</para></listitem><listitem><para>The radio buttons will be saved and added to
+  the end of your form.</para></listitem></orderedlist></section>
+
+  <section><title>Adding a Check Box Element</title><para>Make sure you have
+  planned out the format of your check box before continuing. You should have
+  in mind the label or question for the check box, the number of options, the
+  option text to be shown to the user, and the actual value of each option to
+  be stored when it is selected.</para><para>Make sure you are editing the
+  elements of the form you wish to add the check box to. Select
+  <emphasis>Checkbox </emphasis> from the drop down list of elements on your
+  tool bar and click <emphasis>Add</emphasis>. Follow these steps to finish
+  adding the element:</para><orderedlist numeration="arabic"><listitem><para>Fill
+  out the <emphasis>Name</emphasis> for your element. The
+  <emphasis>Name</emphasis> is used to uniquely identify this particular
+  element within the form. Form Generator will attempt to auto-assign a unique
+  name to your element, but if you would like a different name you can change
+  it. The only restrictions are, the name must contain only alpha and numeric
+  characters, NO spaces, and be unique within the form you are editing.
+  </para></listitem><listitem><para>Fill out the <emphasis>Associated Text</emphasis> for
+  your element. The associated text is the text shown with your element. This
+  text can be a simple label, question, or instruction. (e.g.: Check if you
+  wish to receive mail about upcoming events.) </para></listitem><listitem><para>Enter the
+  <emphasis>Number of Options</emphasis> to be used with the check box or
+  select a <emphasis>Predefined Option Set</emphasis> (see section: Predefined
+  Option Sets).</para></listitem><listitem><para>If this element is required to be filled
+  out, check the <emphasis>Required</emphasis> check box.</para></listitem><listitem><para>Click
+  <emphasis>Next</emphasis>.</para></listitem><listitem><para>If you did not select a
+  predefined option set, you will now need to fill out the information for
+  each option in your set of check boxes.</para></listitem><listitem><para>For each option,
+  enter the <emphasis>Text</emphasis> which will be the actual text shown next
+  to the check boxes.</para></listitem><listitem><para>For each option, enter the
+  <emphasis>Value</emphasis> which will be the actual value stored if the
+  corresponding option is selected. Optionally, if you the value you want to
+  be stored is the same as the text entered for each option, you can select
+  the <emphasis>Use option text as values</emphasis> check box at the bottom
+  of the list of options. If that is selected, you do not need to fill out
+  anything for the values of your options.</para></listitem><listitem><para>If you wish to
+  have a certain option selected by default when the form is first shown to
+  your site visitors, select the <emphasis>Default</emphasis> flag for the
+  corresponding option.</para></listitem><listitem><para>If you wish to save the set of
+  options you just created as a predefined option set, enter a name to save
+  the option set as in the <emphasis>Save option set as</emphasis> field.</para></listitem><listitem><para>Double
+  check your option set and click <emphasis>Save Checkbox</emphasis> when
+  finished.</para></listitem><listitem><para>The check boxes will be saved and added to the
+  end of your form.</para></listitem></orderedlist></section>
+
+  <section><title>Editing, Removing, or Moving Elements</title><para>Editing,
+  removing, and moving elements within a form are all similar operations. When
+  editing a form&#39;s elements, the existing elements are shown with the
+  element name and a drop box of options to the right of each element. To edit
+  an element, select the <emphasis>Edit</emphasis> option from the drop box
+  next to the appropriate element and click <emphasis>Go</emphasis>. You will
+  be taken to a page exactly like the page shown when creating that particular
+  element. Follow the instructions given for creating that particular element
+  in their appropriate sections within this document.</para><para>To remove an
+  element, select the <emphasis>Remove</emphasis> option from the drop box
+  next to the appropriate element and click the <emphasis>Go</emphasis>
+  button. You will be asked to confirm whether or not you wish to remove the
+  element. Upon selecting <emphasis>Yes</emphasis> or <emphasis>No</emphasis>
+  you will be taken back to editing your form.</para><para>To move an element,
+  select the <emphasis>Move Up</emphasis> or <emphasis>Move Down</emphasis>
+  option from the drop box next to the appropriate element and click the
+  <emphasis>Go</emphasis> button. The element will be moved up or down in the
+  form. If you element is at the beginning of the form and you select
+  <emphasis>Move Up</emphasis>, the element will wrap to the end of the form
+  and vice versa.</para></section>
+
+  <section><title>Predefined Option Sets</title><para>Predefined option sets
+  are sets of options that are used often when creating a form. Some examples
+  might be Colors, Sex, Yes/No answers, etc. Predefined option sets are
+  created when adding or editing a form element that can contain options.
+  These elements are Dropbox, Radio Button, Multiple Select, and Checkbox. See
+  step 10 for any of the mentioned elements for more details on actually
+  saving predefined option sets. There is currently no method for
+  administrating or deleting predefined option sets.</para></section>
+
+  <section><title>Editing an Existing Form</title><para>First, you must be
+  aware of the state of the form you wish to edit. If the form is saved, make
+  sure you have exported your data before you attempt to edit it (see section
+  <emphasis>Reporting on Form Data</emphasis>). Once you start editing the
+  elements of a saved form, the form data collected is archived and cleared.
+  Editing an unsaved or unapproved forms have no &#34;side-effects&#34; as
+  they contain no data.</para><section><title>Editing an Unsaved or Unapproved
+  Form</title><para>Make sure you have planned out the changes you wish to
+  make to your form. In the plan you should take into account the elements you
+  wish to remove, elements you wish to add, and settings you wish to change.
+  If you are adding elements to the form, make sure you have carefully planned
+  the settings needed for the elements as well as where those elements will
+  appear in the form. Once you have your plan, follow these steps to edit your
+  form:</para><orderedlist><listitem><para>Make sure you are logged into an
+  administrative account that has permissions to use the Form Generator.</para></listitem><listitem><para>From
+  your <emphasis>Control Panel</emphasis>, select the <emphasis>Site Content</emphasis>
+  tab.</para></listitem><listitem><para>Find and select the
+  <emphasis>Form Generator</emphasis> module.</para></listitem><listitem><para>You
+  will be shown a list of your current forms.</para></listitem><listitem><para>Find
+  the form you wish to edit and click the linked <emphasis>Name</emphasis> of
+  the form.</para></listitem><listitem><para>To edit the <emphasis>Settings</emphasis>
+  for the form you selected, select the <emphasis>Settings</emphasis> link
+  from the Main Menu.</para></listitem><listitem><para>Change any settings you
+  had planned on changing and click the <emphasis>Save Settings</emphasis>
+  button.</para></listitem><listitem><para>You will now be taken into editing
+  the elements of the form you have selected.</para></listitem><listitem><para>Stick
+  to your plan and remove or add elements in the same manner as when creating
+  a form (see section <emphasis>Creating a Form</emphasis>).</para></listitem><listitem><para>When
+  you have finished editing the elements within the form, take a moment to
+  look over the form for typos or errors.</para></listitem><listitem><para>Select
+  <emphasis>Save Form</emphasis> from the tool bar when you are ready to save
+  the form.</para></listitem></orderedlist></section><section><title>Editing a
+  Saved Form</title><para>If you are going to edit a saved form, make sure you
+  have exported the form data before you continue (see section
+  <emphasis>Reporting on Form Data</emphasis>).</para><para>Make sure you have
+  planned out the changes you wish to make to your form. In the plan you
+  should take into account the elements you wish to remove, elements you wish
+  to add, and settings you wish to change. If you are adding elements to the
+  form, make sure you have carefully planned the settings needed for the
+  elements as well as where those elements will appear in the form. Once you
+  have your plan, follow these steps to edit your form:</para><orderedlist><listitem><para>Make
+  sure you are logged into an administrative account that has permissions to
+  use the Form Generator.</para></listitem><listitem><para>From your
+  <emphasis>Control Panel</emphasis>, select the <emphasis>Site Content</emphasis>
+  tab.</para></listitem><listitem><para>Find and select the
+  <emphasis>Form Generator</emphasis> module.</para></listitem><listitem><para>You
+  will be shown a list of your current forms.</para></listitem><listitem><para>Find
+  the form you wish to edit and click the linked <emphasis>Name</emphasis> of
+  the form.</para></listitem><listitem><para>Select the <emphasis>Settings</emphasis>
+  link from the Main Menu.</para></listitem><listitem><para>If you are not
+  editing the settings of the saved form, proceed to step 11, otherwise
+  continue with step 8.</para></listitem><listitem><para>Change any settings
+  you had planned on changing and click the <emphasis>Save Settings</emphasis>
+  button.</para></listitem><listitem><para>You will be taken back to the form
+  listing with the form&#39;s settings updated. If you still wish to edit the
+  elements for the form, click the linked Name of the form you wish to edit.</para></listitem><listitem><para>Select
+  the Settings link from the Main Menu</para></listitem><listitem><para>Click
+  the Edit Elements button at the bottom of the settings page.</para></listitem><listitem><para>At
+  this point, Form Generator will want to archive your form and it&#39;s data.
+  If you are sure you wish to continue to edit the form&#39;s elements,
+  archive the form, and clear the form data, select the <emphasis>Confirm</emphasis>
+  button. Otherwise, select <emphasis>Cancel</emphasis> and do not continue
+  following these steps.</para></listitem><listitem><para>You will now be
+  taken into editing the elements of the form you have selected. </para></listitem><listitem><para>Stick
+  to your plan and remove or add elements in the same manner as when creating
+  a form (see section <emphasis>Creating a Form</emphasis>).</para></listitem><listitem><para>When
+  you have finished editing the elements within the form, take a moment to
+  look over the form for typos or errors.</para></listitem><listitem><para>Select
+  <emphasis>Save Form</emphasis> from the tool bar when you are ready to save
+  the form.</para></listitem></orderedlist></section></section>
+
+  <section><title>Deleting a Form</title><para>First, make sure you know which
+  form you wish to delete and that you are absolutely sure you wish to delete
+  it permanently. If the form is a saved form, go ahead and export it&#39;s
+  data before you delete it (see section <emphasis>Reporting on Form Data</emphasis>).
+  When you have completed that, follow these steps to delete the form:</para><orderedlist><listitem><para>Make
+  sure you are logged into an administrative account that has permissions to
+  use the Form Generator.</para></listitem><listitem><para>From your
+  <emphasis>Control Panel</emphasis>, select the <emphasis>Site Content</emphasis>
+  tab.</para></listitem><listitem><para>Find and select the
+  <emphasis>Form Generator</emphasis> module.</para></listitem><listitem><para>You
+  will be shown a list of your current forms.</para></listitem><listitem><para>Find
+  the form you wish to delete and click the corresponding check box next to
+  it&#39;s name.</para></listitem><listitem><para>Now select the
+  <emphasis>Delete</emphasis> option from the drop box for the corresponding
+  list (i.e.: Saved, Unsaved, or Unapproved).</para></listitem><listitem><para>Click
+  <emphasis>Go</emphasis>.</para></listitem><listitem><para>You will now be
+  asked to confirm the deletion of the form. Click <emphasis>Yes</emphasis> or
+  <emphasis>No</emphasis>.</para></listitem><listitem><para>If you selected
+  <emphasis>Yes</emphasis>, your form will be deleted and you will be returned
+  to the form listing. If you selected <emphasis>No</emphasis>, the form will
+  not be deleted and you will be returned to the form listing.</para></listitem></orderedlist></section>
+
+  <section><title>Archiving a Form</title><para>Archiving a form is a good way
+  to save a particular &#34;state&#34; of a form. Only saved forms can be
+  archived since they are the only forms which could possibly contain data.
+  When a form is archived, the form, it&#39;s elements, and all it&#39;s data
+  are all saved in an archive file on the server. To retrieve an archived
+  form, you need to contact your system administrator. Follow these steps to
+  archive a form:</para><orderedlist><listitem><para>Make sure you are logged
+  into an administrative account that has permissions to use the Form
+  Generator.</para></listitem><listitem><para>From your <emphasis>Control
+  Panel</emphasis>, select the <emphasis>Site Content</emphasis> tab.</para></listitem><listitem><para>Find
+  and select the <emphasis>Form Generator</emphasis> module.</para></listitem><listitem><para>You
+  will be shown a list of your current forms.</para></listitem><listitem><para>Find
+  the form you wish to archive in the <emphasis>Saved Forms</emphasis> list
+  and click it&#39;s <emphasis>Name</emphasis>.</para></listitem><listitem><para>On
+  the <emphasis>Main Menu</emphasis> you will see an <emphasis>Archive</emphasis>
+  option. Click <emphasis>Archive</emphasis>.</para></listitem><listitem><para>Your
+  form will be archived on the server and you will be taken to the
+  <emphasis>Report</emphasis> view of the form.</para></listitem></orderedlist></section>
+
+  <section><title>Reporting on Form Data</title><para>Reporting is only
+  available for saved forms since they are the only forms that could possibly
+  contain data. There are a couple of ways to report on data entered into a
+  form. Form Generator has a built in method for browsing current entries in a
+  form as well as a method for exporting this data into a tab delimited file
+  that can be downloaded and imported into any spread sheet program (e.g.:
+  OpenOffice.org Calc, Microsoft Excel, etc.).</para><para>First, to enter
+  into reporting mode for a form, follow these steps:</para><orderedlist><listitem><para>Make
+  sure you are logged into an administrative account that has permissions to
+  use the Form Generator.</para></listitem><listitem><para>From your
+  <emphasis>Control Panel</emphasis>, select the <emphasis>Site Content</emphasis>
+  tab.</para></listitem><listitem><para>Find and select the
+  <emphasis>Form Generator</emphasis> module.</para></listitem><listitem><para>You
+  will be shown a list of your current forms.</para></listitem><listitem><para>Find
+  the form you wish to report on and click it&#39;s <emphasis>Name</emphasis>.</para></listitem><listitem><para>You
+  will now see a <emphasis>Report</emphasis> option available on the
+  <emphasis>Main Menu</emphasis>. Click <emphasis>Report</emphasis>.</para></listitem><listitem><para>You
+  are now in report mode for the form.</para></listitem></orderedlist><para>Some
+  statistical data is calculated and displayed by Form Generator such as the
+  number of complete and incomplete entries, the total number of entries, and
+  the date and time of the last entry the form received. Shown below this
+  information is a list of the actual entries received by the form. There are
+  several options you have available for each entry. You can edit, delete,
+  view, or print each entry.</para><para>When editing an entry, the form is
+  loaded with the data populated, and you are allowed to change any value you
+  wish. When viewing or printing an entry, just the raw data is shown and not
+  the form in it&#39;s entirety. If you delete an entry, it is permanently
+  removed from the form&#39;s data and can only be recovered through an
+  archive if one exists. It is recommended you archive your form data before
+  you edit or remove any of it&#39;s entries. This will ensure you have a
+  backup copy in case of emergency.</para><para>To export all the data within
+  the form, simply click the Export button. A archived &#34;.zip&#34; file
+  will be created by the Form Generator and will be sent to you through your
+  browser. Choose a suitable download location on your machine and save the
+  file. To unzip the file you can use the unzip command in *nix or the winzip,
+  winace, or winrar programs in a windows environment. A single file will be
+  extracted that is a tab delimited file containing your form&#39;s data.
+  Using a spread sheet program, import the file and then save it to a more
+  workable format that is native to the program you&#39;re using (i.e.: *.sxc
+  for OpenOffice.org Calc or *.xls for Microsoft Excel).</para></section>
+</chapter>

@@ -1,0 +1,6 @@
+add_album::Add Album
+edit_album::Album Settings
+add_photo::Add Photo
+edit_photo::Edit Photo
+delete_photo::Delete Photo
+delete_album::Delete Album

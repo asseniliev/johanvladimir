@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>Layout Panel</title><meta name="generator" content="DocBook XSL Stylesheets V1.61.3"/><link rel="home" href="index.html" title="The phpWebSite Manual"/><link rel="up" href="bk01ch05.html" title="Chapter 5. Layout Admin"/><link rel="previous" href="bk01ch05s03.html" title="Layout Settings"/><link rel="next" href="bk01ch05s05.html" title="Conclusion"/></head><body><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">Layout Panel</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="bk01ch05s03.html">Prev</a> </td><th width="60%" align="center">Chapter 5. Layout Admin</th><td width="20%" align="right"> <a accesskey="n" href="bk01ch05s05.html">Next</a></td></tr></table><hr/></div><div class="section" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a id="id2887551"/>Layout Panel</h2></div></div><div/></div><p>After going into the Layout module, you will see a Layout panel at
+    the top of the page. This panel follows you around until you close it. The
+    Layout panel lets you control the type and position of the boxes in your
+    theme. It also lets you control which theme your site uses.</p><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a id="id2887573"/>Move Boxes</h3></div></div><div/></div><p>If you don't like the position of a box on your page, you can
+      change it by click the <span class="bold"><b>On</b></span> link. After
+      you do this, you will see a series of arrows on the top left corner and
+      bottom right corner of each box. These are what you will click to move
+      the boxes.</p><p>Before trying this however, lets talk about the structure of your
+      page. Theme layouts are arranged in quadrants. The quadrants are
+      (usually) in a ticktacktoe pattern. Each quadrant is a theme variable.</p><p>Now if you look next to the arrows you will see a series of
+      numbers separated with colons, like so: 2:1:2. The first number in our
+      code is the column. The second number is the row. The third number is
+      the queue order.</p><p>We will get to the third number in a moment, but first lets look
+      at the first two numbers. Here are out quadrant codes with the default
+      theme variables in parenthesises:</p><div class="table"><a id="id2887622"/><p class="title"><b>Table 5.1. Layout example</b></p><table summary="Layout example" border="1"><colgroup><col/><col/><col/></colgroup><tbody><tr><td>1:1 (left_col_top)</td><td>2:1 (top)</td><td>3:1
+      (right_col_top)</td></tr><tr><td>1:2 (left_col_mid)</td><td>2:2
+      (body)</td><td>3:2 (right_col_mid)</td></tr><tr><td>1:3
+      (left_col_bottom)</td><td>2:3 (bottom)</td><td>3:3
+      (right_col_bottom)</td></tr></tbody></table></div><p>So if we look at our example above (2:1:2) we can see that a box
+      with this number is in the second column, first row.</p><p>Now lets look at the third number. That is the box queue. Each
+      quadrant can hold several boxes. These boxes need to be ordered as well.
+      So using the code, we would know that the box is in the second (2) queue
+      position. This means there is one box above the 2:1:2 box. This does not
+      mean you will always see that box however. The visibility of a box
+      depends upon what module is running, what page is being visited and
+      other factors.</p><p>Now back to box moving. Let's look at the top left series of
+      arrows. The first one is a single up arrow. If I click it, that box will
+      move up in the queue. Our 2:1:2 box would then be 2:1:1. Since our box
+      would be at the top the queue, clicking the single arrow again would
+      send it to the next row. Since 2:1:1 is the top row, this would actually
+      wrap the box to the bottom row. So 2:1:1 would now be 2:3:5. Why is the
+      last number five? Because there are already four other boxes in that
+      quadrant. The single down arrow in the lower right corner of the box
+      does exactly the opposite.</p><p>The next arrow at the top left is a single arrow pointing to the
+      left. This sends the box to the left. So our 2:3:5 box would then be in
+      quadrant 1:3:7. Anytime a box is sent to a new quadrant, it is placed at
+      the end of the box queue. The single right arrow in the lower right
+      corner moves the box to the right.</p><p>Finally you will notice the double arrow pointing up or down.
+      Clicking this tells Layout to send the box to the front or bottom of the
+      queue line. So if our box is in the 1:3:7 position and I click the
+      double up arrow, it will be transferred to the 1:3:1 position. Clicking
+      the double down arrow would send it where? That is correct! To the 1:1:5
+      position. Why? Because the 1:3:7 is the end of the queue. Remember when
+      we moved it from the right? Since it is at the end of the queue it would
+      wrap from the bottom back to the top quadrant. Since it is in a new
+      quadrant, it is put at the bottom of the queue.</p><p>Confused yet? It will make more sense when you start clicking on
+      the arrows. Click on the <span class="bold"><b>Off</b></span> link when
+      you are done.</p></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a id="id2887753"/>Change Box Style</h3></div></div><div/></div><p>Just as there are many boxes that make up a theme, there can also
+      be several different box styles included with it. After you click the
+      <span class="bold"><b>On</b></span> link, a drop down box will appear
+      under each box. Pick the box style you wish to use and click set. The
+      box will then change to the new style. Click the <span class="bold"><b>Off</b></span>
+      link when you are finished.</p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>This is why the panel follows you
+      around until it is closed. You might need to maneuver to a specific page
+      before you can change a box style or position.</p></div></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a id="id2887793"/>Set Default Theme</h3></div></div><div/></div><p>Your default theme is what users see when they first come to the
+      site. If you allow users to pick their own theme, that user (and only
+      that user) will see their theme when they log in. You can change your
+      default theme by choosing one from the drop down menu and clicking the
+      button.</p></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a id="id2887811"/>Settings and Close Panel</h3></div></div><div/></div><p>The <span class="bold"><b>Settings</b></span> link takes you back
+      to the Layout administration screen. Click on the <span class="bold"><b>Close
+      Panel</b></span> button when you are finished using Layout.</p></div></div><div class="navfooter"><hr/><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="bk01ch05s03.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="bk01ch05.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="bk01ch05s05.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">Layout Settings </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> Conclusion</td></tr></table></div></body></html>

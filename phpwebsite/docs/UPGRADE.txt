@@ -1,0 +1,184 @@
+Upgrading your phpWebSite installation
+--------------------------------------
+
+By Matthew McNaney
+-Updated May 23, 2003
+
+Added more info about branch upgrades
+-Nov 1, 2004 
+
+
+phpWebSite allows you to upgrade individual modules in the Boost module.
+However, when there are changes in the core modules (like in 0.9.1 to 0.9.2)
+which prevent you from even getting to Boost, you will need to run the
+upgrader from outside of phpWebSite.
+
+
+
+Getting ready to upgrade
+--------------------------------------
+Hopefully you have NOT untarred the upgrade into your phpWebSite directory
+just yet. The reason will be apparent when you try to hit the site: you 
+will get error messages.
+
+To prepare yourself for an upgrade you should:
+ o Dump/backup your hub and branch databases
+ o Backup your hub and branch directories and files
+ o Create a index.php file that warns the users you are administrating the site.
+   See the end of this document for more information.
+ o Close and restart your browser. If you have a session live while updating your
+   site, it MIGHT interfere with the upgrade process. If you are using Boost
+   to upgrade, you can skip this step.
+
+If you are upgrading to 0.9.3 or greater you should make the image directory
+and subdirectories of images writable by the web server.  
+
+A quick command to do this is:  chmod -R o+rwx images
+
+If the images/mod/controlpanel directory does not have the correct permissions
+then the control panel icons will not be copied correctly.
+
+
+Prepare your branches if you are running any off of your hub site.
+Depending on the owner of these directories will affect the commands to run.
+The base dir of each branch will need to be writable:
+
+If the owner is the webserver and you have root access
+chmod o+rwx branch1/
+chmod o+rwx branch2/
+etc...
+
+otherwise
+chmod 777 branch1/
+chmod 777 branch2/
+etc...
+
+The images and themes directories will also need to be writable for the
+upgrade:
+
+chmod -R o+rwx branch1/images/
+chmod -R o+rwx branch1/themes/
+chmod -R o+rwx branch2/images/
+chmod -R o+rwx branch2/themes/
+
+or
+
+chmod -R 777 branch1/images/
+chmod -R 777 branch1/themes/
+chmod -R 777 branch2/images/
+chmod -R 777 branch2/themes/
+
+If the webserver is not given proper permissions then branch upgrades will not
+be successful.
+
+
+Once you have you have finished these steps (and ONLY after) should you
+continue.
+
+
+Running the Upgrade
+--------------------------------------
+Now you can untar the new files into your installation. If you go to
+your site's index.php file, you will see a few error messages. The
+aforementioned index.php prevents most people from seeing these messages.
+Point your browser to 'http://www.myWebSitesName.com/setup/' where 
+'www.myWebSitesName.com' is the address for your web site.
+
+The first thing the upgrader will do is upgrade your core modules. It
+will also check to see if you are running any branch sites and automatically
+upgrade them as well.
+
+You should receive a 'Core Updated!' message. Underneath these messages
+will be a list of modules that appear to need upgrading as well. Click
+the checkboxes of the modules you want updated (or click the 'Check All' button
+to check all of them) and click the 'Update Modules' button. Your site and
+all your branch sites should now be updated.
+
+If you made a warning index.php file, dump it and put the real file back.
+You should now be able to use your site as normal.
+
+
+Should something go wrong
+--------------------------------------
+If you go to your site and receive errors the FIRST thing you should try
+is closing your browser, reopening it, and trying to use your site again.
+Sometimes old sessions will conflict with the upgraded information.
+
+If you get an error message or your sites still don't function, restore your
+backed up databases and files and try again. If it STILL doesn't work, contact
+us via Sourceforge, we want to know what went wrong.
+
+Please include your OS, web server, PHP, and phpWebSite version information.
+Also include any error messages that were displayed. The more data you supply
+us, the better chance you will receive help.
+
+You may also try using the repair.php file. It contains answers to a few
+commonly experienced problems.
+
+
+
+Returning to update.php
+---------------------------------------
+Most of the time, Boost will handle your upgrade needs. However, should 
+an upgraded module cause problems before you can get to the Boost module,
+you can always return to update.php to upgrade the offending module.
+
+  
+Securing your Site
+---------------------------------------
+Although setup.php, update.php, and repair.php require passwords to enter,
+you may want to prevent malicious users (read: jerks) from even accessing
+these files. One way would be to limit read access on that directory after
+you are finished using it. Another measure would be to alter your 
+allow_setup.php file. Open this file in an editor and change the 'TRUE'
+to 'FALSE' like so:
+
+$_SESSION['allow_setup'] = FALSE;
+
+Change this back to TRUE when you need to update again.
+
+
+
+
+Appendix I: index.php File Example
+--------------------------------------
+
+While you are administrating your site, you may want to put a friendly
+message to warn your users. This will prevent them from seeing error messages
+until you are ready to present the upgraded site to them.
+
+You should prepare this file before upgrading your site, but you SHOULD NOT
+put it in the hub directory until after untarring the code. If you do, then
+it will get overwritten by the new file.
+
+If you are confused just do the following
+1) Create a file named 'index.php' in a directory outside your installation.
+2) Type something like the below into the file:
+
+<--------------------- BEGIN cutting after this line -------------------------->
+<?php
+
+echo "<div align=\"center\"><h1>Please be patient while we upgrade the site.</h1>
+We'll be back in a jiffy!</div>";
+
+?>
+<-------------------- STOP cutting before this line --------------------------->
+
+3) Save this file.
+4) Now untar the upgrade.
+5) Make a copy of the 'index.php' file in the installation directory. Give it different
+   name (eg. mv index.php runme.php ). Don't lose this file. Note: You can also
+   change the extension but this won't allow you to test the upgrade. 
+6) Copy the index.php file YOU created above into the installation directory.
+
+Now, when people hit your site, they will get a message that the site is undergoing
+upgrades.
+
+After you upgrade the site you can test it by going to your backed up file.
+(e.g. http://www.myWebSite.com/runme.php). You won't be able to get too far into
+the site however as the modules expect to return to the real 'index.php' file.
+If it appears to work (no error messages) then you can delete your maintenance
+file and rename your backup file (e.g. runme.php) to 'index.php'.
+
+If the above is still confusing, then just let your users see the error messages
+until you are finished upgrading. They'll live :)

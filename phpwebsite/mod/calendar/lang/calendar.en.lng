@@ -1,0 +1,124 @@
+en:|:calendar
+a:|:All Day Event:|:All Day Event
+a:|:All Day:|:All Day
+a:|:Append:|:Append
+a:|:Apr:|:Apr
+a:|:April:|:April
+a:|:Are you certain you want to delete this event:|:Are you certain you want to delete this event
+a:|:Aug:|:Aug
+a:|:August:|:August
+a:|:Beginning of each month:|:Beginning of each month
+a:|:Box Views:|:Box Views
+a:|:Cache Calendar Events:|:Cache Calendar Events
+a:|:Cache Calendar Views:|:Cache Calendar Views
+a:|:Calendar Events:|:Calendar Events
+a:|:Calendar Settings:|:Calendar Settings
+a:|:Calendar:|:Calendar
+a:|:Categories:|:Categories
+a:|:Conversion Complete:|:Conversion Complete
+a:|:Convert [var1] File:|:Convert [var1] File
+a:|:Create Event:|:Create Event
+a:|:Create New Event:|:Create New Event
+a:|:Daily repeats must not exceed one day in duration:|:Daily repeats must not exceed one day in duration
+a:|:Daily:|:Daily
+a:|:Day:|:Day
+a:|:Days Ahead:|:Days Ahead
+a:|:Deadline:|:Deadline
+a:|:Dec:|:Dec
+a:|:December:|:December
+a:|:Delete Confirmation:|:Delete Confirmation
+a:|:Delete:|:Delete
+a:|:Do not use:|:Do not use
+a:|:Edit Event:|:Edit Event
+a:|:Edit:|:Edit
+a:|:End Date:|:End Date
+a:|:End Time:|:End Time
+a:|:End of each month:|:End of each month
+a:|:Event Deleted:|:Event Deleted
+a:|:Event Type:|:Event Type
+a:|:Event calendar for phpWebSite.:|:Event calendar for phpWebSite.
+a:|:Event created successfully:|:Event created successfully
+a:|:Event submitted for approval:|:Event submitted for approval
+a:|:Event updated successfully:|:Event updated successfully
+a:|:Every Month:|:Every Month
+a:|:Every month on Start Date:|:Every month on Start Date
+a:|:Every:|:Every
+a:|:Feb:|:Feb
+a:|:February:|:February
+a:|:Fri:|:Fri
+a:|:Friday:|:Friday
+a:|:From:|:From
+a:|:Interval:|:Interval
+a:|:Invalid end date:|:Invalid end date
+a:|:Invalid start date:|:Invalid start date
+a:|:Jan:|:Jan
+a:|:January:|:January
+a:|:Jul:|:Jul
+a:|:July:|:July
+a:|:Jun:|:Jun
+a:|:June:|:June
+a:|:Link Directly:|:Link Directly
+a:|:Mar:|:Mar
+a:|:March:|:March
+a:|:May:|:May
+a:|:Mini Month:|:Mini Month
+a:|:Mon:|:Mon
+a:|:Monday:|:Monday
+a:|:Month:|:Month
+a:|:Monthly:|:Monthly
+a:|:No Categories Available:|:No Categories Available
+a:|:No Groups Available:|:No Groups Available
+a:|:No events today:|:No events today
+a:|:No events:|:No events
+a:|:No pages available:|:No pages available
+a:|:Nov:|:Nov
+a:|:November:|:November
+a:|:Oct:|:Oct
+a:|:October:|:October
+a:|:Other Settings:|:Other Settings
+a:|:Pick Day:|:Pick Day
+a:|:Repeat Event until:|:Repeat Event until
+a:|:Repeat dates must extend beyond the date of the event:|:Repeat dates must extend beyond the date of the event
+a:|:Restrict View:|:Restrict View
+a:|:Sat:|:Sat
+a:|:Saturday:|:Saturday
+a:|:Sep:|:Sep
+a:|:September:|:September
+a:|:Settings Updated:|:Settings Updated
+a:|:Start Date:|:Start Date
+a:|:Start Time:|:Start Time
+a:|:Starts At:|:Starts At
+a:|:Submit Event:|:Submit Event
+a:|:Sun:|:Sun
+a:|:Sunday:|:Sunday
+a:|:The End Time must be greater than the Start Time on a single day, interval event:|:The End Time must be greater than the Start Time on a single day, interval event
+a:|:The Start Date must be less than the End Date in an interval event:|:The Start Date must be less than the End Date in an interval event
+a:|:This event repeats [var1] [var2] [var3]:|:This event repeats [var1] [var2] [var3]
+a:|:Thu:|:Thu
+a:|:Thursday:|:Thursday
+a:|:To:|:To
+a:|:Today's Events:|:Today's Events
+a:|:Tue:|:Tue
+a:|:Tuesday:|:Tuesday
+a:|:Update Event:|:Update Event
+a:|:Update Settings:|:Update Settings
+a:|:User Submitted Events:|:User Submitted Events
+a:|:View Options:|:View Options
+a:|:Wed:|:Wed
+a:|:Wednesday:|:Wednesday
+a:|:Week:|:Week
+a:|:Weekly repeats must not exceed one day in duration:|:Weekly repeats must not exceed one day in duration
+a:|:Weekly:|:Weekly
+a:|:Year:|:Year
+a:|:Yearly:|:Yearly
+a:|:at the beginning of each month:|:at the beginning of each month
+a:|:at the end of each month:|:at the end of each month
+a:|:every [var1]:|:every [var1]
+a:|:first:|:first
+a:|:fourth:|:fourth
+a:|:on the [var1] [var2] of every [var3]:|:on the [var1] [var2] of every [var3]
+a:|:on this day each month:|:on this day each month
+a:|:on this day each year:|:on this day each year
+a:|:second:|:second
+a:|:third:|:third
+a:|:until:|:until

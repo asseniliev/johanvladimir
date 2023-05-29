@@ -1,0 +1,79 @@
+da:|:notes
+a:|:Are you sure you wish to delete this note from:|:Er du sikker på, at du vil slette denne note fra
+a:|:Are you sure you wish to delete this note to :|:Er du sikker på, at du vil slette denne note til 
+a:|:Date Sent:|:Dato afsendt
+a:|:Delete Note from:|:Slet note fra
+a:|:Delete?:|:Slet?
+a:|:Go here to send notes to other users on this site.:|:Viser dine beskeder, og sender noter til andre brugere
+a:|:Message:|:Besked
+a:|:My Notes:|:Mine noter
+a:|:NEW:|:NY
+a:|:New Note:|:Ny note
+a:|:No messages found!:|:Ingen beskeder fundet!
+a:|:Note Deleted Successfully:|:Notatet er blevet slettet
+a:|:Note Saved:|:Note gemt
+a:|:Note Sent:|:Note sendt
+a:|:Note from:|:Note fra
+a:|:Notes:|:Noter
+a:|:READ:|:LÆST
+a:|:Send Note:|:Send note
+a:|:Sent:|:Sendt
+a:|:Sent Notes:|:Sendte noter
+a:|:Status:|:Status
+a:|:Your note was <b>not</b> deleted.:|:Din note blev <b>ikke</b> slettet.
+a:|:Your note was successfully deleted.:|:Din note er blevet slettet.
+a:|:Your note was successfully sent!:|:Din note er blevet sendt!
+a:|: new note:|: ny note
+a:|: to all users.:|: til alle brugere.
+a:|: to the group :|: til gruppen
+a:|:ALL:|:ALLE
+a:|:Actions:|:Handlinger
+a:|:Are you sure you want to send this note to **ALL** users??:|:Er du sikker på, at du vil sende denne note til **ALLE** brugere??
+a:|:Delete:|:Slet
+a:|:ERROR!:|:FEJL
+a:|:From:|:Fra
+a:|:Group:|:Gruppe
+a:|:Groups:|:Grupper
+a:|:Invalid group name.:|:Forkert gruppenavn.
+a:|:Invalid username.:|:Forkert brugernavn.
+a:|:Message::|:Besked:
+a:|:Message: :|:Besked: 
+a:|:Multi-Send Notes:|:Noter
+a:|:No:|:Nej
+a:|:No message provided.:|:Ingen besked angivet.
+a:|:No selection made for send option.:|:Du skal huske at krydse af, at du vil sende noten til alle brugere.
+a:|:No subject provided.:|:Intet emne angivet.
+a:|:Reply:|:Svar
+a:|:Select from the list below the group you would like to send a note to.:|:Vælg fra nedenstående liste, den gruppe du vil sende en note til.
+a:|:Select from the list below the user you would like to send a note to.:|:Vælg fra nendenstående liste, den bruger du vil sende en note til.
+a:|:Send:|:Send
+a:|:Send Options::|:Send indstillinger:
+a:|:Send a note to a group of users: :|:Send en note til en gruppe af brugere: 
+a:|:Send a note to all users.:|:Send en note til alle brugere.
+a:|:Sent note to all users.:|:Sendte noter til alle brugere.
+a:|:Sent note to group members.:|:Sendte noter til gruppemedlemmer.
+a:|:Sent note was <b>not</b> deleted.:|:Den sendte note blev <b>ikke</b> slettet.
+a:|:Sent note was successfully deleted.:|:Den sendte note blev slettet.
+a:|:Sent note with subject :|:Sendte noter med emner 
+a:|:Show List of Users:|:Vis brugerliste
+a:|:Subject:|:Emne
+a:|:Subject:  :|:Emne:  
+a:|:The group send option is disabled since there are no user groups.:|:Gruppe funktionen er slået fra, da der ikke findes nogle grupper.
+a:|:There are no members in this group.:|:Der er ingen medlemmer i denne gruppe.
+a:|:There was a database error when attempting to send your note.:|:Der opstod en databasefejl under afsendelse af noten.
+a:|:There was an error in the note you are attempting to read.  It will not be displayed for security reasons.  Contact your systems administrator for help.:|:Noten du forsøger at læse indeholder en fejl. Den vil ikke blive vist af sikkerhedsmæssige årsager. Kontakt venligst din systemadministrator for hjælp.
+a:|:To:|:Til
+a:|:Users:|:Brugere
+a:|:View List of Groups:|:Vis gruppeliste
+a:|:View Notes:|:Vis noter
+a:|:Yes:|:Ja
+a:|:You are not allowed to access the note you specified.:|:Du har ikke adgang til at se den valgte note.
+a:|:You do not have permission to either send notes to all users or send notes to groups.:|:Du har ikke autorisation til at sende noter til alle brugere eller sende noter til grupper.
+a:|:You have :|:Du har 
+a:|:You have already sent this note.:|:Du har allerede sendt denne note.
+a:|:You must be logged in to use Notes.:|:Du skal være logget ind, for at kunne bruge Noter.
+a:|:You must designate a recipient for this note.:|:Du skal angive en modtager til noten.
+a:|:You must provide a body to your note.:|:Du skal angive et indhold til din note.
+a:|:You must provide a subject to your note.:|:Du skal angive et emne til din note.
+a:|:Go here to send notes to groups or all of the users on this site.:|:Sender noter til alle brugere eller grupper af brugere
+a:|:Back:|:Tilbage

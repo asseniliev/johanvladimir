@@ -1,0 +1,33 @@
+Document - PageMaster Installation
+Author - Adam Morton <adam@jasventures.com>
+Updated - 09/10/2002
+
+-----------------------------------------------------------------------------
+INSTALLATION
+-----------------------------------------------------------------------------
+To install PageMaster simply follow these steps:
+
+1. Place the pagemaster files into the phpwebsite/mod/pagemaster/ directory.
+2. Make sure the permissions on the phpwebsite/images/ directory allow the
+   web server to write.
+3. Open your browser and point it to your phpWebSite site.
+4. Open the "Boost" module as an administrator or deity and select the "Install"
+   button for PageMaster.
+5. Enjoy!
+
+-----------------------------------------------------------------------------
+UNINSTALLING PAGEMASTER
+-----------------------------------------------------------------------------
+WARNING!!
+Uninstalling PageMaster will result in loss of data!  It is suggested you
+backup your phpwebsite/images/pagemaster/ directory and backup your database.
+I am not responsible for any loss of data nor is Appalachian State University.
+
+To Uninstall PageMaster simply follow these steps:
+
+1. Make sure the permissions on the phpwebsite/images/ directory allow the
+   web server to write.
+2. Open your browser and point it to your phpWebSite site.
+3. Open the "Boost" module as an administrator or deity and select the "Uninstall"
+   button for PageMaster.
+4. When asked if you are sure you wish to uninstall PageMaster select "Yes".

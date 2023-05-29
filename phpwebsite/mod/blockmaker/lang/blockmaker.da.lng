@@ -1,0 +1,50 @@
+da:|:blockmaker
+a:|:Actions:|:Handlinger
+a:|:Activate:|:Aktiver
+a:|:Activity:|:Aktivitet
+a:|:Allow View (All are selected by default):|:Tillad visning (som standard er alle valgt)
+a:|:Are you sure you want to delete the block [var1] ?:|:Er du sikker på at du vil slette blokken [var1] ?
+a:|:Block Adminisitration:|:Blok administration
+a:|:Block Changes Successfull:|:Blok ændret
+a:|:Block Content:|:Blok indhold
+a:|:Block Creation Successful:|:Blokken er oprettet
+a:|:Block Deleted:|:Blok slettet
+a:|:Block Footer (Boxstyle must support footer):|:Blok sidefod (boks layout skal understøtte sidefod)
+a:|:Block Menu:|:Blok menu
+a:|:Block Title:|:Blok titel
+a:|:Create A New Block:|:Opret en ny blok
+a:|:Create Block:|:Opret blok
+a:|:Current blocks:|:Nuværende blokke
+a:|:Deactivate:|:Deaktiver
+a:|:Default Theme Variable:|:Standardtema variabel
+a:|:Delete Block Confirmation:|:Slet blokken
+a:|:Edit A Block:|:Ret en blok
+a:|:List Blocks:|:List blokke
+a:|:No Block Deleted:|:Ingen blok slettet
+a:|:No block was deleted from the database.:|:Ingen blokke blev slettet fra databasen.
+a:|:Save Changes:|:Gem ændringer
+a:|:Select Modules Allowed:|:Vælg moduler er tilladt
+a:|:The Block Maker allows you to add basic blocks of content to your site.:|:Opretter og vedligeholder blokke
+a:|:The block [var1] was successfully deleted from the database.:|:Blokken [var1] er nu slettet i databasen.
+a:|:The block [var1] you created was successfully saved to the database.:|:Blokken [var1] som du oprettede er nu gemt i databasen.
+a:|:The block [var1] you edited was successfully saved to the database.:|:Blokken [var1] som du ændrede er nu gemt i databasen.
+a:|:There are no blocks in the database at this time.:|:Der er på nuværende tidspunkt ingen blokke i databasen.
+a:|:Title:|:Titel
+a:|:Allow View (Only home selected by default):|:Tillad visning (kun forsiden er valgt som standard)
+a:|:Back To Main:|:Tilbage
+a:|:Block Maker:|:Blokke
+a:|:Delete:|:Slet
+a:|:Edit:|:Ret
+a:|:Error:|:Fejl
+a:|:Hide:|:Skjul
+a:|:ID:|:ID
+a:|:Limit:|:Begræs
+a:|:New Block:|:Ny blok
+a:|:No:|:Nej
+a:|:No result was returned for the block id: [var1].:|:Der blev ikke returneret noget resultat for blokken med id: [var1].
+a:|:Show:|:Vis
+a:|:The block [var1] could not be deleted from the database please contact your systems administrator.:|:Blokken [var1] kunne ikke slettes fra databasen, kontakt venligst systemadministratoren.
+a:|:The block [var1] you edited could not be updated please contact your systems administrator.:|:Blokken [var1] kunne ikke opdateres i databasen, kontakt venligst systemadninistratoren.
+a:|:This block already exists in the database.  You may receive this error as a result of refreshing your browser.:|:Denne blok findes allerede i databasen.  Du får muligvis denne fejl, hvis du har valgt opdater i din browser.
+a:|:Updated:|:Opdateret
+a:|:Yes:|:Ja

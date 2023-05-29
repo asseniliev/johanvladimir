@@ -1,0 +1,38 @@
+en:|:modmaker
+a:|:ARE YOU ABSOLUTELY SURE YOU WANT TO DELETE THIS MODULE:|:WEET JE ABSOLUUT ZEKER DAT JE DEZE MODULE WILT VERWIJDEREN
+d:|:Admin Operation:|:Beheers Operatie
+a:|:All:|:ALLE
+a:|:Allow View:|:Bekijken Toestaan
+a:|:Check to confirm:|:Aanvinken om te bevestigen
+a:|:Class Files:|:Klasse Bestanden
+a:|:Create Module Entry:|:Maak Module Ingang
+a:|:Create Module Installation:|:Maak Module Installatie
+a:|:Deity Only:|:Alleen Godheden
+a:|:Edit Module:|:Wijzig Module
+a:|:Error:|:Fout
+a:|:Export Mod Info:|:Exporteer Mod Info
+a:|:Initialize Class Name:|:Initializeer Klasse Naam
+a:|:It might cause you to have to reinstall phpWebSite:|:Het kan een noodzakelijke herinstallatie van phpWebSite veroorzaken
+a:|:Mod Directory:|:Mod Map
+a:|:Mod Filename:|:Mod Bestand
+a:|:Mod Maker Administration:|:Mod Maker Beheer
+a:|:Mod Title:|:Mod Titel
+d:|:Module Icons:|:Module Pictogram
+a:|:Module Permission:|:Module Permissies
+a:|:Module information file written to conf directory:|:Module informatie bestand weggeschreven naar de conf map
+a:|:Module information file written to setup directory:|:Module informatie bestand weggeschreven naar de setup map
+a:|:Only:|:Alleen
+a:|:Permissions Table:|:Permissies Tabel
+a:|:Priority:|:Prioriteit
+a:|:Proper Name:|:Passende Naam
+a:|:Remove Module:|:Verwijder Module
+a:|:Removing this module from the system could have serious consequences:|:Verwijderen van deze module van het systeem kan ernstige consequenties hebben
+a:|:Rights File:|:Rechten bestand
+a:|:Session Variables:|:Sessie Variabelen
+a:|:Unable to write to this module's setup directory:|:Kan niet op de setup directory van deze module schrijven
+a:|:Uncheck to confirm:|:Uitvinken om te bevestigen
+a:|:Update Module:|:Bijwerken Module
+d:|:User Icon:|:Gebruikers Pictogram
+d:|:User Operation:|:Gebruikers Operatie
+a:|:User:|:Gebruiker
+a:|:Yes, only deities may access:|:Ja, alleen Godheden hebben toegang

@@ -1,0 +1,20 @@
+How to use PNG behavior:
+--------------------------------------
+
+All you must do to add transparent png support for IE
+is to add this to your theme's style sheet, or maybe just
+inline if you like.  You must specify the height and width
+attributes in your html <img> tag or it will fail to 
+function properly.
+
+style sheet method:
+
+img {
+   behavior: url("js/pngbehavior/pngbehavior.htc");
+}
+
+inline method:
+
+<img src="yourimage.png" height="48" width="48" style="behavior: url('js/pngbehavior/pngbehavior.htc');" />
+
+Enjoy!

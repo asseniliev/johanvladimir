@@ -1,0 +1,7 @@
+This module uses a new core library that allows you to choose images from
+an image gallery.
+
+For it to work, you will have to move the included file ImgLibrary.php to
+directory "/core", file "Image_Library.txt" to directory /docs/developers
+and files ImgLibrary_view_gallery.tpl & ImgLibrary_view_gallery.tpl to
+directory "/templates".

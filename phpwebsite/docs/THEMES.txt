@@ -1,0 +1,5 @@
+For information on writing modules to work with the Layout module please
+read the mod/layout/docs/devdoc.txt file.
+
+For information on creating a theme, please read the
+mod/layout/docs/theme_creation.txt file.

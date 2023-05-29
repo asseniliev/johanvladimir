@@ -1,0 +1,25 @@
+{BACK}
+{START_FORM}
+
+<!-- BEGIN GUESTNAME -->
+{GUESTNAME_TEXT}:<br />
+{MESSAGE_GUESTNAME}<br /><br />
+<!-- END GUESTNAME -->
+
+<!-- BEGIN GUESTEMAIL -->
+{GUESTEMAIL_TEXT}:<br />
+{MESSAGE_GUESTEMAIL}<br /><br />
+<!-- END GUESTEMAIL -->
+
+<!-- BEGIN LABEL -->
+{LABEL_TEXT}:<br />
+{MESSAGE_LABEL}<br /><br />
+<!-- END LABEL -->
+
+<!-- BEGIN BODY -->
+{BODY_TEXT}:<br />
+{MESSAGE_BODY}<br /><br />
+<!-- END BODY -->
+
+{MESSAGE_SAVE}
+{END_FORM}

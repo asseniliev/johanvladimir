@@ -1,0 +1,80 @@
+en:|:documents
+a:|:list:|:list
+a:|:edit:|:edit
+a:|:print:|:print
+a:|:ID:|:ID
+a:|:Files:|:Files
+a:|:Save:|:Save
+a:|:Add Files:|:Add Files
+a:|:File upload messages:|:File upload messages
+a:|:list:|:list
+a:|:view:|:view
+a:|:delete:|:delete
+a:|:The date entered was not the correct format:|:The date entered was not the correct format
+a:|:There was a problem saving to the database:|:There was a problem saving to the database
+a:|:Save successful:|:Save successful
+a:|:You do not have permission to [var1]:|:You do not have permission to [var1]
+a:|:The [var1] and all its files were successfully deleted from the database.:|:The [var1] and all its files were successfully deleted from the database.
+a:|:No [var1] was deleted from the database:|:No [var1] was deleted from the database
+a:|:Delete [var1] confirmation:|:Delete [var1] confirmation
+a:|:Yes:|:Yes
+a:|:No:|:No
+a:|:Are you sure you want to delete the [var1] and all the files associated with it?:|:Are you sure you want to delete the [var1] and all the files associated with it?
+a:|:You do not have permission to [var1]:|:You do not have permission to [var1]
+a:|:download:|:download
+a:|:View:|:View
+a:|:Edit:|:Edit
+a:|:All available:|:All available
+a:|:Unapproved:|:Unapproved
+a:|:settings:|:settings
+a:|:new:|:new
+a:|:search:|:search
+a:|:all:|:all
+a:|:unapproved:|:unapproved
+a:|:One of the dates entered was not valid.:|:One of the dates entered was not valid.
+a:|:Search:|:Search
+a:|:Country:|:Country
+a:|:Court Type:|:Court Type
+a:|:From:|:Form
+a:|:To:|:To
+a:|:Keyword:|:Keyword
+a:|:Full Text:Full Text
+a:|:You do not have permission to [var1]:|:You do not have permission to [var1]
+a:|:edit settings:|:edit settings
+a:|:Settings saved successfully:|:Settings saved successfully
+a:|:There was a problem saving to the database:|:There was a problem saving to the database
+a:|:Anonymous users can [var1]:|:Anonymous users can [var1]
+a:|:Show most recent block:|:Show most recent block
+a:|:must be approved:|:must be approved
+a:|:Recently Added:|:Recently Added
+a:|:Date:|:Date
+a:|:Recently Added:|:Recently Added
+a:|:You do not have permission to [var1]:|:You do not have permission to [var1]
+a:|:add:|:add
+a:|:The [var1] were successfully deleted from the database.:|:The [var1] were successfully deleted from the database.
+a:|:No [var1] were deleted from the database.:|:No [var1] were deleted from the database.
+a:|:Delete [var1] confirmation:|:Delete [var1] confirmation
+a:|:Are you sure you want to refuse these [var1] and delete them from the database?:|:Are you sure you want to refuse these [var1] and delete them from the database?
+a:|:Settings:|:Settings
+a:|:Back to [var1]:|:Back to [var1]
+a:|:How many files would you like to upload?:|:How many files would you like to upload?
+a:|:Please select your files and the click Upload.:|:Please select your files and the click Upload.
+a:|:Update:|:Update
+a:|:Upload:|:Upload
+a:|:Unable to save to the database.:|:Unable to save to the database.
+a:|:File successfully uploaded.:|:File successfully uploaded.
+a:|:There was a problem uploading the specified file.:|:There was a problem uploading the specified file.
+a:|:The file uploaded was not an allowed file type.:|:The file uploaded was not an allowed file type.
+a:|:The file exceeded the max size allowed.:|:The file exceeded the max size allowed.
+a:|:The file was only partially uploaded.:|:The file was only partially uploaded.
+a:|:No file was selected to be uploaded.:|:No file was selected to be uploaded.
+a:|:Upload Files:|:Upload Files
+a:|:Label:|:Label
+a:|:Updated:|:Updated
+a:|:Description:|:Description
+a:|:Hide:|:Hide
+a:|:Show:|:Show
+a:|:Approve:|:Approve
+a:|:Disapprove:|:Disapprove
+a:|:Name:|:Name
+a:|:Submitted:|:Submitted

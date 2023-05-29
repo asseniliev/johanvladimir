@@ -1,0 +1,123 @@
+Branch Creation Documentation      Author: Steven Levin
+-----------------------------------------------------------------
+v1.0  10/21/2003
+-----------------------------------------------------------------
+
+Terms:
+--------------
+hub - the base phpwebsite install, where all of the code is located
+branch - a site which runs off the code found in the hub
+
+
+I. Introduction
+
+What is the purpose of creating a branch?
+
+Branches are seperate installations of phpWebSite that allow you
+to run off the code found in the base.  So you can have multiple
+sites running off of one set of code.  This provides for easy 
+maintenance when upgrading since there is only one set of code to
+update.
+
+What do I need to be able to do to create a branch?
+
+- You must have access to create directories on your server and
+also set the permissions on those directories.
+- It is also assumed that you have a basic understanding of
+directory structures and file permissions. 
+
+
+II. Getting Started
+
+What steps should I take to prepare for my branch intallation?
+
+A. Step I
+- Decide whether or not your branch will install to the same db as
+your hub or a new db.  If you choose to put it in a new database go
+ahead and create that database.  Otherwise you will need to use a
+table prefix if you are going to use the same db.
+
+B. Step II
+- Decide where on the filing system you want the branch to be
+located.  It can pretty much be wherever you have permission to put
+documents on your server.  For this example we are going to use
+/var/www/html/phpws/.  This is the location of my main phpwebsite
+install, the hub.  I like to put my branches in a directory along
+side of phpwebsite.  So I am going to create the directory
+/var/www/html/branches/.  But remember this can be anywhere you like
+so it could be /var/www/html/phpws/branches/.
+
+C. Step III
+- Name your branch and the create a directory by that name under
+your branch directory.  Example: branch name = mybranchsite
+/var/www/html/branches/mybranchsite/
+
+D. Step IV
+- Set the permissions on the directories your just created plus one
+in the hub of phpwebsite.  If you have root access or can get someone
+with root access to set the permissions for you, it is recommended to
+set them to the user that the webserver runs as.  For our example the
+server runs as apache.
+
+Recommended:
+chown apache.apache /var/www/html/branches/mybranchsite/
+chown apache.apache /var/www/html/phpws/conf/branch/
+
+Alternative:
+chmod 777 /var/www/html/branches/mybranchsite/
+chmod 777 /var/www/html/phpws/conf/branch/
+
+
+III. Run Branch Module
+
+Now that I have done all the server setup, what do I need to do to
+install and register the branch with phpWebSite?
+
+A. Step I
+- Log into your hub phpwebsite install with a deity account and
+navigate to the Branch Module under the Administration tab in the
+control panel.  Click on Create Branch to begin the installation
+process.  It will then ask you a series of question similar to the
+ones when you were setting up the hub site.
+
+1. Database Host: usually localhost
+2. Database Username: the username you use to connect to the db
+3. Database Password: the password associated with your username
+4. Database Name: the name of the db to use, either the new one you
+   set up or the one the hub is installed to.
+5. Table Prefix:  only use this if you are sharing the database with
+   the hub, usually good to use branch name (ie. mybranchsite_)
+6. Branch Name: the name of your branch (ie. mybranchsite)
+7. Branch Web Adress: the http adress to the branch site
+   (ie. yoursite.com/mybranchsite/)
+8. Branch File Directory: the directory you created earlier
+   (ie. /var/www/html/branches/mybranchsite/
+9. ID Hash: leave as is or change if you are really paranoid
+10. Select all the modules you wish to install and then click submit.
+
+B. Step II
+- After the installation is complete click the link at the bottom to
+visit your new branch site.  Any deity account from the hub is copied
+over from the branch, so you should be able to log in with any one of
+those.
+
+
+IV. Secure the New Branch
+
+Is there anything left I need to do after I finish the install?
+
+- Yes you must set your permissions back to secure your site.  Once
+again these commands will be different depending upon if you have root
+access or not.
+
+Recommended:
+chown root.root -R /var/www/html/branches/mybranchsite/
+chown apache.apache -R /var/www/html/branches/mybranchsite/images/
+chown apache.apache -R /var/www/html/branches/mybranchsite/files/
+chown root.root /var/www/html/phpws/conf/branch/
+
+Alternative:
+chmod 755 -R /var/www/html/branches/mybranchsite/
+chmod 777 -R /var/www/html/branches/mybranchsite/images/
+chmod 777 -R /var/www/html/branches/mybranchsite/files/
+chmod 755 /var/www/html/phpws/conf/branch/

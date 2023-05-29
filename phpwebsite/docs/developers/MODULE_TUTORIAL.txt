@@ -1,0 +1,211 @@
+Module Creation Tutorial
+
+Author: Adam Morton <adam@NOSPAM.tux.appstate.edu>
+Version: 1.2
+Updated: 1/28/2002
+---------------------------------------------------
+
+WARNING!  This file is outdated as of now.  I will be rewritting a
+module tutorial using the Item and Manager classes contained in the
+phpwebsite core at a later date.
+
+ATTENTION!
+----------
+This document assumes that the programmer has knowledge of the
+PHP programming language, object-oriented programming, database
+interactions using SQL, and basic design techniques.  If you do not
+meet the recommended criteria, go read up and learn some of this
+stuff...it's fun :)  Also, if you haven't read the CODING_STANDARDS.txt
+file, please do so before you continue.
+
+Introduction:
+-------------
+This tutorial is created to help guide programmers through the
+creation of a complete and working module for phpWebSite.  The
+code and the module created are provided with phpWebSite and is
+called "Notes". I will make several references to the files
+and structure contained in the notes directory so you may want
+to have those files handy.
+
+Also, This document is simply meant as a guide. You do not have
+to design or code your module this way! This doument is mainly
+used to give you an idea of how phpWebSite works and some useful,
+time saving techniques when creating modules for it.  Not all
+features are covered in this document, but it should get you started
+so you can figure out some more cool feature on your own.
+
+Directory Structure:
+--------------------
+OK, the first thing we need to do is get the directory structure
+nailed down.  phpWebSite has a standard directory structure for
+modules and if you do not follow these standards, your module will
+not work.
+
+First off we create a "notes" directory in the root/mod/
+directory.  Then inside the notes directory we want the structure
+to look like this:
+
+notes/class
+notes/conf
+notes/docs
+notes/img
+notes/lang
+notes/boost
+notes/templates
+
+For a short explanation on each directory and it's function, see
+the CODING_STANDARDS.txt file.
+
+Database Table Structure:
+-------------------------
+Now we need to think about what kind of data we need to store for this
+module so we can figure out what the table structure will be like in the
+database and how many tables we may need.
+
+Here's the data I've chosen to store:
+
+- The user the note will go to.
+- The group the note will go to.
+- The user who sent the note.
+- The actual message within the note.
+- The date the notes was sent,
+- The date the note was read last.
+- The user who read the note last.
+
+Knowing we want to store that data, we can come up with the following
+table structure and write the SQL to create this table into a file called
+install.sql in the boost directory:
+
+CREATE TABLE mod_notes (
+  id int PRIMARY KEY,
+  toUser varchar(20),
+  toGroup varchar(30),
+  fromUser varchar(20) NOT NULL,
+  message text NOT NULL,
+  dateSent datetime NOT NULL,
+  dateRead datetime NOT NULL,
+  userRead varchar(20)
+);
+
+The id column is used as the primary key.  It must be an int and NOT set
+to auto increment if you're using a mysql backend.  This is to allow the
+PEAR database abstraction package to use it's sequence number table and
+in turn this allows the notes module to be used on many different database
+platforms.
+Now that we have the SQL for this table saved in our install.sql file, we
+should create the uninstall.sql file as well in the boost directory for our
+module.  This file simply has an SQL DROP command in it to drop our table
+mod_notes from the database:
+
+DROP TABLE mod_notes;
+
+Class Structure:
+----------------
+This section has a lot to do with the design of your particular module.
+I would suggest always using an OO approach when developing.  I will not
+cover other ways to implement modules.
+
+Since the design of modules will differ widely from module to module and
+from developer to developer I will simply state the class structure I
+decided on for the notes module.  You can decide if you wish to use a
+different structure for your modules.
+
+I have 2 classes (PHPWS_NoteManager and PHPWS_Note) contained in the files
+NoteManager.php and Note.php in the class directory of my module. I will get
+more into the structure of these files later when I get into the actual code.
+For now just make sure the files are there with the class stubs in them:
+
+NoteManager.php:
+
+class PHPWS_NoteManager {
+}
+
+Note.php:
+
+class PHPWS_Note {
+}
+
+The main thing to note here is the name of the classes.  Notice they both
+have the prefix PHPWS_.  This designates them as classes to be used with the
+phpWebSite core.  All classes developed for phpWebSite by Appalachian State
+University will have this prefix appended to them.  This prefix could be used
+to designate a company module or some other entity as well. (e.g.: BUISNESS_NoteManager).
+
+The index.php File:
+-------------------
+The index.php file is the only file that should be in the root directory of
+your module.  This file is used to receive and execute commands for your module.
+
+This is a good time to come up with a name for the variable used to pass your
+commands to your module.  For notes I've used the variable "NOTE_op".  Once
+you have decided on a name, begin a switch statement in the index file. We will
+continue to edit this switch as we develop:
+
+switch($_REQUEST["NOTE_op"]) {
+}
+
+Each case in the switch statement will be a command for notes to execute.  The
+commands could come in via a form or a link so I use the $_REQUEST array to catch
+the op either way.
+
+Check yourself:
+---------------
+Your module file structure should now look like this:
+
+notes/index.php
+notes/class/NoteManager.php
+            Note.php
+notes/docs/
+notes/img/
+notes/lang/
+notes/boost/install.sql
+            uninstall.sql
+notes/templates/
+
+Registering With phpWebSite (boost.php):
+-------------------------------------------
+Now we are almost ready to register with phpWebSite and start the real fun.
+to register with phpWebSite we are going to tie into the Boost module.
+Basically Boost is an installer/uninstaller for phpWebSite.  We need 2 more
+files in the boost directory to make this happen:
+
+install.php
+uninstall.php
+
+One file goes into the conf directory.
+boost.php
+
+For more extensive information on these files, see the Boost documentation.
+Since I'm a lazy bum I'll share a little shortcut with you.  You can copy
+another module's boost.php, install.php, and uninstall.php files and edit
+them to suit the needs of your module.
+
+Notes Install:
+--------------
+
+
+
+Notes Uninstall:
+----------------
+
+The Code:
+---------
+
+Main Menu:
+----------
+
+New Note:
+---------
+
+My Notes:
+---------
+
+Sent Notes:
+-----------
+
+Notify Block:
+-------------
+
+
+Conclusion:
+-----------

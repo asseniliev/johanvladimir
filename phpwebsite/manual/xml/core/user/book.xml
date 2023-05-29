@@ -1,0 +1,16 @@
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+"http://docbook.org/xml/4.2/docbookx.dtd" [
+<!ENTITY bookinfo SYSTEM "bookinfo.xml">
+<!ENTITY approval SYSTEM "approval.xml">
+<!ENTITY fatcat SYSTEM "fatcat.xml">
+<!ENTITY layout SYSTEM "layout.xml">
+<!ENTITY users SYSTEM "users.xml">
+]>
+
+<book>
+&bookinfo;
+&approval;
+&fatcat;
+&layout;
+&users;
+</book>

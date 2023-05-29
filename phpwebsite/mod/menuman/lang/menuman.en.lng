@@ -1,0 +1,87 @@
+en:|:menuman
+a:|:Activate / Deactivate:|:Activate / Deactivate
+a:|:Active Image:|:Active Image
+a:|:Active:|:Active
+a:|:Add A Menu Link:|:Add A Menu Link
+a:|:Add Menu Item:|:Add Menu Item
+a:|:Add Module Default:|:Add Module Default
+a:|:Add Module User Links:|:Add Module User Links
+a:|:Add Under:|:Add Under
+a:|:Add to top level:|:Add to top level
+a:|:All selected menu items and sub-items were successfully deleted from the database.:|:All selected menu items and sub-items were successfully deleted from the database.
+a:|:All the menu items were successfully updated to the database.:|:All the menu items were successfully updated to the database.
+a:|:Are you sure you want delete the image [var1]?:|:Are you sure you want delete the image [var1]?
+a:|:Are you sure you want to delete the menu [var1] ?:|:Are you sure you want to delete the menu [var1] ?
+a:|:Are you sure you want to delete these menu items and their sub-items?:|:Are you sure you want to delete these menu items and their sub-items?
+a:|:Back To Main:|:Back To Main
+a:|:Character:|:Character
+a:|:Choose a module's user functionality to add to your menu:|:Choose a module's user functionality to add to your menu
+a:|:Content Var:|:Content Var
+a:|:Create A New Menu:|:Create A New Menu
+a:|:Create Menu:|:Create Menu
+a:|:Current Menus:|:Current Menus
+a:|:Default Image:|:Default Image
+a:|:Delete Image Confirmation:|:Delete Image Confirmation
+a:|:Delete Menu Confirmation:|:Delete Menu Confirmation
+a:|:Delete Menu Items Confirmation:|:Delete Menu Items Confirmation
+a:|:Delete Menu Items:|:Delete Menu Items
+a:|:Delete an image:|:Delete an image
+a:|:Display:|:Display
+a:|:Edit [var1] Settings:|:Edit [var1] Settings
+a:|:Error:|:Error
+a:|:File [var1] is not an allowed file for this option.:|:File [var1] is not an allowed file for this option.
+a:|:Highlight Color:|:Highlight Color
+a:|:Horizontal:|:Horizontal
+a:|:Image Deleted:|:Image Deleted
+a:|:Image Manager:|:Image Manager
+a:|:Image Map:|:Image Map
+a:|:Image:|:Image
+a:|:Indent Item:|:Indent Item
+a:|:List Menus:|:List Menus
+a:|:Main Menu:|:Main Menu
+a:|:Menu Deleted:|:Menu Deleted
+a:|:Menu Image Manager:|:Menu Image Manager
+a:|:Menu Indent:|:Menu Indent
+a:|:Menu Item Added:|:Menu Item Added
+a:|:Menu Items for [var1].:|:Menu Items for [var1].
+a:|:Menu Manager Administration:|:Menu Manager Administration
+a:|:Menu Spacer:|:Menu Spacer
+a:|:Menu Successfully Created:|:Menu Successfully Created
+a:|:Menu Title:|:Menu Title
+a:|:Menu URL:|:Menu URL
+a:|:No Menu Deleted:|:No Menu Deleted
+a:|:No items for this menu.:|:No items for this menu.
+a:|:No menu items for this menu.:|:No menu items for this menu.
+a:|:No menu items were deleted from the database.:|:No menu items were deleted from the database.
+a:|:No menu was deleted from the database.:|:No menu was deleted from the database.
+a:|:Not Active:|:Not Active
+a:|:Nothing Deleted:|:Nothing Deleted
+a:|:Open Image:|:Open Image
+a:|:Order:|:Order
+a:|:Pagemaster Page:|:Pagemaster Page
+a:|:Save New Menu:|:Save New Menu
+a:|:Select which menu you would like to add the link to.:|:Select which menu you would like to add the link to.
+a:|:Select:|:Select
+a:|:Settings:|:Settings
+a:|:Submit Announcement:|:Submit Announcement
+a:|:Template:|:Template
+a:|:The Menu Manager allows you to add and create dynamic menus. Menus are used to link to stuff from your site and other sites.:|:The Menu Manager allows you to add and create dynamic menus. Menus are used to link to stuff from your site and other sites.
+a:|:The image [var1] was successfully deleted.:|:The image [var1] was successfully deleted.
+a:|:The images directory set in the menuman config file could not be found this will cause all image options to fail.:|:The images directory set in the menuman config file could not be found this will cause all image options to fail.
+a:|:The menu [var1] was successfully deleted from the database.:|:The menu [var1] was successfully deleted from the database.
+a:|:The menu [var1] you created was successfully added to the database.:|:The menu [var1] you created was successfully added to the database.
+a:|:The menu [var1] you edited was successfully updated to the database.:|:The menu [var1] you edited was successfully updated to the database.
+a:|:The menu item you added was successfully updated to the database and added to [var1].:|:The menu item you added was successfully updated to the database and added to [var1].
+a:|:There are no menus in the database at this time.:|:There are no menus in the database at this time.
+a:|:There are no menus to choose, this process cannot continue.:|:There are no menus to choose, this process cannot continue.
+a:|:Turn Off Advanced Edit:|:Turn Off Advanced Edit
+a:|:Turn On Advanced Edit:|:Turn On Advanced Edit
+a:|:URL:|:URL
+a:|:Update Menu Items:|:Update Menu Items
+a:|:Update Settings Successful:|:Update Settings Successful
+a:|:Update Successful:|:Update Successful
+a:|:Upload an image to use as a menu marker.:|:Upload an image to use as a menu marker.
+a:|:Upload:|:Upload
+a:|:Vertical:|:Vertical
+a:|:When selecting a pagemaster page leave the menu url field blank.:|:When selecting a pagemaster page leave the menu url field blank.
+a:|:You must give your menu link a title:|:You must give your menu link a title

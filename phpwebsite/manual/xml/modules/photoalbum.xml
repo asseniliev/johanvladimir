@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter>
+  <chapterinfo>
+    <author>
+      <firstname>Steven</firstname>
+      <surname>Levin</surname>
+      <email>steven at tux dot appstate dot edu</email>
+    </author>
+  </chapterinfo>
+
+  <title>Photo Albums</title>
+
+  <section>
+    <title>Getting Started</title>
+
+    <para>First navigate to the administrative side of the Photo Album module.
+    It can be found under the Site Content Tab of your Control Panel. The link
+    that says Photo Albums and has an icon of a camera next to it.</para>
+
+    <itemizedlist>
+      <listitem>
+        <para>Click on the textual link or the icon to continue.</para>
+      </listitem>
+    </itemizedlist>
+  </section>
+
+  <section>
+    <title>Listing Albums</title>
+
+    <para>When you first enter the Photo Album you will see a listing of all
+    the Photo Albums which are currently in the database. From this list you
+    can go to view each individual album. In this album view you can see
+    thumnail images of all the photos in the album. At the top of the page
+    with this list are two links. The first link is for listing albums, it
+    will to always bring you back to this list. The other link says New Album
+    and will take you to the form you need to add a new photo album to the
+    database.</para>
+  </section>
+
+  <section>
+    <title>Creating a New Album</title>
+
+    <para>When creating a new Photo Album there are five fields to fill out
+    but only one of them is actually required.</para>
+
+    <orderedlist>
+      <listitem>
+        <para>The name of the album is the first field and the only required
+        one. The name represents this album in the listing of all the photo
+        albums and throughout phpWebSite.</para>
+      </listitem>
+
+      <listitem>
+        <para>The second field is a short; it allows you to add a short
+        description of your album. This may be used in something like a search
+        result.</para>
+      </listitem>
+
+      <listitem>
+        <para>The next option is to choose whether or not you want the album
+        to be viewable by the public. Selecting visable makes it viewable by
+        your users and the public alike. Selecting hidden keeps it out of the
+        view of the public and only administrators with access can see the
+        album.</para>
+      </listitem>
+
+      <listitem>
+        <para>Next you can select a category for the album to go in. This is
+        very useful if you would like the album to show up as related data. If
+        you do not understand categories and wish to find out more, please
+        refer to the chapter about the FatCat Categorizer.</para>
+      </listitem>
+
+      <listitem>
+        <para>Finally you can add an extended description of your photo album.
+        This is shown when listing all your albums so visitors can read about
+        them. A wysiwyg html editor is provided for adding very basic html
+        tags to the description.</para>
+      </listitem>
+    </orderedlist>
+  </section>
+
+  <section>
+    <title>Adding/Editing/Deleting Photos from an Album</title>
+
+    <section>
+      <title>Adding Photos</title>
+
+      <para>When you are viewing an album for the first time and the album has
+      no photos associated with it, you have two links to add a new photo. The
+      first is under the message: No photos were found for this album; and it
+      says Add a Photo. The second is a the top of the page next to the List
+      Albums link and it says New Photo. The New Photo link will always be
+      present when you are viewing an album. Both of these links take you to
+      the same form to add a new photo.</para>
+
+      <orderedlist>
+        <listitem>
+          <para>Two things are required when adding a new photo to the
+          database. You must upload an image file and also provide a short
+          description for that image. The short description is needed to make
+          the html valid.</para>
+
+          <itemizedlist>
+            <listitem>
+              <para>Upload your image by clicking the browse button and
+              selecting the file you want off of your computer.</para>
+            </listitem>
+          </itemizedlist>
+        </listitem>
+
+        <listitem>
+          <para>After that you can choose whether or not the photo is publicly
+          viewable which is much like the activity for the album.</para>
+        </listitem>
+
+        <listitem>
+          <para>Finally you can add an extended description to the album which
+          will be displayed when the individual photo is being viewed. A
+          wysiwyg is provided here for your convenience.</para>
+        </listitem>
+      </orderedlist>
+    </section>
+
+    <section>
+      <title>Editing Photos</title>
+
+      <para>Editing a photo allows you to update the information entered when
+      adding that photo to the database. You can also remove the photo and add
+      a new one if it better fits the album or description.</para>
+
+      <orderedlist>
+        <listitem>
+          <para>You can get to editing a photo by clicking on the edit link
+          under its thumbnail in the main album view or by clicking the edit
+          link when viewing an individual photo.</para>
+        </listitem>
+
+        <listitem>
+          <para>To upload a new image you must first remove the old one by
+          checking the box Remove Image under the photo and then clicking Save
+          Photo. Then click the browse button and select a new image off your
+          computer. Click Save Photo and you are done.</para>
+        </listitem>
+
+        <listitem>
+          <para>You can also edit any of the textual data by just modifying it
+          in the form and then clicking the Save Photo buttom. You will get a
+          message saying the photo was successfully saved.</para>
+        </listitem>
+      </orderedlist>
+    </section>
+
+    <section>
+      <title> Deleting a Photo</title>
+
+      <para>The are two points in the photoalbum where you can delete photos.
+      One is in the main album view under each thumbnail is a delete link.
+      Also when viewing a specific photo there is a delete link at the top of
+      the page. After clicking the delete link it will take you to a Yes/No
+      confirmation to make sure you want to delete the photo entirely from the
+      album. The photo will also display below for confirmation. Click Yes to
+      remove the photo and No to cancel the deletion process.</para>
+    </section>
+  </section>
+
+  <section>
+    <title>Album Settings</title>
+
+    <para>The settings for an album are found under the main album view. Next
+    to the List Albums and New Photo link is a settings link. These settings
+    are the same information you filled out when creating a new album. It is
+    helpful to be able to get to this so you can possibly update the
+    description of your album or hide it from the public while you add new
+    photos to it. Just click the Save Album submit button to save any changes
+    you may have made.</para>
+  </section>
+
+  <section>
+    <title>Navigating Albums</title>
+
+    <para>Navigating albums is easy. The are two navigation toolbars at the
+    top and bottom of a main album view. The main album view is split up into
+    pages. The limits on this toolbar control how many thumbnails to show per
+    page. There are arrows (&#60;&#60; and &#62;&#62;) provided for moving
+    back and forth from page to page. Also page links are there to help jump
+    around from page to page. In order to view a photo all you must do is
+    click on the thumbnail image. This will take you to a big view of that one
+    specific image. Located at the top and bottom of the image will be
+    &#60;&#60;Prev and Next&#62;&#62; links to page through each individual
+    photo. At any time you can get back to the main album view by clicking the
+    Back to Album link at the top of the page.</para>
+  </section>
+</chapter>

@@ -1,0 +1,21 @@
+- arabic.php - sebaie al sayed <sebaie@hotmail.com>
+- turkish.php/codes-turkish.php - aeyStudio <webmaster@aeystudio.com>
+- polish.php/codes-polish.php - Edmund Kawalec <moondee@sjo-perfekt.pl> 
+- dutch.php/codes-dutch.php - R.P. Gutlich" <pgutlich@xs4all.nl>
+- codes-chinese_gb.php - Terry <bd7nq@hellocq.net>
+- codes-srpski.php - Goran Todorov <todorovg@yufestcaffe.com>
+- codes-italian.php - Giorgio Tsiotas <tsiotas@libero.it>
+- french.php/codes-french.php - Marc Cagninacci <marc@phpforums.net>
+- codes-russian.php - Maxim Anashin <max@aug.ru>  
+- spanish.php/codes-spanish.php - Juan R. Pozo - <jrpozo@conclase.net>
+- bulgarian.php/codes-bulgarian.php - Donka Kirqzova <stevevai@abv.bg>
+- italian.php - Carlo Queirolo <carloq@carloq.it>
+- norwegian.php - Petter Viig <p-viig@online.no>
+- indonesian.php/codes-indonesian.php Oeban Poetih <oeban@poetih.com>
+- bosanski.php/codes-bosanski.php Samir Kobiljak <admin@kobiljak.com>
+- chines_big5.php/codes-chines_big5.php tck <tck@tck.cc>
+- danish.php - Jan Ole Laugesen <laugesen@tommerup.net>
+- slovak.php/codes-slovak.php Ondrej Jombík <nepto@pobox.sk>
+- vietnamese.php - Asian Trails Hanoi <asiantrailshan@hn.vnn.vn>
+- swedish.php/codes-swedish.php - Anders Areskog <birdie@netservice.nu>
+- srpski.php - Dragan Kneževic <tomaja@yuinternet.net>

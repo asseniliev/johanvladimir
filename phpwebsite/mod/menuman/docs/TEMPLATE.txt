@@ -1,0 +1,78 @@
+--------------------------------------------------------------------------------------------
+Menu Manager Templates
+--------------------------------------------------------------------------------------------
+
+The menuman module uses the PEAR intergrated template system for its 
+templates. Here is a small example for more detail please refer to PEAR.
+
+<!-- BEGIN menuitem -->
+<td>
+<a href={HREF}>{TITLE}</a>
+</td>
+<!-- END menuitem -->
+
+--------------------------------------------------------------------------------------------
+Valid menuman template variables
+--------------------------------------------------------------------------------------------
+
+All variables must be surrounded with {} in the templates.
+
+INDENT - the extra space put before each link in the menu (level * spacer)
+         spacer is set in the menu settings
+
+ITEM - the item chosen in menu settings, either a character or an image
+
+ITEM_HREF - the link for the ITEM variable if you want it to be linkable
+
+TITLE - the title of the menu link
+
+HREF - the link to be used in association with TITLE
+
+COORDS - coordiates for an image map 
+         (ex. <area shape="rect" coords={COORDS} href={HREF}>)
+
+Each of the template variables have three different states (active, inactive, and open).
+The variables are prefixed in the templates like this:
+
+ACTIVE_var
+INACTIVE_var
+OPEN_var
+
+--------------------------------------------------------------------------------------------
+How the vertical template gets built:
+--------------------------------------------------------------------------------------------
+
+First the tableheader.tpl is read into a string, this does not necessarily have to
+be a table header.  Then each item is appended to the string in the following fashion:
+depending on the level of the menu a specific menuitem.tpl file
+
+tablerow.tpl + menuitem(level).tpl + tablerowclose.tpl
+
+Then finally the tableclose.tpl is appended to the end of the string.
+
+The menuitem.tpl in the default example is a full table cell but this is not always
+necessary.  All the files tableheader.tpl, tablerow.tpl, tablerowclose.tpl, and 
+tableclose.tpl could all be left blank and the menuitem.tpl file could look like:
+
+<!-- BEGIN menuitem -->
+{INDENT}<a href={HREF}>{TITLE}</a><br />
+<!-- END menuitem -->
+
+if you want your template to be extremely simple.
+
+IMAGE MAP EXAMPLE:
+
+Put the information about the image you are going to use and the opening <map> 
+tag in the tableheader.tpl.  Then leave tablerow.tpl and tablerowclose.tpl blank  
+and put some thing like <area shape="rect" coords={COORDS} href={HREF}> 
+for each menu  item.  Finally put the </map> tag in the tableclose.tpl file.  You now 
+have a fully functional image map menu :)
+
+--------------------------------------------------------------------------------------------
+How the horizontal template gets built:
+--------------------------------------------------------------------------------------------
+
+The horizontal menu template gets built exactly like the vertical template except 
+there is a tableheader.tpl, tableclose.tpl, tablerow.tpl, tablerowclose.tpl for each 
+level. This just allows for greater flexibility.  Please see the tabular template for an 
+example of making a simple tabular menu with horizontal menu templates.

@@ -1,0 +1,40 @@
+en:|:branch
+a:|:Are you absolutely sure you want to unregister this branch:|:Are you absolutely sure you want to unregister this branch
+a:|:Branch Created Successfully:|:Branch Created Successfully
+a:|:Branch Directory:|:Branch Directory
+a:|:Branch Name:|:Branch Name
+a:|:Branch Web Address:|:Branch Web Address
+a:|:Branch already exists:|:Branch already exists
+a:|:Branch database populated successfully:|:Branch database populated successfully
+a:|:Branch directory created successfully:|:Branch directory created successfully
+a:|:Branch registered successfully to hub:|:Branch registered successfully to hub
+a:|:Click Here to Create Branch:|:Click Here to Create Branch
+a:|:Click on Create Branch to get started:|:Click on Create Branch to get started
+a:|:Configuration File written successfully:|:Configuration File written successfully
+a:|:Configuration file deleted:|:Configuration file deleted
+a:|:Create Branch:|:Create Branch
+a:|:Creates branch sites off your hub code.:|:Creates branch sites off your hub code.
+a:|:Creating Branch:|:Creating Branch
+a:|:Edit Branch:|:Edit Branch
+a:|:Error:|:Error
+a:|:Expert Create Branch:|:Expert Create Branch
+a:|:Expert Update Branch:|:Expert Update Branch
+a:|:Invalid Branch Name:|:Invalid Branch Name
+a:|:Make sure to delete the branch directory and database:|:Make sure to delete the branch directory and database
+a:|:Manage Branches:|:Manage Branches
+a:|:Message:|:Message
+a:|:No branch sites found:|:No branch sites found
+a:|:Remove Branch:|:Remove Branch
+a:|:Return after you have changed the permissions:|:Return after you have changed the permissions
+a:|:Table Prefix:|:Table Prefix
+a:|:The installation directory is not writable:|:The installation directory is not writable
+a:|:There is already an installation of phpWebSite in this database:|:There is already an installation of phpWebSite in this database
+a:|:Try logging on:|:Try logging on
+a:|:Unable to make database connection with the information supplied:|:Unable to make database connection with the information supplied
+a:|:Unable to write branch directory:|:Unable to write branch directory
+a:|:Update Complete:|:Update Complete
+a:|:Welcome to Branch Creator:|:Welcome to Branch Creator
+a:|:You need to create a database named [var1]:|:You need to create a database named [var1]
+a:|:You need to create a database with this name first:|:You need to create a database with this name first
+a:|:Your are missing crucial database information:|:Your are missing crucial database information
+a:|:Your configuration directory is not writable:|:Your configuration directory is not writable

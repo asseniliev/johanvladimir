@@ -1,0 +1,202 @@
+da:|:phatform
+a:|:Access Denied:|:Adgang nægtet
+a:|:All:|:Alle
+a:|:All of the values were not set. You must fill out all of them.:|:Nogle af værdierne blev ikke udfyldt. Du skal angive alle værdier.
+a:|:Allow anonymous submissions:|:Tillad anonyme registreringer
+a:|:Allow multiple submissions:|:Tillad flere registreringer ad gangen
+a:|:Allow users to edit their form data:|:Tillad brugere at rette i deres formular
+a:|:Approve:|:Godkend
+a:|:Approved:|:Godkendt
+a:|:Associated Text:|:Tilknyttet tekst
+a:|:Back:|:Tilbage
+a:|:Checkbox:|:Afkrydsning
+a:|:Checkbox Element Instructions:|:Afkrydsningsinformation
+a:|:Columns:|:Kolonner
+a:|:Default:|:Standard
+a:|:Delete form confirmation:|:Slet formularen
+a:|:Dropbox:|:Rullegardin
+a:|:Dropbox Element Instructions:|:Rullegardinsinformation
+a:|:Edit Elements:|:Ret element
+a:|:Editor:|:Udgiver
+a:|:Element successfully added!:|:Element tilføjet!
+a:|:Form Information:|:Formular information
+a:|:Form Settings:|:Formular indstillinger
+a:|:Go here to create online forms that can be viewed and filled out by your site visitors. Reports can be made on the data submitted.:|:Opretter og vedligeholder online formularer
+a:|:Go!:|:Go!
+a:|:Groups:|:Grupper
+a:|:Hidden:|:Skjult
+a:|:Hide this form:|:Skjul denne formular
+a:|:Instructions:|:Instruktioner
+a:|:Ip:|:Ip
+a:|:Item limit per page:|:Element begrænsning pr. side
+a:|:List Forms:|:Vis formularer
+a:|:Maxsize:|:Maksimer
+a:|:Move Down:|:Flyt ned
+a:|:Move Up:|:Flyt op
+a:|:Multiple Select:|:Flervalg
+a:|:Multiselect Element Instructions:|:Flervalgs information
+a:|:New Form:|:Ny formular
+a:|:Next:|:Næste
+a:|:No items for the current list.:|:Ingen elementer for denne liste
+a:|:Number of Options:|:Antal valg
+a:|:Option:|:Valg
+a:|:Option Instructions:|:Valg information
+a:|:Page:|:Side
+a:|:Predefined Option Set:|:Prædefineret valgmuligheder
+a:|:Radio Button:|:Radio knap
+a:|:Radiobutton Element Instructions:|:Radio knap information
+a:|:Refuse:|:Afvis
+a:|:Require:|:Påkræve
+a:|:Required:|:Påkrævet
+a:|:Rows:|:Rækker
+a:|:Save Dropbox:|:Gem rullegardin
+a:|:Save Form:|:Gem formular
+a:|:Save Textarea:|:Gem tekstareal
+a:|:Save Textfield:|:Gem tekstfelt
+a:|:Save option set as:|:Gem valgmulighed som
+a:|:Saved Forms:|:Gemte formularer
+a:|:Show form page numbers (eg: page 1 of 6):|:Vis formular sidenumre (fx: side 1 af 6)
+a:|:Show numbers for form elements (eg: 1, 2, 3):|:Vis antal formular elementer (fx: 1, 2, 3)
+a:|:Size:|:Størrelse
+a:|:Submission Message:|:Registreringsmeddelelse
+a:|:Text:|:Tekst
+a:|:Textarea:|:Tekstareal
+a:|:Textarea Element Instructions:|:Tekstareal instruktion
+a:|:Textfield:|:Tekstfelt
+a:|:The [var1] was saved successfully.:|:[var1] er blevet gemt.
+a:|:The option set [var1] was successfully saved.:|:Valgmulighed [var1] er blevet gemt.
+a:|:Unapproved Forms:|:Ikke godkendte formularer
+a:|:Unsaved Forms:|:Ikke gemte formularer
+a:|:Use option text as values:|:Brug valgmulighedstekst som værdi
+a:|:Value:|:Værdi
+a:|:You cannot allow for anonymous submissions when form data can be edited.:|:Du kan ikke tillade anonyme registreringer når formulardata kan ændres.
+a:|:You only have permission to edit your own forms!:|:Du har kun autorisation til at ændre dine egne formularer!
+a:|:A name was not supplied for the form!:|:Du skal angive et navn på formularen!
+a:|:ACCESS DENIED!:|:ADGANG NÆGTET!
+a:|:Action:|:Handling
+a:|:Add:|:Tilføj
+a:|:Admin Email (comma delimited):|:Tilføj e-mail (kommasepareret)
+a:|:All of the options and values were not set.  Check the box below to use your options as values.:|:Du har ikke angivet alle muligheder og værdier. Tjek nedenstående boks for mulige værdier.
+a:|:Archive:|:Arkiv
+a:|:Archive file was not found.:|:Arkivfil er ikke blevet fundet.
+a:|:Archived Form:|:Arkiveret formular
+a:|:Are you sure you want to delete this entry?:|:Er du sikker på, at du vil slette dette indlæg?
+a:|:Are you sure you want to remove this [var1] element?:|:Er du sikker på, at du vil slette [var1] elementet?
+a:|:Are you sure you wish to delete the archive with filename '<b>:|:Er du sikker på, at du vil slette arkivet med filnavn '<b>
+a:|:Are you sure you wish to delete the export with filename '<b>:|:Er du sikker på, at du vil slette eksporteringen med filnavn '<b>
+a:|:Are you sure you wish to delete the following forms?  All data associated with these forms will be lost!:|:Er du sikker på, at du vil slette de følgende formularer? Alle tilknyttede data vil gå tabt!
+a:|:Are you sure you wish to view this archive?:|:Er du sikker på, at du vil se dette arkiv?
+a:|:Cancel:|:Annuller
+a:|:Categories:|:Kategorier
+a:|:Clean-Up:|:Ryd op
+a:|:Complete:|:Komplet
+a:|:Completed:|:Fuldført
+a:|:Confirm:|:Bekræft
+a:|:Created:|:Oprettet
+a:|:Date Created:|:Oprettet dato
+a:|:Delete:|:Slet
+a:|:Download:|:Download
+a:|:Edit:|:Ret
+a:|:Edit option set:|:Ret valgmuligheder
+a:|:Element must be an object!:|:Elementet skal være et objekt!
+a:|:Element successfully removed!:|:Element er blevet slettet!
+a:|:Elements:|:Elementer
+a:|:Entries:|:Forekomster
+a:|:Existing Archives:|:Eksisterende arkiver
+a:|:Existing Exports:|:Eksisterende eksporter
+a:|:Export:|:Eksporter
+a:|:File contained no archive to view.:|:Filen indeholdt ikke noget arkiv.
+a:|:File contained no content.:|:Filen er tom.
+a:|:Filename:|:Filnavn
+a:|:Finish:|:Afslut
+a:|:Form:|:Formular
+a:|:Form Name:|:Formnavn
+a:|:Form settings successfully saved!<br /><br />:|:Formularindstillinger er blevet gemt!<br /><br />
+a:|:Forms:|:Formularer
+a:|:Full List:|:Komplet liste
+a:|:Go:|:Fortsæt
+a:|:Hide:|:Skjul
+a:|:Home:|:Hjem
+a:|:ID:|:ID
+a:|:In order to view this archive a new table will need to added to your database.:|:For at kunne se dette arkiv, skal der oprettes en ny tabel i databasen.
+a:|:Incomplete:|:Ukomplet
+a:|:Instructions must be a string!:|:Instruktioner skal være en tekststreng!
+a:|:Invalid Filename Given:|:Oplyst filnavn er ugyldigt
+a:|:Last Entry:|:Sidste forekomst
+a:|:List Archives:|:List arkiver
+a:|:List Exports:|:List eksporter
+a:|:Must have at least one element to save a form.:|:Formen skal indeholde mindst et element, for at kunne blive gemt.
+a:|:Name:|:Navn
+a:|:Next Entry:|:Næste forekomst
+a:|:No:|:Nej
+a:|:No element was removed.:|:Der blev ikke slettet noget element.
+a:|:No entries were found matching your search query.:|:Dit søgekriterie gav ikke noget resultat.
+a:|:No form ID was passed:|:Der blev ikke angivet noget formular ID
+a:|:No form entry was deleted from the database.:|:Der blev ikke slettet nogen forekomster i formularen fra databasen.
+a:|:Option Sets:|:Valgmuligheder
+a:|:Owner:|:Ejer
+a:|:Page Limit must be an integer greater than zero!:|:Sidebegrænsning skal være numerisk og større end nul!
+a:|:Page [var1] of [var2]:|:Side [var1] af [var2]
+a:|:Position must be an integer value!:|:Position skal være en numerisk værdi!
+a:|:Post Process Code:|:Pre processeringskode
+a:|:Previous Entry:|:Forrige forekomst
+a:|:Print:|:Udskriv
+a:|:Print View:|:Printervenlig version
+a:|:Remove:|:Fjern
+a:|:Report:|:Rapport
+a:|:Report View:|:Rapportvisning
+a:|:Retake Form:|:Tilbagetræk formularen
+a:|:Return to Report:|:Retur til rapporten
+a:|:Save:|:Gem
+a:|:Save :|:Gem 
+a:|:Save Settings:|:Gem indstillinger
+a:|:Search:|:Søg
+a:|:Settings:|:Indstillinger
+a:|:Show:|:Vis
+a:|:Successfully deleted table associated with the archive with filename :|:Tabellen er slettet, som er relateret til arkivet med filnavn 
+a:|:Text entry \":|:Tekst forekomsten \"
+a:|:Thank you message must be a string!:|:Tak meddelelsen skal være en teststreng!
+a:|:The [var1] element could not be saved to the database.:|:Elementet [var1] kunne ikke gemmes i databasen.
+a:|:The [var1] element was saved successfully.:|:Elementet [var1] er blevet gemt.
+a:|:The [var1] was unable to be saved.:|:[var1] kunne ikke blive gemt.
+a:|:The [var1] were unable to be saved.:|:[var1] kunne ikke blive gemt.
+a:|:The archive path is not webserver writable.:|:Arkivstien er skrivebeskyttet på webserveren.
+a:|:The associated text for this element was not set.:|:Den associerede tekst til dette element er ikke sat.
+a:|:The element could not be deleted from the database.:|:Elementet kunne ikke blive slettet fra databasen.
+a:|:The element was successfully removed.:|:Elementet er blevet slettet.
+a:|:The export path is not webserver writable.:|:Eksportstien er skrivebeskyttet på webserveren.
+a:|:The form entry was successfully deleted from the database.:|:Formularforekomsten er blevet slettet fra databasen.
+a:|:The form must be saved before it is available to the public.:|:Formularen skal gemmes, før den er tilgængelig for offentligheden.
+a:|:The name you entered for the Checkbox is not valid or is already in use with this form.:|:Navnet du angav til afkrydsningsfeltet, er ikke validt, eller er allerede i brug i denne formular.
+a:|:The name you entered for the Dropbox is not valid or is already in use with this form.:|:Navnet du angav til rullegardinsfeltet, er ikke validt, eller er allerede i brug i denne formular.
+a:|:The name you entered for the Multiselect is not valid or is already in use with this form.:|:Navnet du angav til flervalgsfeltet, er ikke validt, eller er allerede i brug i denne formular.
+a:|:The name you entered for the Radiobutton is not valid or is already in use with this form.:|:Navnet du angav til radioknapfeltet, er ikke validt, eller er allerede i brug i denne formular.
+a:|:The name you entered for the Textarea is not valid or is already in use with this form.:|:Navnet du angav til tekstarealfeltet, er ikke validt, eller er allerede i brug i denne formular.
+a:|:The name you entered for the Textfield is not valid or is already in use with this form.:|:Navnet du angav til tekstfeltet, er ikke validt, eller er allerede i brug i denne formular.
+a:|:The number of options must be a number greater than zero.:|:Antallet af muligheder, skal være numerisk og større end nul.
+a:|:The option set [var1] was unable to be saved.:|:Mulighedsindstillinger [var1] kunne ikke gemmes.
+a:|:The phatform archive was successfully <b>deleted</b>.:|:Formulargeneratorarkivet er blevet <b>slettet</b>.
+a:|:The phatform export was successfully <b>deleted</b>.:|:Formulargeneratoreksporteringen er blevet <b>slettet</b>.
+a:|:The value for this element was not set.:|:Værdien til dette element er ikke sat.
+a:|:There was a problem deleting the archive.:|:Der opstod et problem med at slette arkivet.
+a:|:There was a problem deleting the export.:|:Der opstod et problem med at slette eksporten.
+a:|:There was a problem deleting viewing archive table associated for filename :|:Der opstod et problem med at slette arkivtabellen for filnavn 
+a:|:This form is not available for viewing at this time.:|:Denne formular er ikke tilgængelig for visning på nuværende tidspunkt.
+a:|:This should not happen, but if it does please contact your systems administrator.:|:Dette skulle ikke kunne ske, men hvis det gør, så kontakt din systemadministrator.
+a:|:Total:|:Total
+a:|:Unknown:|:Ukendt
+a:|:Updated:|:Opdateret
+a:|:User:|:Bruger
+a:|:View:|:Vis
+a:|:Viewing of archive has been canceled.:|:Visning af arkivet er blevet annulleret.
+a:|:WARNING!:|:ADVARSEL!
+a:|:Yes:|:Ja
+a:|:You cannot allow for multiple submissions when form data can be edited.:|:Når formulardata kan rettes, kan du ikke tillade flere indsendelser på en gang.
+a:|:You have already filled out this form!:|:Du har allerede udfyldt denne formular!
+a:|:You have chosen <b>not</b> to delete the archive with the filename ':|:Du har valgt, <b>ikke</b> at slette arkivet med filnavnet '
+a:|:You have chosen <b>not</b> to delete the export with the filename ':|:Du har valgt, <b>ikke</b> at slette eksporten med filnavnet '
+a:|:You have chosen to edit a saved form! All current data will be archived and cleared if you chose to continue!  Make sure you export your data from your form before you continue!:|:Du har valgt at rette i en gemt formular! Alle nuværende data vil blive arkiveret og slettet, hvis du vælger at fortsætte!  Vær sikker på, at du har eksporteret dine data inden du fortsætter!
+a:|:You must be logged in to view this form!:|:Du skal være logget ind, for at se denne formular!
+a:|:You must fill out all required fields to continue.:|:Du skal udfylde alle nødvendige felter for at fortsætte.
+a:|:You must provide a submission message!:|:Du skal angive en indsendelsesmeddelelse!
+a:|:Form Generator:|:Formularer

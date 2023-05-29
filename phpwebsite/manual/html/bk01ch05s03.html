@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>Layout Settings</title><meta name="generator" content="DocBook XSL Stylesheets V1.61.3"/><link rel="home" href="index.html" title="The phpWebSite Manual"/><link rel="up" href="bk01ch05.html" title="Chapter 5. Layout Admin"/><link rel="previous" href="bk01ch05s02.html" title="Getting Started"/><link rel="next" href="bk01ch05s04.html" title="Layout Panel"/></head><body><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">Layout Settings</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="bk01ch05s02.html">Prev</a> </td><th width="60%" align="center">Chapter 5. Layout Admin</th><td width="20%" align="right"> <a accesskey="n" href="bk01ch05s04.html">Next</a></td></tr></table><hr/></div><div class="section" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a id="id2819657"/>Layout Settings</h2></div></div><div/></div><p>This section alters some key information and usability for your
+    site. Fortunately, you probably won't have to alter the data here very
+    often.</p><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a id="id2819672"/>Change Page Title</h3></div></div><div/></div><p>If you have your browser open, look at the very top of the browser
+      window. You should see something like the following:
+      <span class="emphasis"><em>Title of Website - Name of Browser</em></span>. phpWebSite
+      ships with the page title set to, what else, phpWebSite. You should
+      change that. Determine the name of your site and type it in to the text
+      field next to the <span class="bold"><b>Change Page Title</b></span>
+      button.</p></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a id="id2887129"/>Edit Meta Tags</h3></div></div><div/></div><p>The Internet has several search engines. Some of the ones you
+      probably heard of are Google, Yahoo, Altavista, and Ask Jeeves. Each of
+      the engines wants a quick way to get information about your site. Here
+      is where meta tags come in. Choose one of the meta tags you wish to edit
+      and click the <span class="bold"><b>Edit Metatags</b></span> button.</p><div class="itemizedlist"><ul type="disc"><li><p><span class="bold"><b>Keywords</b></span> - Marvelous. Informative. Great. These
+      are words that may describe your web site. However, what you want to put
+      here are words that describe the content of your site, not how you feel
+      about it. Enter words you believe someone may type into a search engine
+      and see your site listed. If you have a web site about board games, you
+      could have a list like this:</p><div class="blockquote"><blockquote class="blockquote"><p>board games, monopoly,
+      sorry, Milton Bradley, twister, Risk </p></blockquote></div><p>Put
+      in as many words as you can think of that relate to what your site
+      addresses. Do not put words that don't relate to your site just to
+      get lost web surfers. It irritates people. </p></li><li><p><span class="bold"><b>Description</b></span> - Here you want to have a short (read
+      that again: short) description of your site. Summarize all the great
+      things your site provides within about 260 characters. Some search
+      engines display this information when a match to your site is found.</p></li><li><p><span class="bold"><b>Robots</b></span> - When a search engine comes to your page,
+      it will (sometimes) ask permission before it records it. Robots are your
+      traffic guards. They tell the search engine whether to record this page
+      (or <span class="bold"><b>index</b></span>) or not and whether it can
+      <span class="bold"><b>follow</b></span> links on your page or not. You
+      have four options:</p><div class="itemizedlist"><ul type="circle"><li><p><span class="bold"><b>all</b></span> - This tells the engine that they may index
+      your site and continue down all the links on your page.</p></li><li><p><span class="bold"><b>none</b></span> - The engine is told to leave you alone:
+      don't index the site and don't follow any links. You may prefer
+      this if you are running a private site.</p></li><li><p><span class="bold"><b>index, nofollow</b></span> - The engine can index the page
+      but shouldn't follow any links.</p></li><li><p><span class="bold"><b>noindex, follow</b></span> - The engine should not index the
+      page, but may follow your links.</p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>This option is currently
+      useless. Currently Layout reports these robots on every page. The engine
+      goes down your link path but is not allowed to index any of the
+      resultant pages. This will change in 0.9.3.</p></div></li></ul></div></li><li><p><span class="bold"><b>Author</b></span> - This is your name or the name of the
+      main content person. Not really required.</p></li><li><p><span class="bold"><b>Owner</b></span> - This is usually the email address of the
+      person responsible for the site. Beware filling this out however as
+      there are evil, nasty, horrible, people who steal these addresses to
+      send you their useless spam email (not that I am bitter). If you wish to
+      fill it out, consider entering your email address in a form that is hard
+      to parse by the spam degenerates. For example, I might use: matt at
+      hotmail dot com instead of matt@hotmail.com.</p></li><li><p><span class="bold"><b>Content Type</b></span> - This reports the character sets
+      your site is using. Just let this sit at ISO-8859-1 unless you know it
+      should be otherwise.</p></li></ul></div></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a id="id2887114"/>Reinitialize Default Theme</h3></div></div><div/></div><p>You can try clicking on this button if your boxes have become
+      scrambled. It will try to recreate the default layout for the theme you
+      are currently using. Be careful as some modules add boxes outside of
+      their defaults. If that is the case you might have to go to that module
+      and update the data to have it remake the box.</p></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a id="id2887506"/>Refresh Boxes</h3></div></div><div/></div><p>Click this button to purge the database of old box files that
+      aren't supported anymore. This should be run if you remove a theme
+      from your server directory.</p></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a id="id2887527"/>User can change theme</h3></div></div><div/></div><p>If you have several themes installed on your site, you may want to
+      give the users the ability to change which one they see. This can come
+      in handy, for example, if you have a color blind or text only theme. If
+      you change this to off, users won't be able to change the theme.</p></div></div><div class="navfooter"><hr/><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="bk01ch05s02.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="bk01ch05.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="bk01ch05s04.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">Getting Started </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> Layout Panel</td></tr></table></div></body></html>

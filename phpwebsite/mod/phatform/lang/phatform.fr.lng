@@ -1,0 +1,109 @@
+fr:|:phatform
+a:|:Add A Menu Link:|:Ajouter un lien sur cette page dans le menu
+a:|:Admin Email (comma delimited):|:Email de l'administrateur (séparé par des virgules)
+a:|:All:|:Tous
+a:|:Allow anonymous submissions:|:Autoriser les envois anonymes
+a:|:Allow multiple submissions:|:Autoriser les envois multiples
+a:|:Allow users to edit their form data:|:Autoriser les utilisateurs à créer leur propres formulaires
+a:|:Approve:|:Valider
+a:|:Approved:|:Validé
+a:|:Archive:|:Archive
+a:|:Are you sure you want to remove this [var1] element?:|:Etes-vous certain de vouloir supprimer cet élément de [var1] ?
+a:|:Are you sure you wish to delete the following forms?  All data associated with these forms will be lost!:|:Toutes les données associées à ce formulaire vont être perdues ! Etes-vous certain de vouloir supprimer ce formulaire ?
+a:|:Associated Text:|:Texte associé
+a:|:Cancel:|:Annuler
+a:|:Categories:|:Catégories
+a:|:Checkbox:|:Case à cocher
+a:|:Columns:|:Colonnes
+a:|:Complete:|:Terminé
+a:|:Completed:|:Terminé
+a:|:Confirm:|:Confirmert
+a:|:Continue:|:Continuer
+a:|:Created:|:Crée
+a:|:Default:|:Par défaut
+a:|:Delete form confirmation:|:Confirmation de la suppression du formulaire
+a:|:Dropbox Element Instructions:|:Instructions de l'élément Dropbox
+a:|:Dropbox:|:Dropbox
+a:|:Edit Elements:|:Modifier les éléments
+a:|:Editor:|:Editeur
+a:|:Element successfully added!:|:Ajout de l'élément reussi !
+a:|:Element successfully removed!:|:Suppression de l'élément réussie !
+a:|:Elements:|:Eléments
+a:|:Entries:|:Entrées
+a:|:Export:|:Exporter
+a:|:Form Information:|:Informations du formulaire
+a:|:Form Settings:|:Réglages du formulaire
+a:|:Form:|:Formulaire
+a:|:Full List:|:Liste complète
+a:|:Go!:|:En avant !
+a:|:Hide this form:|:Cacher ce formulaire
+a:|:Incomplete:|:Incomplet
+a:|:Instructions:|:Instructions
+a:|:Ip:|:Ip
+a:|:Item limit per page:|:Nombre maxi d'items par page
+a:|:Last Entry:|:Dernière entrée
+a:|:List Forms:|:Liste des formulaires
+a:|:Maxsize:|:Taille maxi
+a:|:Move Down:|:Descendre
+a:|:Move Up:|:Monter
+a:|:Multiple Select:|:Selection multiple
+a:|:Multiselect Element Instructions:|:Instruction pour l'élément à séléction multiple
+a:|:New Form:|:Nouveau formulaire
+a:|:Next Entry:|:Suivant
+a:|:Next:|:Suivant
+a:|:No entries were found matching your search query.:|:Aucune entrée ne correspond à votre recherche.
+a:|:Number of Options:|:Nombre d'Options
+a:|:Option Instructions:|:Libellé de l'option
+a:|:Option Sets:|:Définir les options
+a:|:Option:|:Option
+a:|:Page [var1] of [var2]:|:Page [var1] de [var2]
+a:|:Page:|:Page
+a:|:Previous Entry:|:Précédent
+a:|:Print View:|:Affichage imprimable
+a:|:Print:|:Imprimer
+a:|:Radio Button:|:Bouton radio
+a:|:Radiobutton Element Instructions:|:Libellés des boutons radio
+a:|:Refuse:|:Refuser
+a:|:Remove:|:Supprimer
+a:|:Report:|:Rapport
+a:|:Require:|:Obligatoire
+a:|:Required:|:Obligatoire
+a:|:Retake Form:|:Soumettre le formulaire à nouveau
+a:|:Return to Report:|:Retourner au formulaire
+a:|:Rows:|:Cellules
+a:|:Save Dropbox:|:Enregistrer la boite à déposer
+a:|:Save Form:|:Sauvegarder le formulaire
+a:|:Save Multiselect:|:Enregistrer la séléction multiple
+a:|:Save Radiobutton:|:Enregistrer le bouton radio
+a:|:Save Textarea:|:Sauvegarder la zone de texte
+a:|:Save Textfield:|:Sauvegarder le champ texte
+a:|:Save option set as:|:Enregistrer l'option sous
+a:|:Saved Forms:|:Formulaires sauvegardés
+a:|:Select which menu you would like to add the link to.:|:Choisissez dans quel menu vous souhaitez ajouter un lien sur cette page.
+a:|:Show form page numbers (eg: page 1 of 6):|:Afficher les numéros de page (ex.: page 1 de 6)
+a:|:Show numbers for form elements (eg: 1, 2, 3):|:Montrer le numéro des éléments (ex.: 1, 2, 3)
+a:|:Size:|:Taille
+a:|:Submission Message:|:Message de soumission
+a:|:Text:|:Texte
+a:|:Textarea Element Instructions:|:Instructions des éléments de la zone de texte
+a:|:Textarea:|:Zone de texte
+a:|:Textfield:|:Champ texte
+a:|:The [var1] element was saved successfully.:|:Sauvegarde de l'élément [var1] réussie.
+a:|:The [var1] was saved successfully.:|:Sauvegarde du formulaire [var1] réussie.
+a:|:The archive path is not webserver writable.:|:Le répertoire des archives n'est pas accessible en écriture.
+a:|:The element was successfully removed.:|:L'élément a bien été supprimé.
+a:|:The form [var1] was successfully archived.:|:Archivage du formulaire [var1] réussi.
+a:|:This form is not available for viewing at this time.:|:Ce formulaire n'est pas affichable pour l'instant.
+a:|:Total:|:Total
+a:|:Unapproved Forms:|:Formulaires rejetés
+a:|:Unsaved Forms:|:Formulaires non sauvegardés
+a:|:Use option text as values:|:Utiliser le libellé de l'option comme valeur
+a:|:User:|:User
+a:|:Value:|:Valeur
+a:|:Visible:|:Visible
+a:|:WARNING!:|:ATTENTION !
+a:|:You have already filled out this form!:|:Vous avez déjà utilisé ce formulaire (usage unique)
+a:|:You have chosen to edit a saved form! All current data will be archived and cleared if you chose to continue!  Make sure you export your data from your form before you continue!:|:Vous voulez modifier un formulaire sauvegardé. Toutes les réponses existantes vont être archivées et supprimées ! Vous pouvez exporter les données de votre formulaire si vous souhaitez les conserver avant de continuer...
+a:|:You must be logged in to view this form!:|:Vous devez être connecté pour remplir ce formulaire !
+a:|:You must fill out all required fields to continue.:|:Vous devez remplir toutes les zones obligatoires pour continuer.
+a:|:You must provide a submission message!:|:Le message d'inscription est obligatoire !

@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter>
+  <chapterinfo>
+    <author>
+      <firstname>Matthew</firstname>
+
+      <surname>McNaney</surname>
+    </author>
+
+    <address>matt at tux dot appstate dot edu</address>
+
+    <pubdate>2003-06-12</pubdate>
+
+    <revhistory>
+      <revision>
+        <revnumber>1.0</revnumber>
+
+        <date>2003-06-12</date>
+
+        <authorinitials>MM</authorinitials>
+
+        <revremark>First release</revremark>
+      </revision>
+    </revhistory>
+
+    <abstract>
+      <para>This is user documentation for the FatCat Categorizer module for
+      phpWebSite.</para>
+    </abstract>
+  </chapterinfo>
+
+  <title>FatCat Categorizer</title>
+
+  <section>
+    <title>Introduction</title>
+
+    <para>Most content modules in phpWebSite share a common need: to
+    categorize its data. Instead of having each module track categorizes
+    independently, FatCat manages it for them all. Centralized categories
+    allows greater interactivity and ordering of data.</para>
+  </section>
+
+  <section>
+    <title>Getting Started</title>
+
+    <para>Before we begin creating categories, we need to decide the structure
+    of our tree. The amount of time you spend upfront determining how your
+    category tree will branch will save you ten times that amount of time in
+    the future.</para>
+
+    <para>First ask yourself, what is the purpose of my site? Let&#39;s say I
+    am making a site about cooking. I may decide my site&#39;s purpose is to
+    post recipes. So, I might make the first two categories
+    <emphasis><emphasis role="bold">Recipes</emphasis></emphasis> and
+    <emphasis><emphasis role="bold">Advice</emphasis></emphasis>. Then I would
+    determine how to organize my recipes. I decide to make three categories
+    under Recipes: <emphasis role="bold">Desserts</emphasis>, <emphasis
+    role="bold">Main Course</emphasis>, and <emphasis role="bold">Appetizers</emphasis>.
+    Under Advice, I would make the categories <emphasis role="bold">Dietetic</emphasis>,
+    <emphasis role="bold">Preparation</emphasis>, <emphasis role="bold">Appliances</emphasis>,
+    and <emphasis role="bold">Utensils</emphasis>. That should be enough to
+    get started. I may decide to add more categories later. For example, under
+    Preparation I may have the categories <emphasis role="bold">Poultry</emphasis>,
+    <emphasis role="bold">Vegetables</emphasis>, and <emphasis role="bold">Beef</emphasis>
+    because I feel each of those deserves a separate area of preparation. Or
+    if I think there won&#39;t be enough information under Poultry and Beef, I
+    may combine them under one category: <emphasis role="bold">Meat</emphasis>.
+    You aren&#39;t chained to the choices you make for categories but it will
+    save you time if you plan beforehand.</para>
+  </section>
+
+  <section>
+    <title>Categories</title>
+
+    <para>Now that I know what categories I need, I can start making them. We
+    know the top two categories (Recipes and Advice), so we will want to make
+    those first.</para>
+
+    <section>
+      <title>Creating Categories</title>
+
+      <para>First go into your control panel and click on the Site Content
+      tab. Next click on the FatCat Categorizer option. Once there you should
+      see a drop down box with the words <emphasis role="bold">&#60;Top
+      Level&#62;</emphasis>. Next to that is a button labeled <emphasis
+      role="bold">Create Category</emphasis>. Since we are first making our
+      top level categories, this is a good selection. Go ahead and click the
+      aforementioned button. You will now come to the Create Category form.
+      Let&#39;s go through the elements of the form.
+      <itemizedlist><listitem><para><emphasis role="bold">Parent</emphasis> -
+      This controls the parent of the category I am creating. This echoes my
+      selection from the previous page. Since I want Recipes to be at the top
+      of my category tree I will leave this at &#60;Top Level&#62;.</para></listitem><listitem><para><emphasis
+      role="bold">Title</emphasis> - Fairly self-explanatory. I will just type
+      &#34;Recipes&#34; here.</para></listitem><listitem><para><emphasis
+      role="bold">Description</emphasis> - Although not required, it is a good
+      idea to explain the purpose of a category. Type the description of the
+      category here (e.g. &#34;Recipes are your culinary blueprints to great
+      food!&#34;).</para></listitem><listitem><para><emphasis role="bold">Template</emphasis>
+      -The template controls the layout of the View Category page. Just leave
+      this to default.tpl.</para></listitem><listitem><para><emphasis
+      role="bold">Image and Icon</emphasis> - You may to upload an image for
+      you category. Make sure to read the Images and Icons information below (<link
+      linkend="images_and_icons">Section 4</link>)</para></listitem></itemizedlist>When
+      I have finished entering the information on my Recipes category, I will
+      click the Create Category button. My first category is complete!</para>
+    </section>
+
+    <section>
+      <title>Other Categories</title>
+
+      <para>Once you create your first category you should be able to start
+      developing your &#34;tree&#34;.</para>
+
+      <para>Earlier we decided to create categories named Desserts, Main
+      Course, and Appetizers. Choosing Recipes instead of &#60;Top Level&#62;
+      from the drop box allows me to create these categories under Recipes. I
+      can also choose a parent from the drop down box on the creation screen.</para>
+
+      <simplelist type="vert">
+        <member>Recipes</member>
+
+        <member>Recipes &#62; Desserts</member>
+
+        <member>Recipes &#62; Main Course</member>
+
+        <member>Recipes &#62; Appetizers</member>
+      </simplelist>
+
+      <para>Once I pick Recipes as the parent, I would just create these other
+      categories as I did their parent. If you are following along, you should
+      start to see more options in your drop down box. You would see something
+      like the following list:</para>
+
+      <simplelist type="vert">
+        <member>Recipes</member>
+
+        <member>Recipes &#62; Desserts</member>
+
+        <member>Recipes &#62; Desserts &#62; Cakes</member>
+
+        <member>Recipes &#62; Desserts &#62; Pies</member>
+
+        <member>Recipes &#62; Main Course</member>
+
+        <member>Recipes &#62; Appetizers</member>
+      </simplelist>
+
+      <para>The greater than sign (&#62;) indicates that Desserts, Main Course
+      and Appetizers are under the Recipes category. If Desserts had
+      categories beneath it, the list might look something like the following:</para>
+
+      <para>The list can continue like this forever, but don&#39;t try to get
+      there. Keep your list orderly. Three to four categories should be
+      sufficient. If biologists can classify all life with only seven category
+      levels, you should be able to make do with five.</para>
+    </section>
+
+    <section>
+      <title>Editing Categories</title>
+
+      <para>Should you need to edit a category, just select it from the drop
+      down box on the administration page and click the Edit Category button.
+      You will be taken to a page quite similar to the creation page. Edit
+      your changes and click the Update Category button.</para>
+    </section>
+
+    <section>
+      <title>Removing Categories</title>
+
+      <para>If you decide you want to remove a category from the system, make
+      absolutely sure you have moved any subcategories to another parent. All
+      information associated to the category will be removed permanently. When
+      you are certain you want to remove this category, choose it from the
+      drop down box on the administration page and click the Delete Category
+      button.</para>
+    </section>
+  </section>
+
+  <section id="images_and_icons">
+    <title>Images and Icons</title>
+
+    <para>When creating or editing categories, you may decide you want to add
+    a little more flair to them with graphics. FatCat allows you to upload
+    images and icons to each category.</para>
+
+    <para>Size is the biggest difference between an image and an icon. Images
+    are much larger than icons. The other difference is where they show up.
+    Icons are commonly accompany information under that category. Images are
+    usually only seen when some if reading information about the category
+    itself.</para>
+
+    <para>Before we get started, let&#39;s lay down the rules for images and
+    icons.<orderedlist><listitem><para>Images and icons should be of the gif,
+    jpeg (or jpg as it is more commonly spelled), or png format. You can tell
+    what format your graphic is by looking at the file extension (i.e. the
+    last three letters of filename). Any other image types (e.g. bmp, wmp, psd
+    etc.) won&#39;t be allowed.</para></listitem><listitem><para>Icons must be
+    even smaller: 50 pixels wide by 50 pixels high or less.</para></listitem><listitem><para>Images
+    should be around 200 pixels wide by 200 pixels high. Anything larger than
+    that tends to gobble up space and detract from the description of the
+    category.</para></listitem><listitem><para>Both icons and images should
+    have a resolution of 72 dots per inch (or dpi). Remember, monitors
+    don&#39;t need high resolution to show a clear picture. Anything over
+    72dpi is overkill and makes the image file bloated. Digital cameras
+    usually store pictures at 300dpi to 1200dpi so be careful.</para></listitem></orderedlist>To
+    upload an image, click the <emphasis role="bold">Browse</emphasis> button.
+    Go to the directory that contains your image file and select it by double
+    clicking or clicking OK. The directory path to your image should now
+    appear in the text box next to the Browse button. Now if you create or
+    update your category, the image will accompany the title and description
+    on the view page.</para>
+
+    <para>You can upload an icon the same way. Click <emphasis role="bold">Browse</emphasis>,
+    choose your icon, and save the category.</para>
+
+    <para>After uploading at least one image or icon to the system, you will
+    see a drop down box with that graphics file name selected. If you decide
+    you do not want to use a graphic for the category you can choose <emphasis
+    role="bold">&#60;None&#62;</emphasis> in the drop down box. If you later
+    prefer to use a different graphic entirely, you can select it from the
+    drop down box as well.</para>
+
+    <para>Finally if you never want to see a graphic again, select the file
+    name and click the <emphasis role="bold">Remove Image</emphasis> or
+    <emphasis role="bold">Remove Icon</emphasis> button.</para>
+
+    <para>One other feature you can take advantage of on this page is
+    <emphasis role="bold">thumbnails</emphasis>. These are small versions of
+    the currently selected image. Once created, they can be used as icons.
+    Creating them is easy, either Browse to the image you want to use or
+    select on from the image drop down box and then click the <emphasis
+    role="bold">Create Icon</emphasis> from Image button. Your new icon will
+    then be set!</para>
+
+    <para>A few rules about thumbnail icons. First, not all images lend
+    themselves well to icons. A landscape for example would be unrecognizable
+    as an icon. An image of a object or a portrait would lend itself well to
+    an icon. Experiment with them. Second, you can only make thumbnails from
+    jpg or png image files. Sorry, but gif files are copyrighted material and
+    you have to pay to alter the format.</para>
+  </section>
+
+  <section>
+    <title>Now What?</title>
+
+    <para>So how are these categories used? Most of the content modules that
+    come with phpWebSite tap in to FatCat.</para>
+
+    <para>When you create an event, announcement, or a page there is a
+    multiple select list to choose the category (or categories) to which you
+    want that item associated. To select the category or categories associated
+    to your item, highlight them by clicking each one. Hold down the CTRL key
+    on your keyboard while left clicking to highlight more than one at a time.
+    When you save your item, it will be indexed to the categories you have
+    selected.</para>
+
+    <para>Categorization comes in handy when another item shares that
+    category. Let&#39;s say I have a pecan pie recipe (my favorite). I go
+    under PageMaster and create the recipe page for it. I decide to assign the
+    page to the category Recipes &#62; Desserts &#62; Pies.</para>
+
+    <para>Later I find out there is going to be a pecan pie bake-off where I
+    live. So I post an announcement with the same category. Since I may post a
+    lot of announcements, I decide to post the event to my calendar.</para>
+
+    <para>Now when the users come to my site they may see the announcement
+    about the bake off. When they read it, a different box, the <emphasis
+    role="bold">What&#39;s Related</emphasis> box, will appear showing them
+    the other items that are related to this announcement, namely the calendar
+    event and the recipe page. They can then click the event or the recipe
+    page to get more information. As you add more content and use FatCat to
+    categorize them, the easier and more interactive your site becomes.</para>
+  </section>
+
+  <section>
+    <title>Sticky Items</title>
+
+    <para>Sometimes there is something that is so important, you want to make
+    sure it is seen whenever something in the same category is viewed. To do
+    so, you can just check the Sticky check box under the category listing.
+    Although there is a limit on how many related items can appear, Sticky
+    items will ALWAYS appear.</para>
+  </section>
+
+  <section>
+    <title>Back to the Admin</title>
+
+    <para>You should now be familiar with creating, editing, and using
+    categories in FatCat. You should be aware of two more options on the
+    administration screen.</para>
+
+    <section>
+      <title>Default Icon</title>
+
+      <para>Some modules, like Announcements, make extensive use of the
+      category icons. Sometimes you may want to supply a filler icon for a
+      category. The Default Icon option will assist you. Just pick an icon you
+      have on your computer or use one you have already uploaded. See <link
+      linkend="images_and_icons">Images and Icons</link> above to see how to
+      choose an icon.</para>
+
+      <para>Once you have selected your Default Icon, this picture will
+      represent any category currently lacking an icon.</para>
+    </section>
+
+    <section>
+      <title>What&#39;s Related Limit</title>
+
+      <para>Earlier, you learned about the What&#39;s Related box. Pick a
+      number from this drop down box to determine the maximum amount of
+      related elements to display per module. Remember that Sticky items will
+      always appear, ignoring the limit number.</para>
+    </section>
+  </section>
+
+  <section>
+    <title>Conclusion</title>
+
+    <para>Hopefully you should now be able to use categories to their fullest.
+    The more you use them, the more information you give your users. If you
+    have any questions about this documentation, please contact me at matt at
+    tux dot appstate dot edu.</para>
+  </section>
+</chapter>

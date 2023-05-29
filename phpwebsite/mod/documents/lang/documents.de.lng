@@ -1,0 +1,80 @@
+de:|:documents
+a:|:Add Files:|:Dateien hinzufügen
+a:|:All available:|:Alle verfügbaren
+a:|:Anonymous users can [var1]:|:Anonyme Benutzer dürfen Dokumente [var1]
+a:|:Approve:|:Genehmigen
+a:|:Are you sure you want to delete the [var1] [var2] and all the files associated with it?:|:Möchten Sie wirklich [var1] [var2] und alle zugeordneten Dokumente löschen?
+a:|:Are you sure you want to delete the [var1] and all the files associated with it?:|:Sind Sie sicher, dass Sie [var1] und alle damit verknüpften Dateien löschen möchten?
+a:|:Are you sure you want to refuse these [var1] and delete them from the database?:|:Sind Sie sicher, dass Sie [var1] ablehnen und aus der Datenbank löschen?
+a:|:Back to [var1]:|:Zurück zu [var1]
+a:|:Country:|:Land
+a:|:Court Type:|:Gerichts-Typ
+a:|:Current Files:|:Aktuelle Dateien
+a:|:Current:|:Aktuelle
+a:|:Date:|:Datum
+a:|:Delete [var1] confirmation:|:L&ouml;schen von [var1] best&auml;tigen
+a:|:Description:|:Beschreibung
+a:|:Disapprove:|:Ablehnen
+a:|:Documents:|:Infos/Downloads
+a:|:Edit:|:Bearbeiten
+a:|:File successfully uploaded.:|:Datei(en) erfolgreich hochgeladen.
+a:|:File upload messages:|:Datei Hochlade-Nachrichten
+a:|:Files:|:Dateien
+a:|:From:|:Von
+a:|:Full Text:|:Volltext
+a:|:Hide:|:Verstecken
+a:|:How many files would you like to upload?:|:Wie viele Dateien möchten Sie hochladen?
+a:|:ID:|:ID
+a:|:Keyword:|:Schlüsselworte
+a:|:Label:|:Bezeichnung
+a:|:List:|:Aktuelle
+a:|:Move:|:Bewegen
+a:|:Name:|:Name
+a:|:New:|:Neues
+a:|:No [var1] was deleted from the database:|:Kein [var1] wurde aus der Datenbank gelöscht.
+a:|:No [var1] were deleted from the database.:|:Kein [var1] wurde aus der Datenbank gelöscht.
+a:|:No file was selected to be uploaded.:|:Es wurde keine Datei zum hochladen ausgew&auml;hlt.
+a:|:No:|:Nein
+a:|:One of the dates entered was not valid.:|:Eines der eingegebenen Daten war ungültig.
+a:|:Please select your files and the click Upload.:|:W&auml;hlen Sie die Dateien und klicken auf Upload.
+a:|:Recently Added:|:Recently Added1
+a:|:Save successful:|:Speichern erfolgreich
+a:|:Save:|:Speichern
+a:|:Search:|:Suche
+a:|:Settings saved successfully:|:Einstellungen erfolgreich gespeichert
+a:|:Show most recent block:|:Den neuesten Block zeigen
+a:|:Show:|:Zeigen
+a:|:Size:|:Gr&ouml;&szlig;e
+a:|:Submitted:|:Übermittelt
+a:|:The [var1] and all its files were successfully deleted from the database.:|:[var1] und alle seine Dateien wurden erfolgreich aus der Datenbank gelöscht.
+a:|:The [var1] were successfully deleted from the database.:|:[var1] wurde erfolgreich aus der Datenbank gelöscht.
+a:|:The date entered was not the correct format:|:Das eingegebene Datum hatte nicht das korrekte Format
+a:|:The file exceeded the max size allowed.:|:Die Datei überschreitet die erlaubte Grösse.
+a:|:The file type [var1] uploaded was not an allowed file type.:|:Der Dateityp [var1] ist nicht für upload erlaubt worden.
+a:|:The file uploaded was not an allowed file type.:|:Die hochgeladene Datei ist kein erlaubter Datei-Typ.
+a:|:The file was only partially uploaded.:|:Die Datei wurde nur teilweise hochgeladen.
+a:|:There was a problem saving to the database:|:Es gab ein Problem beim Speichern in der Datenbank
+a:|:There was a problem uploading the specified file.:|:Es gab ein Problem die angegebene Datei hochzuladen.
+a:|:To:|:An
+a:|:Unable to save to the database.:|:Kann nicht in die Datenbank speichern.
+a:|:Unapproved:|:Ungenehmigte
+a:|:Update:|:Aktualisieren
+a:|:Updated:|:Ge&auml;ndert
+a:|:Upload Files:|:Dateien hochladen
+a:|:Upload:|:Hochladen
+a:|:Uploaded:|:Hochgeladen
+a:|:Yes:|:Ja
+a:|:You do not have permission to [var1]:|:Sie haben nicht die Berechtigung zum [var1]
+a:|:add:|:Hinzufügen
+a:|:all:|:Alle
+a:|:delete:|:Löschen
+a:|:download:|:herunterladen
+a:|:edit settings:|:Einstellungen bearbeiten
+a:|:edit:|:edit1
+a:|:must be approved:|:müssen genehmigt werden
+a:|:new:|:new1
+a:|:print:|:Drucken
+a:|:search:|:search1
+a:|:settings:|:Einstellungen
+a:|:view:|:anzeigen
+a:|:Dokumenten Manager allows you to manage Dokumente which can have mutiple files associated with it.:|:Der Dokument-Manager erlaubt Ihnen, Dokumente zu handhaben, die mit mehreren Files verbunden sein k&ouml;nnen. 

@@ -1,0 +1,12 @@
+Know issues in phpWebSite and the possible solutions:
+
+Safe Mode
+-----------------
+Problem:
+When safe mode is enabled on the web server users have been getting timezone errors.
+- This isssue is cause by the PEAR library Date/TimeZone.php
+- Read more here: http://sourceforge.net/forum/forum.php?thread_id=830612&forum_id=49349
+
+Possible Solution (recommended):
+Add this line or have your system administrator add this line to your php.ini file.
+safe_mode_allowed_env_vars = TZ

@@ -1,0 +1,22 @@
+The guestbook-module 2.3.1
+got following changes:
+
+index.php	line 12 from $GB_PG["base_url"] .= "./mod/$ModName"; to $GB_PG["base_url"] .= "/mod/$ModName";
+		fix for 'icon not show' problem
+
+conf-directory	several chages to fix the admin-button to work as admin button
+		some changes, to make guestbook working with language-module (i uuse german)
+		some optical workout
+
+built myself a language-problem
+
+yk märz 04
+
+-----------------------------------------------
+18.09.2004 deutsche lang Datei
+config.inc angepasst
+
+phpws
+Christian
+
+-----------------------------------------------

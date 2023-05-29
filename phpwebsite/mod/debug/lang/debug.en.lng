@@ -1,0 +1,23 @@
+en:|:debug
+a:|:phpWebSite Debugger:|:phpWebSite Debugger
+a:|:phpWebSite Debugger Settings:|:phpWebSite Debugger Settings
+a:|:Select the information for debug display.:|:Select the information for debug display.
+a:|:Turn On/Off:|:Turn On/Off
+a:|:PhpWebSite Timer:|:PhpWebSite Timer
+a:|:Debugger Block:|:Debugger Block
+a:|:Post Variables:|:Post Variables
+a:|:Get Variables:|:Get Variables
+a:|:Request Variables:|:Request Variables
+a:|:File Variables:|:File Variables
+a:|:Cookie Variables:|:Cookie Variables
+a:|:Server Variables:|:Server Variables
+a:|:Session and Core Options:|:Session and Core Options
+a:|:Display Before Execution:|:Display Before Execution
+a:|:Display After Execution:|:Display After Execution
+a:|:Dump Core:|:Dump Core
+a:|:Session Objects:|:Session Objects
+a:|:Session Arrays:|:Session Arrays
+a:|:Other Sessions:|:Other Sessions
+a:|:Reset Form:|:Reset Form
+a:|:Debugger:|:Debugger
+a:|:PhpWebsite Debugger is a developer tool used for viewing session and request information.:|:PhpWebsite Debugger is a developer tool used for viewing session and request information.

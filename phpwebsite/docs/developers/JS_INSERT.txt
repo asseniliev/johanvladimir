@@ -1,0 +1,93 @@
+-------------------------------------------------------------------------------------------
+README for adding javascript to phpWebSite v1.0 06/04/2003
+-------------------------------------------------------------------------------------------
+
+The way phpWebSite controls adding javascript to a page is via the js_insert function in the 
+class PHPWS_WizardBag located in the core. At this point in time (0.9.2 and earlier) the function 
+is called via the core: $GLOBALS['core']->js_insert(), but after the release of 0.9.3 it will be 
+called like this: PHPWS_WizardBag::js_insert().
+
+All javascript files are locate in the js/ directory off the phpws base.  These files are php 
+files which are included by the js_insert function and generate the javascript functions which 
+go into the head of the html document and the proper elements which are returned to the developer. 
+For examples of how this is done look at some of the current working scripts which are found in the 
+js/ directory.
+
+It is recommended when using javascript within phpWebSite to always have a fall back in case the 
+user does not have javascript enabled.  You can check the status of a user's javascript ability 
+via user object 
+(ex. <=0.9.2: if($_SESSION['OBJ_user']->js_on)
+     >=0.9.3: if($_SESSION['PHPWS_User']->js_on))
+
+You can also pass TRUE or 1 as the fourth parameter to the js_insert function and it will check 
+for you.  This will return NULL if javascript is disabled and will return the proper elements if 
+it is enabled.
+
+Here are some explainations on how to call a few of the javascripts currently in phpWebSite.
+Remember your form MUST BE NAMED in order for javascripts to work properly.
+
+function js_insert($file, $form_name=NULL, $section_name=NULL, $check=0, $js_var_array=NULL);
+
+$file:         represents the name of the file which adds the javacript without the .php
+$form_name:    is the name of the form the javascript is being added to, if you are using EZform
+               you pass the name of the form to the constructor $form = new EZform("your_form_name")
+$section_name: the name of the form element the javascript is being added to
+$check:        whether or not you want the js_insert function to check to see if javascript is 
+               enabled for you
+$js_var_array: extra variables needed by the javasrcipt to perform its duty
+
+--------------------------------
+WYSIWYG
+--------------------------------
+Parameters:
+----------------
+$file = "wysiwyg"
+$form_name = "your_form_name"
+$section_name = "section_for_the_wysiwyg"
+$check = 1, 0, TRUE, or FALSE
+$js_var_array = NULL  // no extra variables are needed
+
+The content that js_insert returns should be added into the form ontop of the textfield or
+textarea it is being added to.
+
+--------------------------------
+SWAPPER
+--------------------------------
+Parameters:
+----------------
+$file = "swapper"
+$form_name = "your_form_name"
+$section_name = NULL  // not needed for the swapper
+$check = 0  // always pass zero this is explained below
+$js_var_array = array("options_select_box_name"=>array(0,1,2,3,4,5,6,7,8,9),
+                      "selections_select_box_name"=>array(1,3,5,7)
+                     );
+
+The content returned by the js_insert function should be added to the form wherever you see fit.
+You must always pass 0 for the check parameter because the swapper will check for you and recover
+by creating just a plain old multiselect list.  Unless you would like to recover another way in
+which you would pass 1 as the check parameter and js_insert will then return NULL.  When using this
+javascript more than once per page, the first time you must call it with $GLOBALS['core'] and each
+time after with PHPWS_WizardBag:: so it does not get inserted into the head of the document more 
+than once.
+
+Finally in order to get the swapper to completely work you must add an onclick call to your submit
+button. Here it is: onclick(selectAll(this.form.elements['selections_select_box_name[]'])
+
+If you are using EZform you can add it like this:
+$form->setExtra("submit_buttom_name", 
+                "onclick=\"selectAll(this.form.elements['selections_select_box_name[]'])\"");
+
+--------------------------------
+CHECK_ALL
+--------------------------------
+Parameters:
+----------------
+$file = "check_all"
+$form_name = "your_form_name"
+$section_name = NULL  // not needed for the check all
+$check = 1, 0, TRUE, or FALSE
+$js_var_array = NULL  // no extra variables are needed
+
+The content returned by the js_insert function should be added to the form wherever you see fit.
+Usually directly above or below the check boxes you want to be checked. 

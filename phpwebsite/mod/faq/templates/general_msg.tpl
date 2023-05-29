@@ -1,0 +1,5 @@
+<!-- BEGIN MESSAGE_TITLE -->
+<b>{TITLE}</b>
+<!-- END MESSAGE_TITLE -->
+<br />
+{MESSAGE_BODY}

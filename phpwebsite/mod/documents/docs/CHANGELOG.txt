@@ -1,0 +1,12 @@
+1.0.4  10-07-2003
+------------------
+- Fixed search for keywords (best used as comma delimited)
+
+1.0.3  10-05-2003
+------------------
+- Fixed the problems on install with the configuration defines
+- Fixed the bug in which downloaded files are currupted
+
+1.0.1  09-16-2003
+------------------
+- First version of documents module configured to be Case Law cases

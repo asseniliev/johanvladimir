@@ -1,0 +1,141 @@
+de:|:menuman
+a:|:Actions:|:Aktionen
+a:|:Activate / Deactivate:|:Aktivieren / Deaktivieren
+a:|:Active Image:|:Aktives Bild
+a:|:Active:|:Aktiv
+a:|:Activity:|:Aktiv oder nicht?
+a:|:Add A Menu Link:|:Men&uuml;-Link hinzuf&uuml;gen
+a:|:Add Menu Item:|:Men&uuml;punkt hinzuf&uuml;gen
+a:|:Add Module Default:|:Modul-Links hinzuf&Uuml;gen
+a:|:Add Module User Links:|:Modul-Links hinzuf&uuml;gen
+a:|:Add Under:|:Untertitel von
+a:|:Add to top level:|:Zum Hauptmen&uuml;
+a:|:All selected menu items and sub-items were successfully deleted from the database.:|:Alle gew&auml;hlten Men&uuml;- und Untermen&uuml;punkte wurden erfolgreich aus der Datenbank gel&ouml;scht.
+a:|:All the menu items were successfully updated to the database.:|:Alle Men&uuml;punkte in der Datenbank wurden erfolgreich aktualisiert.
+a:|:Allow Anonymous Access to this Menu:|:Erlauben Sie nicht angemeldeten Usern Zugang zu diesem Menü
+a:|:Allow View (All are selected by default):|:Anzeige erlauben (Standardm&auml;ssig alle)
+a:|:Also on this Site...:|:Auch auf diesen Seiten...
+a:|:Are you sure you want delete the image [var1]?:|:Wollen Sie das Bild '[var1]' wirklich l&ouml;schen?
+a:|:Are you sure you want to delete the menu [var1] ?:|:Wollen Sie das Men&uuml; '[var1]' wirklich l&ouml;schen?
+a:|:Are you sure you want to delete these menu items and their sub-items?:|:Wollen Sie diese Men&uuml;punkte (inkl. Unterpunkte) wirklich l&ouml;schen?
+a:|:Back To Main:|:Zur&uuml;ck
+a:|:Bulletin Board:|:Forum
+a:|:Character:|:Charakter
+a:|:Choose a module's user functionality to add to your menu:|:W&auml;hlen Sie eine Benutzer-Modulfunktion, die zu Ihrem Men&uuml; hinzugef&uuml;gt werden soll
+a:|:Choose a modules user functionality to add to your menu:|:W&auml;hlen Sie eine Benutzer-Modulfunktion, die zu Ihrem Men&uuml; hinzugef&uuml;gt werden soll
+a:|:Coming Soon...:|:Anstehende Termine
+a:|:Content Var:|:Inhalts-Var
+a:|:Coordinates:|:Koordinaten
+a:|:Country connected:|:Länder verbunden
+a:|:Create A New Menu:|:Neues Men&uuml; kreieren
+a:|:Create Menu:|:Men&uuml; kreiren
+a:|:Current Menus:|:Aktuelle Men&uuml;s
+a:|:Current menus:|:Aktuelle Men&uuml;s
+a:|:Default Image:|:Standard Bild
+a:|:Default Theme Variable:|:Standard-Thema Variable
+a:|:Delete Image Confirmation:|:'Bild l&ouml;schen' best&auml;tigen
+a:|:Delete Menu Confirmation:|:'Men&uuml; l&ouml;schen' best&auml;tigen
+a:|:Delete Menu Items Confirmation:|:'Men&uuml;punkte l&ouml;schen' best&auml;tigen
+a:|:Delete Menu Items:|:Men&uuml;punkte l&ouml;schen
+a:|:Delete an image:|:Ein Bild l&ouml;schen
+a:|:Display:|:Anzeigen
+a:|:Edit [var1] Settings:|:[var1]-Einstellungen &auml;ndern
+a:|:Error:|:Fehler
+a:|:External Page:|:Externe Seite
+a:|:File [var1] is not an allowed file for this option.:|:Die Datei '[var1]' ist f&uuml;r diese Option nicht erlaubt.
+a:|:Forms:|:Formulare
+a:|:Germany:|:Deutschland
+a:|:Highlight Color:|:Aktive Farbe
+a:|:Horizontal:|:Horizontal
+a:|:Image Deleted:|:Bild gel&ouml;scht
+a:|:Image Manager:|:Bild-Manager
+a:|:Image Map:|:Image-Map
+a:|:Image:|:Bild
+a:|:In A Box:|:In einer Box
+a:|:Indent Item:|:Vorzeichen
+a:|:Internal Page:|:Interne Seite
+a:|:Internal Web Page:|:interne Web Webseite
+a:|:Last updated by [var1] on [var2]:|:Letztes Updated von [var1] am [var2]
+a:|:List Menus:|:Men&uuml;s anzeigen
+a:|:Main Menu:|:Haupt-Men&uuml;
+a:|:Menu Deleted:|:Men&uuml; gel&ouml;scht
+a:|:Menu Image Manager:|:Bild-Manager
+a:|:Menu Indent:|:Men&uuml;-Einzug
+a:|:Menu Item Added:|:Men&uuml;punk hizugef&uuml;gt
+a:|:Menu Items for [var1].:|:Men&uuml;punkte f&uuml;r [var1].
+a:|:Menu Manager Administration:|:Men&uuml;-Manager Administration
+a:|:Menu Manager:|:Menü-Manager
+a:|:Menu Spacer:|:Men&uuml;-Abstand
+a:|:Menu Successfully Created:|:Menü erfolgreich erstellt
+a:|:Menu Title:|:Men&uuml;-Titel
+a:|:Menu URL:|:Men&uuml;-URL
+a:|:Month View:|:Monatsansicht
+a:|:More infos:|:Mehr Infos
+a:|:New Menu:|:Neues Menü
+a:|:New Window:|:Neues Fenster
+a:|:No Images Found In::|:Kein Bild gefunden in:
+a:|:No Members are currently logged in:|:Im Moment sind keine Mitglieder online
+a:|:No Menu Deleted:|:Kein Men&uuml; gel&ouml;scht
+a:|:No items for this menu.:|:Keine Punkte f&uuml;r dieses Men&uuml;
+a:|:No menu items for this menu.:|:Keine Menupunkte f&uuml;r dieses Men&uuml;
+a:|:No menu items were deleted from the database.:|:Keine Men&uuml;punkte aus der Datenbank gel&ouml;scht.
+a:|:No menu items were selected for update.:|:Keine Men&uuml;punkte zur Aktualisierung angew&auml;hlt.
+a:|:No menu was deleted from the database.:|:Kein Men&uuml; aus der Datenbank gel&ouml;scht.
+a:|:Not Active:|:Nicht Aktiv
+a:|:Nothing Deleted:|:Nichts gel&ouml;scht
+a:|:Nothing Updated:|:Nichts aktualisiert
+a:|:OPTIONS:|:OPTIONEN
+a:|:Open Image:|:Bild &ouml;ffnen
+a:|:Order:|:Reihenfolge
+a:|:Pagemaster Page:|:Pagemaster Seite
+a:|:Record connected is [var1] on [var2]:|:Besucher Rekord [var1] am [var2]
+a:|:Reset:|:Zur&uuml;cksetzen
+a:|:Save Changes:|:Speichern
+a:|:Save New Menu:|:Neues Men&uuml; gespeichert
+a:|:Select Modules Allowed:|:Ausgew&auml;hlte Module erlauben
+a:|:Select which menu you would like to add the link to.:|:Zu welchem Men&uuml; wollen Sie den Link hinzuf&uuml;gen.
+a:|:Select:|:W&auml;hle
+a:|:Settings:|:Einstellungen
+a:|:Site Map:|:Seitenverzeichnis
+a:|:Site Search:|:Suche
+a:|:Sorry!  Your browser cannot display the page here.:|:Leider kann Ihr Browser diese Seite nicht anzeigen!
+a:|:Submit Announcement:|:Ank&uuml;ndigung &uuml;bermitteln
+a:|:Submit Article:|:Artikel Senden
+a:|:Submit a new article:|:Einen neuen Artikel schreiben
+a:|:Submit:|:Abschicken
+a:|:Template:|:Vorlage
+a:|:The Menu Manager allows you to add and create dynamic menus. Menus are used to link to stuff from your site and other sites.:|:Der Menu Manager erm&ouml;glicht Ihnen, dynamische Men&uuml;s hinzuzuf&uuml;gen und zu verwalten.
+a:|:The image [var1] was successfully deleted.:|:Das Bild [var1] wurde erfolgreich gel&ouml;scht.
+a:|:The images directory set in the menuman config file could not be found this will cause all image options to fail.:|:Das image-Verzeichnis aus der menuman-Konfigurationsdatei konnte nicht gefunden werden. Dadurch werden alle Bild-Optionen nicht funktionieren.
+a:|:The menu [var1] was successfully deleted from the database.:|:Das Men&uuml; [var1] wurde erfolgreich aus der Datenbank gel&ouml;scht.
+a:|:The menu [var1] you created was successfully added to the database.:|:Das Men&uuml; [var1], das Sie erstellt haben, wurde erfolgreich in die Datenbank eingtragen.
+a:|:The menu [var1] you edited was successfully updated to the database.:|:Das Men&uuml; [var1] wurde erfolgreich aktualisiert.
+a:|:The menu item you added was successfully updated to the database and added to [var1].:|:Der eingegebene Men&uuml;punkt wurde in der Datenbank gespeichert und zu [var1] hinzugef&uuml;gt.
+a:|:There are currently:|:Es gibt z.Z.
+a:|:There are no menus in the database at this time.:|:Zur Zeit sind keine Men&uuml;s in der Datenbank.
+a:|:There are no menus to choose, this process cannot continue.:|:Es gibt keine Men&uuml;s zur Auswahl. Der Vorgang kann nicht fortgesetzt werden.
+a:|:Turn Off Advanced Edit:|:Erweiterung AUS
+a:|:Turn On Advanced Edit:|:Erweiterung EIN
+a:|:URL:|:URL
+a:|:Unknown:|:Unbekannt
+a:|:Update Menu Items:|:Men&uuml;punkte aktualisieren
+a:|:Update Settings Successful:|:Einstellungen erfolgreich gespeichert
+a:|:Update Successful:|:&Auml;nderungen erfolgreich
+a:|:Upload an image to use as a menu marker.:|:Ein Bild als Men&uuml;-Icon hochladen.
+a:|:Upload:|:Hochladen
+a:|:Vertical:|:Vertikal
+a:|:Votes::|:Stimmen:
+a:|:Web Links:|:Links
+a:|:Web Page Demo:|:Web-Seiten-Demo
+a:|:When selecting a pagemaster page leave the menu url field blank.:|:Wenn Sie eine Pagemaster-Seite ausw&auml;hlen, lassen Sie die Men&uuml;-URL leer.
+a:|:Who's Online:|:Wer ist Online
+a:|:You are an <b>Anonymous</b> user:|:Sie sind ein <b>Gast</b> User
+a:|:You can register for free by clicking:|:Kostenlos registrieren können Sie sich
+a:|:You must give your menu link a title:|:Sie m&uuml;ssen Ihrem Men&uuml;link einen Titel geben
+a:|:Your IP address : [var1]:|:Ihre IP Adresse : [var1]
+a:|:Your country is [var1]:|:Ihr Land ist [var1]
+a:|:[var1] connected with IP [var2]:|:[var1] verbunden mit IP [var2]
+a:|:eMail:|:Email
+a:|:guest(s) and:|:Besucher und
+a:|:member(s) that are online:|:Mitglied(er), die online sein
+a:|:user [var1]:|:User [var1]

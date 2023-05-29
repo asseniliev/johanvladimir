@@ -1,0 +1,42 @@
+it:|:branch
+a:|:Are you absolutely sure you want to unregister this branch:|:Sicuro di voler completamente rimuovere il sito figlio
+a:|:Branch Created Successfully:|:Ramo creato
+a:|:Branch Directory:|:Cartella su server
+a:|:Branch Name:|:Nome del sito
+a:|:Branch Web Address:|:Indirizzo web del sito Ramo
+a:|:Branch already exists:|:Il sito figlio esiste gi&agrave;
+a:|:Branch database populated successfully:|:Database creato
+a:|:Branch directory created successfully:|:Cartella creata
+a:|:Branch registered successfully to hub:|:Sito creato e registrato
+a:|:Click Here to Create Branch:|:Crea un sito figlio
+a:|:Click on Create Branch to get started:|:Seleziona Crea Ramo per iniziare
+a:|:Configuration File written successfully:|:File di configurazione creato
+a:|:Configuration file deleted:|:File di configurazione eliminato
+a:|:Create Branch:|:Crea Ramo
+a:|:Creates branch sites off your hub code.:|:Crea un sito figlio fuori dal tuo codice
+a:|:Creating Branch:|:Sto creando il Ramo
+a:|:Directory:|:Cartella
+a:|:Edit Branch:|:Modifica Ramo
+a:|:Error:|:Errore
+a:|:Expert Create Branch:|:Crea Ramo - avanzato -
+a:|:Expert Update Branch:|:Aggiornamento Esperto
+a:|:Invalid Branch Name:|:Nome non permesso
+a:|:Make sure to delete the branch directory and database:|:Verifica di eliminare la directory e il database del sito figlio
+a:|:Manage Branches:|:Gestisci Rami
+a:|:Message:|:Messaggio
+a:|:No branch sites found:|:Nessun sito figlio presente
+a:|:Remove Branch:|:Rimuovi sito figlio
+a:|:Remove:|:Rimuovi
+a:|:Return after you have changed the permissions:|:Ritorna quando hai modificato i permessi
+a:|:Table Prefix:|:Prefisso delle tabelle
+a:|:The installation directory is not writable:|:La cartella di installazione &egrave; protetta in scrittura
+a:|:There is already an installation of phpWebSite in this database:|:C'&egrave; gi&agrave; una installazione di phpWebsite nel database
+a:|:Try logging on:|:Prova a fare il Log in
+a:|:Unable to make database connection with the information supplied:|:Impossibile collegarsi al database con questi dati
+a:|:Unable to write branch directory:|:Impossibile creare la directory del sito
+a:|:Update Complete:|:Aggiornamento completato
+a:|:Welcome to Branch Creator:|:Benvenuto in Branch Creator
+a:|:You need to create a database named [var1]:|:Devi creare un database chiamato [var1]
+a:|:You need to create a database with this name first:|:Devi creare un database con questo nome
+a:|:Your are missing crucial database information:|:I dati di collegamento sono incompleti
+a:|:Your configuration directory is not writable:|:La cartella di configurazione non si pu&ograve; scrivere

@@ -1,0 +1,2 @@
+contact_all_users::Send Notes to All Users
+contact_groups::Send Notes to Groups of Users

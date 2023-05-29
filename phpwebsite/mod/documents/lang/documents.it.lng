@@ -1,0 +1,75 @@
+it:|:documents
+a:|:Add Files:|:Aggiungi file
+a:|:All available:|:Tutti disponibili
+a:|:All:|:TUTTI
+a:|:Anonymous users can [var1]:|:Gli utenti anonimi possono [var1]
+a:|:Approve:|:Approva
+a:|:Are you sure you want to delete the [var1] and all the files associated with it?:|:Sicuro di eliminare [var1] e i suoi files
+a:|:Are you sure you want to refuse these [var1] and delete them from the database?:|:Sicuro di rifiutare questi [var1] ed eliminarli?
+a:|:Back to [var1]:|:Torna a [var1]
+a:|:Country:|:Paese
+a:|:Court Type:|:Court Type
+a:|:Current Files:|:File correnti
+a:|:Current:|:ATTUALE
+a:|:Date:|:Data
+a:|:Delete [var1] confirmation:|:Conferma eliminazione [var1]
+a:|:Description:|:descrizione
+a:|:Disapprove:|:Rifiuta
+a:|:Download:|:download
+a:|:File successfully uploaded.:|:File cariccato con successo!
+a:|:File upload messages:|:File upload messages
+a:|:Files:|:Files
+a:|:From:|:Da
+a:|:Full Text:|:Spiegazioe estesa
+a:|:Hide:|:Nascondi
+a:|:How many files would you like to upload?:|:Quanti files vuoi caricare?
+a:|:ID:|:ID
+a:|:Keyword:|:Parola chiave
+a:|:Label:|:Etichetta
+a:|:List:|:lista
+a:|:Move:|:Sposta
+a:|:Name:|:Nome
+a:|:New:|:nuovo
+a:|:No [var1] was deleted from the database:|:Nessun [var1] cancellato
+a:|:No [var1] were deleted from the database.:|:Nessun [var1] cancellato
+a:|:No file was selected to be uploaded.:|:Nessun file selezionato da caricare
+a:|:No:|:No
+a:|:One of the dates entered was not valid.:|:Una delle date non &grave; corretta
+a:|:Please select your files and the click Upload.:|:Seleziona i files quindi clicca su Upload.
+a:|:Print:|:Stampa
+a:|:Recently Added:|:Aggiunti di recente
+a:|:Save successful:|:Salvato
+a:|:Save:|:Salva
+a:|:Settings saved successfully:|:Impostazioni salvate
+a:|:Show most recent block:|:Mostra blocco pi&ugrave; recente
+a:|:Show:|:Mostra
+a:|:Size:|:Dimensione
+a:|:Submitted:|:Inviato
+a:|:The [var1] and all its files were successfully deleted from the database.:|:Il [var1] e tutti i suoi files sono stati rimossi.
+a:|:The [var1] were successfully deleted from the database.:|:[var1] cancellato
+a:|:The date entered was not the correct format:|:La data &grave; in un formato errato
+a:|:The file exceeded the max size allowed.:|:Il file supera la dimensione massima
+a:|:The file uploaded was not an allowed file type.:|:Il file  caricato è di un tipo non consentito
+a:|:The file was only partially uploaded.:|:File parzialmente uplodato
+a:|:There was a problem saving to the database:|:C'&egrave; stato un problema nel salvataggio
+a:|:There was a problem uploading the specified file.:|:C'&egrave; stato un problema nell'upload del file
+a:|:To:|:A
+a:|:Unable to save to the database.:|:Impossibile salvare
+a:|:Unapproved:|:Non approvati
+a:|:Update:|:Aggiorna
+a:|:Updated:|:Aggiornato
+a:|:Upload Files:|:Carica Files
+a:|:Upload:|:Upload
+a:|:Uploaded:|:Caricato
+a:|:Yes:|:Si
+a:|:You do not have permission to [var1]:|:Non hai i permessi per  [var1]
+a:|:add:|:aggiungi
+a:|:delete:|:elimina
+a:|:document:|:documento
+a:|:documents:|:documenti
+a:|:edit settings:|:modifica impostazioni
+a:|:edit:|:modifica
+a:|:must be approved:|:deve essere approvato
+a:|:search:|:cerca
+a:|:settings:|:impostazioni
+a:|:view:|:vedere

@@ -1,0 +1,104 @@
+fr:|:menuman
+a:|:Actions:|:Actions
+a:|:Activate / Deactivate:|:Activer / Désactiver
+a:|:Active Image:|:Image active
+a:|:Active:|:Active
+a:|:Activity:|:Activité
+a:|:Add Menu Item:|:Ajouter un item de menu
+a:|:Add Module Default:|:Ajouter le module par défaut
+a:|:Add Module User Links:|:Ajouter un lien sur un module utilisateur
+a:|:Add Under:|:Ajouter en dessous
+a:|:Add to top level:|:Ajouter au niveau le plus haut
+a:|:All selected menu items and sub-items were successfully deleted from the database.:|:Suppression de tous les items et sous-items de menus reussie.
+a:|:All the menu items were successfully updated to the database.:|:Mise à jour de tous les items dans la base de données réussie.
+a:|:Allow View (All are selected by default):|:Afficher (Tous sont sélectionnés par défaut)
+a:|:Are you sure you want delete the image [var1]?:|:Etes vous certain de vouloir supprimer l'image [var1] ?
+a:|:Are you sure you want to delete the menu [var1] ?:|:Etes-vous certain de vouloir supprimer le menu [var1] ?
+a:|:Are you sure you want to delete these menu items and their sub-items?:|:Etes-vous certain de vouloir supprimer ces items de menu et leurs sous-items éventuels ?
+a:|:Back To Main:|:Retour
+a:|:Bulletin Board:|:Panneau d'affichage des forums
+a:|:Character:|:Caractère
+a:|:Choose a module's user functionality to add to your menu:|:Choisissez une fonctionnalité utilisateur à ajouter à votre menu
+a:|:Create A New Menu:|:Créer un nouveau menu
+a:|:Create Menu:|:Créer un menu
+a:|:Created on [var1] by [var2]:|:Crée le [var1] par [var2]
+a:|:Current Menus:|:Menus courant
+a:|:Current menus:|:Menus courant
+a:|:Deactivate:|:Désactiver
+a:|:Default Image:|:Image par défaut
+a:|:Delete Image Confirmation:|:Confirmation de suppression de l'image
+a:|:Delete Menu Confirmation:|:Confirmation de la suppression du menu
+a:|:Delete Menu Items Confirmation:|:Confirmation de suppression des items du menu
+a:|:Delete Menu Items:|:Supprimer les items du menu
+a:|:Delete an image:|:Supprimer l'image
+a:|:Display:|:Afficher
+a:|:Edit This Page:|:Modifier cette page
+a:|:Edit [var1] Settings:|:Modifier les réglages de [var1]
+a:|:Error:|:Erreur
+a:|:External Page:|:Page externe
+a:|:FAQs:|:FAQs
+a:|:Form Generator:|:Formulaires en ligne
+a:|:Forms:|:Formulaires
+a:|:Highlight Color:|:Couleur de surbrillance
+a:|:Horizontal:|:Horizontal
+a:|:Image Deleted:|:Image supprimée
+a:|:Image Manager:|:Gestionnaire d'images
+a:|:Image Map:|:Carte de l'image
+a:|:In A Box:|:Dans une boîte
+a:|:Indent Item:|:Indenter les items
+a:|:Internal Page:|:Page interne
+a:|:Link Manager:|:Gestionnaire de liens
+a:|:List Menus:|:Liste des menus
+a:|:Menu Deleted:|:Menu supprimé
+a:|:Menu Image Manager:|:Menu du gestionnaire d'images
+a:|:Menu Indent:|:Indenter le menu
+a:|:Menu Item Added:|:Item de menu ajouté
+a:|:Menu Items for [var1].:|:Items de menu pour [var1].
+a:|:Menu Manager:|:Gestionnaire de menus
+a:|:Menu Spacer:|:Espace avant
+a:|:Menu Successfully Created:|:Création du menu réussie
+a:|:Menu Title:|:Titre du menu
+a:|:Month View:|:Affichage mois
+a:|:New Menu:|:Nouveau menu
+a:|:New Window:|:Nouvelle fenêtre
+a:|:No items for this menu.:|:Pas d'item pour ce menu.
+a:|:No menu items for this menu.:|:Pas d'item de menu dans ce menu.
+a:|:No menu items were selected for update.:|:Vous n'avez séléctionné aucun item à modifier.
+a:|:None:|:Aucun
+a:|:Nothing Updated:|:Rien n'a été modifié.
+a:|:Open Image:|:Ouvrir l'image
+a:|:Order:|:Trier
+a:|:Page Demo:|:Page de démonstration
+a:|:Pagemaster Page:|:Page d'accueil
+a:|:Photo Album:|:Album d'images
+a:|:Printable Version:|:Version imprimable
+a:|:Save Changes:|:Sauvegarder les modifications
+a:|:Save New Menu:|:Sauvegarder le nouveau menu
+a:|:Select Modules Allowed:|:Sélection d'un module
+a:|:Select:|:Choisir
+a:|:Site Map:|:Carte du site
+a:|:Submit A Link:|:Envoyer un lien
+a:|:Submit Link:|:Proposer lien
+a:|:The image [var1] was successfully deleted.:|:Suppression de l'image [var1] réussie.
+a:|:The menu [var1] was successfully deleted from the database.:|:Suppression du menu [var1] dans la base de données réussie.
+a:|:The menu [var1] you created was successfully added to the database.:|:Ajout de votre menu [var1] dans la base de données réussi.
+a:|:The menu [var1] you edited was successfully updated to the database.:|:Mise à jour de votre menu [var1] dans la base de données réussie.
+a:|:The menu item you added was successfully updated to the database and added to [var1].:|:Ajout de votre item [var1] dans la base de données réussi.
+a:|:Turn Off Advanced Edit:|:Désactiver le mode expert
+a:|:Turn On Advanced Edit:|:Activer le mode expert
+a:|:URL:|:URL
+a:|:Update Menu Items:|:Modifier les items du menu
+a:|:Update Settings Successful:|:Sauvegarde des réglages réussie
+a:|:Update Successful:|:Mise à jour réussie
+a:|:Updated on [var1] by [var2]:|:Mis à jour le [var1] par [var2]
+a:|:Upload an image to use as a menu marker.:|:Télécharger une image à utiliser comme marqueur de menu.
+a:|:Upload:|:Télécharger
+a:|:Vertical:|:Vertical
+a:|:View Result:|:Voir les résultats
+a:|:Vote:|:Voter
+a:|:Web Links:|:Liens web
+a:|:Web Page Demo:|:Page d'accueil
+a:|:What's Related:|:A voir aussi
+a:|:When selecting a pagemaster page leave the menu url field blank.:|:Si vous choisissez une page, laissez le l'URL du menu vide.
+a:|:Xoap:|:Météo
+a:|:You must give your menu link a title:|:Vous devez donner un titre à votre menu

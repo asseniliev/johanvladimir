@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter>
+  <chapterinfo>
+    <author>
+      <firstname>Matthew</firstname>
+      <surname>McNaney</surname>
+    <email>matt at tux dot appstate dot edu</email>
+    </author>
+
+    <pubdate>2003-06-13</pubdate>
+
+    <revhistory>
+      <revision>
+        <revnumber>1.0</revnumber>
+
+        <date>2003-06-12</date>
+
+        <authorinitials>MM</authorinitials>
+
+        <revremark>First release</revremark>
+      </revision>
+    </revhistory>
+
+    <abstract>
+      <para>User documentation for the phpWebSite Calendar module</para>
+    </abstract>
+  </chapterinfo>
+
+  <title>Calendar</title>
+
+  <section>
+    <title>Introduction</title>
+
+    <para>Calendar allows you to post events on your web page. It displays
+    these events in daily, weekly, and monthly views. It also includes a small
+    view which allows users to see what is coming up within the next few days.</para>
+  </section>
+
+  <section>
+    <title>Getting Started</title>
+
+    <para>You can get to the administrative functions of Calendar two ways.
+    The first way is to view an event, month, week, day, or year. As soon as
+    you access the Calendar module, the administrative panel will appear at
+    the top of the page. The other way to access calendar is by clicking on
+    the Calendar icon in the Control Panel. Calendar&#39;s function is to post
+    events. To get started, we will create an event.</para>
+  </section>
+
+  <section>
+    <title>Creating Events</title>
+
+    <para>Click on the <emphasis role="bold">Create New Event</emphasis> in
+    the Calendar administration panel. You will come to the event form. Here
+    is what you will need to fill out.<itemizedlist spacing="normal"><listitem><para><emphasis
+    role="bold">Active</emphasis> - This defaults to &#39;On&#39;. If you want
+    the event to be hidden from user view until later, change this to
+    &#39;Off&#39;.</para></listitem><listitem><para><emphasis role="bold">Title</emphasis>
+    - Pretty self-explanatory. This is the title of the event. Keep it short
+    and don&#39;t include the date or time. Let the rest of the form handle
+    that.</para></listitem><listitem><para><emphasis role="bold">Description</emphasis>
+    - Although not required, you should fill this in with a description of the
+    event and its importance.</para></listitem><listitem><para><emphasis
+    role="bold">Image</emphasis> - You can upload an image to be associated
+    with your event. Just click the Browse button and choose an image from
+    your hard drive. You can also use an image that is already on the server
+    by picking it from the drop down menu. Set your selection to
+    &#60;None&#62; if you decide you don&#39;t want an image with your event.
+    Finally, select an image and click the Remove Button to delete the image
+    file from the server.</para></listitem><listitem><para><emphasis
+    role="bold">Template</emphasis> - The template controls the layout of your
+    event when it is viewed. Normally, the default.tpl template is sufficient.
+    If however, there is another template file you wish to use, select it from
+    the drop down menu.</para></listitem><listitem><para><emphasis role="bold">Event
+    Type</emphasis> - There are four event types. Click the radio buttonnext
+    to the one you wish to use.<orderedlist><listitem><para><emphasis
+    role="bold">Interval</emphasis> - This event has a definite start and end
+    time and date.</para></listitem><listitem><para><emphasis role="bold">Starts
+    At</emphasis> - This event has a definite start time but an undetermined
+    end time.</para></listitem><listitem><para><emphasis role="bold">Deadline</emphasis>
+    - The start time of this event is irrelevant but the end time is vital.</para></listitem><listitem><para><emphasis
+    role="bold">All Day</emphasis> - This event doesn&#39;t have a start or
+    end time (e.g. a holiday).</para></listitem></orderedlist></para></listitem><listitem><para><emphasis
+    role="bold">Start Time</emphasis> - This is the time the event starts. You
+    do not need to set this for the All Day or Deadline event type.</para></listitem><listitem><para><emphasis
+    role="bold">End Time</emphasis> - This is the time the event ends. You
+    should set this for Interval and Deadline events, but not for Starts At or
+    All Day events.</para></listitem><listitem><para><emphasis role="bold">Start
+    Date</emphasis> - The date the event starts. Note that the Start Date must
+    always be before the End Date.</para></listitem><listitem><para><emphasis
+    role="bold">End Date</emphasis> - The date the event ends. Normally this
+    is the same day as the Start Date, however you can create an Interval
+    event that takes place over several days.</para></listitem><listitem><para><emphasis
+    role="bold">Categories</emphasis> - If you have created categories in
+    FatCat, you can associate the event to one or more of them. If your event
+    is important, consider clicking the Sticky check box. This will assure it
+    is seen in the What&#39;s Related box.</para></listitem></itemizedlist></para>
+
+    <para>Click the <emphasis role="bold">Create Event</emphasis> button once
+    you have finished filling out the form. If there aren&#39;t any errors,
+    your event should now appear on the calendar.</para>
+  </section>
+
+  <section>
+    <title>Editing Events</title>
+
+    <para>To change an event&#39;s data, find it using the calendar and view
+    it. As an administrator, you should see an <emphasis role="bold">Edit</emphasis>
+    link. Click on that link to go to the edit form. Your changes will not be
+    saved until you click the <emphasis role="bold">Update Event</emphasis>
+    button.</para>
+  </section>
+
+  <section>
+    <title>Deleting Events</title>
+
+    <para>To remove an event, click on the <emphasis role="bold">Delete</emphasis>
+    link that will appear when you are viewing an event. This will permanently
+    remove the event and its repeats from the system, so be careful.</para>
+  </section>
+
+  <section>
+    <title>Repeating Events</title>
+
+    <para>If your event needs to post more than once, you should repeat the
+    event. Below the event form is the repeat form. To get started, click the
+    check box next to <emphasis role="bold">Repeat Event until</emphasis> and
+    pick the termination date. The repeats will cease after this date.</para>
+
+    <para>Now click on the radio button next to your repeat option.</para>
+
+    <itemizedlist>
+      <listitem>
+        <para><emphasis role="bold">Daily</emphasis> - The event will appear
+        everyday until the termination date.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis><emphasis role="bold">Weekly</emphasis></emphasis> -
+        The event will appear on every checked weekday.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">Monthly</emphasis> - Choose whether you
+        want the event to appear at the beginning of every month, the end of
+        every month, or every month on the same day as the start date.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">Yearly</emphasis> - Choose this if you
+        want the event to appear on the same day every year.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">Every</emphasis> - Here you can choose
+        specific weekday of each month for your event to appear. For example,
+        you could choose to have an event repeat on the second Tuesday of
+        every month. First pick which week you want the event to appear in.
+        Then choose the weekday. Finally, choose a specific month or the
+        &#34;Every Month&#34; option.</para>
+      </listitem>
+    </itemizedlist>
+
+    <para>When you are finished setting your repeat options, click either the
+    Create Event button (if you are making a new event) or the Update Event
+    button (if you are editing an old one).</para>
+  </section>
+
+  <section>
+    <title>Settings</title>
+
+    <para>Clicking on the <emphasis role="bold">Settings</emphasis> link will
+    take you to the page of the same name. There are only a few settings you
+    may want to alter and you shouldn&#39;t have to do so often.</para>
+
+    <itemizedlist>
+      <listitem>
+        <para><emphasis role="bold">Mini Month</emphasis> - uncheck this if
+        you do not want the small month view to show in the user view.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">Days Ahead</emphasis> - Set the amount of
+        days in the future you want the calendar to look ahead for events. Set
+        it to zero if you do not want it to display at all.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">Cache Calendar Views</emphasis> - Check
+        this box if you want the calendar to cache some of its pages. This can
+        increase the speed of some views (especially month and year).</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">User Submitted Events</emphasis> - Check
+        this box if you want to allow users to submit events.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">Reindex FatCat</emphasis> - If you have
+        deleted an event and it is still showing up in What&#39;s Related,
+        check this box.</para>
+      </listitem>
+    </itemizedlist>
+
+    <para>Click the Submit button when finished.</para>
+  </section>
+
+  <section>
+    <title>Refresh</title>
+
+    <para>If you are caching the calendar views, changes made to the events
+    may not appear immediately. If you are impatient, click the <emphasis
+    role="bold">Refresh</emphasis> link on the calendar panel to clear the
+    cache.</para>
+  </section>
+
+  <section>
+    <title>User Submitted Events</title>
+
+    <para>If you are allowing user submitted events (see Settings) then users
+    will be able to suggest events. They will not be able to post repeats
+    (imagine an event repeated daily from 2003 to 2009) so they will need to
+    put that information in the description. To approve the event, go to the
+    Approval module.</para>
+  </section>
+
+  <section>
+    <title>Conclusion</title>
+
+    <para>Once you create your first event, using calendar should be pretty
+    clear. If you have any problems, please visit us at Sourceforge. If you
+    have any questions or comments about this document, please email me at:
+    matt at tux dot appstate dot edu</para>
+  </section>
+</chapter>

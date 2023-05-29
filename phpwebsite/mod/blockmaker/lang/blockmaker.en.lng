@@ -1,0 +1,33 @@
+en:|:blockmaker
+a:|:Actions:|:Actions
+a:|:Activate:|:Activate
+a:|:Activity:|:Activity
+a:|:Allow View (All are selected by default):|:Allow View (All are selected by default)
+a:|:Are you sure you want to delete the block [var1] ?:|:Are you sure you want to delete the block [var1] ?
+a:|:Block Adminisitration:|:Block Adminisitration
+a:|:Block Changes Successfull:|:Block Changes Successfull
+a:|:Block Content:|:Block Content
+a:|:Block Creation Successful:|:Block Creation Successful
+a:|:Block Deleted:|:Block Deleted
+a:|:Block Footer (Boxstyle must support footer):|:Block Footer (Boxstyle must support footer)
+a:|:Block Menu:|:Block Menu
+a:|:Block Title:|:Block Title
+a:|:Create A New Block:|:Create A New Block
+a:|:Create Block:|:Create Block
+a:|:Current blocks:|:Current blocks
+a:|:Deactivate:|:Deactivate
+a:|:Default Theme Variable:|:Default Theme Variable
+a:|:Delete Block Confirmation:|:Delete Block Confirmation
+a:|:Edit A Block:|:Edit A Block
+a:|:List Blocks:|:List Blocks
+a:|:No Block Deleted:|:No Block Deleted
+a:|:No block was deleted from the database.:|:No block was deleted from the database.
+a:|:Save Changes:|:Save Changes
+a:|:Select Modules Allowed:|:Select Modules Allowed
+a:|:The Block Maker allows you to add basic blocks of content to your site.:|:The Block Maker allows you to add basic blocks of content to your site.
+a:|:The block [var1] was successfully deleted from the database.:|:The block [var1] was successfully deleted from the database.
+a:|:The block [var1] you created was successfully saved to the database.:|:The block [var1] you created was successfully saved to the database.
+a:|:The block [var1] you edited was successfully saved to the database.:|:The block [var1] you edited was successfully saved to the database.
+a:|:There are no blocks in the database at this time.:|:There are no blocks in the database at this time.
+a:|:Title:|:Title
+a:|:The Block Maker allows you to add basic blocks of content to your site.:|:The Block Maker allows you to add basic blocks of content to your site.

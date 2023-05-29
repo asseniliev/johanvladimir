@@ -1,0 +1,6 @@
+create_pages::Create Pages
+edit_pages::Edit Pages
+delete_pages::Delete Pages
+activate_pages::Activate/Deactivate Pages
+set_mainpage::Set Mainpage
+needs_approval::Pre-Approved

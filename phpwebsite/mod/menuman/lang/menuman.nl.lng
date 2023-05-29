@@ -1,0 +1,86 @@
+nl:|:menuman
+a:|:Activate / Deactivate:|:Activeer / Deactiveer
+a:|:Active Image:|:Activeer Plaatje
+a:|:Active:|:Activeer
+a:|:Add A Menu Link:|:Voeg Menu verwijzing toe
+a:|:Add Menu Item:|:Voeg Menu regel toe
+a:|:Add Module Default:|:Voeg Module Default toe
+a:|:Add Module User Links:|:Voeg Module Gebruiker verwijzingen toe
+a:|:Add Under:|:Toevoegen onderaan
+a:|:Add to top level:|:Voeg toe bovenaan
+a:|:All selected menu items and sub-items were successfully deleted from the database.:|:Alle geselecteerde menu regels en sub-regels zijn corect verwijderd uit de database.
+a:|:All the menu items were successfully updated to the database.:|:Alle menu regels zijn correct gewijzigd in de database.
+a:|:Are you sure you want delete the image [var1]?:|:Weet u zeker dat u dit plaatje wilt verwijderen: [var1]?
+a:|:Are you sure you want to delete the menu [var1] ?:|:Weet u zeker dat u dit menu wilt verwijderen: [var1] ?
+a:|:Are you sure you want to delete these menu items and their sub-items?:|:Weet u zeker dat u deze menu regels en hun sub regels wilt verwijderen?
+a:|:Back To Main:|:Terug naar Hoofdscherm
+a:|:Character:|:Letter
+a:|:Choose a module's user functionality to add to your menu:|:Kies gebruiker functie van een module om toe te voegen aan uw menu
+a:|:Content Var:|:Inhoud Variabele
+a:|:Create A New Menu:|:Maak een nieuw Menu
+a:|:Create Menu:|:Maak Menu
+a:|:Current Menus:|:Actieve Menus
+a:|:Default Image:|:Default Plaatje
+a:|:Delete Image Confirmation:|:Verwijder Plaatje Bevestiging
+a:|:Delete Menu Confirmation:|:Verwijder Menu Bevestiging
+a:|:Delete Menu Items Confirmation:|:Verwijder Menu Regels Bevestiging
+a:|:Delete Menu Items:|:Verwijder Menu Regels
+a:|:Delete an image:|:Verwijder een plaatje
+a:|:Display:|:Laat zien
+a:|:Edit [var1] Settings:|:Wijzig [var1] Instellingen
+a:|:Error:|:Fout
+a:|:File [var1] is not an allowed file for this option.:|:Bestand [var1] is geen toegestaan bestand voor deze bewerking.
+a:|:Highlight Color:|:Accentueer Kleur
+a:|:Horizontal:|:Horizontaal
+a:|:Image Deleted:|:Plaatje Verwijderd
+a:|:Image Manager:|:Plaatjes Beheer
+a:|:Image Map:|:Plaatjes Kaart
+a:|:Image:|:Plaatje
+a:|:Indent Item:|:Inspringen Regel
+a:|:List Menus:|:Lijst Menus
+a:|:Main Menu:|:Hoofd Menu
+a:|:Menu Deleted:|:Menu Verwijderd
+a:|:Menu Image Manager:|:Menu Plaatjes Beheer
+a:|:Menu Indent:|:Menu Inspringen
+a:|:Menu Item Added:|:Menu Regel Toegevoegd
+a:|:Menu Items for [var1].:|:Menu Regels voor [var1].
+a:|:Menu Manager Administration:|:Menu Beheer
+a:|:Menu Spacer:|:Menu Scheidingsteken
+a:|:Menu Successfully Created:|:Menu Correct Gemaakt
+a:|:Menu Title:|:Menu Titel
+a:|:Menu URL:|:Menu URL
+a:|:No Menu Deleted:|:Geen Menu Verwijderd
+a:|:No items for this menu.:|:Geen regels voor dit menu.
+a:|:No menu items for this menu.:|:Geen menu regels voor dit menu.
+a:|:No menu items were deleted from the database.:|:Er zijn geen menu regels verwijderd uit de database.
+a:|:No menu was deleted from the database.:|:Er is geen menu verwijderd uit de database.
+a:|:Not Active:|:Niet Actief
+a:|:Nothing Deleted:|:Niets Verwijderd
+a:|:Open Image:|:Open Plaatje
+a:|:Order:|:Zet op volgorde
+a:|:Pagemaster Page:|:Pagemaster Pagina
+a:|:Save New Menu:|:Bewaar nieuw Menu
+a:|:Select which menu you would like to add the link to.:|:Kies aan welk menu u de link wilt toevoegen.
+a:|:Select:|:Kies
+a:|:Settings:|:Instellingen
+a:|:Submit Announcement:|:Stuur Aankondiging op
+a:|:Template:|:Mal
+a:|:The image [var1] was successfully deleted.:|:Plaatje [var1] is correct verwijderd.
+a:|:The images directory set in the menuman config file could not be found this will cause all image options to fail.:|:De plaatjes map ingesteld in de menuman config file kon niet worden benaderd, hierdoor werkt geen enkele plaatjes bewerking correct.
+a:|:The menu [var1] was successfully deleted from the database.:|:Het menu [var1] is correct verwijderd uit de database.
+a:|:The menu [var1] you created was successfully added to the database.:|:Het menu [var1] die u gemaakt heeft is correct opgeslagen in de database.
+a:|:The menu [var1] you edited was successfully updated to the database.:|:Het menu [var1] die u gewijzigd heeft is correct opgeslagen in de database.
+a:|:The menu item you added was successfully updated to the database and added to [var1].:|:De menu regel die u toegevoegd heeft is correct opgeslagen in de database en toegevoegd aan [var1].
+a:|:There are no menus in the database at this time.:|:Er zijn geen menus in de database op dit moment.
+a:|:There are no menus to choose, this process cannot continue.:|:Er zijn geen menus te kiezen, dit process kan niet verder lopen.
+a:|:Turn Off Advanced Edit:|:Speciale Wijzigingen UIT
+a:|:Turn On Advanced Edit:|:Speciale Wijzigingen AAN
+a:|:URL:|:URL
+a:|:Update Menu Items:|:Wijzig Menu Regels
+a:|:Update Settings Successful:|:Wijzigingen Instellingen Correct
+a:|:Update Successful:|:Wijziging Correct
+a:|:Upload an image to use as a menu marker.:|:Laad een plaatje om te gebruiken als menu merkteken.
+a:|:Upload:|:Laden
+a:|:Vertical:|:Vertikaal
+a:|:When selecting a pagemaster page leave the menu url field blank.:|:Bij kiezen van een pagemaster pagina, laat het menu url veld leeg.
+a:|:You must give your menu link a title:|:U moet uw menu link een titel geven

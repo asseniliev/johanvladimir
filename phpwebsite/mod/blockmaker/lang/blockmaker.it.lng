@@ -1,0 +1,32 @@
+it:|:blockmaker
+a:|:Actions:|:Azioni
+a:|:Activate:|:Attiva
+a:|:Activity:|:Attivit&agrave;
+a:|:Allow View (All are selected by default):|:Permetti visione (Predefiniti: tutti visibili)
+a:|:Are you sure you want to delete the block [var1] ?:|:Sicuro di volere eliminare il blocco [var1] ?
+a:|:Block Adminisitration:|:Amministrazione Blocchi
+a:|:Block Changes Successfull:|:Blocchi aggiornati
+a:|:Block Content:|:Contenuto blocco
+a:|:Block Creation Successful:|:Blocco creato
+a:|:Block Deleted:|:Blocco cancellato
+a:|:Block Footer (Boxstyle must support footer):|:Pi&egrave; pagina blocco (i box devono prevedere il pi&egrave; pagina)
+a:|:Block Menu:|:Menu blocco
+a:|:Block Title:|:Titolo blocco
+a:|:Create A New Block:|:Crea nuovo blocco
+a:|:Create Block:|:Crea blocco
+a:|:Current blocks:|:Blocchi presenti
+a:|:Deactivate:|:Disattiva
+a:|:Default Theme Variable:|:Posizione nella pagina
+a:|:Delete Block Confirmation:|:Conferma cancellazione blocco
+a:|:Edit A Block:|:Modifica blocco
+a:|:List Blocks:|:Lista blocchi
+a:|:No Block Deleted:|:Nessun blocco cancellato
+a:|:No block was deleted from the database.:|:Nessun blocco cancellato.
+a:|:Save Changes:|:Salva cambiamenti
+a:|:Select Modules Allowed:|:Seleziona moduli permessi
+a:|:The Block Maker allows you to add basic blocks of content to your site.:|:Il Block Maker permette di aggiungere blocchi di contenuto al sito.
+a:|:The block [var1] was successfully deleted from the database.:|:Il blocco [var1] &egrave; stato cancellato.
+a:|:The block [var1] you created was successfully saved to the database.:|:Il blocco [var1] &egrave; stato salvato.
+a:|:The block [var1] you edited was successfully saved to the database.:|:Il blocco [var1] modificato &egrave; stato salvato.
+a:|:There are no blocks in the database at this time.:|:There are no blocks in the database at this time.
+a:|:Title:|:Titolo

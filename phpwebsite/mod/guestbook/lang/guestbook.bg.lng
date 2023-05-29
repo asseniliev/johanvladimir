@@ -1,0 +1,13 @@
+bg:|:guestbook
+a:|:AGCode is OFF:|:AGCode е ИЗКЛЮЧЕН
+a:|:AGCode is ON:|:AGCode е ВКЛЮЧЕН
+a:|:Go:|:Давай
+a:|:Guestbook-Admin:|:Книга за гости - Администрация
+a:|:Guestbook:|:Книга за гости
+a:|:HTML code is disabled:|:HTML е ИЗКЛЮЧЕН
+a:|:HTML code is enabled:|:HTML е ВКЛЮЧЕН
+a:|:Preview:|:Преглед
+a:|:Sign the Guestbook:|:Подпишете книгата за гости
+a:|:Smilies are OFF:|:Smilies са ИЗКЛЮЧЕНИ
+a:|:Smilies are ON:|:Smilies са ВКЛЮЧЕНИ
+a:|:Submit:|:Изпращане

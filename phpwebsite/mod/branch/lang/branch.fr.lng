@@ -1,0 +1,40 @@
+fr:|:branch
+a:|:Are you absolutely sure you want to unregister this branch:|:Etes-vous certain de vouloir désinscrire cette branche
+a:|:Branch Created Successfully:|:Création de branche réussie
+a:|:Branch Directory:|:Répertoire de la branche
+a:|:Branch Name:|:Nom de la branche
+a:|:Branch Web Address:|:Adresse web de la branche
+a:|:Branch already exists:|:Cette branche existe déjà
+a:|:Branch database populated successfully:|:Remplissage de la base de données de la branche réussi
+a:|:Branch directory created successfully:|:Création du répertoire de la branche réussi
+a:|:Branch registered successfully to hub:|:Inscription de la branche à l'arbre réussie
+a:|:Click Here to Create Branch:|:Cliquez ici pour créer une branche
+a:|:Click on Create Branch to get started:|:Pour commencer, cliquez sur créer une branche
+a:|:Configuration File written successfully:|:Ecriture du fichier des réglages réussie
+a:|:Configuration file deleted:|:Fichier de réglages supprimé
+a:|:Create Branch:|:Créer une branche
+a:|:Creates branch sites off your hub code.:|:Pour créer une branche sur votre site arbre.
+a:|:Creating Branch:|:Création de la branche
+a:|:Edit Branch:|:Modifier le branche
+a:|:Error:|:Erreur
+a:|:Expert Create Branch:|:Création de branche en mode expert
+a:|:Expert Update Branch:|:Modifier une branche en mode expert
+a:|:Invalid Branch Name:|:Nom de branche invalide
+a:|:Make sure to delete the branch directory and database:|:Veillez bien à supprimer le répertoire et la base de données de la branche
+a:|:Manage Branches:|:Gérer les branches
+a:|:Message:|:Message
+a:|:No branch sites found:|:Aucune branche trouvée
+a:|:Remove Branch:|:Supprimer une branche
+a:|:Return after you have changed the permissions:|:Essayer à nouveau, après avoir changé les droits
+a:|:Table Prefix:|:Préfixe de table
+a:|:The installation directory is not writable:|:Le répertoire d'installation n'est pas assessible en écriture
+a:|:There is already an installation of phpWebSite in this database:|:Il y a déjà une installation de phpWebSite dans cette base de données
+a:|:Try logging on:|:Tentative de connexion
+a:|:Unable to make database connection with the information supplied:|:Impossible d'établir une connection avec la base de données avec les informations que vous avez fourni
+a:|:Unable to write branch directory:|:Impossible d'écrire le répertoire de la branche
+a:|:Update Complete:|:Mise à jour terminée
+a:|:Welcome to Branch Creator:|:Bienvenue dans le créateur de branches
+a:|:You need to create a database named [var1]:|:Vous devez créer une base de données du nom de [var1]
+a:|:You need to create a database with this name first:|:Vous devez d'abord créer une base de données portant ce nom
+a:|:Your are missing crucial database information:|:Il manque des informations indispensables sur la base de données
+a:|:Your configuration directory is not writable:|:Le répertoire des réglages n'est pas accessible en écriture

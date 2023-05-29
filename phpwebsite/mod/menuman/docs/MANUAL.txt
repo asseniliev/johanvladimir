@@ -1,0 +1,140 @@
+Menu Manager Manual: written for version 1.12 
+--------------------------------------------------
+Author: Steven Levin
+
+Table of Contents:
+-----------------------
+I. Getting Started
+II. Listing Menus
+III. Creating New Menus
+IV. Image Manager
+V. Editing Menus:
+ A. Add menu item 
+ B. Basic edit
+ C. Advanced edit
+ D. Settings
+ E. Add module default
+
+
+I. Getting Started
+-----------------------
+1. You must navigate to the adminisrative side menu manager module.
+2. The menu manager can be found under the Site Content tab of your controlpanel.
+3. The link says Menu Manager and may have an icon that looks like an open menu.
+
+II. Listing Menus
+-----------------------
+1. When you first startup the module what you see is the menu manger admin menu followed by a list of menus if there are 
+any in the database.  If there are no menus you should see a message that says: There are no menus in the database at this 
+time.  
+2. The admin menu at the top allows you to list menus(II.), create menus(III.), and go to the image manager(IV.).  This
+menu will follow you around and be available on most of the administrative screens. At any point you can click the List 
+Menus link and get back to this page.
+3. Each menu in the list can be edited, delete, and (activated / deactivated).
+  + Editing the menu will take you to part V. of the manual which will be discussed later.
+  + Deleting the menu will take you to a Yes/No confirmation to make sure you want to delete the menu (make sure this is what 
+    you want to do and that you have selected the correct menu).  Yes will remove the menu and all of its links from the
+    database. No will do nothing and your menu will be spared.
+  + Activating/Deactivating the menu will toggle it between being viewable by the public and not.
+
+III. Creating New Menus
+----------------------------
+1. Click on the Create Menu link in the admin menu at the top of the page, this will take you to the menu creation page.
+2. The menu creating page allows you to configure all of the settings for your new menu. The options you see here can be
+changed later via the menu settings when you are editing your menu(V.D.)
+3. Settings for the most part can be left at their default values and will function the way most expect.  Most of the
+options are for those who would like to really configure their menu.
+  + Menu Title: The text title that will show up at the top of the menu. You should always provide a title for your menu,
+    altough it is not a required field, so you can distinguish it from other menus.
+  + Menu Spacer: This value is a numeric value which represents the number of extra spaces the menu will add automatically
+    to each nested level of the menu.  The menu will always start with 0 space at the first level of the menu. (ie. a value 
+    of 2 for the menu spacer will put 2 spaces on the first nest of the menu and 4 spaces for the second nest)
+  + Template: The template for the menu is just there to give the ability for someone to highly configure their menu. For
+    most this option will just stay at default unless you really know what you are doing.  If you would like more
+    information on templating please see the TEMPLATE.txt doc in the docs directory for the Menu Manager.  The image map
+    checkbox is there for furthur templating configuration.
+  + Allow View: The allow view option allows you to choose which modules must be active in order for the menu appear.
+    You can select one module or multiple modules.  The default is to select all of the modules so if none are selected then
+    the menu will be visable for all of the modules currently installed.  If a module is installed after the menu is created,
+    and you want the menu to show up for the module, you will have to come and select it under the menu settings.
+  + Default Theme Variable: This allows you to choose where the menu will defaultly show up on the page after it is created. 
+    This is the only time you can set this option within the menu manager.  After it is set it can be changed via the layout
+    modules box move option.  The values for this option are pretty self-explanitory, it will show up exactly where it says.
+  + Menu Indent: The menu indent can be one of two things a character or an image. If the radio button is selected for a
+    character then the menu manager will use the character selected from the dropdown box before every link in the menu. Also
+    if an activity color is set for that character then the character will turn that color when the link it shows up before
+    is the link that was just clicked.  If the radio button is selected for an image then the images choosen will show up
+    before each link. Depending on the activity of the link.  The images found in the dropbox here can be uploaded via the
+    image manager section of the module(IV.).
+
+IV. Image Manager
+----------------------
+1. The image manager just gives you a web-based interface to upload images you want to use as an indent item at that is all.
+If you do not plan on using an image for your indent item then you will not need to use the image manager.
+2. Current images can also be removed from the system via this page by just selecting the image and clicking delete.
+
+V. Editing Menus
+---------------------
+1. To edit a menu you must list all of the current menus as described before and click the edit button next to the menu you are 
+wishing to edit.
+2. Now you will see a list of all the current links in the menu, if there are no links in the menu you will get a message that
+says: No items for this menu.
+
+  A. Adding menu items
+  -------------------------
+  1. A menu item may be added to the menu by clicking on the Add Menu Item button at the bottom of the page.
+  2. After you click this you will see a screen which will give you three options.
+    + Title: The text representation of the link that will be placed in the menu. This field is required.
+    + URL: The url of the link you are wanting to add.  If pagemaster pages are available they will show up here in a dropdown box
+      to be selected.  You can either fill out the url or pick a pagemaster page.  When a pagemaster page is chosen then the url
+      field is populating accordingly so it does not need to be filled out.  In this case the user submitted url will be ignored.
+    + Display: This option allows you define how the link will act and display on your site.
+      - Internal: The page is internal to the site and the menu will expand at that point where the menu is clicked.
+      - External: The page is external which means it is not located within your site(ie. links to another site) this will not
+        detect your position in the menu.
+      - New Window: This option will cause the link to open in a new browser window.
+  3. Now select where on the menu you would like the menu item to go.  The very top radiobutton means you want the link to be a 
+  top level link (ie. not nested under another link).  If any other radiobutton listed next to another menu item is selected that
+  means you want the link you are adding to be nested under the item selected.  Finally if this is the first link you are adding to
+  the menu then it can only be a top-level link.
+
+  B. Basic Edit
+  ------------------
+  1. This is the first mode you will see when editing your menu. At any time you can switch to the advanced edit mode(C.) by clicking
+  the Turn On Advanced Edit button.  The basic edit allows you to edit the textual representation of the link, change the activity of 
+  the link, change the order the link shows up in the menu, and delete menu items.
+  2. To update the text, change the value in the textfield of the link you want to edit and check the box next to the link, now click
+  the Update Menu Items button and you are done.
+  3. To toggle the activity of a menu item check the box next to the item you want to change and then click the Activate/Deactivate
+  button.
+  4. To change the order of a menu item just click the up or down link next to the item you want to move.  Only items that are on the
+  same level (in the same nest) can be order.  An item can not be moved to another nest at this point in time.  This option is in the
+  plan for future versions.
+  5. To delete an item check the box next to it and then click the delete button.  A confirmation will then appear making sure you are
+  deleting the links you want.  If you click yes that link will be deleted along with ALL of the links nested under it.
+  6. All these options can be done in mass by selecting more than one item at a time.
+
+  C. Advanced Edit
+  ---------------------
+  1. The advanced edit mode will also allow you to edit the textual representation of the link and delete a link.  It will also allow 
+  you to edit the url for the link, and the display method as described earlier.
+  2. To update the text or the url, edit the textfield containing the information, check the box next to the item and click the Update
+  Menu Items button.  If you select a pagemaster page then you do not need to edit the url field, the menu will take care of that for 
+  you.
+  3. To update the display select the display you want then check the box next to the item and click the Update Menu Items button.
+  4. Once again all of these actions can be done in mass by selecting more than one at a time.
+  
+  D. Settings
+  ----------------
+  1. The settingss button will take you to the settings for your menu.  These are all the same options seen before when creating
+  a menu.
+  2. Click save at the bottom to update any changes you may make on this page.
+
+  E. Add Module Default
+  --------------------------
+  1. The ability to add module defaults is something a lot of folks asked for.  With this you can add a link to a specific modules user
+  side to the menu.
+  2. After clicking this button, then select the module you want to add a link to the menu for and then select the position you would
+  like to see the link at and click Add Menu Item.  Your are done.
+
+Thanks for checking out the Menu Manager Manual

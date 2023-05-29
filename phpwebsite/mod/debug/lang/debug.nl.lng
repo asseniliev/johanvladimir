@@ -1,0 +1,22 @@
+en:|:debug
+a:|:phpWebSite Debugger:|:phpWebSite Debugger
+a:|:phpWebSite Debugger Settings:|:phpWebSite Debugger Instellingen
+a:|:Select the information for debug display.:|:Selecteer de informatie voor debug weergave.
+a:|:Turn On/Off:|:Zet Aan/Uit
+a:|:PhpWebSite Timer:|:PhpWebSite Timer
+a:|:Debugger Block:|:Debugger Blok
+a:|:Post Variables:|:Post Variabelen
+a:|:Get Variables:|:Get Variabelen
+a:|:Request Variables:|:Request Variabelen
+a:|:File Variables:|:Bestand Variablen
+a:|:Cookie Variables:|:Cookie Variablen
+a:|:Server Variables:|:Server Variablen
+a:|:Session and Core Options:|:Sessie en Core Opties
+a:|:Display Before Execution:|:Weergeven voor uitvoeren
+a:|:Display After Execution:|:Weergeven na uitvoeren
+a:|:Dump Core:|:Dump Core
+a:|:Session Objects:|:Sessie Objecten
+a:|:Session Arrays:|:Sessie Arrays
+a:|:Other Sessions:|:Andere Sessies
+a:|:Reset Form:|:Reset Formulier
+a:|:Debugger:|:Debugger

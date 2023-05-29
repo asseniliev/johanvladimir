@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter>
+  <chapterinfo>
+    <author>
+      <firstname>Matthew</firstname>
+
+      <surname>McNaney</surname>
+    </author>
+
+    <address>matt at tux dot appstate dot edu</address>
+
+    <pubdate>2003-06-12</pubdate>
+
+    <revhistory>
+      <revision>
+        <revnumber>1.0</revnumber>
+
+        <date>2003-06-12</date>
+
+        <authorinitials>MM</authorinitials>
+
+        <revremark>First release</revremark>
+      </revision>
+    </revhistory>
+
+    <abstract>
+      <para>Description of document</para>
+    </abstract>
+  </chapterinfo>
+
+  <title>Layout Admin</title>
+
+  <section>
+    <title>Introduction</title>
+
+    <para>The Layout module controls the appearence of your web site. The
+    colors, shape, and layout of the page display are based on the settings in
+    Layout. This document will help you get the most out the module.</para>
+  </section>
+
+  <section>
+    <title>Getting Started</title>
+
+    <para>Before jumping into the module, there are a few terms you need to be
+    familiar with.</para>
+
+    <para>Themes are what control the design of the site. Layout pipes the
+    content you enter into boxes (see below) that are placed into the theme.
+    Therefore, you can alter the way your page looks without having to worry
+    about the content of your site.</para>
+
+    <para>Boxes are what make up the themes. Each portion of content is
+    seperated into these boxes, ordered, then placed on the theme.</para>
+
+    <para>Now that you know these terms, let get into the module itself.
+    Layout is an administrative module, so click on the Administrative tab in
+    your control panel. Click on Layout Admin to get into the module. You will
+    be taken to a page with two sections: the panel and the settings.</para>
+  </section>
+
+  <section>
+    <title>Layout Settings</title>
+
+    <para>This section alters some key information and usability for your
+    site. Fortunately, you probably won&#39;t have to alter the data here very
+    often.</para>
+
+    <section>
+      <title>Change Page Title</title>
+
+      <para>If you have your browser open, look at the very top of the browser
+      window. You should see something like the following:
+      <emphasis>Title of Website - Name of Browser</emphasis>. phpWebSite
+      ships with the page title set to, what else, phpWebSite. You should
+      change that. Determine the name of your site and type it in to the text
+      field next to the <emphasis role="bold">Change Page Title</emphasis>
+      button.</para>
+    </section>
+
+    <section>
+      <title>Edit Meta Tags</title>
+
+      <para>The Internet has several search engines. Some of the ones you
+      probably heard of are Google, Yahoo, Altavista, and Ask Jeeves. Each of
+      the engines wants a quick way to get information about your site. Here
+      is where meta tags come in. Choose one of the meta tags you wish to edit
+      and click the <emphasis role="bold">Edit Metatags</emphasis> button.<itemizedlist><listitem><para><emphasis
+      role="bold">Keywords</emphasis> - Marvelous. Informative. Great. These
+      are words that may describe your web site. However, what you want to put
+      here are words that describe the content of your site, not how you feel
+      about it. Enter words you believe someone may type into a search engine
+      and see your site listed. If you have a web site about board games, you
+      could have a list like this:<blockquote><para>board games, monopoly,
+      sorry, Milton Bradley, twister, Risk </para></blockquote></para><para>Put
+      in as many words as you can think of that relate to what your site
+      addresses. Do not put words that don&#39;t relate to your site just to
+      get lost web surfers. It irritates people. </para></listitem><listitem><para><emphasis
+      role="bold">Description</emphasis> - Here you want to have a short (read
+      that again: short) description of your site. Summarize all the great
+      things your site provides within about 260 characters. Some search
+      engines display this information when a match to your site is found.</para></listitem><listitem><para><emphasis
+      role="bold">Robots</emphasis> - When a search engine comes to your page,
+      it will (sometimes) ask permission before it records it. Robots are your
+      traffic guards. They tell the search engine whether to record this page
+      (or <emphasis role="bold">index</emphasis>) or not and whether it can
+      <emphasis role="bold">follow</emphasis> links on your page or not. You
+      have four options:</para><itemizedlist><listitem><para><emphasis
+      role="bold">all</emphasis> - This tells the engine that they may index
+      your site and continue down all the links on your page.</para></listitem><listitem><para><emphasis
+      role="bold">none</emphasis> - The engine is told to leave you alone:
+      don&#39;t index the site and don&#39;t follow any links. You may prefer
+      this if you are running a private site.</para></listitem><listitem><para><emphasis
+      role="bold">index, nofollow</emphasis> - The engine can index the page
+      but shouldn&#39;t follow any links.</para></listitem><listitem><para><emphasis
+      role="bold">noindex, follow</emphasis> - The engine should not index the
+      page, but may follow your links.<note><para>This option is currently
+      useless. Currently Layout reports these robots on every page. The engine
+      goes down your link path but is not allowed to index any of the
+      resultant pages. This will change in 0.9.3.</para></note></para></listitem></itemizedlist></listitem><listitem><para><emphasis
+      role="bold">Author</emphasis> - This is your name or the name of the
+      main content person. Not really required.</para></listitem><listitem><para><emphasis
+      role="bold">Owner</emphasis> - This is usually the email address of the
+      person responsible for the site. Beware filling this out however as
+      there are evil, nasty, horrible, people who steal these addresses to
+      send you their useless spam email (not that I am bitter). If you wish to
+      fill it out, consider entering your email address in a form that is hard
+      to parse by the spam degenerates. For example, I might use: matt at
+      hotmail dot com instead of matt@hotmail.com.</para></listitem><listitem><para><emphasis
+      role="bold">Content Type</emphasis> - This reports the character sets
+      your site is using. Just let this sit at ISO-8859-1 unless you know it
+      should be otherwise.</para></listitem></itemizedlist></para>
+    </section>
+
+    <section>
+      <title>Reinitialize Default Theme</title>
+
+      <para>You can try clicking on this button if your boxes have become
+      scrambled. It will try to recreate the default layout for the theme you
+      are currently using. Be careful as some modules add boxes outside of
+      their defaults. If that is the case you might have to go to that module
+      and update the data to have it remake the box.</para>
+    </section>
+
+    <section>
+      <title>Refresh Boxes</title>
+
+      <para>Click this button to purge the database of old box files that
+      aren&#39;t supported anymore. This should be run if you remove a theme
+      from your server directory.</para>
+    </section>
+
+    <section>
+      <title>User can change theme</title>
+
+      <para>If you have several themes installed on your site, you may want to
+      give the users the ability to change which one they see. This can come
+      in handy, for example, if you have a color blind or text only theme. If
+      you change this to off, users won&#39;t be able to change the theme.</para>
+    </section>
+  </section>
+
+  <section>
+    <title>Layout Panel</title>
+
+    <para>After going into the Layout module, you will see a Layout panel at
+    the top of the page. This panel follows you around until you close it. The
+    Layout panel lets you control the type and position of the boxes in your
+    theme. It also lets you control which theme your site uses.</para>
+
+    <section>
+      <title>Move Boxes</title>
+
+      <para>If you don&#39;t like the position of a box on your page, you can
+      change it by click the <emphasis role="bold">On</emphasis> link. After
+      you do this, you will see a series of arrows on the top left corner and
+      bottom right corner of each box. These are what you will click to move
+      the boxes.</para>
+
+      <para>Before trying this however, lets talk about the structure of your
+      page. Theme layouts are arranged in quadrants. The quadrants are
+      (usually) in a ticktacktoe pattern. Each quadrant is a theme variable.</para>
+
+      <para>Now if you look next to the arrows you will see a series of
+      numbers separated with colons, like so: 2:1:2. The first number in our
+      code is the column. The second number is the row. The third number is
+      the queue order.</para>
+
+      <para>We will get to the third number in a moment, but first lets look
+      at the first two numbers. Here are out quadrant codes with the default
+      theme variables in parenthesises:<table><title>Layout example</title><tgroup
+      cols="3"><tbody><row><entry>1:1 (left_col_top)</entry><entry>2:1 (top)</entry><entry>3:1
+      (right_col_top)</entry></row><row><entry>1:2 (left_col_mid)</entry><entry>2:2
+      (body)</entry><entry>3:2 (right_col_mid)</entry></row><row><entry>1:3
+      (left_col_bottom)</entry><entry>2:3 (bottom)</entry><entry>3:3
+      (right_col_bottom)</entry></row></tbody></tgroup></table></para>
+
+      <para>So if we look at our example above (2:1:2) we can see that a box
+      with this number is in the second column, first row.</para>
+
+      <para>Now lets look at the third number. That is the box queue. Each
+      quadrant can hold several boxes. These boxes need to be ordered as well.
+      So using the code, we would know that the box is in the second (2) queue
+      position. This means there is one box above the 2:1:2 box. This does not
+      mean you will always see that box however. The visibility of a box
+      depends upon what module is running, what page is being visited and
+      other factors.</para>
+
+      <para>Now back to box moving. Let&#39;s look at the top left series of
+      arrows. The first one is a single up arrow. If I click it, that box will
+      move up in the queue. Our 2:1:2 box would then be 2:1:1. Since our box
+      would be at the top the queue, clicking the single arrow again would
+      send it to the next row. Since 2:1:1 is the top row, this would actually
+      wrap the box to the bottom row. So 2:1:1 would now be 2:3:5. Why is the
+      last number five? Because there are already four other boxes in that
+      quadrant. The single down arrow in the lower right corner of the box
+      does exactly the opposite.</para>
+
+      <para>The next arrow at the top left is a single arrow pointing to the
+      left. This sends the box to the left. So our 2:3:5 box would then be in
+      quadrant 1:3:7. Anytime a box is sent to a new quadrant, it is placed at
+      the end of the box queue. The single right arrow in the lower right
+      corner moves the box to the right.</para>
+
+      <para>Finally you will notice the double arrow pointing up or down.
+      Clicking this tells Layout to send the box to the front or bottom of the
+      queue line. So if our box is in the 1:3:7 position and I click the
+      double up arrow, it will be transferred to the 1:3:1 position. Clicking
+      the double down arrow would send it where? That is correct! To the 1:1:5
+      position. Why? Because the 1:3:7 is the end of the queue. Remember when
+      we moved it from the right? Since it is at the end of the queue it would
+      wrap from the bottom back to the top quadrant. Since it is in a new
+      quadrant, it is put at the bottom of the queue.</para>
+
+      <para>Confused yet? It will make more sense when you start clicking on
+      the arrows. Click on the <emphasis role="bold">Off</emphasis> link when
+      you are done.</para>
+    </section>
+
+    <section>
+      <title>Change Box Style</title>
+
+      <para>Just as there are many boxes that make up a theme, there can also
+      be several different box styles included with it. After you click the
+      <emphasis role="bold">On</emphasis> link, a drop down box will appear
+      under each box. Pick the box style you wish to use and click set. The
+      box will then change to the new style. Click the <emphasis role="bold">Off</emphasis>
+      link when you are finished.<note><para>This is why the panel follows you
+      around until it is closed. You might need to maneuver to a specific page
+      before you can change a box style or position.</para></note></para>
+    </section>
+
+    <section>
+      <title>Set Default Theme</title>
+
+      <para>Your default theme is what users see when they first come to the
+      site. If you allow users to pick their own theme, that user (and only
+      that user) will see their theme when they log in. You can change your
+      default theme by choosing one from the drop down menu and clicking the
+      button.</para>
+    </section>
+
+    <section>
+      <title>Settings and Close Panel</title>
+
+      <para>The <emphasis role="bold">Settings</emphasis> link takes you back
+      to the Layout administration screen. Click on the <emphasis role="bold">Close
+      Panel</emphasis> button when you are finished using Layout.</para>
+    </section>
+  </section>
+
+  <section>
+    <title>Conclusion</title>
+
+    <para>Hopefully you now know how to change the look of your site without
+    much hassle. If you have any questions about the Layout module, please
+    visit us at Sourceforge. If you have any questions or comments about this
+    document, please direct them to matt at tux dot appstate dot edu.</para>
+  </section>
+</chapter>

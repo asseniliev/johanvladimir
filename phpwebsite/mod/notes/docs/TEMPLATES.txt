@@ -1,0 +1,82 @@
+Templates in Notes
+Author: Adam Morton <adam@NOSPAM.tux.appstate.edu>
+
+Almost all output in Notes is templated.  This allows for site admins
+to customize the look of their particular install of Notes. All variables
+within the templates are optional. Here is a list of provided templates
+and their function:
+
+block.tpl
+---------
+This template is used to show the small user notification when a logged
+in user has new notes.
+
+Variables:
+{USER_NOTES}  = The number of new notes for the current user.
+{GROUP_NOTES} = The number of new notes for the current users groups.
+
+
+edit.tpl
+--------
+This template contains the layout for the edit/new note interface.
+
+Variables:
+{TO_USER} = A dropdown box of current users.  Used to select which
+            user to send a note to.
+{TO_GROUP} = A dropdown box of the current groups.  Used to select a
+             group to send a note to.
+{MESSAGE_FIELD} = The text area to type in your message.
+{SUBMIT_BUTTON} = The submit button used to send the note.
+
+
+list_item.tpl
+-------------
+This template is used with the list.tpl template to create a list of
+notes.  This template determines how a single note item in a list of
+notes shows up.
+
+Variables:
+{NEW} = Will either display a "NEW" string or "READ" string depending
+        on whether the current note has been read or not.
+{TITLE} = Shows the first 20 characters of the message.  This string is
+          linked to view the note.
+{FROM} = The username of the user who sent the current note.
+{DATE_SENT} = The date the current note was sent on.
+{DELETE} = A string "Delete" that is linked to delete the current note.
+
+
+list.tpl
+--------
+This template is used with list_item.tpl to display a list of notes.
+
+Variables:
+{LIST_ITEMS} = All the notes being listed will be placed where this variable
+is.  The structure of the string is determined by the list_item.tpl template
+and the number of notes being listed.
+
+
+menu.tpl
+--------
+Used to determine the structure of the notes main menu.
+
+Variables:
+{NEW_NOTE} = Displays a button to begin creation of a new note.
+{MY_NOTES} = Displays a button to list the current users notes.
+{SENT_NOTES} = Diplays a button to list the notes that the current user
+               has sent out.
+
+
+read.tpl
+--------
+Used to determine the layout of a note as it is being read.
+
+Variables:
+{TO_USER_LABEL} = The string used to label the to user.
+{TO_USER} = The username of the user the note was sent to.
+{TO_GROUP_LABEL} = The string used to label the to group.
+{TO_GROUP} = The groupname of the group the note was sent to.
+{FROM_USER_LABEL} = The string used to label the from user.
+{FROM_USER} = The username of the user who sent the note.
+{DATE_SENT_LABEL} = The string used to label the date sent.
+{DATE_SENT} = The full date and time the note was sent.
+{MESSAGE_BODY} = The actual body of the note.

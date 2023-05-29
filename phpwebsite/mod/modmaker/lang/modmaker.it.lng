@@ -1,0 +1,40 @@
+it:|:modmaker
+a:|:ARE YOU ABSOLUTELY SURE YOU WANT TO DELETE THIS MODULE:|:SICURO DI ELIMINARE COMPLETAMENTE QUESTO MODULO
+a:|:Admin Icon:|:Icona amministrazione
+a:|:Admin Operation:|:Operazioni amministrazione
+a:|:All:|:Tutti
+a:|:Allow View:|:Permetti visione
+a:|:Assists developers in the creation and editing of module settings.:|:Supporta gli sviluppatori nella creazione e modifica delle impostazioni dei moduli
+a:|:Check to confirm:|:Spunta per confermare
+a:|:Class Files:|:Files di classe
+a:|:Create Module Entry:|:Crea voce del modulo
+a:|:Create Module Installation:|:Crea installazione modulo
+a:|:Deity Only:|:Solo divinit&agrave;
+a:|:Edit Module:|:Modifica modulo
+a:|:Error:|:Errore
+a:|:Export Mod Info:|:Esporta informazioni modulo
+a:|:Initialize Class Name:|:Inizializza il nome della classe
+a:|:It might cause you to have to reinstall phpWebSite:|:Forse sar&agrave; necessario reinstallare il modulo
+a:|:Mod Directory:|:Mod directory
+a:|:Mod Filename:|:Mod Dateiname
+a:|:Mod Maker Administration:|:Amministrazione Mod Maker (gestione moduli)
+a:|:Mod Title:|:Titolo modulo
+a:|:Module Icons:|:Icone Modulo
+a:|:Module Permission:|:Permessi modulo
+a:|:Module information file written to conf directory:|:File delle informazioni sul modulo, scritto nella directory conf
+a:|:Module information file written to setup directory:|:File delle informazioni modulo scritto nella diretory di setup
+a:|:Only:|:Solo
+a:|:Permissions Table:|:Tabella permessi
+a:|:Priority:|:Priorit&agrave;
+a:|:Proper Name:|:Nome proprio
+a:|:Remove Module:|:Rimuovi modulo
+a:|:Removing this module from the system could have serious consequences:|:Se rimuovi questo modulo potresti avere effetti seri
+a:|:Rights File:|:File dei diritti
+a:|:Session Variables:|:Variabili di sessione
+a:|:Unable to write to this module's setup directory:|:Impossibile scrivere nella directory di setup del modulo
+a:|:Uncheck to confirm:|:Deseleziona per confermare
+a:|:Update Module:|:Aggiorna modulo
+a:|:User Icon:|:Icona utente
+a:|:User Operation:|:Operazioni utente
+a:|:User:|:Utente
+a:|:Yes, only deities may access:|:Si, solo le divinit&agrave; possono accedere

@@ -1,0 +1,13 @@
+File:    INSTALL.txt
+Purpose: FAQ Installation Documentation
+Author:  Darren Greene <dg49379@NOSPAM.tux.appstate.edu>
+
+FAQ has Boost support so installation is quite easy:
+
+1. Copy the faq directory structure into your phpwebsite/mod/
+   directory.
+2. Start up your web browser and point it to your instance
+   of phpwebsite.
+3. Login as a deity and open up the Boost module.
+4. Click the install button next to the FAQ module.
+5. Enjoy!

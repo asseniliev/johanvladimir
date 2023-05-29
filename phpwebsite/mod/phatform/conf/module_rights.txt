@@ -1,0 +1,10 @@
+edit_forms::Create/Edit Forms
+delete_forms::Delete Forms
+approve_forms::Forms are pre-approved
+user_forms_only::Only edit own forms
+report_view::View Reports
+report_edit::Edit form entries
+report_delete::Delete form entries
+report_export::Export report data
+archive_form::Archive forms
+edit_options::Edit option sets

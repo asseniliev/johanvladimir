@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter>
+  <title>Approval List</title>
+
+  <section>
+    <title>Introduction</title>
+
+    <para>Some modules (e.g. Announcements, Calendar, Link Manager) allow
+    users without permissions to submit content for approval by
+    administrators. The Approval module is a central area for you to approve
+    or disapprove user submissions.</para>
+  </section>
+
+  <section>
+    <title>Getting Started</title>
+
+    <para>The Approval List module is in the Administration tab. Go to that
+    tab under the control panel and click on the Approval link.</para>
+  </section>
+
+  <section>
+    <title>Entry List</title>
+
+    <para>When a module needs something to get approved, it will appear on
+    this list. Each module will be listed separately with its entries beneath.</para>
+
+    <para>Some information will be provided in the <emphasis role="bold">Information</emphasis>
+    section. You can receive more information by clicking on the <emphasis
+    role="bold">View</emphasis> link.</para>
+
+    <para>Once you have viewed the submission, you have three options per
+    entry.</para>
+
+    <itemizedlist>
+      <listitem>
+        <para><emphasis role="bold">Yes</emphasis> - Choosing this radio
+        button means you wish to accept the entry and write it permanently to
+        the system.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">No</emphasis> - Choosing this radio button
+        means you do not want to approve this entry and want it removed from
+        the system.</para>
+      </listitem>
+
+      <listitem>
+        <para><emphasis role="bold">Ignore</emphasis> - Choosing this radio
+        button (which by default is selected) will skip over that entry for a
+        later decision.</para>
+      </listitem>
+    </itemizedlist>
+
+    <para>Once you have picked your choices, click the <emphasis role="bold">Go</emphasis>
+    button at the bottom of this list. That is all there is to it.</para>
+  </section>
+
+  <section>
+    <title>Conclusion</title>
+
+    <para>Check your Approvals List about once a day or more depending upon
+    your site&#39;s traffic.</para>
+
+    <para>If you have any questions or comments about this document, please
+    contact me at matt at tux dot appstate dot edu.</para>
+  </section>
+</chapter>

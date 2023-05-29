@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter>
+  <chapterinfo>
+    <author>
+      <firstname>Adam</firstname>
+
+      <surname>Morton</surname>
+
+      <email>adam@NOSPAM.tux.appstate.edu</email>
+    </author>
+  </chapterinfo>
+
+  <title>Announcements</title>
+
+  <section>
+    <title>Introduction</title>
+
+    <para>The Announcements module allows site administrators to post
+    important news or announcements to their main page. It allows future
+    announcements to be queued up and automatically posted on their specified
+    date. It also has support for expiring announcements. This allows an
+    administrator to have an announcement removed from the main page
+    automatically on a specified date. The announcement module also allows for
+    site visitors to submit their announcements for an administrator to
+    approve. This feature is a great way to allow your site visitors to have a
+    voice on your site.</para>
+
+    <para>An announcement can consist of several parts. The only required
+    parts are a subject and a summary. Optional parts include a body, image,
+    category, post date, and expiration date. The announcements module will
+    automatically assign the post and expiration dates for you but they can be
+    changed at any time. When creating</para>
+  </section>
+
+  <section>
+    <title>Creating a New Announcement</title>
+
+    <para>Make sure you have planned out the content of your announcement
+    before attempting to create it. You should also have in mind the post date
+    and expiration date. Once you have planned out your announcement follow
+    these steps to post it:</para>
+
+    <orderedlist>
+      <listitem>
+        <para>Make sure you are logged into an account that has permission to
+        post announcements.</para>
+      </listitem>
+
+      <listitem>
+        <para>From the Control Panel, select the Site Content tab.</para>
+      </listitem>
+
+      <listitem>
+        <para>Find and select the Announcements module.</para>
+      </listitem>
+
+      <listitem>
+        <para>Click New Announcement in the Main Menu across the top.</para>
+      </listitem>
+
+      <listitem>
+        <para>Fill out the subject, summary, and other parts as neccessary.</para>
+      </listitem>
+
+      <listitem>
+        <para>Take a moment to proof read your content and double check your
+        settings.</para>
+      </listitem>
+
+      <listitem>
+        <para>Click Save to save your annoucement.</para>
+      </listitem>
+
+      <listitem>
+        <para>The announcement will be posted on the date specified in Post
+        On.</para>
+      </listitem>
+    </orderedlist>
+  </section>
+
+  <section>
+    <title>Editing an Announcement</title>
+
+    <para>Make sure you have planned out the changes you wish to make to the
+    announcement you want to edit. Then follow these steps to edit the
+    announcement:</para>
+
+    <orderedlist>
+      <listitem>
+        <para>Make sure you are logged into an account that has permission to
+        edit announcements.</para>
+      </listitem>
+
+      <listitem>
+        <para>From the Control Panel, select the Site Content tab.</para>
+      </listitem>
+
+      <listitem>
+        <para>Find and select the Announcements module.</para>
+      </listitem>
+
+      <listitem>
+        <para>You will be shown a list of current announcements.</para>
+      </listitem>
+
+      <listitem>
+        <para>Locate the announcement you wish to edit and click the Edit
+        button for it under the Actions column.</para>
+      </listitem>
+
+      <listitem>
+        <para>Make any changes that you had planned.</para>
+      </listitem>
+
+      <listitem>
+        <para>Take a moment to proof read your content and double check your
+        settings.</para>
+      </listitem>
+
+      <listitem>
+        <para>Click Save to save your annoucement.</para>
+      </listitem>
+    </orderedlist>
+  </section>
+
+  <section>
+    <title>Deleting an Announcement</title>
+
+    <para>First make sure you are positive you want to permanently delete the
+    announcement in question. If you are unsure but would like to hide the
+    announcement from public view, see section Hiding/Showing an Announcement.
+    If you are sure you want to delete an announcement, follow these steps to
+    delete it:</para>
+
+    <orderedlist>
+      <listitem>
+        <para>Make sure you are logged into an account that has permission to
+        delete announcements.</para>
+      </listitem>
+
+      <listitem>
+        <para>From the Control Panel, select the Site Content tab.</para>
+      </listitem>
+
+      <listitem>
+        <para>Find and select the Announcements module.</para>
+      </listitem>
+
+      <listitem>
+        <para>You will be shown a list of current announcements.</para>
+      </listitem>
+
+      <listitem>
+        <para>Locate the announcement you wish to delete and click the Delete
+        button for it under the Actions column.</para>
+      </listitem>
+
+      <listitem>
+        <para>You will be asked to confirm the deletion.</para>
+      </listitem>
+
+      <listitem>
+        <para>If you are sure, click the Yes button.</para>
+      </listitem>
+
+      <listitem>
+        <para>Your announcement will be deleted and you will be returned to
+        the announcement listing.Hiding</para>
+      </listitem>
+    </orderedlist>
+  </section>
+
+  <section>
+    <title>Hiding/Showing an Announcement</title>
+
+    <para>Hiding and showing an announcement will hide it from public view or
+    make it viewable by the public respectively. Make sure you&#39;re positive
+    you want hide or show the announcement in question. If you are sure,
+    follow these steps to hide or show the announcement:</para>
+
+    <orderedlist>
+      <listitem>
+        <para>Make sure you are logged into an account that has permission to
+        hide/show announcements.</para>
+      </listitem>
+
+      <listitem>
+        <para>From the Control Panel, select the Site Content tab.</para>
+      </listitem>
+
+      <listitem>
+        <para>Find and select the Announcements module.</para>
+      </listitem>
+
+      <listitem>
+        <para>You will be shown a list of current announcements.</para>
+      </listitem>
+
+      <listitem>
+        <para>Find the announcement you wish to hide or show.</para>
+      </listitem>
+
+      <listitem>
+        <para>Click the Hide or Show button accordingly for the cooresponding
+        announcement in the Actions column.</para>
+      </listitem>
+
+      <listitem>
+        <para>The announcement list will refresh and the announcement will be
+        hidden or visabl</para>
+      </listitem>
+    </orderedlist>
+  </section>
+
+  <section>
+    <title>Module Settings</title>
+
+    <para>The announcement module offers several settings that allow you to
+    customize the way it behaves and shows announcements. The settings
+    available are as follows:</para>
+
+    <itemizedlist>
+      <listitem>
+        <para>Show Announcements - Designates whether or not to show
+        announcements on the main page.</para>
+      </listitem>
+
+      <listitem>
+        <para>Show Past Announcements - Designates whether or not to show the
+        Past Announcements block on the main page.</para>
+      </listitem>
+
+      <listitem>
+        <para>Number of announcements shown on home page - This is just as it
+        sounds. If you are showing announcements on your main page, this
+        setting will limit the number of announcements that will be shown at a
+        given time.</para>
+      </listitem>
+
+      <listitem>
+        <para>Number of past announcements shown - If you are showing the Past
+        Announcements block on the main page, this setting will limit the
+        number of past announcements to show in that block.</para>
+      </listitem>
+    </itemizedlist>
+
+    <para>To access, change, and save the settings for your announcement
+    module follow these steps:</para>
+
+    <orderedlist>
+      <listitem>
+        <para>Make sure you are logged into an account that has permission to
+        edit the settings for the Announcements module.</para>
+      </listitem>
+
+      <listitem>
+        <para>From the Control Panel, select the Site Content tab.</para>
+      </listitem>
+
+      <listitem>
+        <para>Find and select the Announcements module.</para>
+      </listitem>
+
+      <listitem>
+        <para>Select Settings from the Main Menu across the top.</para>
+      </listitem>
+
+      <listitem>
+        <para>Change the settings appropriately.</para>
+      </listitem>
+
+      <listitem>
+        <para>Click Save Settings to save the changes.</para>
+      </listitem>
+    </orderedlist>
+  </section>
+</chapter>

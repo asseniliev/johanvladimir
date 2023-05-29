@@ -1,0 +1,84 @@
+Calendar
+by Matthew McNaney
+
+Introduction
+Calendar allows you to post events on your web page. It displays these events in daily, weekly, and monthly views. It also includes a small view which allows users to see what is coming up within the next few days.
+
+Getting Started
+You can get to the administrative functions of Calendar two ways. The first way is to view an event, month, week, day, or year. As soon as you access the Calendar module, the administrative panel will appear at the top of the page. The other way to access calendar is by clicking on the Calendar icon in the Control Panel.
+
+Calendar's function is to post events. To get started, we will create an event.
+
+Creating an Event
+Click on the "Create New Event" in the Calendar administration panel. You will come to the event form. Here is what you will need to fill out.
+
+Active – This defaults to 'On'. If you want the event to be hidden from user view until later, change this to 'Off'.
+
+Title – Pretty self-explanatory. This is the title of the event. Keep it short and don't include the date or time. Let the rest of the form handle that.
+
+Description – Although not required, you should fill this in with a description of the event and its importance.
+
+Image – You can upload an image to be associated with your event. Just click the Browse button and choose an image from your hard drive. You can also use an image that is already on the server by picking it from the drop down menu. Set your selection to <None> if you decide you don't want an image with your event. Finally, select an image and click the Remove Button to delete the image file from the server.
+
+Template – The template controls the layout of your event when it is viewed. Normally, the default.tpl template is sufficient. If however, there is another template file you wish to  use, select it from the drop down menu.
+
+Event Type – There are four event types:
+1)Interval : This event has a definite start and end time and date.
+2)Starts At: This event has a definite start time but an undetermined end time.
+3)Deadline: The start time of this event is irrelevant but the end time is vital.
+4)All Day: This event doesn't have a start or end time (e.g. a holiday).
+
+Click on the radio button for your event type.
+
+Start Time – This is the time the event starts. You do not need to set this for the All Day or Deadline event type.
+
+End Time – This is the time the event ends. You should set this for Interval and Deadline events, but not for Starts At or All Day events.
+
+Start Date – The date the event starts. Note that the Start Date must always be before the End Date.
+
+End Date – The date the event ends. Normally this is the same day as the Start Date, however you can create an Interval event that takes place over several days.
+
+Categories – If you have created categories in FatCat, you can associate the event to one or more of them. If your event is important, consider clicking the Sticky check box. This will assure it is seen in the What's Related box.
+
+Click the Create Event button once you have finished filling out the form. If there aren't any errors, your event should now appear on the calendar.
+
+Editing Events
+To change an event's data, find it using the calendar and view it. As an administrator, you should see an Edit link. Click on that link to go to the edit form.
+
+Deleting Events
+To remove an event, click on the Delete link that will appear when you are viewing an event.
+
+Repeating Events
+If your event needs to post more than once, you should repeat the event. Below the event form is the repeat form. To get started, click the check box next to "Repeat Event until" and pick the termination date. The repeats will cease after this date.
+
+Now click on the radio button next to your repeat option.
+ 
+Daily – The event will appear everyday until the termination date.
+Weekly – The event will appear on every checked weekday.
+Monthly – Choose whether you want the event to appear at the beginning of every month, the end of every month, or every month on the same day as the start date. 
+Yearly – Choose this if you want the event to appear on the same day every year.
+Every – Here you can choose specific weekday of each month for your event to appear. For example, you could choose to have an event repeat on the second Tuesday of every month. First pick which week you want the event to appear in. Then choose the weekday. Finally, choose a specific month or the "Every Month" option.
+
+When you are finished setting your repeat options, click either the Create Event button (if you are making a new event) or the Update Event button (if you are editing an old one).
+
+Settings
+There are only a few settings you may want to alter.
+Mini Month – uncheck this if you do not want the small month view to show in the user view.
+Days Ahead – Set the amount of days in the future you want the calendar to look ahead for events. Set it to zero if you do not want it to display at all.
+Cache Calendar Views – Check this box if you want the calendar to cache some of its pages. This can increase the speed of some views (especially month and year).
+User Submitted Events – Check this box if you want to allow users to submit events.
+Reindex FatCat – If you have deleted an event and it is still showing up in What's Related, check this box.
+
+Click the Submit button when finished.
+
+Refresh
+If you are caching the calendar views, changes made to the events may not appear immediately. If you are impatient, click the refresh button to clear the cache.
+
+User Submitted Events
+If you are allowing user submitted events (see Settings) then users will be able to suggest events. They will not be able to post repeats (imagine an event repeated daily from 2003 to 2009) so they will need to put that information in the description. To approve the event, go to the Approval module.
+
+Conclusion
+Once you create your first event, using calendar should be pretty clear. If you have any problems, please visit us at Sourceforge.
+
+If you have any questions or comments about this document, please email me at:
+matt at tux dot appstate dot edu

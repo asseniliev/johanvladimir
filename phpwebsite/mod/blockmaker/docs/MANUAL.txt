@@ -1,0 +1,84 @@
+Block Maker Manual: Written for version 1.0 
+--------------------------------------------------
+Author: Steven Levin 
+Email: steven at tux dot appstate dot edu
+
+Table of Contents
+------------------------
+I. Getting Started
+II. Listing Blocks
+III. Create A New Block
+VI. Editing Blocks
+
+
+I. Getting Started
+-------------------------
+1. Navigate to the administrative side of the Block Maker.
+2. The Block Maker can be found under the Site Content Tab of your Control Panel.
+3. The link for it says Block Maker and has an icon of a cursor hovering over a
+   series of blocks.
+4. Blocks created by blockmaker are to be used for very small amounts of basic 
+   content on your site.  If the content is going to be longer than just a few
+   sentences then consider making a pagemaster page.
+
+II. Listing Block
+-------------------------
+1. The first time you enter the Block Maker module you see a listing of all the
+   blocks which are currently in the database.
+2. You can always return to this list from anywhere in the module by clicking
+   the list blocks link at the top of the page.
+3. The listing of the blocks provides you with the ability to edit, delete, and
+   activate/deactivate blocks.
+   + Edit will take you to edit the block you have choosen.  Editing blocks is
+     explained in section (IV) of this document.
+   + Deleting a block will take you to a Yes/No confirmation to make sure you
+     want to delete the block selected.  Take this time to make sure you have
+     selected the correct block and this is what you want to do.  There is no
+     recovery after you click Yes.  Click No to cancel the deletion process.
+   + Activating/Deactivating blocks toggles whether or not the block is publically
+     viewable.
+
+III. Create A New Block
+-----------------------------
+1. Creating a new block is quite easy.  
+2. Click the Create A New Block link at the top of the page and that will take you
+   to the form you need to fill out.  If at anytime you wish to cancel what you
+   are doing just click the Back to Main link at the top of the page.
+3. None of the fields: title, content, or footer are required but if you don't put
+   any content in the block will no show up.
+4. The title field is used as just that, a title.  It also represents the block in 
+   the list of blocks.
+5. The content field is where most of your content will go.  There is a small wysiwyg
+   provided here for those will javascript enabled.  The wysiwyg gives you the ability
+   to enter several different html tags into your content.
+6. The footer field is rarely used and must be supported by the boxstyle the block is
+   using.  This can just generally be ignored.
+7. The default theme variable is used for the placement of the block on your site.
+   This is not set in stone and can be moved later via the layout modules box move.
+   The choices in this dopbox explain exactly where on the site the block will
+   defaulty be placed.
+8. The allow view option gives you the abilty to select which modules must be active
+   in order for the block to appear.  For instance you can select pagemaster and the
+   block will only be visable when a pagemaster page is being viewed.  Most of the time
+   you will select all the modules so the block can always be seen.  If none are
+   selected and the block is saved then they will all be selected by default.
+9. When you are done click the Save Block button and you will be returned to the listing
+   of blocks.
+10. Now you will need to activate the block in order to make it publically viewable.
+
+IV. Editing blocks
+-------------------------
+1. Editing a block is much like creating a new block except all of the fields are
+   pre-populated with the data that was entered when creating this block.  If at anytime 
+   you wish to cancel what you are doing just click the Back to Main link at the top of 
+   the page.
+2. Now you can modify the content in the block and change its allow view options.  The
+   only thing you can't change here now is the theme variable you chose when creating a
+   block.  This has to now be modified by the layout module's box move.
+3. When you are done editing the block click the save block button and the block will
+   be saved to the database and return you to the list of blocks.
+4. Make sure the changes you made are correct because they will go live as soon as you
+   save the block. Unless you deactivate it before you begin to edit.
+
+Thanks for checking out the Block Maker module
+Enjoy!

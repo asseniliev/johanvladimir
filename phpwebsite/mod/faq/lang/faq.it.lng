@@ -1,0 +1,114 @@
+it:|:faq
+a:|: and dynamic sorting.:|: e odinamento dinamico
+a:|: months.:|: Mesi
+a:|: questions per page.:|: domande per pagina
+a:|:, user comments,:|:, commenti utenti
+a:|:<b>Administrative Options</b>:|:<strong>Opzioni amministrative</strong>
+a:|:A:|:un
+a:|:Action Canceled:|:Azione cancettala
+a:|:All FAQs Query:|:Tutte le query sulle FAQs
+a:|:All FAQs:|:Tutte le FAQs
+a:|:Allow users to post comments.:|:Permetti agli utenti di inviare commenti
+a:|:Allow users to rate FAQs.:|:Permetti agli utenti di votare le FAQ
+a:|:Allow users to suggest FAQs.:|:Permetti agli utenti di suggerire FAQ
+a:|:Answer One:|:Risposta uno
+a:|:Answer Two:|:Risposta due
+a:|:Answer: :|:Risposta:
+a:|:Are you sure you want to delete the following FAQs:|:Sicuro di eliminare le seguenti FAQ
+a:|:Are you sure you want to delete this FAQ.:|:Sicuro di eliminare questa FAQ
+a:|:Average Score:|:Media
+a:|:Average of Scores: :|:Media voti
+a:|:Basic Question and Answer View:|:Vista base Domanda e Risposta
+a:|:Category View:|:Vista categorie
+a:|:Category: :|:Categorie:
+a:|:Change FAQ Settings:|:Cambia impostazione FAQ
+a:|:Change Score Rating for this FAQ:|:Cambia punteggio per questa FAQ
+a:|:Composite Score: :|:Punteggio composito:
+a:|:Composite Score:|:Punteggio composito
+a:|:Confirm Deletion:|:Conferma eliminazione
+a:|:Confirm:|:Conferma
+a:|:Current FAQs:|:FAQ correnti
+a:|:Example::|:Esempio:
+a:|:FAQ (Frequently Asked Questions):|:FAQ (Frequently Asked Questions)
+a:|:FAQ Queries:|:FAQ query
+a:|:FAQ Removed:|:FAQ rimossa
+a:|:FAQ Submited:|:FAQ inviata
+a:|:FAQ has successfully been added to the database.:|:FAQ aggiunta
+a:|:FAQs can be viewed by clicking on the questions.:|:Le FAQ si vedono selezionando la domanda
+a:|:FAQs that have not been active in over :|:FAQ non attive per
+a:|:FAQs with a high number of hits and low score rating.:|:Le FAQ con molte hit e basso punteggio
+a:|:FAQs with a low number of hits and high score rating.:|:Le FAQ con molte hit e alto punteggio
+a:|:FAQs with no activity in last:|:Le FAQ senza attivit&grave; negli ultimi
+a:|:Feedback:|:Feedback
+a:|:General Category:|:Categoria generale
+a:|:General Question One:|:Domanda generica uno
+a:|:General Question Three:|:Domanda generica tre
+a:|:General Question Two:|:Domanda generica due
+a:|:Go here to post files and documents that your site visitors might be interested in.:|:Vai qui per inviare documenti e files a cui i tuoi utenti potrebbero essere interessati
+a:|:Hidden:  :|:Nascoste:
+a:|:High Hits / Low Rating:|:Molte hit / Basso punteggio
+a:|:Hits: :|:Hit:
+a:|:How helpful was this FAQ?:|:Quanto ti &egrave; stata utile questa FAQ?
+a:|:Layout View:|:Layout Vista
+a:|:Legend for Rating FAQs:|:Legenda per votare le FAQ
+a:|:Limit results by showing :|:Limita i risultati mostrando
+a:|:Limited rating, user comments, and dynamic sorting.:|:Limita risultati, commenti e ordinamento
+a:|:Limited rating:|:Limita voti
+a:|:Low Hits / High Rating:|:Poche hit / Alto punteggio
+a:|:New FAQ:|:FAQ nuove
+a:|:New:|:Nuova
+a:|:No Categories - Clickable Listing:|:Nessuna categoria - elenco cliccabile
+a:|:No Categories Available:|:Nessuna categoria disponibile
+a:|:No FAQs to display:|:Nessuna FAQ da mostrare
+a:|:Option 1:|:Opzione 1
+a:|:Option 2:|:Opzione 2
+a:|:Options:|:Optzioni
+a:|:Please only score this FAQ once.:|:Vota una sola volta perfavore
+a:|:Q:|:D
+a:|:Question Four:|:Domanda quattro
+a:|:Question One:|:Domanda uno
+a:|:Question Three:|:Domanda tre
+a:|:Question Two:|:Domanda due
+a:|:Question: :|:Domanda:
+a:|:Question:|:Domanda
+a:|:Quick FAQ Statistics:|:Statistiche veloci
+a:|:Rating:|:Punteggio
+a:|:Recalculate:|:Ricalcola
+a:|:Reset:|:azzera
+a:|:Score FAQ:|:Punteggio FAQ
+a:|:Scoring Information Updated:|:Informazioni sul punteggio aggiornate
+a:|:See docs on how to customize ordering.:|:Leggi la documentazione per personalizzare l'ordinamento
+a:|:Show FAQs according to categories specified in the fatcat module.:|:Mostra le FAQ secondo le impostazioni del modulo categorie (fatcat)
+a:|:Show Results:|:Mostra risultati
+a:|:Show all FAQs in database.:|:Mostra tutte le FAQ
+a:|:Special Queries:|:Query speciali
+a:|:Special Query:|:Quesry speciale
+a:|:Specific Category:|:Categoria specifica
+a:|:Specific Question One:|:Domanda specifica uno
+a:|:Specific Question Three:|:Domanda specifica tre
+a:|:Specific Question Two:|:Domanda specifica due
+a:|:Stats:|:Statistiche
+a:|:Submit FAQ:|:Invia FAQ
+a:|:Submit New FAQ:|:Invia nuova FAQ
+a:|:Submit Suggested FAQ:|:Invia suggerimento FAQ
+a:|:Suggest a FAQ:|:Suggerisci FAQ
+a:|:Thank you for scoring this FAQ.:|:Grazie per aver votato questa FAQ
+a:|:The FAQ has not been removed.:|:La FAQ non &egrave; stata rimossa
+a:|:The FAQ has successfully been deleted.:|:FAQ rimossa
+a:|:The paging limit must be a number and greater than zero.:|:Il limite deve essere superiore a zero
+a:|:This option is recommend if you have a small number of FAQs.:|:Questa opzione serve per chi ha poche FAQ
+a:|:Time Query:|:Query tempo
+a:|:Unapprove:|:Rifiuta
+a:|:Unapproved / Hidden FAQs:|:FAQ Rifiutate / Nascoste
+a:|:Unapproved / Hidden:|:Rifiutate / Nascoste
+a:|:Unapproved:  :|:Rifiutate:
+a:|:Update FAQ:|:Aggiorna FAQ
+a:|:Users Rated:|:Votata dagli utenti
+a:|:View FAQs:|:Mostra FAQ
+a:|:Viewable:  :|:Visibile:
+a:|:You did not enter a question.:|:Non hai fatto la domanda
+a:|:You did not enter an answer to your question.:|:Non hai dato risposta
+a:|:Your Email: :|:La tua Email:
+a:|:Your FAQ has successfully been added to the database.:|:FAQ aggiunta
+a:|:Your Name: :|:Il tuo nome:
+a:|:months.:|:Mese

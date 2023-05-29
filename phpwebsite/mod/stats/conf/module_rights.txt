@@ -1,0 +1,7 @@
+stats_settings::Modify Stats Settings
+webstats_settings::Modify WebStats Settings
+counter_settings::Modify Counter Block Settings
+add_counter::Add Counters
+edit_counter::Edit Counters
+delete_counter::Delete Counters
+show_counter_block::Show Counter Block

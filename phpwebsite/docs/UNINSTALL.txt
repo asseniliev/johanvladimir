@@ -1,0 +1,11 @@
+Uninstallation of phpWebSite
+----------------------------
+
+1. BACKUP YOUR DATABASE!! MAKE SURE YOUR DATABASE IS BACKED UP!! Double check to
+   make sure you have a backup of your database!!
+
+2. Drop your phpWebSite database (only if you have a backup).
+
+3. Remove all files in your phpWebSite base directory.
+
+4. Thats all folks...

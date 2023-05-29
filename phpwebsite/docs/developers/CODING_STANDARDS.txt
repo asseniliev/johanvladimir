@@ -1,0 +1,164 @@
+Coding Standards for phpWebSite Developers
+
+Author: Adam Morton <adam@NOSPAM.tux.appstate.edu>
+Version: 1.2
+Updated: 1/28/2002
+--------------------------------------------------
+
+Introduction
+------------
+The coding standards for phpWebSite are meant to give guidelines in
+code style/structure and file system structure.  These standards
+must be followed if you want your module or code to be introduced into
+phpWebSite.  We do have some legacy code present that does not follow
+these coding standards, however future code and modules will follow
+these standards and legacy code will be converted as we get time.
+
+File System Structure for Modules
+---------------------------------
+Directories are shown assuming the module's base directory is the
+current directory. NOTE: phpWebSite and some provided modules assume you
+use this file structure in your module.
+
+.
+The base directory for your module should only contain your index.php
+file.
+
+./conf
+Contains all the configuration files for your module (e.g.: config.php)
+
+./class
+Contains any class files for your module.  This is really where the
+meat of your module will be stored.
+
+./lang
+Contains the language files for your module.  These are read by the
+language module to pre-populate translations.
+
+./img
+Contains any images used by your module.  This is NOT where your uploaded
+images will go!  Any default icon you supply in your boost.php needs to
+be in this directory.
+
+./boost
+Contains files to setup your module through Boost (see Boost docs).
+
+./templates
+Contains any templates that may be used with your module.
+
+./docs
+Contains any documentation you provide with your module.
+
+Code Standards
+--------------
+We try not to hinder the programmer too much by forcing them to use a
+style they're not comfortable with.  These guidelines are to be followed
+only to allow others to easily read and modify code from others.
+
+Indentions:
+-----------
+Use the standard emacs indentions.  If you don't use emacs (you should),
+then your indentions should be between 2 - 4 spaces.
+
+Control Structures:
+-------------------
+This covers if, while, for, and switch statements.  The main thing here is
+the correct placement of your curly braces {}. The opening brace should be
+on the same line as the opening of the control structure.  If you're using
+an if/else control structure the else or elseif should be on the same line
+as the closing brace for the preceding if statement.  Here are some examples:
+
+if(condition1) {
+    doaction1;
+} elseif (condition2) {
+    doaction2;
+} else {
+    defaultaction;
+}
+
+switch(operation) {
+ case 1:
+   dothis;
+   break;
+
+ case 2:
+   dothat;
+   break;
+}
+
+while(1) {
+  doforever;
+}
+
+function foo() {
+}
+
+Comments:
+---------
+There are 3 types of comments I want to cover here.  The function comment,
+the class comment, and the inline comment. phpWebSite uses PHPDoc to parse
+and convert it's documentation into a readable HTML format.  If you want
+your documentation to appear correctly then you must follow these guidlines.
+Here are some examples of each of the comment types, they we're copied from
+the PHPWS_Form class in core/Form.php:
+
+- Function comment:
+
+/**
+ * Creates a simple form.
+ *
+ * Creates a form object using the elements provided in the $elements array.
+ * It is recommended that you create the $elements array using the core functions
+ * provided to create the form elements.
+ *
+ * This function is for simple forms only.  If you require a complex or custom form
+ * DO NOT use this function.
+ *
+ * @author Adam Morton <adam@NOSPAM.tux.appstate.edu>
+ * @param  string  $name     Name to assign to the form object.
+ * @param  string  $action   File to send form data to (e.g.: index.php).
+ * @param  array   $elements Array of strings containing the form elements in order of display.
+ * @param  string  $method   Form method to use (default: post).
+ * @param  boolean $breaks   Put a break after each element?
+ * @param  boolean $file     If this form comtains a file input type
+ * @return string  $string   The complete form in a string format
+ * @access public
+ */
+
+Make sure all your parameters are documented along with the return value and access
+type. If you are working in a class and you're the only programmer working on it then
+the author markup is optional.  In our environment here, we usually have several
+programmers working in one class which is why you may see the @author markup on some
+of our function (so we know who to torture when the function breaks :) ).
+
+- Class Comment:
+
+/**
+ * Controls form generation for phpWebSite
+ * 
+ * @version $Id: CODING_STANDARDS.txt,v 1.4 2003/01/28 16:40:26 adam Exp $
+ *
+ * @author Matthew McNaney <matt@NOSPAM.tux.appstate.edu>
+ * @modified Adam Morton <adam@NOSPAM.tux.appstate.edu>
+ * @modified Steven Levin <steven@NOSPAM.tux.appstate.edu>
+ */
+
+The version markup will get stamped by CVS on commits with the correct
+version information. The one you currently see is not the correct one from
+Form.php.  It gets stamped with this file's info as I submit changes to CVS.
+The only thing you need to put for the version markup to "jump start" the
+stamping is:
+
+                          @version \$Id\$
+
+without the backslashes!
+
+- Inline Comment:
+
+/* Hi I am an inline comment */
+
+For more information on how these comments work when getting converted in
+PHPDoc, check out the documentation at http://pear.php.net/manual
+
+If you have any questions, suggestions, or comments please contact me
+at adam@NOSPAM.appstate.edu (remove NOSPAM).

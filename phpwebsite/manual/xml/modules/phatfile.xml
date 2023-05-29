@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter>
+  <chapterinfo><author><firstname>Adam</firstname><surname>Morton</surname>
+  <email>adam@NOSPAM.tux.appstate.edu</email>
+  </author></chapterinfo>
+
+  <title>File Manager</title>
+
+  <section><title>Introduction</title><para>The File Manager is a simple
+  module that allows users to upload files to their phpWebSite sites. These
+  files can be anything from mp3s to archives of data. All files should be
+  categorized via the FatCat categorizer to allow them to show up in key areas
+  of your site. The File Manager</para></section>
+
+  <section><title>Adding a New File</title><para>Before uploading a new file,
+  make sure you have decided what the description of the file will be and
+  which of your site&#39;s categories the file will fall into. Then, follow
+  these steps to upload your new file:</para><orderedlist><listitem><para>Make
+  sure you are logged in and have permission to use the File Manager.</para></listitem><listitem><para>Open
+  your Control Panel.</para></listitem><listitem><para>Select the Site Content
+  tab.</para></listitem><listitem><para>Find and select the File Manager
+  module.</para></listitem><listitem><para>Click Add New File.</para></listitem><listitem><para>Click
+  the Browse button under Upload File and select the file you wish to upload.</para></listitem><listitem><para>Fill
+  out the description for your file.</para></listitem><listitem><para>Select
+  the category or categories this file will belong to.</para></listitem><listitem><para>Click
+  Submit.</para></listitem><listitem><para>Your file will be saved and you
+  will be presented with the details of the uploaded file.</para></listitem><listitem><para>Click
+  Return to Main to return to the current file listing.</para></listitem></orderedlist></section>
+
+  <section><title>Editing an Existing File</title><para>Before editing a file,
+  make sure you have decided what changes will be made including the
+  description of the file will be and which of your site&#39;s categories the
+  file will fall into. You can also upload a new file to replace the current
+  one. If this is the case, then have in mind where the file is located. Then,
+  follow these steps to edit your file:</para><orderedlist><listitem><para>Make
+  sure you are logged in and have permission to use the File Manager.</para></listitem><listitem><para>Open
+  your Control Panel.</para></listitem><listitem><para>Select the Site Content
+  tab.</para></listitem><listitem><para>Find and select the File Manager
+  module.</para></listitem><listitem><para>Find the file you wish to edit in
+  the file listing.</para></listitem><listitem><para>Select the check box next
+  to the file you wish to edit.</para></listitem><listitem><para>Select the
+  Edit option from the drop down list of actions.</para></listitem><listitem><para>Click
+  Go.</para></listitem><listitem><para>If you wish to change or update the
+  current file with a new copy, click the Browse button under Upload File and
+  select the file you wish to upload. Once you finish editing, the current
+  file will be replaced by the new one you just selected.</para></listitem><listitem><para>If
+  you wish to change or update the description, simply update the text in the
+  Description box.</para></listitem><listitem><para>If you wish to change the
+  categories your file appears in, select those categories in the Categories
+  box.</para></listitem><listitem><para>Check over your changes one last time
+  to make sure you haven&#39;t made any mistakes.</para></listitem><listitem><para>Click
+  Submit.</para></listitem><listitem><para>Your changes will be saved and you
+  will be presented with the details of the changes.</para></listitem><listitem><para>Click
+  Return to Main to return to the current file listing.</para></listitem></orderedlist></section>
+
+  <section><title>Removing an Existing File</title><para>Before removing a
+  file, make sure you are positive you want to remove it from the File
+  Manager. Once the file is removed, it cannot be recovered. If you are sure,
+  follow these steps to remove your file:</para><orderedlist><listitem><para>Make
+  sure you are logged in and have permission to use the File Manager.</para></listitem><listitem><para>Open
+  your Control Panel.</para></listitem><listitem><para>Select the Site Content
+  tab.</para></listitem><listitem><para>Find and select the File Manager
+  module.</para></listitem><listitem><para>Find the file you wish to remove in
+  the file listing.</para></listitem><listitem><para>Select the check box next
+  to the file you wish to remove.</para></listitem><listitem><para>Select the
+  Delete option from the drop down list of actions.</para></listitem><listitem><para>Click
+  Go.</para></listitem><listitem><para>You will be asked to confirm the
+  deletion of the file. If you are sure click Yes, otherwise click No.</para></listitem><listitem><para>If
+  you select Yes, your file will be removed and a success message will be
+  shown.</para></listitem><listitem><para>If you select No, you file will not
+  be remove and a message will be shown to confirm the file still exists.</para></listitem><listitem><para>Click
+  Back to Main to return to the current file listing.</para></listitem></orderedlist></section>
+
+  <section><title>Hiding or Showing an Existing File</title><para>Hiding and
+  showing a file will hide it from your site visitors or allow your vistors to
+  view the file. Before hiding or showing a file, make sure you are positive
+  you want to hide or show that particular file. Keep in mind, you can select
+  multiple files from the file listing to hide or show. Follow these steps to
+  hide or show your file(s):</para><orderedlist><listitem><para>Make sure you
+  are logged in and have permission to use the File Manager.</para></listitem><listitem><para>Open
+  your Control Panel.</para></listitem><listitem><para>Select the Site Content
+  tab.</para></listitem><listitem><para>Find and select the File Manager
+  module.</para></listitem><listitem><para>Find the file(s) you wish to hide
+  or show in the file listing.</para></listitem><listitem><para>Click the
+  check box(es) next to the file(s) you wish to hide or show.</para></listitem><listitem><para>Select
+  the Hide or Show option from the drop down list of actions.</para></listitem><listitem><para>Click
+  Go.</para></listitem><listitem><para>The file listing will be refreshed with
+  the file(s) you had selected hidden or visable.</para></listitem></orderedlist></section>
+</chapter>

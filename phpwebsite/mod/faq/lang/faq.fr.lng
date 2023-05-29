@@ -1,0 +1,104 @@
+fr:|:faq
+a:|: (Must be unchecked to use custom bullets):|: (Ne doit pas être coché pour utiliser des puces personalisées)
+a:|: month.:|: mois.
+a:|: months.:|: mois.
+a:|: questions per page.:|: questions par page.
+a:|:*This option does not apply apply to the category view.:|:*Cette option ne s'applique pas à l'affichage par catégories.
+a:|:<b>Admin Options</b>:|:<b>Options d'administration</b>
+a:|:A:|:Rép.
+a:|:Add a menu link for the FAQ module.:|:Ajouter un lien dans un menu sur le module FAQ.
+a:|:Adjust Score Rating for this FAQ:|:Fixer la note d'évaluation de cette FAQ
+a:|:All FAQs Query:|:Parmi toutes les FAQ
+a:|:Allow users to post comments.:|:Autoriser les visiteurs à publier des commentaires.
+a:|:Allow users to rate FAQs.:|:Autoriser les utilisateurs à évaluer les FAQs.
+a:|:Allow users to suggest FAQs.:|:Autoriser les visiteurs à proposer des  FAQs.
+a:|:Alphabetized by Question:|:Alphabétique sur les questions
+a:|:Answer: :|:Réponse :
+a:|:Are you sure you want to delete this FAQ?:|:Etes-vous certain de vouloir supprimer cette question/réponse ?
+a:|:Average Score:|:Moyenne des notes
+a:|:Average of Scores: :|:Moyenne des notes :
+a:|:Basic Question and Answer View:|:Afficher simplement les questions et les réponses
+a:|:Bookmarked Questions:|:Questions suivies
+a:|:Category View:|:Afficher par catégories
+a:|:Category: :|:Catégorie :
+a:|:Composite Score (Based On User Rating):|:Résultats composites (Basés sur les évaluations des visiteurs)
+a:|:Composite Score: :|:Résultat composite :
+a:|:Composite Score:|:Note composite
+a:|:Confirm Deletion:|:Confirmer la suppression
+a:|:Currently viewing FAQS :|:FAQs actuellement disponibles
+a:|:FAQ (Frequently Asked Questions):|:FAQ (Foire Aux Questions / Questions les plus fréquemment posées)
+a:|:FAQ Removed:|:Question/réponse supprimée
+a:|:FAQ Submited:|:FAQ Proposée
+a:|:FAQ Suggestion Submitted:|:Proposition de FAQ enregistrée
+a:|:FAQ has successfully been added to the database.:|:Ajout de votre FAQ dans la base de données réussie.
+a:|:FAQ was successfully deleted.:|:Suppression de la question/réponse réussie.
+a:|:FAQ:|:Foire Aux Questions
+a:|:FAQs With No Category:|:FAQ sans catégorie
+a:|:FAQs that do not have a category selected.:|:FAQs dans aucune catégorie.
+a:|:FAQs that have not been active in over :|:Question réponse qui n'ont pas été consulté depuis
+a:|:FAQs with a high number of hits and low score rating.:|:FAQs très consultées mais mal notées.
+a:|:FAQs with a low number of hits and high score rating.:|:FAQs peu consultées mais bien notées.
+a:|:FAQs with no activity in last:|:FAQs peu consultées
+a:|:FAQs  :|:F.A.Qs
+a:|:For each category indicate the date a FAQ was last updated.:|:Pour chaque catégorie, indiquer la dernière date à laquelle la FAQ a été enregistrée.
+a:|:Hidden:  :|:Caché :
+a:|:High Hits / Low Rating:|:Très lue / Mal notée
+a:|:Hits:|:Lectures
+a:|:How helpful was this FAQ?:|:Donnez votre avis sur l'utilité de cette question/réponse
+a:|:Layout View:|:Affichage dans la page
+a:|:Legend for Rating FAQs:|:Libellé affiché pour évaluer les FAQs
+a:|:Limit results by showing :|:Limiter le nombre de résultats en montrant
+a:|:Linkman:|:les liens de ce site
+a:|:List All Faqs:|:Affiche toutes les FAQs
+a:|:Low Hits / High Rating:|:Peu lue / Bien notée
+a:|:Most Recently Accessed:|:Les plus récemment consultés
+a:|:No Categories - Hyperlinked Questions:|:Sans catégories - Questions en hyperlien
+a:|:No FAQs to display:|:Aucune FAQs à afficher
+a:|:No option selected.:|:Vous devez choisir une option.
+a:|:Number of Hits: :|:Nombre de lectures :
+a:|:Options:|:Options
+a:|:Pagemaster:|:les pages de ce site
+a:|:Please choose a category for this FAQ.:|:Vous devez choisir une catégorie pour cette question/réponse.
+a:|:Please enter a question.:|:Veuillez indiquer votre question svp.
+a:|:Please only score this FAQ once.:|:N'évaluez cette FAQ qu'une fois svp.
+a:|:Q:|:Ques.
+a:|:Question and Answer:|:Question et réponse
+a:|:Question: :|:Question :
+a:|:Question:|:Question
+a:|:Quick FAQ Statistics:|:Statistiques des FAQ
+a:|:Rating:|:Evaluation
+a:|:Recalculate:|:Recalculer
+a:|:Reset:|:Reinitialiser
+a:|:Score FAQ:|:Note de la question/réponse
+a:|:Scoring Information Updated:|:Données d'évaluation enregistrées
+a:|:Show Results:|:Montrer les résultats
+a:|:Show all FAQs in database.:|:Montrer toutes les FAQs de la base de données.
+a:|:Show the number of FAQs in each category.:|:Montrer le nombre de FAQs dans chaque catégorie.
+a:|:Sorting Methods:|:Méthode de tri
+a:|:Special Queries:|:Recherches spécifiques
+a:|:Stats and Queries:|:Statistiques et recherches
+a:|:Stats:|:Statistiques
+a:|:Sub-Level Bullet Image: :|:Image de la puce de sous-niveau :
+a:|:Submit FAQ:|:Envoyer la question
+a:|:Submit New FAQ:|:Proposer une nouvelle question
+a:|:Submit Suggested FAQ:|:Envoyer votre proposition de question
+a:|:Successfully updated FAQ.:|:Enregistrement de modification de la FAQ réussie.
+a:|:Suggest a FAQ:|:Proposer une question
+a:|:Thank You.  Your FAQ has been submitted for consideration.:|:Merci. &nbsp;Votre proposition de question/réponse a bien été envoyée.
+a:|:Thank you for scoring this FAQ.:|:Merci d'avoir pris le temps d'évaluer cette question/réponse.
+a:|:The answer, name and email fields may be left blank.:|:La réponse, votre nom et votre e-mail sont facultatifs (envoi anonymes autorisés).
+a:|:Top-Level Bullet Image: :|:Image de la puce du niveau supérieur :
+a:|:Unapprove:|:Refuser
+a:|:Unapproved / Hidden FAQs:|:FAQ non validées / cachées
+a:|:Unapproved / Hidden:|:Non validées / Caché
+a:|:Unapproved:  :|:Non validé :
+a:|:Update FAQ:|:Modifier la question/réponse
+a:|:Updated FAQ:|:Question/réponse modifiée
+a:|:Use Only Default Bullets:|:Utiliser uniquement les puces par défaut
+a:|:Use the form below to suggest a FAQ for consideration.<br />:|:Remplissez le formulaire ci-dessous pour nous proposer votre question/réponse.<br />
+a:|:Users Rated:|:Evaluable par les visiteurs
+a:|:View New Faq:|:Voir la nouvelle FAQ
+a:|:Viewable:  :|:Affichée :
+a:|:Your Email: :|:Votre adresse e-mail:
+a:|:Your Name: :|:Votre nom :
+a:|:months.:|:mois.

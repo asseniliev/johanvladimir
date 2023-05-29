@@ -1,0 +1,10 @@
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+"http://docbook.org/xml/4.2/docbookx.dtd" [
+<!ENTITY bookinfo SYSTEM "bookinfo.xml">
+<!ENTITY intro SYSTEM "intro.xml">
+]>
+
+<book>
+&bookinfo;
+&intro;
+</book>

@@ -1,0 +1,102 @@
+da:|:documents
+a:|:Add Files:|:Tilføj filer
+a:|:All available:|:Alle tilgængelige
+a:|:Anonymous users can [var1]:|:Anonyme brugere kan [var1]
+a:|:Approve:|:Godkend
+a:|:Are you sure you want to delete the [var1] and all the files associated with it?:|:Er du sikker på, at du vil slette [var1] og alle relaterede filer?
+a:|:Are you sure you want to refuse these [var1] and delete them from the database?:|:Er du sikker på, at du vil forkaste [var1] og slette dem fra databasen?
+a:|:Back to [var1]:|:Tilbage til [var1]
+a:|:Country:|:Land
+a:|:Court Type:|:Court type
+a:|:Date:|:Dato
+a:|:Delete [var1] confirmation:|:Slet [var1]
+a:|:Description:|:Beskrivelse
+a:|:Disapprove:|:Forkaste
+a:|:Edit:|:Ret
+a:|:File successfully uploaded.:|:Fil uploaded.
+a:|:File upload messages:|:Fil upload beskeder
+a:|:Files:|:Filer
+a:|:From:|:Fra
+a:|:Full Text:|:Brødtekst
+a:|:Hide:|:Skjul
+a:|:How many files would you like to upload?:|:Hvor mange filer vil du uploade?
+a:|:ID:|:ID
+a:|:Keyword:|:Stikord
+a:|:Label:|:Mærke
+a:|:Name:|:Navn
+a:|:No:|:Ingen
+a:|:No [var1] was deleted from the database:|:Ingen [var1] var slettet fra databasen.
+a:|:No [var1] were deleted from the database.:|:Ingen [var1] var slettet fra databasen.
+a:|:No file was selected to be uploaded.:|:Ingen filer valgt til upload.
+a:|:One of the dates entered was not valid.:|:En af de indtastede datoer er ikke valid.
+a:|:Please select your files and the click Upload.:|:Vælg venligst dine filer og klik Upload.
+a:|:Recently Added:|:Nyeste
+a:|:Save:|:Gem
+a:|:Save successful:|:Gemt
+a:|:Search:|:Søg
+a:|:Settings:|:Indstillinger
+a:|:Settings saved successfully:|:Indstillingerne er blevet gemt
+a:|:Show:|:Vis
+a:|:Show most recent block:|:Vis nyeste dokumenter på forsiden
+a:|:Submitted:|:Registreret
+a:|:The [var1] and all its files were successfully deleted from the database.:|:[var1] og alle relaterede filer er slettet fra databasen.
+a:|:The [var1] were successfully deleted from the database.:|:[var1] er slettet fra databasen.
+a:|:The date entered was not the correct format:|:Den indtastede dato overholdt ikke det korrekte datoformat
+a:|:The file exceeded the max size allowed.:|:Filen overskred den maksimale tilladte størrelse.
+a:|:The file uploaded was not an allowed file type.:|:Filen du uploaded var ikke en tilladt filtype.
+a:|:The file was only partially uploaded.:|:Filen blev kun delvist uploaded.
+a:|:There was a problem saving to the database:|:Der opstod et problem med at gemme i databasen
+a:|:There was a problem uploading the specified file.:|:Der opstod et problem med at uploade den specifikke fil.
+a:|:To:|:Til
+a:|:Unable to save to the database.:|:Det var ikke muligt at gemme i databasen.
+a:|:Unapproved:|:Ikke godkendt
+a:|:Update:|:Opdater
+a:|:Updated:|:Opdateret
+a:|:Upload:|:Upload
+a:|:Upload Files:|:Upload filer
+a:|:View:|:Vis
+a:|:Yes:|:Ja
+a:|:You do not have permission to [var1]:|:Du har ikke rettigheder til at [var1]
+a:|:add:|:tilføj
+a:|:all:|:alle
+a:|:delete:|:slet
+a:|:download:|:downloade filer
+a:|:edit:|:ret
+a:|:edit settings:|:rediger indstillinger
+a:|:list:|:list
+a:|:must be approved:|:skal godkendes
+a:|:new:|:nyt
+a:|:print:|:print
+a:|:search:|:søg
+a:|:settings:|:indstillinger
+a:|:unapproved:|:ikke godkendt
+a:|:view:|:vis
+a:|:Actions:|:Handlinger
+a:|:All:|:Alle
+a:|:Are you sure you want to delete the [var1] [var2] and all the files associated with it?:|:Er du sikker på, at du vil slette [var1] [var2] og alle relaterede filer?
+a:|:Back to Category Listing:|:Tilbage til kategori listen
+a:|:Cancel:|:Annullere
+a:|:Categories:|:Kategorier
+a:|:Category:|:Kategori
+a:|:Current:|:Nuværende
+a:|:Current Files:|:Nuværende filer
+a:|:Delete:|:Slet
+a:|:Download:|:Download
+a:|:List:|:List
+a:|:Move:|:Flyt
+a:|:Move File:|:Flyt fil
+a:|:New:|:Nyt
+a:|:No [var1] was deleted from the database.:|:Ingen [var1] blev slettet fra databasen.
+a:|:Print:|:Udskriv
+a:|:Select a document below that you would like to move the file <b>[var1]</b> to::|:Vælg et af nedenstående dokumenter, som du vil flytte <b>[var1]</b> til:
+a:|:Size:|:Størrelse
+a:|:The file [var1] is currently in the document [var2].:|:Filen [var1] er i øjeblikket i dokumentet [var2].
+a:|:The file type [var1] uploaded was not an allowed file type.:|:Den uploadede filtype [var1] var ikke en tilladt type
+a:|:Uploaded:|:Uploaded
+a:|:You must enter a name for your document.:|:Du skal angive et navn for dokumentet.
+a:|:Documents:|:Dokumenter
+a:|:Documents allows you to manage documents which can have mutiple files associated with it.:|:Vedligeholder dokumenter, som kan have vedhæftede filer
+a:|:documents:|:dokumenter
+a:|:document:|:dokument
+a:|:List:|:List
+a:|:view:|:se oversigten
